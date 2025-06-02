@@ -1,0 +1,149 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Dashboard de Envio</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white">
+                Status de Envio
+            </div>
+            <div class="card-body">
+                <canvas id="statusChart" style="max-width: 100%; height: 300px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-success text-white">
+                Funcionários por Período
+            </div>
+            <div class="card-body">
+                <canvas id="periodoChart" style="max-width: 300%; height: 100px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card border-info mb-4">
+            <div class="card-header bg-info text-white">Total de Enviados</div>
+            <div class="card-body">
+                <h5>{{ enviados_paginator.count }} Funcionários</h5>
+                <div class="d-flex fw-bold mb-2">
+                    <div class="w-50">Nome</div>
+                    <div class="w-25">Período</div>
+                    <div class="w-25">Data</div>
+                </div>
+                {% for funcionario in enviados_page %}
+                <div class="d-flex border rounded p-2 mb-2">
+                    <div class="w-50">{{ funcionario.nome }}</div>
+                    <div class="w-25">{{ funcionario.periodo }}</div>
+                    <div class="w-25">{{ funcionario.data_envio|date:"d/m/Y" }}</div>
+                </div>
+                {% empty %}
+                <p>Nenhum enviado.</p>
+                {% endfor %}
+
+                <nav>
+                    <ul class="pagination">
+                        {% if enviados_page.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href="?enviados_page={{ enviados_page.previous_page_number }}">Anterior</a>
+                            </li>
+                        {% endif %}
+                        <li class="page-item disabled">
+                            <span class="page-link">{{ enviados_page.number }}/{{ enviados_page.paginator.num_pages }}</span>
+                        </li>
+                        {% if enviados_page.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href="?enviados_page={{ enviados_page.next_page_number }}">Próxima</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card border-warning mb-4">
+            <div class="card-header bg-warning text-white">Total de Não Enviados</div>
+            <div class="card-body">
+                <h5>{{ nao_enviados_paginator.count }} Funcionários</h5>
+                <div class="d-flex fw-bold mb-2">
+                    <div class="w-50">Nome</div>
+                    <div class="w-25">Período</div>
+                    <div class="w-25">Data</div>
+                </div>
+                {% for funcionario in nao_enviados_page %}
+                <div class="d-flex border rounded p-2 mb-2">
+                    <div class="w-50">{{ funcionario.nome }}</div>
+                    <div class="w-25">{{ funcionario.periodo }}</div>
+                    <div class="w-25">{{ funcionario.data_envio|default:"-"|date:"d/m/Y" }}</div>
+                </div>
+                {% empty %}
+                <p>Nenhum não enviado.</p>
+                {% endfor %}
+
+                <nav>
+                    <ul class="pagination">
+                        {% if nao_enviados_page.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href="?nao_enviados_page={{ nao_enviados_page.previous_page_number }}">Anterior</a>
+                            </li>
+                        {% endif %}
+                        <li class="page-item disabled">
+                            <span class="page-link">{{ nao_enviados_page.number }}/{{ nao_enviados_page.paginator.num_pages }}</span>
+                        </li>
+                        {% if nao_enviados_page.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href="?nao_enviados_page={{ nao_enviados_page.next_page_number }}">Próxima</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{ enviados|json_script:"enviados-data" }}
+{{ nao_enviados|json_script:"nao-enviados-data" }}
+{{ periodos_labels|json_script:"periodos-labels" }}
+{{ periodos_totais|json_script:"periodos-totais" }}
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const enviados = JSON.parse(document.getElementById('enviados-data').textContent);
+    const naoEnviados = JSON.parse(document.getElementById('nao-enviados-data').textContent);
+    const periodoLabels = JSON.parse(document.getElementById('periodos-labels').textContent);
+    const periodoTotais = JSON.parse(document.getElementById('periodos-totais').textContent);
+
+    new Chart(document.getElementById('statusChart').getContext('2d'), {
+        type: 'pie',
+        data: {
+            labels: ['Enviados', 'Não Enviados'],
+            datasets: [{ data: [enviados, naoEnviados], backgroundColor: ['#28a745', '#dc3545'] }]
+        },
+        options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+    });
+
+    new Chart(document.getElementById('periodoChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: periodoLabels,
+            datasets: [{ label: 'Total de Funcionários', data: periodoTotais, backgroundColor: '#007bff' }]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+    });
+</script>
+{% endblock %}
