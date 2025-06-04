@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import UploadFileForm
-from .models import Employee, Rendimento
-from .forms import EmployeeForm
+from .models import Credor, Rendimento
+from .forms import CredorForm, RendimentoForm
 import pandas as pd
 from django.contrib import messages
 from django.http import FileResponse
@@ -23,6 +23,10 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 from django.db import models  # <-- ADICIONE ESTA LINHA!
 from .forms import RendimentoForm
+from datetime import datetime
+import os
+from django.conf import settings
+
 
 def signup(request):
     if request.method == 'POST':
@@ -40,8 +44,8 @@ def index(request):
 
 @login_required
 def dashboard(request):
-    enviados = Employee.objects.filter(enviado=True)
-    nao_enviados = Employee.objects.filter(enviado=False)
+    enviados = Credor.objects.filter(enviado=True)
+    nao_enviados = Credor.objects.filter(enviado=False)
 
     enviados_paginator = Paginator(enviados, 5)
     nao_enviados_paginator = Paginator(nao_enviados, 5)
@@ -52,7 +56,7 @@ def dashboard(request):
     enviados_total = enviados.count()
     nao_enviados_total = nao_enviados.count()
 
-    periodos = Employee.objects.values('periodo').annotate(total=models.Count('id')).order_by('periodo')
+    periodos = Credor.objects.values('periodo').annotate(total=models.Count('id')).order_by('periodo')
 
     context = {
         'enviados': enviados_total,
@@ -66,37 +70,36 @@ def dashboard(request):
     }
     return render(request, 'core/dashboard.html', context)
 
-@login_required
-def listar_funcionarios(request):
+
     status = request.GET.get('status')
     order = request.GET.get('order', 'nome')
     direction = request.GET.get('dir', 'asc')
     busca = request.GET.get('busca', '')
 
-    funcionarios = Employee.objects.all()
+    Credors = Credor.objects.all()
 
     if status == 'enviados':
-        funcionarios = funcionarios.filter(enviado=True)
+        Credors = Credors.filter(enviado=True)
     elif status == 'nao_enviados':
-        funcionarios = funcionarios.filter(enviado=False)
+        Credors = Credors.filter(enviado=False)
 
     if busca:
-        funcionarios = funcionarios.filter(
+        Credors = Credors.filter(
             Q(nome__icontains=busca) | 
             Q(cpf__icontains=busca) | 
             Q(matricula__icontains=busca)
         )
 
     if direction == 'desc':
-        funcionarios = funcionarios.order_by(f'-{order}')
+        Credors = Credors.order_by(f'-{order}')
     else:
-        funcionarios = funcionarios.order_by(order)
+        Credors = Credors.order_by(order)
 
-    paginator = Paginator(funcionarios, 10)
+    paginator = Paginator(Credors, 10)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
-    return render(request, 'core/listar_funcionarios.html', {
+    return render(request, 'core/listar_Credors.html', {
         'page_obj': page_obj,
         'status': status,
         'order': order,
@@ -104,86 +107,10 @@ def listar_funcionarios(request):
         'busca': busca
     })
 
-@login_required
-def upload_planilha(request):
-    if request.method == 'POST':
-        form = UploadFileForm(request.POST, request.FILES)
-        if form.is_valid():
-            arquivo = form.cleaned_data['arquivo']
-
-            try:
-                if arquivo.name.endswith('.csv'):
-                    df = pd.read_csv(arquivo)
-                else:
-                    df = pd.read_excel(arquivo)
-            except Exception as e:
-                messages.error(request, f'Erro ao ler a planilha: {e}')
-                return redirect('upload_planilha')
-
-            # Normalize colunas
-            df.columns = df.columns.str.lower().str.strip()
-
-            obrigatorias = {'nome', 'email', 'cpf'}
-            if not obrigatorias.issubset(set(df.columns)):
-                messages.error(request, 'A planilha deve conter as colunas: nome, email, cpf.')
-                return redirect('upload_planilha')
-
-            criados = 0
-            ignorados = 0
-
-            for _, row in df.iterrows():
-                nome = row.get('nome')
-                email = row.get('email')
-                cpf = row.get('cpf')
-                matricula = row.get('matricula') or ''
-                periodo = row.get('periodo') or ''
-                rendimento_valor = row.get('rendimento')
-
-                if not nome or not email or not cpf:
-                    ignorados += 1
-                    continue
-
-                if Employee.objects.filter(email=email).exists() or Employee.objects.filter(cpf=cpf).exists():
-                    ignorados += 1
-                    continue
-
-                try:
-                    emp = Employee(
-                        nome=nome,
-                        email=email,
-                        cpf=cpf,
-                        matricula=matricula,
-                        periodo=periodo
-                    )
-                    emp.save()
-
-                    # Se rendimento informado, cria também
-                    if pd.notna(rendimento_valor) and rendimento_valor != '':
-                        Rendimento.objects.create(
-                            employee=emp,
-                            periodo=periodo,
-                            valor=rendimento_valor
-                        )
-                        # Atualiza período no employee com método
-                        emp.atualizar_periodo()
-
-                    criados += 1
-                except Exception as e:
-                    ignorados += 1
-                    print(f"Erro ao salvar {nome}: {e}")
-
-            messages.success(request, f'Importação finalizada: {criados} criados, {ignorados} ignorados.')
-            return redirect('upload_planilha')
-
-    else:
-        form = UploadFileForm()
-
-    return render(request, 'core/upload_planilha.html', {'form': form})
-
 def download_modelo_planilha(request):
     wb = openpyxl.Workbook()
     ws = wb.active
-    ws.title = "Modelo Funcionários"
+    ws.title = "Modelo Credores"
 
     # Cabeçalho
     ws.append(['nome', 'email', 'cpf', 'matricula', 'periodo', 'rendimento'])
@@ -196,21 +123,21 @@ def download_modelo_planilha(request):
     buffer.seek(0)
 
     response = HttpResponse(buffer, content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = 'attachment; filename=modelo_funcionarios.xlsx'
+    response['Content-Disposition'] = 'attachment; filename=modelo_Credors.xlsx'
     return response
 
-def gerar_pdf_view(request, employee_id):
-    employee = Employee.objects.get(id=employee_id)
-    pdf_path = gerar_pdf_relatorio(employee)
+def gerar_pdf_view(request, Credor_id):
+    Credor = Credor.objects.get(id=Credor_id)
+    pdf_path = gerar_pdf_relatorio(Credor)
     
-    return FileResponse(open(pdf_path, 'rb'), as_attachment=True, filename=f'relatorio_{employee.cpf}.pdf')
+    return FileResponse(open(pdf_path, 'rb'), as_attachment=True, filename=f'relatorio_{Credor.cpf}.pdf')
 
 def enviar_emails_view(request):
     if request.method == 'POST':
         periodo = request.POST.get('periodo')
-        funcionarios = Employee.objects.filter(enviado=False, periodo=periodo)
+        Credors = Credor.objects.filter(enviado=False, periodo=periodo)
         enviados = 0
-        for f in funcionarios:
+        for f in Credors:
             try:
                 enviar_email_com_pdf(f)
                 enviados += 1
@@ -221,29 +148,15 @@ def enviar_emails_view(request):
     
     return render(request, 'core/enviar_emails_periodo.html')
 
-
-def editar_funcionario(request, employee_id):
-    funcionario = get_object_or_404(Employee, id=employee_id)
-    if request.method == 'POST':
-        form = EmployeeForm(request.POST, instance=funcionario)
-        if form.is_valid():
-            form.save()
-            messages.success(request, 'Funcionário atualizado com sucesso!')
-            return redirect('listar_funcionarios')
-    else:
-        form = EmployeeForm(instance=funcionario)
-    
-    return render(request, 'core/editar_funcionario.html', {'form': form})
-
-def enviar_email_individual(request, employee_id):
-    funcionario = get_object_or_404(Employee, id=employee_id)
+def enviar_email_individual(request, Credor_id):
+    Credor = get_object_or_404(Credor, id=Credor_id)
     try:
-        enviar_email_com_pdf(funcionario)
-        messages.success(request, f'E-mail enviado para {funcionario.nome} com sucesso!')
+        enviar_email_com_pdf(Credor)
+        messages.success(request, f'E-mail enviado para {Credor.nome} com sucesso!')
     except Exception as e:
-        messages.error(request, f'Erro ao enviar para {funcionario.nome}: {e}')
+        messages.error(request, f'Erro ao enviar para {Credor.nome}: {e}')
     
-    return redirect('listar_funcionarios')
+    return redirect('listar_Credors')
 
 @csrf_exempt
 def enviar_emails_selecionados(request):
@@ -253,19 +166,19 @@ def enviar_emails_selecionados(request):
         enviados = 0
 
         for id in ids:
-            funcionario = Employee.objects.get(id=id)
+            Credor = Credor.objects.get(id=id)
             try:
-                enviar_email_com_pdf(funcionario)
+                enviar_email_com_pdf(Credor)
                 enviados += 1
             except Exception as e:
-                print(f"Erro ao enviar para {funcionario.email}: {e}")
+                print(f"Erro ao enviar para {Credor.email}: {e}")
 
         return JsonResponse({'mensagem': f'{enviados} e-mails enviados com sucesso!'})
 
     return JsonResponse({'mensagem': 'Método inválido'}, status=405)
 
 @csrf_exempt
-def excluir_funcionarios_selecionados(request):
+def excluir_Credors_selecionados(request):
     if request.method == 'POST':
         data = json.loads(request.body)
         ids = data.get('ids', [])
@@ -273,59 +186,59 @@ def excluir_funcionarios_selecionados(request):
 
         for id in ids:
             try:
-                funcionario = Employee.objects.get(id=id)
-                funcionario.delete()
+                Credor = Credor.objects.get(id=id)
+                Credor.delete()
                 excluidos += 1
-            except Employee.DoesNotExist:
+            except Credor.DoesNotExist:
                 continue
 
         return JsonResponse({'mensagem': f'{excluidos} funcionário(s) excluído(s) com sucesso.'})
 
     return JsonResponse({'mensagem': 'Método inválido'}, status=405)
 
-def excluir_funcionario(request, employee_id):
-    funcionario = get_object_or_404(Employee, id=employee_id)
-    funcionario.delete()
+def excluir_Credor(request, Credor_id):
+    Credor = get_object_or_404(Credor, id=Credor_id)
+    Credor.delete()
     messages.success(request, 'Funcionário excluído com sucesso.')
-    return redirect('listar_funcionarios')
+    return redirect('listar_Credors')
 
-def exportar_funcionarios(request):
+def exportar_Credors(request):
     status = request.GET.get('status')
 
-    funcionarios = Employee.objects.all()
+    Credors = Credor.objects.all()
     if status == 'enviados':
-        funcionarios = funcionarios.filter(enviado=True)
+        Credors = Credors.filter(enviado=True)
     elif status == 'nao_enviados':
-        funcionarios = funcionarios.filter(enviado=False)
+        Credors = Credors.filter(enviado=False)
 
     response = HttpResponse(content_type='text/csv')
-    response['Content-Disposition'] = 'attachment; filename="funcionarios.csv"'
+    response['Content-Disposition'] = 'attachment; filename="Credors.csv"'
 
     writer = csv.writer(response)
     writer.writerow(['Nome', 'Email', 'CPF', 'Matrícula', 'Enviado'])
 
-    for f in funcionarios:
+    for f in Credors:
         writer.writerow([f.nome, f.email, f.cpf, f.matricula, 'Sim' if f.enviado else 'Não'])
 
     return response
 
-def exportar_funcionarios_excel(request):
+def exportar_Credors_excel(request):
     status = request.GET.get('status')
 
-    funcionarios = Employee.objects.all()
+    Credors = Credor.objects.all()
     if status == 'enviados':
-        funcionarios = funcionarios.filter(enviado=True)
+        Credors = Credors.filter(enviado=True)
     elif status == 'nao_enviados':
-        funcionarios = funcionarios.filter(enviado=False)
+        Credors = Credors.filter(enviado=False)
 
     wb = openpyxl.Workbook()
     ws = wb.active
-    ws.title = "Funcionários"
+    ws.title = "Credores"
 
     # Cabeçalho
     ws.append(['Nome', 'Email', 'CPF', 'Matrícula', 'Enviado'])
 
-    for f in funcionarios:
+    for f in Credors:
         ws.append([
             f.nome,
             f.email,
@@ -335,7 +248,7 @@ def exportar_funcionarios_excel(request):
         ])
 
     response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    response['Content-Disposition'] = 'attachment; filename=funcionarios.xlsx'
+    response['Content-Disposition'] = 'attachment; filename=Credors.xlsx'
     wb.save(response)
     return response
 
@@ -349,9 +262,9 @@ def exportar_pdfs_selecionados(request):
         zip_buffer = io.BytesIO()
         with zipfile.ZipFile(zip_buffer, 'w') as zip_file:
             for id in ids:
-                funcionario = Employee.objects.get(id=id)
-                pdf_path = gerar_pdf_relatorio(funcionario)
-                zip_file.write(pdf_path, arcname=f"{funcionario.nome}.pdf")
+                Credor = Credor.objects.get(id=id)
+                pdf_path = gerar_pdf_relatorio(Credor)
+                zip_file.write(pdf_path, arcname=f"{Credor.nome}.pdf")
 
         zip_buffer.seek(0)
         response = HttpResponse(zip_buffer, content_type='application/zip')
@@ -367,56 +280,224 @@ def alterar_status_selecionados(request):
         ids = data.get('ids', [])
         status = data.get('status', False)
 
-        atualizados = Employee.objects.filter(id__in=ids).update(enviado=status)
+        atualizados = Credor.objects.filter(id__in=ids).update(enviado=status)
         return JsonResponse({'mensagem': f'Status alterado para {atualizados} funcionário(s).'})
 
     return JsonResponse({'mensagem': 'Método inválido'}, status=405)
 
-def atualizar_periodo_view(request, employee_id):
-    employee = get_object_or_404(Employee, id=employee_id)
-    employee.atualizar_periodo()
+def atualizar_periodo_view(request, Credor_id):
+    Credor = get_object_or_404(Credor, id=Credor_id)
+    Credor.atualizar_periodo()
 
 @login_required
-def detalhe_rendimentos(request, employee_id):
-    employee = get_object_or_404(Employee, id=employee_id)
-    rendimentos = employee.rendimentos.all().order_by('-periodo')
-    return render(request, 'core/detalhe_rendimentos.html', {'employee': employee, 'rendimentos': rendimentos})
+def listar_Credores(request):
+    Credores = Credor.objects.all()
+    return render(request, 'core/listar_credores.html', {'Credores': Credores})
 
 @login_required
-def adicionar_rendimento(request, employee_id):
-    employee = get_object_or_404(Employee, id=employee_id)
+def editar_Credor(request, Credor_id):
+    Credor = get_object_or_404(Credor, pk=Credor_id)
+    if request.method == 'POST':
+        form = CredorForm(request.POST, instance=Credor)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Credor atualizado com sucesso!')
+            return redirect('listar_Credor')
+    else:
+        form = CredorForm(instance=Credor)
+    return render(request, 'core/editar_Credor.html', {'form': form})
+
+@login_required
+def detalhe_rendimentos(request, Credor_id):
+    Credor = get_object_or_404(Credor, pk=Credor_id)
+    rendimentos = Credor.rendimentos.all()
+    return render(request, 'core/detalhe_rendimentos.html', {'Credor': Credor, 'rendimentos': rendimentos})
+
+@login_required
+def adicionar_rendimento(request, Credor_id):
+    Credor = get_object_or_404(Credor, pk=Credor_id)
     if request.method == 'POST':
         form = RendimentoForm(request.POST)
         if form.is_valid():
             rendimento = form.save(commit=False)
-            rendimento.employee = employee
+            rendimento.Credor = Credor
             rendimento.save()
-            employee.atualizar_periodo()
+            Credor.atualizar_periodo()
             messages.success(request, 'Rendimento adicionado com sucesso!')
-            return redirect('detalhe_rendimentos', employee_id=employee.id)
+            return redirect('detalhe_rendimentos', Credor_id=Credor.id)
     else:
         form = RendimentoForm()
-    return render(request, 'core/rendimento_form.html', {'form': form, 'employee': employee})
+    return render(request, 'core/adicionar_rendimento.html', {'form': form, 'Credor': Credor})
 
 @login_required
 def editar_rendimento(request, rendimento_id):
-    rendimento = get_object_or_404(Rendimento, id=rendimento_id)
+    rendimento = get_object_or_404(Rendimento, pk=rendimento_id)
     if request.method == 'POST':
         form = RendimentoForm(request.POST, instance=rendimento)
         if form.is_valid():
             form.save()
-            rendimento.employee.atualizar_periodo()
+            rendimento.Credor.atualizar_periodo()
             messages.success(request, 'Rendimento atualizado com sucesso!')
-            return redirect('detalhe_rendimentos', employee_id=rendimento.employee.id)
+            return redirect('detalhe_rendimentos', Credor_id=rendimento.Credor.id)
     else:
         form = RendimentoForm(instance=rendimento)
-    return render(request, 'core/rendimento_form.html', {'form': form, 'employee': rendimento.employee})
+    return render(request, 'core/editar_rendimento.html', {'form': form, 'Credor': rendimento.Credor})
 
 @login_required
 def excluir_rendimento(request, rendimento_id):
-    rendimento = get_object_or_404(Rendimento, id=rendimento_id)
-    employee_id = rendimento.employee.id
+    rendimento = get_object_or_404(Rendimento, pk=rendimento_id)
+    Credor_id = rendimento.Credor.id
     rendimento.delete()
-    Employee.objects.get(id=employee_id).atualizar_periodo()
     messages.success(request, 'Rendimento excluído com sucesso!')
-    return redirect('detalhe_rendimentos', employee_id=employee_id)
+    return redirect('detalhe_rendimentos', Credor_id=Credor_id)
+    rendimento = get_object_or_404(Rendimento, id=rendimento_id)
+    Credor_id = rendimento.Credor.id
+    rendimento.delete()
+    Credor.objects.get(id=Credor_id).atualizar_periodo()
+    messages.success(request, 'Rendimento excluído com sucesso!')
+    return redirect('detalhe_rendimentos', Credor_id=Credor_id)
+
+
+
+@login_required
+def upload_emails(request):
+    if request.method == 'POST' and request.FILES.get('file'):
+        file = request.FILES['file']
+
+        # Lê a planilha de emails
+        if file.name.endswith('.csv'):
+            df = pd.read_csv(file)
+        elif file.name.endswith('.xlsx'):
+            df = pd.read_excel(file)
+        else:
+            messages.error(request, 'Formato de arquivo inválido. Envie .csv ou .xlsx.')
+            return redirect('upload_emails')
+
+        # Normaliza colunas
+        df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
+
+        required_cols = {'nome', 'email'}
+        missing_cols = required_cols - set(df.columns)
+
+        if missing_cols:
+            messages.error(request, f'Colunas obrigatórias ausentes: {missing_cols}')
+            return redirect('upload_emails')
+
+        atualizados = 0
+        criados = 0
+
+        for _, row in df.iterrows():
+            nome = row['nome']
+            email = row['email']
+
+            credor, created = Credor.objects.get_or_create(nome=nome, defaults={'email': email})
+            if not created:
+                credor.email = email  # Atualiza email caso já exista
+                credor.save()
+                atualizados += 1
+            else:
+                criados += 1
+
+        messages.success(
+            request,
+            f'Upload concluído! {criados} credor(es) criado(s), {atualizados} credor(es) atualizado(s).'
+        )
+        return redirect('upload_emails')
+
+    return render(request, 'core/upload_emails.html')
+
+
+@login_required
+def upload_planilha(request):
+    if request.method == 'POST' and request.FILES.get('file'):
+        file = request.FILES['file']
+        
+        # Lê a planilha PGC base
+        if file.name.endswith('.csv'):
+            df = pd.read_csv(file)
+        elif file.name.endswith('.xlsx'):
+            df = pd.read_excel(file, sheet_name=None)  # Todas as abas
+        else:
+            messages.error(request, 'Formato de arquivo inválido. Envie .csv ou .xlsx.')
+            return redirect('upload_planilha')
+
+        # Normaliza colunas: tira espaços, pontos, deixa minúsculo
+        def normalize_cols(df):
+            df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('.', '')
+            return df
+
+        base_df = None
+        for sheet_name, sheet_df in df.items():
+            if 'base' in sheet_name.lower():
+                base_df = normalize_cols(sheet_df)
+                break
+
+        if base_df is None:
+            messages.error(request, 'A aba BASE PGC 26 não foi encontrada na planilha.')
+            return redirect('upload_planilha')
+
+        # Pega lista de credores únicos
+        credores = base_df['credor'].unique()
+
+        for credor_nome in credores:
+            credor_df = base_df[base_df['credor'] == credor_nome]
+
+            # Cria ou atualiza o credor
+            credor, created = Credor.objects.get_or_create(nome=credor_nome, defaults={'email': ''})
+            credor.periodo = datetime.now().strftime('%m/%Y')  # Atualiza com mês/ano atual
+            credor.save()
+
+            # Gera diretório de saída
+            output_dir = os.path.join(settings.MEDIA_ROOT, 'arquivos_gerados', credor_nome.replace(' ', '_'))
+            os.makedirs(output_dir, exist_ok=True)
+
+            # ➡️ 1. Emissão
+            emissao = (credor_df.groupby(['empresa', 'credor'])
+                       .agg({'valor_original': 'sum'})
+                       .reset_index())
+            if 'cnpj' in credor_df.columns:
+                emissao['cnpj'] = credor_df.groupby(['empresa', 'credor'])['cnpj'].first().values
+                emissao = emissao[['empresa', 'credor', 'cnpj', 'valor_original']]
+            else:
+                emissao = emissao[['empresa', 'credor', 'valor_original']]
+            emissao_file = os.path.join(output_dir, f"{credor_nome} - PGC EMISSÃO.xlsx")
+            emissao.to_excel(emissao_file, index=False)
+
+            # ➡️ 2. Extrato
+            extrato_cols = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 
+                            'dt_emissao', 'valor_original', 'dt_vencimento', 'obs_baixa']
+            missing_cols = [col for col in extrato_cols if col not in credor_df.columns]
+            if missing_cols:
+                messages.warning(request, f'Faltando colunas para EXTRATO do credor {credor_nome}: {missing_cols}')
+            else:
+                extrato = credor_df[extrato_cols]
+                extrato_file = os.path.join(output_dir, f"{credor_nome} - EXTRATO.xlsx")
+                extrato.to_excel(extrato_file, index=False)
+
+            # ➡️ 3. Produtividade
+            produtividade_cols = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 
+                                  'dt_emissao', 'valor_original', 'dt_vencimento']
+            missing_cols = [col for col in produtividade_cols if col not in credor_df.columns]
+            if missing_cols:
+                messages.warning(request, f'Faltando colunas para PRODUTIVIDADE do credor {credor_nome}: {missing_cols}')
+            else:
+                produtividade = credor_df[produtividade_cols]
+                produtividade_file = os.path.join(output_dir, f"{credor_nome} - PRODUTIVIDADE.xlsx")
+                produtividade.to_excel(produtividade_file, index=False)
+
+            # ➡️ 4. PGC 26
+            pgc_cols = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 
+                        'dt_emissao', 'valor_original']
+            missing_cols = [col for col in pgc_cols if col not in credor_df.columns]
+            if missing_cols:
+                messages.warning(request, f'Faltando colunas para PGC 26 do credor {credor_nome}: {missing_cols}')
+            else:
+                pgc = credor_df[pgc_cols]
+                pgc_file = os.path.join(output_dir, f"{credor_nome} - PGC 26.xlsx")
+                pgc.to_excel(pgc_file, index=False)
+
+        messages.success(request, 'Planilha processada com sucesso! Arquivos gerados para cada credor.')
+        return redirect('upload_planilha')
+
+    return render(request, 'core/upload_planilha.html')
+

@@ -1,11 +1,11 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Rendimentos de {{ employee.nome }}{% endblock %}
+{% block title %}Rendimentos de {{ Credor.nome }}{% endblock %}
 
 {% block content %}
-<h2>Rendimentos de {{ employee.nome }}</h2>
+<h2>Rendimentos de {{ Credor.nome }}</h2>
 
-<a href="{% url 'adicionar_rendimento' employee.id %}" class="btn btn-success mb-3">Adicionar Rendimento</a>
+<a href="{% url 'adicionar_rendimento' Credor.id %}" class="btn btn-success mb-3">Adicionar Rendimento</a>
 
 <table class="table table-striped">
     <thead class="table-dark">
@@ -33,5 +33,5 @@
     </tbody>
 </table>
 
-<a href="{% url 'listar_funcionarios' %}" class="btn btn-secondary">Voltar</a>
+<a href="{% url 'listar_Credors' %}" class="btn btn-secondary">Voltar</a>
 {% endblock %}

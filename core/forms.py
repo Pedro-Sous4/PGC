@@ -1,17 +1,15 @@
 from django import forms
-from .models import Employee
+from .models import Credor, Rendimento
 
-from .models import Rendimento
+class CredorForm(forms.ModelForm):
+    class Meta:
+        model = Credor
+        fields = '__all__'
 
 class RendimentoForm(forms.ModelForm):
     class Meta:
         model = Rendimento
-        fields = ['periodo', 'valor']
-
+        fields = '__all__'
+        
 class UploadFileForm(forms.Form):
-    arquivo = forms.FileField(label="Selecione a planilha (.csv ou .xlsx)")
-
-class EmployeeForm(forms.ModelForm):
-    class Meta:
-        model = Employee
-        fields = ['nome', 'email', 'cpf', 'matricula', 'enviado', 'periodo']
+    file = forms.FileField(label='Selecione a planilha (.csv ou .xlsx)')

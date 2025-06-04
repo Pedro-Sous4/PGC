@@ -1,13 +1,13 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Lista de Funcionários{% endblock %}
+{% block title %}Lista de Credores{% endblock %}
 
 {% block content %}
-<h1 class="mb-4">Lista de Funcionários</h1>
+<h1 class="mb-4">Lista de Credores</h1>
 
 <form method="get" class="row g-2 mb-3">
     <div class="col-md-4">
-        <input type="text" name="busca" value="{{ busca }}" class="form-control" placeholder="Buscar por nome, CPF ou matrícula">
+        <input type="text" name="busca" value="{{ busca }}" class="form-control" placeholder="Buscar por nome">
     </div>
     <div class="col-md-2">
         <select name="status" class="form-select">
@@ -37,8 +37,8 @@
 </div>
    <div class="col-md-12  text-end">
         <div class="btn-group text-end">
-            <a href="{% url 'exportar_funcionarios' %}?status={{ status }}" class="btn btn-outline-primary btn-sm">CSV</a>
-            <a href="{% url 'exportar_funcionarios_excel' %}?status={{ status }}" class="btn btn-outline-success btn-sm">Excel</a>
+            <a href="{% url 'exportar_Credors' %}?status={{ status }}" class="btn btn-outline-primary btn-sm">CSV</a>
+            <a href="{% url 'exportar_Credors_excel' %}?status={{ status }}" class="btn btn-outline-success btn-sm">Excel</a>
         </div>
     </div> 
 </form>
@@ -57,9 +57,7 @@
             <th>
                 <a href="?status={{ status }}&order=email&dir={% if order == 'email' and direction == 'asc' %}desc{% else %}asc{% endif %}">Email</a>
             </th>
-            <th>
-                <a href="?status={{ status }}&order=cpf&dir={% if order == 'cpf' and direction == 'asc' %}desc{% else %}asc{% endif %}">CPF</a>
-            </th>
+            
             <th>
                 <a href="?status={{ status }}&order=matricula&dir={% if order == 'matricula' and direction == 'asc' %}desc{% else %}asc{% endif %}">Matrícula</a>
             </th>
@@ -68,15 +66,14 @@
         </tr>
     </thead>
     <tbody>
-        {% for funcionario in page_obj %}
+        {% for Credor in page_obj %}
         <tr>
-            <td><input type="checkbox" class="selectItem" value="{{ funcionario.id }}"></td>
-            <td>{{ funcionario.nome }}</td>
-            <td>{{ funcionario.email }}</td>
-            <td>{{ funcionario.cpf }}</td>
-            <td>{{ funcionario.matricula }}</td>
+            <td><input type="checkbox" class="selectItem" value="{{ Credor.id }}"></td>
+            <td>{{ Credor.nome }}</td>
+            <td>{{ Credor.email }}</td>
+            <td>{{ Credor.matricula }}</td>
             <td>
-                {% if funcionario.enviado %}
+                {% if Credor.enviado %}
                     <span class="badge bg-success">✅ Enviado</span>
                 {% else %}
                     <span class="badge bg-danger">❌ Não Enviado</span>
@@ -88,11 +85,11 @@
                         Opções
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-primary" href="{% url 'detalhe_rendimentos' funcionario.id %}">Ver mais</a></li>
-                        <li><a class="dropdown-item text-success" href="{% url 'gerar_pdf' funcionario.id %}">Gerar PDF</a></li>
-                        <li><a class="dropdown-item text-warning" href="{% url 'editar_funcionario' funcionario.id %}">Editar</a></li>
-                        <li><a class="dropdown-item text-danger" href="{% url 'enviar_email_individual' funcionario.id %}">Enviar E-mail</a></li>
-                        <li><a class="dropdown-item text-danger" href="{% url 'excluir_funcionario' funcionario.id %}" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a></li>
+                        <li><a class="dropdown-item text-primary" href="{% url 'detalhe_rendimentos' Credor.id %}">Ver mais</a></li>
+                        <li><a class="dropdown-item text-success" href="{% url 'gerar_pdf' Credor.id %}">Gerar PDF</a></li>
+                        <li><a class="dropdown-item text-warning" href="{% url 'editar_Credor' Credor.id %}">Editar</a></li>
+                        <li><a class="dropdown-item text-danger" href="{% url 'enviar_email_individual' Credor.id %}">Enviar E-mail</a></li>
+                        <li><a class="dropdown-item text-danger" href="{% url 'excluir_Credor' Credor.id %}" onclick="return confirm('Tem certeza que deseja excluir?');">Excluir</a></li>
                     </ul>
                 </div>
             </td>
@@ -161,7 +158,7 @@ document.getElementById('excluirSelecionados').addEventListener('click', functio
     }
 
     if (confirm(`Tem certeza que deseja excluir ${selecionados.length} funcionário(s)? Esta ação não pode ser desfeita.`)) {
-        fetch('/excluir-funcionarios-selecionados/', {
+        fetch('/excluir-Credors-selecionados/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

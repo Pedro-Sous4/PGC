@@ -1,10 +1,10 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Rendimentos de {{ employee.nome }}{% endblock %}
+{% block title %}Rendimentos de {{ Credor.nome }}{% endblock %}
 
 {% block content %}
-<h2>Rendimentos de {{ employee.nome }}</h2>
-<a class="btn btn-success mb-3" href="{% url 'adicionar_rendimento' employee.id %}">Adicionar Rendimento</a>
+<h2>Rendimentos de {{ Credor.nome }}</h2>
+<a class="btn btn-success mb-3" href="{% url 'adicionar_rendimento' Credor.id %}">Adicionar Rendimento</a>
 
 <table class="table table-striped">
     <thead class="table-dark">
@@ -52,5 +52,5 @@
         {% endfor %}
     </tbody>
 </table>-->
-<a class="btn btn-secondary" href="{% url 'listar_funcionarios' %}">Voltar</a>
+<a class="btn btn-secondary" href="{% url 'listar_Credors' %}">Voltar</a>
 {% endblock %}

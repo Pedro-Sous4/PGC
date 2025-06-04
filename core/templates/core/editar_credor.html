@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Editar Credor{% endblock %}
+
+{% block content %}
+<h1>Editar Credor</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
+{% endblock %}

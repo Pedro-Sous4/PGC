@@ -20,7 +20,7 @@
     <div class="col-md-6">
         <div class="card shadow-sm mb-4">
             <div class="card-header bg-success text-white">
-                Funcionários por Período
+                Credores por Período
             </div>
             <div class="card-body">
                 <canvas id="periodoChart" style="max-width: 300%; height: 100px;"></canvas>
@@ -34,17 +34,17 @@
         <div class="card border-info mb-4">
             <div class="card-header bg-info text-white">Total de Enviados</div>
             <div class="card-body">
-                <h5>{{ enviados_paginator.count }} Funcionários</h5>
+                <h5>{{ enviados_paginator.count }} Credores</h5>
                 <div class="d-flex fw-bold mb-2">
                     <div class="w-50">Nome</div>
                     <div class="w-25">Período</div>
                     <div class="w-25">Data</div>
                 </div>
-                {% for funcionario in enviados_page %}
+                {% for Credor in enviados_page %}
                 <div class="d-flex border rounded p-2 mb-2">
-                    <div class="w-50">{{ funcionario.nome }}</div>
-                    <div class="w-25">{{ funcionario.periodo }}</div>
-                    <div class="w-25">{{ funcionario.data_envio|date:"d/m/Y" }}</div>
+                    <div class="w-50">{{ Credor.nome }}</div>
+                    <div class="w-25">{{ Credor.periodo }}</div>
+                    <div class="w-25">{{ Credor.data_envio|date:"d/m/Y" }}</div>
                 </div>
                 {% empty %}
                 <p>Nenhum enviado.</p>
@@ -75,17 +75,17 @@
         <div class="card border-warning mb-4">
             <div class="card-header bg-warning text-white">Total de Não Enviados</div>
             <div class="card-body">
-                <h5>{{ nao_enviados_paginator.count }} Funcionários</h5>
+                <h5>{{ nao_enviados_paginator.count }} Credores</h5>
                 <div class="d-flex fw-bold mb-2">
                     <div class="w-50">Nome</div>
                     <div class="w-25">Período</div>
                     <div class="w-25">Data</div>
                 </div>
-                {% for funcionario in nao_enviados_page %}
+                {% for Credor in nao_enviados_page %}
                 <div class="d-flex border rounded p-2 mb-2">
-                    <div class="w-50">{{ funcionario.nome }}</div>
-                    <div class="w-25">{{ funcionario.periodo }}</div>
-                    <div class="w-25">{{ funcionario.data_envio|default:"-"|date:"d/m/Y" }}</div>
+                    <div class="w-50">{{ Credor.nome }}</div>
+                    <div class="w-25">{{ Credor.periodo }}</div>
+                    <div class="w-25">{{ Credor.data_envio|default:"-"|date:"d/m/Y" }}</div>
                 </div>
                 {% empty %}
                 <p>Nenhum não enviado.</p>
@@ -141,7 +141,7 @@
         type: 'bar',
         data: {
             labels: periodoLabels,
-            datasets: [{ label: 'Total de Funcionários', data: periodoTotais, backgroundColor: '#007bff' }]
+            datasets: [{ label: 'Total de Credores', data: periodoTotais, backgroundColor: '#007bff' }]
         },
         options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
     });

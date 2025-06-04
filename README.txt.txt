@@ -1,6 +1,6 @@
 # 📦 Envio de Rendimentos - Django
 
-Aplicação para gerenciamento de funcionários, geração de PDFs e envio de emails.
+Aplicação para gerenciamento de Credores, geração de PDFs e envio de emails.
 
 ---
 
