@@ -1,0 +1,128 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container my-4">
+    <h2 class="mb-3">
+        <i class="bi bi-bar-chart-fill me-2"></i> Dashboard de Envio
+    </h2>
+
+    <!-- Filtro por Grupo -->
+    <form method="get" class="mb-3">
+        <div class="form-group">
+            <label for="grupo_id">Filtrar por grupo:</label>
+            <select name="grupo_id" id="grupo_id" class="form-select w-auto d-inline-block ms-2" onchange="this.form.submit()">
+                <option value="">Todos os grupos</option>
+                {% for grupo in grupos %}
+                    <option value="{{ grupo.id }}" {% if grupo.id == grupo_id %}selected{% endif %}>{{ grupo.nome }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </form>
+
+    <!-- Cards Enviados / Não Enviados -->
+    <div class="row mb-4 g-3">
+        <div class="col-md-6">
+            <div class="card text-white bg-success shadow-sm" style="min-height: 100px;">
+                <div class="card-body d-flex align-items-center py-2">
+                    <i class="bi bi-check-circle-fill fs-4 me-2"></i>
+                    <div>
+                        <h6 class="card-title mb-1 small">Enviados</h6>
+                        <h4 class="mb-0">{{ enviados }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-white bg-danger shadow-sm" style="min-height: 100px;">
+                <div class="card-body d-flex align-items-center py-2">
+                    <i class="bi bi-x-circle-fill fs-4 me-2"></i>
+                    <div>
+                        <h6 class="card-title mb-1 small">Não Enviados</h6>
+                        <h4 class="mb-0">{{ nao_enviados }}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gráfico por PGC -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header py-2">
+            <i class="bi bi-bar-chart-line-fill me-2"></i> Credores por PGC
+        </div>
+        <div class="card-body" style="height: 300px;">
+            <canvas id="pgcChart" height="250"></canvas>
+        </div>
+    </div>
+
+    <!-- Credores Enviados -->
+    <div class="card shadow-sm mb-3">
+        <div class="card-header py-2">
+            <i class="bi bi-envelope-check-fill me-2"></i> Credores que já receberam
+        </div>
+        <ul class="list-group list-group-flush small">
+            {% if enviados_page %}
+                {% for credor in enviados_page %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ credor.nome }}
+                        <span class="badge bg-success">Enviado</span>
+                    </li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item">Nenhum credor com e-mail enviado.</li>
+            {% endif %}
+        </ul>
+    </div>
+
+    <!-- Credores Não Enviados -->
+    <div class="card shadow-sm">
+        <div class="card-header py-2">
+            <i class="bi bi-envelope-x-fill me-2"></i> Credores que ainda não receberam
+        </div>
+        <ul class="list-group list-group-flush small">
+            {% if nao_enviados_page %}
+                {% for credor in nao_enviados_page %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ credor.nome }}
+                        <span class="badge bg-danger">Não Enviado</span>
+                    </li>
+                {% endfor %}
+            {% else %}
+                <li class="list-group-item">Todos os credores já receberam.</li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('pgcChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: {{ pgc_labels|safe }},
+            datasets: [{
+                label: 'Total por PGC',
+                data: {{ pgc_totais|safe }},
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        precision: 0
+                    }
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

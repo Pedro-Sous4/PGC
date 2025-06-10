@@ -1,0 +1,46 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load custom_tags %}
+
+{% block title %}Histórico de {{ Credor.nome }}{% endblock %}
+
+{% block content %}
+<h2>Histórico de {{ Credor.nome }}</h2>
+
+<table class="table table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Período</th>
+            <th>PGC</th>
+            <th>Valor (R$)</th>
+            <th>NFS-e</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for historico in Credor.historicos.all %}
+        <tr>
+            <td>{{ historico.periodo }}</td>
+            <td>{{ historico.numero_pgc }}</td>
+            <td>R$ {{ historico.valor_total }}</td>
+            <td>
+                {% with pdf_path='arquivos_gerados/PGC/'|add:historico.numero_pgc|stringformat:"s"|add:'/'|add:Credor.nome|slugify|add:'/NFS-e.pdf' %}
+                    {% if pdf_path|file_exists %}
+                        <a class="btn btn-sm btn-outline-primary" href="{{ MEDIA_URL }}{{ pdf_path }}" target="_blank">Ver PDF</a>
+                    {% else %}
+                        <span class="text-muted">Não encontrado</span>
+                    {% endif %}
+                {% endwith %}
+            </td>
+            <td><span class="text-muted">—</span></td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5" class="text-center">Nenhum histórico disponível.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<a class="btn btn-secondary mt-3" href="{% url 'listar_Credores' %}">Voltar</a>
+{% endblock %}

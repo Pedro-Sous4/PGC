@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Enviar E-mails{% endblock %}
+
+{% block content %}
+<h2>Enviar E-mails</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="numero_pgc" class="form-label">Número do PGC</label>
+        <select class="form-select" name="numero_pgc" id="numero_pgc" required>
+            <option value="">Selecione o PGC</option>
+            {% for numero in numeros_pgc %}
+                <option value="{{ numero }}">{{ numero }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="grupo_id" class="form-label">Grupo</label>
+        <select class="form-select" name="grupo_id" id="grupo_id" required>
+            <option value="">Selecione o grupo</option>
+            {% for grupo in grupos %}
+                <option value="{{ grupo.id }}">{{ grupo.nome }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar E-mails</button>
+</form>
+{% endblock %}

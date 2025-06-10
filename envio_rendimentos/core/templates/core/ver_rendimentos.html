@@ -1,0 +1,37 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Rendimentos de {{ Credor.nome }}{% endblock %}
+
+{% block content %}
+<h2>Rendimentos de {{ Credor.nome }}</h2>
+
+<a href="{% url 'adicionar_rendimento' Credor.id %}" class="btn btn-success mb-3">Adicionar Rendimento</a>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Período</th>
+            <th>Valor (R$)</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for rendimento in rendimentos %}
+        <tr>
+            <td>{{ rendimento.periodo }}</td>
+            <td>R$ {{ rendimento.valor|floatformat:2 }}</td>
+            <td>
+                <a href="{% url 'editar_rendimento' rendimento.id %}" class="btn btn-warning btn-sm">Editar</a>
+                <a href="{% url 'excluir_rendimento' rendimento.id %}" class="btn btn-danger btn-sm">Excluir</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">Nenhum rendimento cadastrado.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<a href="{% url 'listar_Credors' %}" class="btn btn-secondary">Voltar</a>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Excluir Rendimento{% endblock %}
+
+{% block content %}
+<h2>Excluir Rendimento de {{ rendimento.Credor.nome }}</h2>
+
+<p>Tem certeza que deseja excluir o rendimento do período <strong>{{ rendimento.periodo }}</strong> de valor <strong>R$ {{ rendimento.valor|floatformat:2 }}</strong>?</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Sim, excluir</button>
+    <a href="{% url 'ver_rendimentos' rendimento.Credor.id %}" class="btn btn-secondary">Cancelar</a>
+</form>
+{% endblock %}

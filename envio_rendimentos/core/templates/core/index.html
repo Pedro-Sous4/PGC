@@ -1,0 +1,75 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Início{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="text-center mb-5">Bem-vindo ao Sistema de Envio de Rendimentos</h1>
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+        <div class="col">
+            <div class="card h-100 shadow-sm card-hover">
+                <div class="card-body text-center">
+                    <i class="bi bi-upload display-4 text-primary mb-3"></i>
+                    <h5 class="card-title">Upload de Planilha</h5>
+                    <p class="card-text">Faça o upload de planilhas para cadastrar os Credores automaticamente.</p>
+                    <a href="/upload/" class="btn btn-primary">
+                        <i class="bi bi-arrow-right-circle"></i> Acessar
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm card-hover">
+                <div class="card-body text-center">
+                    <i class="bi bi-envelope-paper display-4 text-success mb-3"></i>
+                    <h5 class="card-title">Enviar E-mails</h5>
+                    <p class="card-text">Envie e-mails de rendimento para os Credores cadastrados.</p>
+                    <a href="/enviar-emails/" class="btn btn-success">
+                        <i class="bi bi-arrow-right-circle"></i> Acessar
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm card-hover">
+                <div class="card-body text-center">
+                    <i class="bi bi-people-fill display-4 text-info mb-3"></i>
+                    <h5 class="card-title">Listar Credores</h5>
+                    <p class="card-text">Veja todos os Credores cadastrados, edite e envie e-mails.</p>
+                    <a href="/Credor/" class="btn btn-info">
+                        <i class="bi bi-arrow-right-circle"></i> Acessar
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 shadow-sm card-hover">
+                <div class="card-body text-center">
+                    <i class="bi bi-gear-fill display-4 text-secondary mb-3"></i>
+                    <h5 class="card-title">Acessar Admin</h5>
+                    <p class="card-text">Área administrativa completa para gerenciar o sistema.</p>
+                    <a href="/admin/" class="btn btn-secondary">
+                        <i class="bi bi-arrow-right-circle"></i> Acessar
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+</style>
+{% endblock %}

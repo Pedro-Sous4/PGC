@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Adicionar Rendimento{% endblock %}
+
+{% block content %}
+<h2>Adicionar Rendimento para {{ Credor.nome }}</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="periodo" class="form-label">Período</label>
+        <input type="text" name="periodo" id="periodo" class="form-control" placeholder="MM/YYYY" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="valor" class="form-label">Valor (R$)</label>
+        <input type="number" name="valor" id="valor" class="form-control" step="0.01" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a href="{% url 'detalhe_rendimentos' Credor.id %}" class="btn btn-secondary">Cancelar</a>
+</form>
+{% endblock %}

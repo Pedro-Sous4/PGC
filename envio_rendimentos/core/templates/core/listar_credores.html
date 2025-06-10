@@ -1,0 +1,260 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}Lista de Credores{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-4">📄 Lista de Credores</h2>
+
+    <!-- Alertas -->
+    <div id="mensagem-alerta"></div>
+
+    <form method="get" class="row g-3 align-items-end mb-4">
+        <div class="col-md-4">
+            <label for="busca" class="form-label">Buscar por nome</label>
+            <input type="text" name="busca" value="{{ busca }}" class="form-control" placeholder="Digite o nome">
+        </div>
+        <div class="col-md-3">
+            <label for="status" class="form-label">Status</label>
+            <select name="status" class="form-select">
+                <option value="" {% if not status %}selected{% endif %}>Todos</option>
+                <option value="enviados" {% if status == 'enviados' %}selected{% endif %}>Enviados</option>
+                <option value="nao_enviados" {% if status == 'nao_enviados' %}selected{% endif %}>Não enviados</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+        </div>
+        <div class="col-md-3 text-end">
+            <div class="btn-group">
+                <a href="{% url 'exportar_Credores' %}?status={{ status }}" class="btn btn-outline-primary btn-sm">Exportar CSV</a>
+                <a href="{% url 'exportar_Credores_excel' %}?status={{ status }}" class="btn btn-outline-success btn-sm">Exportar Excel</a>
+            </div>
+        </div>
+    </form>
+
+    <!-- Ações -->
+    <div class="d-flex justify-content-between mb-3">
+        <div>
+            <div class="dropdown">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Ações em Lote
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button id="enviarSelecionados" class="dropdown-item text-success">📧 Enviar E-mails Selecionados</button></li>
+                    <li><button id="exportarPDFs" class="dropdown-item">⬇️ Exportar PDFs</button></li>
+                    <li><button id="marcarEnviados" class="dropdown-item text-success">✔️ Marcar como Enviados</button></li>
+                    <li><button id="marcarNaoEnviados" class="dropdown-item text-warning">❌ Marcar como Não Enviados</button></li>
+                    <li><button id="excluirSelecionados" class="dropdown-item text-danger">🗑️ Excluir Selecionados</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabela -->
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th><input type="checkbox" id="selectAll"></th>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Período</th>
+                <th>PGC</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+                <th>Grupo</th>
+                <th class="text-center">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for Credor in page_obj %}
+            <tr>
+                <td><input type="checkbox" class="selectItem" value="{{ Credor.id }}"></td>
+                <td>{{ Credor.nome|default:"—" }}</td>
+                <td>{{ Credor.email|default:"—" }}</td>
+                <td>{{ Credor.periodo }}</td>
+                <td>{{ Credor.historicos.last.numero_pgc }}</td>
+                <td>R$ {{ Credor.historicos.last.valor_total|floatformat:2 }}</td>
+                <td>
+                    {% if Credor.enviado %}
+                        <span class="badge bg-success">Enviado</span>
+                    {% else %}
+                        <span class="badge bg-danger">Não enviado</span>
+                    {% endif %}
+                </td>
+                <td>{{ Credor.grupo }}</td>
+                <td class="text-center">
+                    <div class="btn-group">
+                        <button class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Opções</button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="{% url 'detalhe_rendimentos' Credor.id %}">🔍 Ver mais</a></li>
+                            <li><a class="dropdown-item" href="{% url 'gerar_pdf' Credor.id %}">📄 Gerar PDF</a></li>
+                            <li><a class="dropdown-item" href="{% url 'editar_Credor' Credor.id %}">✏️ Editar</a></li>
+                            <li><a class="dropdown-item text-success" href="{% url 'enviar_email_individual' Credor.id %}">📧 Enviar E-mail</a></li>
+                            <li><a class="dropdown-item text-danger" href="{% url 'excluir_Credor' Credor.id %}" onclick="return confirm('Deseja excluir este credor?');">🗑️ Excluir</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="8" class="text-center text-muted">Nenhum credor encontrado.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Paginação -->
+    <nav>
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+                <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}&status={{ status }}&busca={{ busca }}">&laquo;</a></li>
+            {% endif %}
+            <li class="page-item active"><span class="page-link">{{ page_obj.number }}</span></li>
+            {% if page_obj.has_next %}
+                <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}&status={{ status }}&busca={{ busca }}">&raquo;</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
+<!-- Scripts -->
+<script>
+    function mostrarAlerta(mensagem, tipo = 'info') {
+        document.getElementById('mensagem-alerta').innerHTML = `
+            <div class="alert alert-${tipo} alert-dismissible fade show" role="alert">
+                ${mensagem}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+            </div>
+        `;
+    }
+
+    document.getElementById('selectAll').addEventListener('click', function () {
+        const checkboxes = document.querySelectorAll('.selectItem');
+        checkboxes.forEach(cb => cb.checked = this.checked);
+    });
+
+    document.getElementById('enviarSelecionados').addEventListener('click', () => {
+        const selecionados = Array.from(document.querySelectorAll('.selectItem:checked')).map(cb => cb.value);
+        if (selecionados.length === 0) return mostrarAlerta('Selecione pelo menos um credor.', 'warning');
+
+        if (confirm(`Deseja enviar e-mails para ${selecionados.length} credor(es)?`)) {
+            fetch("{% url 'enviar_emails_selecionados' %}", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                body: JSON.stringify({ ids: selecionados })
+            }).then(res => res.json())
+              .then(data => {
+                  let mensagem = '';
+                  if (data.enviados?.length)
+                      mensagem += `<strong>✅ Enviados:</strong><br>${data.enviados.join('<br>')}<br>`;
+                  if (data.falharam?.length)
+                      mensagem += `<hr><strong>❌ Falharam:</strong><br>${data.falharam.join('<br>')}`;
+                  mostrarAlerta(mensagem, 'info');
+                  setTimeout(() => location.reload(), 4000);
+              }).catch(() => mostrarAlerta('Erro no envio. Tente novamente.', 'danger'));
+        }
+    });
+</script>
+<script>
+    function mostrarAlerta(mensagem, tipo = 'info') {
+        document.getElementById('mensagem-alerta').innerHTML = `
+            <div class="alert alert-${tipo} alert-dismissible fade show" role="alert">
+                ${mensagem}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+            </div>
+        `;
+    }
+
+    document.getElementById('selectAll').addEventListener('click', function () {
+        const checkboxes = document.querySelectorAll('.selectItem');
+        checkboxes.forEach(cb => cb.checked = this.checked);
+    });
+
+    function obterSelecionados() {
+        return Array.from(document.querySelectorAll('.selectItem:checked')).map(cb => cb.value);
+    }
+
+    function executarAcaoLote(url, dados, mensagemConfirmacao, mensagemSucesso, tipoResposta = 'json') {
+        const selecionados = obterSelecionados();
+        if (selecionados.length === 0) return mostrarAlerta('Selecione pelo menos um credor.', 'warning');
+
+        if (!confirm(mensagemConfirmacao.replace('{n}', selecionados.length))) return;
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            body: JSON.stringify(dados ? dados(selecionados) : { ids: selecionados })
+        })
+        .then(res => tipoResposta === 'json' ? res.json() : res.blob())
+        .then(data => {
+            if (tipoResposta === 'json') {
+                mostrarAlerta(mensagemSucesso, 'success');
+                setTimeout(() => location.reload(), 1500);
+            } else {
+                const url = window.URL.createObjectURL(data);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = "credores_pdfs.zip";
+                a.click();
+                mostrarAlerta('📁 PDFs exportados com sucesso.', 'success');
+            }
+        })
+        .catch(() => mostrarAlerta('Erro ao executar ação.', 'danger'));
+    }
+
+    document.getElementById('enviarSelecionados').addEventListener('click', () => {
+        executarAcaoLote(
+            "{% url 'enviar_emails_selecionados' %}",
+            null,
+            "Deseja enviar e-mails para {n} credor(es)?",
+            "E-mails enviados com sucesso!"
+        );
+    });
+
+    document.getElementById('exportarPDFs').addEventListener('click', () => {
+        executarAcaoLote(
+            "{% url 'exportar_pdfs_selecionados' %}",
+            null,
+            "Exportar PDFs para {n} credor(es)?",
+            "Exportando PDFs...",
+            'blob'
+        );
+    });
+
+    document.getElementById('marcarEnviados').addEventListener('click', () => {
+        executarAcaoLote(
+            "{% url 'alterar_status_selecionados' %}",
+            (ids) => ({ ids: ids, status: true }),
+            "Marcar {n} credor(es) como Enviados?",
+            "Credores marcados como enviados!"
+        );
+    });
+
+    document.getElementById('marcarNaoEnviados').addEventListener('click', () => {
+        executarAcaoLote(
+            "{% url 'alterar_status_selecionados' %}",
+            (ids) => ({ ids: ids, status: false }),
+            "Marcar {n} credor(es) como Não Enviados?",
+            "Credores marcados como não enviados!"
+        );
+    });
+
+    document.getElementById('excluirSelecionados').addEventListener('click', () => {
+        executarAcaoLote(
+            "{% url 'excluir_Credores_selecionados' %}",
+            null,
+            "Excluir {n} credor(es)? Essa ação não pode ser desfeita!",
+            "Credores excluídos com sucesso!"
+        );
+    });
+</script>
+
+{% endblock %}

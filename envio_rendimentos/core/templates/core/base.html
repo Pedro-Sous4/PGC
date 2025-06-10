@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Sistema{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            width: 240px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+        }
+        .sidebar h5 {
+            font-weight: bold;
+            color: #333;
+        }
+        .sidebar .nav-link {
+            color: #333;
+            font-weight: 500;
+            border-radius: 0.25rem;
+            padding: 8px 12px;
+        }
+        .sidebar .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+        .sidebar .nav-link:hover {
+            background-color: #e2e6ea;
+        }
+    </style>
+</head>
+<body>
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}
+<div class="d-flex">
+    <!-- Sidebar -->
+    <nav class="sidebar p-3 d-flex flex-column">
+        <h5 class="mb-4">📊 Menu</h5>
+        <div class="nav flex-column">
+            <a class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}" href="{% url 'index' %}">
+                <i class="bi bi-house"></i> Início
+            </a>
+            <a class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}" href="{% url 'dashboard' %}">
+                <i class="bi bi-bar-chart"></i> Dashboard
+            </a>
+            <a class="nav-link {% if request.resolver_match.url_name == 'listar_Credores' %}active{% endif %}" href="{% url 'listar_Credores' %}">
+                <i class="bi bi-people"></i> Credores
+            </a>
+            <a class="nav-link {% if request.resolver_match.url_name == 'upload_planilha' %}active{% endif %}" href="{% url 'upload_planilha' %}">
+                <i class="bi bi-upload"></i> Upload PGC
+            </a>
+            <a class="nav-link {% if request.resolver_match.url_name == 'upload_emails' %}active{% endif %}" href="{% url 'upload_emails' %}">
+                <i class="bi bi-upload"></i> Upload de E-mails
+            </a>
+            <a class="nav-link {% if request.resolver_match.url_name == 'enviar_emails_view' %}active{% endif %}" href="{% url 'enviar_emails_view' %}">
+                <i class="bi bi-envelope"></i> Enviar E-mails
+            </a>
+        </div>
+
+        <div class="mt-auto pt-4">
+            {% if user.is_authenticated %}
+                <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-outline-danger w-100">
+                        <i class="bi bi-box-arrow-left"></i> Logout
+                    </button>
+                </form>
+            {% else %}
+                <a class="btn btn-outline-primary w-100" href="{% url 'login' %}">
+                    <i class="bi bi-box-arrow-in-right"></i> Login
+                </a>
+            {% endif %}
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="flex-fill p-4">
+        {% block content %}
+        {% endblock %}
+    </main>
+</div>
+
+
+<!-- Mensagens de Django -->
+{% if messages %}
+<div class="container mt-3">
+    {% for message in messages %}
+    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+</body>
+</html>
