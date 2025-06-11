@@ -723,6 +723,28 @@ def upload_planilha(request):
             aba_pgcs = pd.read_excel(caminho_pgcsheet)
             df_minimo = extrair_minimos_robusto(aba_pgcs, caminho_temporario, numero_pgc)
             salvar_minimos_como_excel(df_minimo, numero_pgc)
+            # Gerar planilha EXTRATO.xlsx a partir da original
+            try:
+                planilhas = pd.ExcelFile(caminho_temporario)
+                aba_extrato = next(
+                    (n for n in planilhas.sheet_names if "extrato" in n.lower() and "credor" in n.lower()), None
+                ) or next(
+                    (n for n in planilhas.sheet_names if "exrato" in n.lower() and "credor" in n.lower()), None
+                )
+
+                if not aba_extrato:
+                    raise Exception("Aba EXTRATO CREDOR não encontrada.")
+
+                df_extrato = pd.read_excel(planilhas, sheet_name=aba_extrato)
+                df_extrato = normalizar_colunas_simples(df_extrato)
+
+                pasta_saida = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc))
+                os.makedirs(pasta_saida, exist_ok=True)
+                df_extrato.to_excel(os.path.join(pasta_saida, "EXTRATO.xlsx"), index=False)
+                logger.info(f"[EXTRATO] Planilha EXTRATO.xlsx gerada com sucesso em PGC/{numero_pgc}/")
+            except Exception as e:
+                logger.warning(f"[EXTRATO] Falha ao gerar EXTRATO.xlsx: {e}")
+
 
         except Exception as e:
             messages.error(request, f'Erro ao processar planilha: {e}')
