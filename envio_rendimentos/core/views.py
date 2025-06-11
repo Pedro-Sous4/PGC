@@ -28,14 +28,28 @@ import difflib
 from openpyxl import load_workbook
 import unicodedata
 import logging
-from .utils import normalizar_planilha_origem  # certifique-se que esta função está no utils.py
-from .utils import normalizar_nome, normalizar_planilha_origem, extrair_minimos_de_planilha
 import logging
 from .utils import normalizar_nome
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import numbers
 logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] %(message)s')
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+from .utils import (
+    logger,
+    salvar_planilha_temporaria,
+    normalizar_colunas_com_duas_linhas,
+    salvar_minimos_como_excel,
+    obter_minimo_garantido_para_credor,
+    normalizar_nome,
+    normalizar_planilha_origem,
+    gerar_pdf_relatorio,
+    enviar_email_com_arquivos,
+    extrair_minimos_robusto,
+    extrair_dados_planilhas,
+    gerar_arquivos_credor,
+    normalizar_e_salvar_planilha_base,
+    
+)
 
 def obter_minimo_garantido_para_credor(credor_nome, numero_pgc):
     caminho_arquivo = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'PGC {numero_pgc}.xlsx')
@@ -94,173 +108,7 @@ def salvar_arquivo_temporario(file, numero_pgc):
         for chunk in file.chunks():
             f.write(chunk)
     return caminho_arquivo
-'''
-@login_required
-def upload_planilha(request):
-    if request.method == 'POST' and request.FILES.get('file'):
-        numero_pgc = request.POST.get('numero_pgc')
-        file = request.FILES['file']
 
-        if not numero_pgc:
-            messages.error(request, 'Informe o número do PGC.')
-            return redirect('upload_planilha')
-
-        if not file.name.endswith('.xlsx'):
-            messages.error(request, 'Apenas planilhas .xlsx são suportadas.')
-            return redirect('upload_planilha')
-
-        caminho_salvo = salvar_arquivo_temporario(file, numero_pgc)
-        logging.debug(f"[UPLOAD] Planilha salva em: {caminho_salvo}")
-
-        caminho_normalizado = normalizar_planilha_origem(caminho_salvo, numero_pgc)
-        logging.debug(f"[UPLOAD] Planilha normalizada em: {caminho_normalizado}")
-
-        planilha = {
-            nome: normalizar_colunas_simples(df)
-            for nome, df in pd.read_excel(caminho_normalizado, sheet_name=None).items()
-        }
-
-        base_df = extrato_df = produtividade_df = None
-        for nome_aba, df in planilha.items():
-            if 'base' in nome_aba.lower():
-                base_df = df
-            elif 'extrato' in nome_aba.lower():
-                extrato_df = df
-            elif 'produtividade' in nome_aba.lower():
-                produtividade_df = df
-
-        if base_df is None:
-            messages.error(request, 'A aba BASE não foi encontrada.')
-            return redirect('upload_planilha')
-
-        if 'credor' not in base_df.columns:
-            messages.error(request, "Coluna 'credor' ausente na planilha BASE.")
-            logging.error(f"[UPLOAD] Colunas da BASE: {list(base_df.columns)}")
-            return redirect('upload_planilha')
-
-        periodo = datetime.now().strftime('%m/%Y')
-
-        def colunas_existem(df, colunas):
-            return all(col in df.columns for col in colunas)
-
-        def salvar_com_formatacao(df, caminho):
-            from openpyxl import Workbook
-            wb = Workbook()
-            ws = wb.active
-            for r in dataframe_to_rows(df, index=False, header=True):
-                ws.append(r)
-            for col in ws.iter_cols(min_row=2):
-                header = ws.cell(row=1, column=col[0].col_idx).value
-                if header and 'data' in header.lower():
-                    for cell in col:
-                        cell.number_format = 'DD/MM/YYYY'
-                elif header and 'valor' in header.lower():
-                    for cell in col:
-                        cell.number_format = 'R$ #,##0.00'
-            for col in ws.columns:
-                max_length = 0
-                col_letter = col[0].column_letter
-                for cell in col:
-                    if cell.value:
-                        max_length = max(max_length, len(str(cell.value)))
-                ws.column_dimensions[col_letter].width = max_length + 2
-            wb.save(caminho)
-
-        for nome in base_df['credor'].unique():
-            df_credor = base_df[base_df['credor'] == nome]
-            df_extrato = extrato_df[extrato_df['credor'] == nome] if extrato_df is not None else None
-            df_prod = produtividade_df[produtividade_df['credor'] == nome] if produtividade_df is not None else None
-
-            credor = Credor.objects.filter(nome__iexact=nome).first()
-            if not credor:
-                credor = Credor.objects.create(nome=nome, email='', periodo=periodo)
-            else:
-                credor.periodo = periodo
-                credor.save()
-
-            if 'valor_original' not in df_credor.columns:
-                messages.error(request, f"A planilha de {nome} não contém a coluna 'valor_original'.")
-                logging.warning(f"[UPLOAD] Colunas para {nome}: {list(df_credor.columns)}")
-                continue
-
-            HistoricoPGC.objects.create(
-                credor=credor,
-                numero_pgc=numero_pgc,
-                periodo=periodo,
-                valor_total=df_credor['valor_original'].sum()
-            )
-
-            pasta_saida = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), credor.nome_pasta())
-            os.makedirs(pasta_saida, exist_ok=True)
-
-            df_emissao = df_credor.groupby(['empresa', 'credor'], as_index=False)['valor_original'].sum()
-            empresas = EmpresaPagadora.objects.all()
-            mapa_cnpj = {e.nome_completo.strip().upper(): e.cnpj for e in empresas}
-            df_emissao['cnpj'] = df_emissao['empresa'].str.upper().map(mapa_cnpj)
-
-            arquivos = {
-                'PGC EMISSÃO': df_emissao[['empresa', 'credor', 'cnpj', 'valor_original']],
-                'EXTRATO': None,
-                'PRODUTIVIDADE': (
-                    df_prod[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']]
-                    if df_prod is not None and colunas_existem(df_prod, ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento'])
-                    else None
-                ),
-                f'PGC {numero_pgc}': (
-                    df_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original']]
-                    if colunas_existem(df_credor, ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original'])
-                    else None
-                ),
-            }
-
-            if df_extrato is not None:
-                colunas_obrigatorias = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']
-                colunas_presentes = [col for col in colunas_obrigatorias if col in df_extrato.columns]
-                if 'obs_baixa' in df_extrato.columns:
-                    colunas_presentes.append('obs_baixa')
-                if len(colunas_presentes) >= len(colunas_obrigatorias):
-                    arquivos['EXTRATO'] = df_extrato[colunas_presentes]
-                else:
-                    logging.warning(f"[EXTRATO] Colunas insuficientes para gerar extrato de {nome}: {df_extrato.columns.tolist()}")
-
-            nome_arquivo_seguro = re.sub(r'[\/:*?"<>|]', '_', nome)
-            for nome_arq, df_arq in arquivos.items():
-                if df_arq is not None:
-                    nome_completo = f'{nome_arquivo_seguro} - {nome_arq}.xlsx'
-                    caminho_arquivo = os.path.join(pasta_saida, nome_completo)
-                    salvar_com_formatacao(df_arq, caminho_arquivo)
-                    logging.info(f"[UPLOAD] Arquivo salvo: {caminho_arquivo}")
-
-        try:
-            wb = load_workbook(caminho_salvo, data_only=True)
-            aba_nome = next((s for s in wb.sheetnames if s.strip().upper().startswith("PGC")), None)
-            if aba_nome:
-                ws = wb[aba_nome]
-                header1 = [str(ws.cell(row=6, column=col).value or '').strip() for col in range(1, ws.max_column + 1)]
-                header2 = [str(ws.cell(row=7, column=col).value or '').strip() for col in range(1, ws.max_column + 1)]
-                colunas = [f'{a} {b}'.strip().lower().replace(' ', '_').replace('.', '') for a, b in zip(header1, header2)]
-
-                dados = [
-                    [cell.value for cell in row]
-                    for row in ws.iter_rows(min_row=8, max_col=ws.max_column)
-                ]
-                df_minimo = pd.DataFrame(dados, columns=colunas)
-                colunas_desejadas = ['credor', 'minimofixo_garantido_para_emissao_nf', 'empresa_emissao_nf', 'cnpj']
-                df_minimo = df_minimo[colunas_desejadas].dropna(subset=['credor'])
-                caminho_minimo = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'mínimo.xlsx')
-                salvar_com_formatacao(df_minimo, caminho_minimo)
-                logging.info(f"[MÍNIMO] Planilha de mínimos salva em: {caminho_minimo}")
-            else:
-                logging.warning(f"[MÍNIMO] Aba PGC {numero_pgc} não encontrada para mínimos.")
-        except Exception as e:
-            logging.error(f"[MÍNIMO] Erro ao gerar planilha de mínimos: {e}")
-            messages.warning(request, f"Erro ao gerar planilha de mínimos: {e}")
-
-        messages.success(request, f'Upload do PGC {numero_pgc} processado com sucesso!')
-        return redirect('upload_planilha')
-
-    return render(request, 'core/upload_planilha.html')
-'''
 def signup(request):
     if request.method == 'POST':
         form = UserCreationForm(request.POST)
@@ -669,6 +517,16 @@ def upload_emails(request):
 
 
 
+def abrir_pasta_explorer(request, credor_id, numero_pgc):
+    credor = get_object_or_404(Credor, pk=credor_id)
+    pasta = os.path.join("C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC", str(numero_pgc), credor.nome_pasta())
+    if os.path.exists(pasta):
+        os.startfile(pasta)
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
+    nome = re.sub(r'^\d+\s*-\s*', '', nome)  # remove prefixo tipo "16273 - "
+    nome = re.sub(r'\s*\([^)]*\)', '', nome)  # remove sufixo tipo "(CONSULTOR)"
+    return nome.strip().upper()
+'''
 @login_required
 def upload_planilha(request):
     if request.method == 'POST' and request.FILES.get('file'):
@@ -679,91 +537,224 @@ def upload_planilha(request):
             messages.error(request, 'Informe o número do PGC.')
             return redirect('upload_planilha')
 
-        if file.name.endswith('.csv'):
+        if not file.name.endswith('.xlsx'):
             messages.error(request, 'Apenas planilhas .xlsx são suportadas.')
             return redirect('upload_planilha')
-        elif file.name.endswith('.xlsx'):
-            df_dict = pd.read_excel(file, sheet_name=None)
-        else:
-            messages.error(request, 'Formato de arquivo inválido.')
-            return redirect('upload_planilha')
 
-        def normalize_cols(df):
-            return df.rename(columns=lambda col: col.strip().lower().replace(' ', '_').replace('.', ''))
+        try:
+            caminho_temporario = salvar_planilha_temporaria(file, numero_pgc)
+            caminho_tratado = normalizar_planilha_origem(caminho_temporario, numero_pgc)
+            planilha = pd.read_excel(caminho_tratado, sheet_name=None)
+        except Exception as e:
+            logger.error(f"[UPLOAD] Erro ao processar planilha: {e}")
+            messages.error(request, 'Erro ao ler a planilha.')
+            return redirect('upload_planilha')
 
         base_df = None
-        for sheet_name, sheet_df in df_dict.items():
-            if 'base' in sheet_name.lower():
-                base_df = normalize_cols(sheet_df)
-                break
+        produtividade_df = None
+        extrato_df = None
+        aba_minimo_df = None
+
+        for nome_aba, df in planilha.items():
+            nome = nome_aba.lower()
+            if 'base' in nome:
+                base_df = normalizar_colunas_simples(df.copy())
+            elif 'produtividade' in nome:
+                produtividade_df = normalizar_colunas_simples(df.copy())
+            elif 'extrato' in nome:
+                extrato_df = normalizar_colunas_simples(df.copy())
+            elif nome.startswith(f"pgc {numero_pgc.lower()}"):
+                aba_minimo_df = normalizar_colunas_com_duas_linhas(df.copy())
 
         if base_df is None:
-            messages.error(request, 'A aba BASE PGC não foi encontrada.')
+            logger.error("[UPLOAD] Aba BASE não encontrada.")
+            messages.error(request, 'A aba BASE não foi localizada.')
             return redirect('upload_planilha')
 
-        periodo = datetime.now().strftime('%m/%Y')
+        if 'credor' not in base_df.columns:
+            logger.error(f"[UPLOAD] Coluna 'credor' ausente na planilha BASE.")
+            messages.error(request, "Coluna 'credor' ausente na planilha BASE.")
+            return redirect('upload_planilha')
 
+        # Trata mínimo se possível
+        minimos_df = None
+        if aba_minimo_df is not None:
+            try:
+                minimos_df = extrair_minimos_de_planilha(aba_minimo_df)
+                salvar_minimos_como_excel(minimos_df, numero_pgc)
+            except Exception as e:
+                logger.warning(f"[UPLOAD] Falha ao processar mínimos: {e}")
+
+        periodo = datetime.now().strftime('%m/%Y')
         credores = base_df['credor'].unique()
+
         for nome in credores:
             df_credor = base_df[base_df['credor'] == nome]
-            credor_encontrado = None
-            for c in Credor.objects.all():
-                if normalizar_nome(c.nome) == normalizar_nome(nome):
-                    credor_encontrado = c
-                    break
+            df_prod_credor = produtividade_df[produtividade_df['credor'] == nome] if produtividade_df is not None else None
+            df_ext_credor = extrato_df[extrato_df['credor'] == nome] if extrato_df is not None else None
 
-            if credor_encontrado:
-                credor = credor_encontrado
-                credor.periodo = periodo
-                credor.save()
+            credor_obj = Credor.objects.filter(nome__iexact=nome).first()
+            if not credor_obj:
+                credor_obj = Credor.objects.create(nome=nome, email='', periodo=periodo)
             else:
-                credor = Credor.objects.create(nome=nome, email='', periodo=periodo)
-            credor.periodo = periodo
-            credor.save()
+                credor_obj.periodo = periodo
+                credor_obj.save()
 
             HistoricoPGC.objects.create(
-                credor=credor,
+                credor=credor_obj,
                 numero_pgc=numero_pgc,
                 periodo=periodo,
                 valor_total=df_credor['valor_original'].sum()
             )
 
-            pasta_saida = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), credor.nome_pasta())
+            pasta_saida = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), credor_obj.nome_pasta())
             os.makedirs(pasta_saida, exist_ok=True)
 
             try:
+                # === Gerar planilha PGC EMISSÃO com CNPJ ===
+                df_emissao = df_credor.groupby(['empresa', 'credor'], as_index=False)['valor_original'].sum()
+
+                df_emissao['cnpj'] = df_emissao['empresa'].apply(lambda nome:
+                    EmpresaPagadora.objects.filter(nome_curto__iexact=nome).first().cnpj
+                    if EmpresaPagadora.objects.filter(nome_curto__iexact=nome).exists()
+                    else None
+                )
+                df_emissao['empresa'] = df_emissao['empresa'].apply(lambda nome:
+                    EmpresaPagadora.objects.filter(nome_curto__iexact=nome).first().nome_completo
+                    if EmpresaPagadora.objects.filter(nome_curto__iexact=nome).exists()
+                    else nome
+                )
+
+                for nome_empresa in df_emissao['empresa'].unique():
+                    if pd.isna(nome_empresa) or not EmpresaPagadora.objects.filter(nome_completo__iexact=nome_empresa).exists():
+                        logger.warning(f"[EMISSÃO] Empresa não cadastrada: {nome_empresa}")
+
                 arquivos = {
-                    'PGC EMISSÃO': df_credor.groupby(['empresa', 'credor', 'cnpj'], as_index=False)['valor_original'].sum(),
-                    'EXTRATO': df_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento', 'obs_baixa']],
-                    'PRODUTIVIDADE': df_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']],
+                    'PGC EMISSÃO': df_emissao,
                     f'PGC {numero_pgc}': df_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original']],
                 }
 
-                nome_arquivo_seguro = nome.replace('/', '_').replace('\\', '_').replace(':', '').replace('*', '').replace('?', '').replace('"', '').replace('<', '').replace('>', '').replace('|', '')
+                if df_ext_credor is not None:
+                    arquivos['EXTRATO'] = df_ext_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento', 'obs_baixa']]
+
+                if df_prod_credor is not None:
+                    arquivos['PRODUTIVIDADE'] = df_prod_credor[['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']]
+
+                nome_arquivo_seguro = re.sub(r'[\\/:"*?<>|]', '', nome)
 
                 for nome_arq, df_arq in arquivos.items():
-                    nome_completo = f'{nome_arquivo_seguro} - {nome_arq}.xlsx'
-                    caminho_arquivo = os.path.join(pasta_saida, nome_completo)
+                    caminho_arquivo = os.path.join(pasta_saida, f'{nome_arquivo_seguro} - {nome_arq}.xlsx')
                     df_arq.to_excel(caminho_arquivo, index=False)
 
+                # Salva mínimo se aplicável
+                if minimos_df is not None:
+                    minimo_credor = obter_minimo_garantido_para_credor(nome, minimos_df)
+                    if minimo_credor:
+                        caminho_minimo = os.path.join(pasta_saida, 'mínimo.xlsx')
+                        pd.DataFrame([{
+                            'credor': nome,
+                            'minimo': minimo_credor['valor'],
+                            'empresa': minimo_credor['empresa'],
+                            'cnpj': minimo_credor['cnpj']
+                        }]).to_excel(caminho_minimo, index=False)
+
             except Exception as e:
-                messages.error(request, f'Erro ao gerar arquivos para {nome}: {e}')
+                logger.error(f"Erro ao gerar arquivos para {nome}: {e}")
+                messages.error(request, f"Erro ao gerar arquivos para {nome}: {e}")
                 continue
 
         messages.success(request, f'Upload do PGC {numero_pgc} processado com sucesso!')
         return redirect('upload_planilha')
 
     return render(request, 'core/upload_planilha.html')
+'''
 
 
-def abrir_pasta_explorer(request, credor_id, numero_pgc):
-    credor = get_object_or_404(Credor, pk=credor_id)
-    pasta = os.path.join("C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC", str(numero_pgc), credor.nome_pasta())
-    if os.path.exists(pasta):
-        os.startfile(pasta)
-    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
+def _normalize_name(name):
+    if not name: return ''
+    name = re.sub(r"^\d+\s*-\s*", "", name)
+    name = re.sub(r"\s*\([^)]*\)", "", name)
+    name = unicodedata.normalize('NFKD', name.upper())
+    return ''.join(c for c in name if not unicodedata.combining(c)).strip()
 
 
-    nome = re.sub(r'^\d+\s*-\s*', '', nome)  # remove prefixo tipo "16273 - "
-    nome = re.sub(r'\s*\([^)]*\)', '', nome)  # remove sufixo tipo "(CONSULTOR)"
-    return nome.strip().upper()
+
+from difflib import get_close_matches
+
+def encontrar_coluna_semelhante(coluna_alvo, colunas_existentes):
+    correspondencias = get_close_matches(coluna_alvo.lower(), colunas_existentes, n=1, cutoff=0.6)
+    return correspondencias[0] if correspondencias else None
+
+def extrair_minimos_de_planilha_flex(df):
+    colunas_esperadas = {
+        'credor': 'credor',
+        'minimofixo_garantido_para_emissao_nf': 'minimo',
+        'empresa_emissao_nf': 'empresa',
+        'cnpj': 'cnpj'
+    }
+    colunas_existentes = [col.lower() for col in df.columns]
+    mapeamento = {}
+
+    for alvo, novo_nome in colunas_esperadas.items():
+        coluna_encontrada = encontrar_coluna_semelhante(alvo, colunas_existentes)
+        if not coluna_encontrada:
+            raise ValueError(f'Coluna semelhante a "{alvo}" não encontrada.')
+        mapeamento[coluna_encontrada] = novo_nome
+
+    df = df.rename(columns=mapeamento)
+    return df[['credor', 'minimo', 'empresa', 'cnpj']].dropna(subset=['credor'])
+
+#BONI
+@login_required
+def upload_planilha(request):
+    if request.method == 'POST' and request.FILES.get('file'):
+        file = request.FILES['file']
+        numero_pgc = request.POST.get('numero_pgc')
+
+        if not numero_pgc:
+            messages.error(request, 'Informe o número do PGC.')
+            return redirect('upload_planilha')
+
+        try:
+            caminho_temporario = salvar_planilha_temporaria(file, numero_pgc)
+            caminho_pgcsheet = normalizar_e_salvar_planilha_base(caminho_temporario, numero_pgc)
+
+            # Gerar planilha de mínimo
+            aba_pgcs = pd.read_excel(caminho_pgcsheet)
+            df_minimo = extrair_minimos_robusto(aba_pgcs, caminho_temporario, numero_pgc)
+            salvar_minimos_como_excel(df_minimo, numero_pgc)
+
+        except Exception as e:
+            messages.error(request, f'Erro ao processar planilha: {e}')
+            return redirect('upload_planilha')
+
+        # Processar por credor
+        try:
+            base_file_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx')
+            base_df = pd.read_excel(base_file_path)
+
+            periodo = pd.to_datetime('today').strftime('%m/%Y')
+            for nome in base_df['credor'].unique():
+                df_credor = base_df[base_df['credor'] == nome]
+                credor_obj, _ = Credor.objects.get_or_create(nome=nome, defaults={'email': '', 'periodo': periodo})
+                credor_obj.periodo = periodo
+                credor_obj.save()
+
+                HistoricoPGC.objects.create(
+                    credor=credor_obj,
+                    numero_pgc=numero_pgc,
+                    periodo=periodo,
+                    valor_total=df_credor['valor_original'].sum()
+                )
+
+                try:
+                    gerar_arquivos_credor(credor_obj, numero_pgc)
+                except Exception as e:
+                    messages.warning(request, f"Erro ao gerar arquivos para {nome}: {e}")
+
+            messages.success(request, f'Planilha PGC {numero_pgc} processada com sucesso.')
+        except Exception as e:
+            messages.error(request, f'Erro ao montar arquivos por credor: {e}')
+        return redirect('upload_planilha')
+
+    return render(request, 'core/upload_planilha.html')
