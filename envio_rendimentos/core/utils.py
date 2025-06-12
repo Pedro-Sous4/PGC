@@ -13,6 +13,7 @@ from .models import Credor, HistoricoPGC, EmpresaPagadora
 from difflib import get_close_matches
 import openpyxl
 
+
 # Configuração de logger
 logger = logging.getLogger("envios")
 logger.setLevel(logging.DEBUG)
@@ -323,8 +324,9 @@ def gerar_pdf_relatorio(credor):
         HTML(string=html_string).write_pdf(output.name)
         return output.name
 
-
 def enviar_email_com_arquivos(credor):
+    import locale
+
     historico = credor.historicos.order_by('-data_envio').first()
     if not credor.email:
         logger.error(f'Credor {credor.nome} não possui e-mail cadastrado.')
@@ -333,37 +335,48 @@ def enviar_email_com_arquivos(credor):
         logger.error(f'Credor {credor.nome} não possui histórico PGC registrado.')
         return False
 
-    pasta = os.path.join(settings.MEDIA_ROOT, 'PGC', str(historico.numero_pgc), credor.nome_pasta())
-    if not os.path.isdir(pasta):
+    pasta_credor = os.path.join(settings.MEDIA_ROOT, 'PGC', str(historico.numero_pgc), credor.nome_pasta())
+    if not os.path.isdir(pasta_credor):
         logger.error(f'Pasta não encontrada para {credor.nome}.')
         return False
 
-    arquivos = [os.path.join(pasta, f) for f in os.listdir(pasta) if f.endswith('.xlsx')]
+    arquivos = [os.path.join(pasta_credor, f) for f in os.listdir(pasta_credor) if f.endswith('.xlsx')]
     if not arquivos:
         logger.error(f'Nenhum arquivo gerado para {credor.nome}.')
         return False
 
-    # Verifica presença de mínimo
-    info_minimo = ''
+    # === Busca a planilha de mínimo na raiz do PGC
     caminho_minimo = os.path.join(settings.MEDIA_ROOT, 'PGC', str(historico.numero_pgc), 'mínimo.xlsx')
+    info_minimo = ''
+
     if os.path.exists(caminho_minimo):
         try:
             df_minimo = pd.read_excel(caminho_minimo)
+
             for _, row in df_minimo.iterrows():
                 if normalizar_nome(row['credor']) == normalizar_nome(credor.nome):
                     valor = row['minimo']
                     empresa = row['empresa']
                     cnpj = row['cnpj']
-                    info_minimo = f"""
-Mínimo garantido no valor de R$ {valor:,.2f}. Emitir nota para {empresa} - {cnpj}.
-Notas devem ser enviadas até às 12h de QUARTA-FEIRA, dia 16/{historico.periodo}.
 
+                    # Define localidade para formato brasileiro
+                    try:
+                        locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')  # Linux/macOS
+                    except:
+                        locale.setlocale(locale.LC_ALL, 'Portuguese_Brazil.1252')  # Windows
+
+                    valor_formatado = locale.currency(valor, grouping=True)
+
+                    info_minimo = f"""
+Mínimo garantido no valor de {valor_formatado}. Emitir nota para {empresa} - {cnpj}.
+Notas devem ser enviadas até às 12h de QUARTA-FEIRA, dia 16/{historico.periodo}.
 Notas enviadas após o prazo serão programadas para 15 dias após o recebimento.
 """
                     break
         except Exception as e:
             logger.warning(f'Erro ao processar mínimo para {credor.nome}: {e}')
 
+    # === Corpo do e-mail
     assunto = f"Relatórios financeiros PGC {historico.numero_pgc}"
     mensagem = f"""{credor.nome},
 
@@ -383,6 +396,7 @@ A PARTIR DE SETEMBRO/2024 AS NOTAS DEVEM SER EMITIDAS PARA AS EMPRESAS QUE CONST
 Atenciosamente,
 """
 
+    # === Envio
     email = EmailMessage(assunto, mensagem, settings.DEFAULT_FROM_EMAIL, [credor.email])
     for arq in arquivos:
         email.attach_file(arq)
@@ -394,7 +408,6 @@ Atenciosamente,
     except Exception as e:
         logger.error(f"Erro ao enviar e-mail para {credor.nome}: {e}")
         return False
-
 
 def normalizar_colunas_simples(df):
     df.columns = (

@@ -4,7 +4,8 @@
 {% block title %}Histórico de {{ Credor.id }} - {{ Credor.nome }}{% endblock %}
 
 {% block content %}
-<h2>Histórico de {{ Credor.id }} - {{ Credor.nome }}</h2>
+<h2>Histórico do Credor - {{ Credor.nome }}</h2>
+</br>
 
 <table class="table table-striped align-middle">
     <thead class="table-dark">
@@ -13,7 +14,7 @@
             <th>PGC</th>
             <th>Valor (R$)</th>
             <th>NFS-e</th>
-            <th class="text-danger fw-bold">Arquivos</th>
+            <th>Arquivos</th>
             <th>Ações</th>
         </tr>
     </thead>
@@ -33,7 +34,7 @@
                         {% endfor %}
                     </ul>
                     {% else %}
-                    <p class="text-danger">Nenhum PDF encontrado.</p>
+                    <p>Nenhum PDF encontrado.</p>
                     {% endif %}
                 {% endwith %}
                 {% endwith %}
@@ -55,5 +56,5 @@
 
 <a class="btn btn-secondary mt-3" href="{% url 'listar_Credores' %}">Voltar</a>
 
-<div style="color:blue">DEBUG: pasta={{ pasta }}</div>
+
 {% endblock %}

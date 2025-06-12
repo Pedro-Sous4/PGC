@@ -6,3 +6,13 @@
 2025-06-12 04:59:06,381 - INFO - E-mail enviado com sucesso para PEDRO BARBOSA DE SOUSA FILHO (pedro.sousa@laghettogolden.com.br) com 4 arquivos.
 2025-06-12 04:59:14,330 - INFO - E-mail enviado com sucesso para SUELEN REIS CUNHA DE SOUSA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
 2025-06-12 04:59:21,771 - INFO - E-mail enviado com sucesso para MELINDA REIS CUNHA DE SOUSA (lumenprofile@gmail.com) com 4 arquivos.
+2025-06-12 05:14:10,179 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-06-12 05:14:10,180 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-06-12 05:14:10,180 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-06-12 05:23:02,409 - INFO - [EXTRATO] Planilha EXTRATO.xlsx gerada com sucesso em PGC/30/
+2025-06-12 05:26:21,920 - INFO - E-mail enviado com sucesso para MELINDA REIS CUNHA DE SOUSA (lumenprofile@gmail.com) com 4 arquivos.
+2025-06-12 05:26:22,827 - INFO - E-mail enviado com sucesso para PEDRO BARBOSA DE SOUSA FILHO (pedro.sousa@laghettogolden.com.br) com 4 arquivos.
+2025-06-12 05:26:23,327 - INFO - E-mail enviado com sucesso para MELINDA REIS CUNHA DE SOUSA (lumenprofile@gmail.com) com 4 arquivos.
+2025-06-12 05:26:23,752 - INFO - E-mail enviado com sucesso para SUELEN REIS CUNHA DE SOUSA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-06-12 05:26:24,192 - INFO - E-mail enviado com sucesso para PEDRO BARBOSA DE SOUSA FILHO (pedro.sousa@laghettogolden.com.br) com 4 arquivos.
+2025-06-12 05:26:24,932 - INFO - E-mail enviado com sucesso para SUELEN REIS CUNHA DE SOUSA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
