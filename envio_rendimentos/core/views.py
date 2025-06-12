@@ -28,12 +28,11 @@ import difflib
 from openpyxl import load_workbook
 import unicodedata
 import logging
-import logging
 from .utils import normalizar_nome
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import numbers
-logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] %(message)s')
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+#logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] %(message)s')
+#logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 from .utils import (
     logger,
     salvar_planilha_temporaria,
@@ -671,7 +670,9 @@ def upload_planilha(request):
 
 
 def _normalize_name(name):
-    if not name: return ''
+    if not name:
+        return ''
+    import re, unicodedata
     name = re.sub(r"^\d+\s*-\s*", "", name)
     name = re.sub(r"\s*\([^)]*\)", "", name)
     name = unicodedata.normalize('NFKD', name.upper())
@@ -752,31 +753,44 @@ def upload_planilha(request):
 
         # Processar por credor
         try:
-            base_file_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx')
-            base_df = pd.read_excel(base_file_path)
+                base_file_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx')
+                base_df = pd.read_excel(base_file_path)
 
-            periodo = pd.to_datetime('today').strftime('%m/%Y')
-            for nome in base_df['credor'].unique():
-                df_credor = base_df[base_df['credor'] == nome]
-                credor_obj, _ = Credor.objects.get_or_create(nome=nome, defaults={'email': '', 'periodo': periodo})
-                credor_obj.periodo = periodo
-                credor_obj.save()
+                periodo = pd.to_datetime('today').strftime('%m/%Y')
 
-                HistoricoPGC.objects.create(
-                    credor=credor_obj,
-                    numero_pgc=numero_pgc,
-                    periodo=periodo,
-                    valor_total=df_credor['valor_original'].sum()
-                )
+                # Mapeia todos os credores existentes com nome normalizado
+                credores_existentes = {
+                    _normalize_name(c.nome): c for c in Credor.objects.all()
+                }
 
-                try:
-                    gerar_arquivos_credor(credor_obj, numero_pgc)
-                except Exception as e:
-                    messages.warning(request, f"Erro ao gerar arquivos para {nome}: {e}")
+                for nome in base_df['credor'].unique():
+                    df_credor = base_df[base_df['credor'] == nome]
+                    nome_normalizado = _normalize_name(nome)
 
-            messages.success(request, f'Planilha PGC {numero_pgc} processada com sucesso.')
+                    credor_obj = credores_existentes.get(nome_normalizado)
+
+                    if not credor_obj:
+                        credor_obj = Credor.objects.create(nome=nome.strip(), email='', periodo=periodo)
+                    else:
+                        credor_obj.periodo = periodo
+                        credor_obj.save()
+
+                    HistoricoPGC.objects.create(
+                        credor=credor_obj,
+                        numero_pgc=numero_pgc,
+                        periodo=periodo,
+                        valor_total=df_credor['valor_original'].sum()
+                    )
+
+                    try:
+                        gerar_arquivos_credor(credor_obj, numero_pgc)
+                    except Exception as e:
+                        messages.warning(request, f"Erro ao gerar arquivos para {nome}: {e}")
+
+                messages.success(request, f'Planilha PGC {numero_pgc} processada com sucesso.')
         except Exception as e:
-            messages.error(request, f'Erro ao montar arquivos por credor: {e}')
-        return redirect('upload_planilha')
+                messages.error(request, f'Erro ao montar arquivos por credor: {e}')
 
+
+        return redirect('upload_planilha')
     return render(request, 'core/upload_planilha.html')

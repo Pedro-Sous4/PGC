@@ -59,7 +59,6 @@ def normalizar_planilha_origem(file_path, numero_pgc):
             df.to_excel(writer, sheet_name=aba, index=False)
     return caminho_final
 
-
 def normalizar_colunas_com_duas_linhas(df, header_start=5):
     # Força conversão para string antes do join
     df.columns = (
@@ -112,7 +111,7 @@ def extrair_dados_planilhas(planilhas_dict, numero_pgc):
     return base_df, produtividade_df, extrato_df, aba_pgcs
 
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 def normalizar_nome(nome):
     return str(nome).strip().upper().replace("  ", " ")
@@ -137,33 +136,18 @@ def obter_minimo_garantido_para_credor(nome_credor, numero_pgc):
         logger.error(f"[MÍNIMO] Erro ao ler mínimo.xlsx: {e}")
     return None
 
-#boni
-
 def gerar_arquivos_credor(credor, numero_pgc):
-    # Carrega mapeamento de empresas do arquivo mínimo.xlsx
-    minimo_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'mínimo.xlsx')
-    empresas_mapeadas = {}
-    if os.path.exists(minimo_path):
-        try:
-            df_min = pd.read_excel(minimo_path)
-            for _, row in df_min.iterrows():
-                key = str(row['empresa']).strip().upper()
-                empresas_mapeadas[key] = {
-                    'cnpj': str(row['cnpj']).strip(),
-                    'nome': key
-                }
-        except Exception as e:
-            print(f"[MÍNIMO] Erro ao ler mínimo.xlsx: {e}")
+    def nome_limpo(texto):
+        texto = re.sub(r"^\d+\s*-\s*", "", str(texto))
+        texto = re.sub(r"\s*\([^)]*\)", "", texto)
+        texto = unicodedata.normalize('NFKD', texto.upper())
+        return ''.join(c for c in texto if not unicodedata.combining(c)).strip()
 
-    def normalizar_nome(texto):
-        return str(texto).strip().upper()
-
-    def extrair_nome_curto_empresa(texto):
-        texto = re.sub(r'^\d+\s*-\s*', '', str(texto)).strip().upper()
-        return texto
+    nome_credor_normalizado = nome_limpo(credor.nome)
+    nome_arquivo_credor = nome_credor_normalizado.title()
 
     pasta_origem = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc))
-    pasta_saida = os.path.join(pasta_origem, f'{credor.id} - {credor.nome}')
+    pasta_saida = os.path.join(pasta_origem, f'{nome_arquivo_credor}')
     os.makedirs(pasta_saida, exist_ok=True)
 
     def carregar_df(nome_arquivo):
@@ -173,29 +157,46 @@ def gerar_arquivos_credor(credor, numero_pgc):
     base_df = carregar_df(f"BASE PGC {numero_pgc}.xlsx")
     extrato_df = carregar_df("EXTRATO.xlsx")
     prod_df = carregar_df("PRODUTIVIDADE.xlsx")
+    minimo_path = os.path.join(pasta_origem, 'mínimo.xlsx')
 
     arquivos = {}
-    nome_credor = normalizar_nome(credor.nome)
 
-    # BASE
+    # Renomeia coluna 'credor' se necessário
+    for df in [extrato_df, prod_df]:
+        if df is not None and 'credor' not in df.columns:
+            for col in df.columns:
+                if 'credor' in col.lower():
+                    df.rename(columns={col: 'credor'}, inplace=True)
+
+    # === BASE
     if base_df is not None:
-        df_base = base_df[base_df['credor'].str.strip().str.upper() == nome_credor]
+        base_df['credor_normalizado'] = base_df['credor'].astype(str).apply(nome_limpo)
+        df_base = base_df[base_df['credor_normalizado'] == nome_credor_normalizado]
         colunas_base = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original']
         if all(col in df_base.columns for col in colunas_base):
-            arquivos[f'{credor.nome} - PGC {numero_pgc}.xlsx'] = df_base[colunas_base]
+            arquivos[f'{nome_arquivo_credor} - PGC {numero_pgc}.xlsx'] = df_base[colunas_base]
 
-        # EMISSÃO
+        # === EMISSÃO
         if not df_base.empty:
             emissao_rows = []
-            for empresa, grupo in df_base.groupby('empresa'):
-                nome_limpo = extrair_nome_curto_empresa(empresa)
-                nome_curto_encontrado = None
-                for chave in empresas_mapeadas:
-                    if chave in nome_limpo:
-                        nome_curto_encontrado = chave
-                        break
+            CAMINHO_EMPRESAS = r"C:\PGC\envio_rendimentos\arquivos_gerados\EMPRESAS_NOMECURTO_CNPJ.xlsx"
 
-                cnpj = empresas_mapeadas.get(nome_curto_encontrado, {}).get('cnpj', 'CNPJ NÃO ENCONTRADO')
+            try:
+                df_empresas = pd.read_excel(CAMINHO_EMPRESAS)
+                df_empresas['empresa_normalizada'] = df_empresas['nome_curto'].astype(str).apply(nome_limpo)
+            except Exception:
+                df_empresas = pd.DataFrame()
+
+            for empresa, grupo in df_base.groupby('empresa'):
+                empresa_limpa = nome_limpo(empresa)
+                cnpj = None
+
+                if not df_empresas.empty:
+                    linha = df_empresas[df_empresas['empresa_normalizada'] == empresa_limpa]
+                    if not linha.empty:
+                        cnpj = linha.iloc[0]['cnpj']
+
+                cnpj = cnpj if cnpj else "CNPJ NÃO ENCONTRADO"
 
                 emissao_rows.append({
                     'EMPRESA': empresa,
@@ -205,34 +206,34 @@ def gerar_arquivos_credor(credor, numero_pgc):
                 })
 
             df_emissao = pd.DataFrame(emissao_rows)
-            arquivos[f'{credor.nome} - PGC {numero_pgc} EMISSÃO.xlsx'] = df_emissao
+            arquivos[f'{nome_arquivo_credor} - PGC {numero_pgc} EMISSÃO.xlsx'] = df_emissao
 
-    # EXTRATO
+    # === EXTRATO
     if extrato_df is not None:
-        df_ext = extrato_df[extrato_df['credor'].str.strip().str.upper() == nome_credor]
+        extrato_df['credor_normalizado'] = extrato_df['credor'].astype(str).apply(nome_limpo)
+        df_ext = extrato_df[extrato_df['credor_normalizado'] == nome_credor_normalizado]
         colunas_ext = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']
         if all(col in df_ext.columns for col in colunas_ext):
             final_cols = colunas_ext + (['obs_baixa'] if 'obs_baixa' in df_ext.columns else [])
-            arquivos[f'{credor.nome} - EXTRATO.xlsx'] = df_ext[final_cols]
+            arquivos[f'{nome_arquivo_credor} - EXTRATO.xlsx'] = df_ext[final_cols]
 
-    # PRODUTIVIDADE
+    # === PRODUTIVIDADE
     if prod_df is not None:
-        df_prod = prod_df[prod_df['credor'].str.strip().str.upper() == nome_credor]
+        prod_df['credor_normalizado'] = prod_df['credor'].astype(str).apply(nome_limpo)
+        df_prod = prod_df[prod_df['credor_normalizado'] == nome_credor_normalizado]
         colunas_prod = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']
         if all(col in df_prod.columns for col in colunas_prod):
-            nome_arq = f'{credor.nome} - PRODUTIVIDADE {datetime.today().strftime("%B-%Y").upper()}.xlsx'
-            arquivos[nome_arq] = df_prod[colunas_prod]
+            mes_ano = datetime.today().strftime("%B-%Y").upper()
+            arquivos[f'{nome_arquivo_credor} - PRODUTIVIDADE {mes_ano}.xlsx'] = df_prod[colunas_prod]
 
+    # === SALVAR
     for nome_arquivo, df in arquivos.items():
         caminho_final = os.path.join(pasta_saida, nome_arquivo)
         df.to_excel(caminho_final, index=False)
-        print(f"[SALVO] Arquivo criado: {caminho_final}")
 
 
 
-
-
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 def encontrar_coluna_semelhante(coluna_alvo, colunas_existentes):
     correspondencias = get_close_matches(coluna_alvo.lower(), colunas_existentes, n=1, cutoff=0.6)
@@ -344,7 +345,7 @@ def enviar_email_com_arquivos(credor):
 
     # Verifica presença de mínimo
     info_minimo = ''
-    caminho_minimo = os.path.join(pasta, 'mínimo.xlsx')
+    caminho_minimo = os.path.join(settings.MEDIA_ROOT, 'PGC', str(historico.numero_pgc), 'mínimo.xlsx')
     if os.path.exists(caminho_minimo):
         try:
             df_minimo = pd.read_excel(caminho_minimo)
@@ -354,8 +355,9 @@ def enviar_email_com_arquivos(credor):
                     empresa = row['empresa']
                     cnpj = row['cnpj']
                     info_minimo = f"""
-\nMínimo no valor de R$ {valor:,.2f}. Favor emitir para {empresa} {cnpj}
-Notas devem ser enviadas até às 12h, de QUARTA-FEIRA, dia 16/{historico.periodo}.
+Mínimo garantido no valor de R$ {valor:,.2f}. Emitir nota para {empresa} - {cnpj}.
+Notas devem ser enviadas até às 12h de QUARTA-FEIRA, dia 16/{historico.periodo}.
+
 Notas enviadas após o prazo serão programadas para 15 dias após o recebimento.
 """
                     break
@@ -375,7 +377,8 @@ No e-mail constam 4 planilhas, sendo elas:
 - a produtividade que está com o nome PRODUTIVIDADE {historico.periodo}
 - o histórico das comissões que ficaram bloqueadas por inadimplência e/ou distrato - EXTRATO
 
-A PARTIR DE SETEMBRO/2024 AS NOTAS DEVEM SER EMITIDAS PARA AS EMPRESAS QUE CONSTAM NA PLANILHA "PGC {historico.numero_pgc} EMISSÃO"
+A PARTIR DE SETEMBRO/2024 AS NOTAS DEVEM SER EMITIDAS PARA AS EMPRESAS QUE CONSTAM NA PLANILHA "PGC {historico.numero_pgc} EMISSÃO".
+
 {info_minimo}
 Atenciosamente,
 """
