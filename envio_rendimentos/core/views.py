@@ -165,7 +165,6 @@ def dashboard(request):
 
     return render(request, 'core/dashboard.html', context)
 
-
 @login_required
 def listar_Credores(request):
     busca = request.GET.get('busca', '')
@@ -479,8 +478,11 @@ def upload_emails(request):
 
         atualizados = 0
         criados = 0
-        periodo_atual = datetime.today().strftime('%m/%Y')
+        #periodo_atual = datetime.today().strftime('%m/%Y')
+        from dateutil.relativedelta import relativedelta
 
+        data_anterior = pd.to_datetime('today') - relativedelta(months=1)
+        periodo_atual = data_anterior.strftime('%m/%Y')
         for _, row in df.iterrows():
             nome = str(row['nome']).strip()
             email = str(row['email']).strip()
@@ -756,7 +758,10 @@ def upload_planilha(request):
                 base_file_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx')
                 base_df = pd.read_excel(base_file_path)
 
-                periodo = pd.to_datetime('today').strftime('%m/%Y')
+                #periodo = pd.to_datetime('today').strftime('%m/%Y')
+                from dateutil.relativedelta import relativedelta
+                data_anterior = pd.to_datetime('today') - relativedelta(months=1)
+                periodo = data_anterior.strftime('%m/%Y')
 
                 # Mapeia todos os credores existentes com nome normalizado
                 credores_existentes = {
