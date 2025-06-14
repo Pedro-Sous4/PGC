@@ -137,7 +137,9 @@ def obter_minimo_garantido_para_credor(nome_credor, numero_pgc):
         logger.error(f"[MÍNIMO] Erro ao ler mínimo.xlsx: {e}")
     return None
 
-def gerar_arquivos_credor(credor, numero_pgc):
+
+#TESTE
+def gerar_arquivos_credor(credor, numero_pgc, base_df, extrato_df=None, prod_df=None, minimo_df=None):
     def nome_limpo(texto):
         texto = re.sub(r"^\d+\s*-\s*", "", str(texto))
         texto = re.sub(r"\s*\([^)]*\)", "", texto)
@@ -155,9 +157,9 @@ def gerar_arquivos_credor(credor, numero_pgc):
         caminho = os.path.join(pasta_origem, nome_arquivo)
         return pd.read_excel(caminho) if os.path.exists(caminho) else None
 
-    base_df = carregar_df(f"BASE PGC {numero_pgc}.xlsx")
-    extrato_df = carregar_df("EXTRATO.xlsx")
-    prod_df = carregar_df("PRODUTIVIDADE.xlsx")
+    #base_df = carregar_df(f"BASE PGC {numero_pgc}.xlsx")
+    #extrato_df = carregar_df("EXTRATO.xlsx")
+    #prod_df = carregar_df("PRODUTIVIDADE.xlsx")
     minimo_path = os.path.join(pasta_origem, 'mínimo.xlsx')
 
     arquivos = {}
@@ -224,7 +226,21 @@ def gerar_arquivos_credor(credor, numero_pgc):
         df_prod = prod_df[prod_df['credor_normalizado'] == nome_credor_normalizado]
         colunas_prod = ['empresa', 'credor', 'documento', 'cliente', 'parcela', 'dt_emissao', 'valor_original', 'dt_vencimento']
         if all(col in df_prod.columns for col in colunas_prod):
-            mes_ano = datetime.today().strftime("%B-%Y").upper()
+            import locale
+            from calendar import month_name
+
+            try:
+                # Configura localidade brasileira
+                locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')  # Linux/macOS
+            except:
+                locale.setlocale(locale.LC_TIME, 'Portuguese_Brazil.1252')  # Windows
+
+            try:
+                mes, ano = map(int, credor.periodo.split('/'))
+                data = pd.to_datetime(f"{ano}-{mes:02d}")
+                mes_ano = data.strftime("%B - %Y").upper()  # Ex: "MAIO - 2025"
+            except:
+                mes_ano = datetime.today().strftime("%B - %Y").upper()  # fallback
             arquivos[f'{nome_arquivo_credor} - PRODUTIVIDADE {mes_ano}.xlsx'] = df_prod[colunas_prod]
 
     # === SALVAR
@@ -445,7 +461,7 @@ def normalizar_e_salvar_planilha_base(path_origem, numero_pgc):
             df_base = normalizar_colunas_simples(df)
             df_base.to_excel(os.path.join(pasta_saida, f'BASE PGC {numero_pgc}.xlsx'), index=False)
 
-        elif "extrato" in nome and "credor" in nome:
+        elif any(k in nome for k in ["extrato", "exrato"]) and "credor" in nome:
             df_ext = normalizar_colunas_simples(df)
             df_ext.to_excel(os.path.join(pasta_saida, 'EXTRATO.xlsx'), index=False)
 

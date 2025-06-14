@@ -31,6 +31,8 @@ import logging
 from .utils import normalizar_nome
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import numbers
+from concurrent.futures import ThreadPoolExecutor
+
 #logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] %(message)s')
 #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 from .utils import (
@@ -707,7 +709,9 @@ def extrair_minimos_de_planilha_flex(df):
     df = df.rename(columns=mapeamento)
     return df[['credor', 'minimo', 'empresa', 'cnpj']].dropna(subset=['credor'])
 
-#BONI
+#TESTE MINIMO
+from dateutil.relativedelta import relativedelta
+
 @login_required
 def upload_planilha(request):
     if request.method == 'POST' and request.FILES.get('file'):
@@ -722,80 +726,101 @@ def upload_planilha(request):
             caminho_temporario = salvar_planilha_temporaria(file, numero_pgc)
             caminho_pgcsheet = normalizar_e_salvar_planilha_base(caminho_temporario, numero_pgc)
 
-            # Gerar planilha de mínimo
+            # === Carrega uma vez todos os DataFrames
+            base_df = pd.read_excel(os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx'))
+            extrato_df = pd.read_excel(os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'EXTRATO.xlsx'), engine='openpyxl') if os.path.exists(os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'EXTRATO.xlsx')) else None
+            prod_df = pd.read_excel(os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'PRODUTIVIDADE.xlsx'), engine='openpyxl') if os.path.exists(os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), 'PRODUTIVIDADE.xlsx')) else None
+
+            # === Gera mínimo
             aba_pgcs = pd.read_excel(caminho_pgcsheet)
             df_minimo = extrair_minimos_robusto(aba_pgcs, caminho_temporario, numero_pgc)
             salvar_minimos_como_excel(df_minimo, numero_pgc)
-            # Gerar planilha EXTRATO.xlsx a partir da original
-            try:
-                planilhas = pd.ExcelFile(caminho_temporario)
-                aba_extrato = next(
-                    (n for n in planilhas.sheet_names if "extrato" in n.lower() and "credor" in n.lower()), None
-                ) or next(
-                    (n for n in planilhas.sheet_names if "exrato" in n.lower() and "credor" in n.lower()), None
-                )
-
-                if not aba_extrato:
-                    raise Exception("Aba EXTRATO CREDOR não encontrada.")
-
-                df_extrato = pd.read_excel(planilhas, sheet_name=aba_extrato)
-                df_extrato = normalizar_colunas_simples(df_extrato)
-
-                pasta_saida = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc))
-                os.makedirs(pasta_saida, exist_ok=True)
-                df_extrato.to_excel(os.path.join(pasta_saida, "EXTRATO.xlsx"), index=False)
-                logger.info(f"[EXTRATO] Planilha EXTRATO.xlsx gerada com sucesso em PGC/{numero_pgc}/")
-            except Exception as e:
-                logger.warning(f"[EXTRATO] Falha ao gerar EXTRATO.xlsx: {e}")
-
 
         except Exception as e:
             messages.error(request, f'Erro ao processar planilha: {e}')
             return redirect('upload_planilha')
 
-        # Processar por credor
         try:
-                base_file_path = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), f'BASE PGC {numero_pgc}.xlsx')
-                base_df = pd.read_excel(base_file_path)
+            data_anterior = pd.to_datetime('today') - relativedelta(months=1)
+            periodo = data_anterior.strftime('%m/%Y')
 
-                #periodo = pd.to_datetime('today').strftime('%m/%Y')
-                from dateutil.relativedelta import relativedelta
-                data_anterior = pd.to_datetime('today') - relativedelta(months=1)
-                periodo = data_anterior.strftime('%m/%Y')
+            credores_existentes = {
+                _normalize_name(c.nome): c for c in Credor.objects.all()
+            }
 
-                # Mapeia todos os credores existentes com nome normalizado
-                credores_existentes = {
-                    _normalize_name(c.nome): c for c in Credor.objects.all()
-                }
+            def processar_credor(nome):
+                df_credor = base_df[base_df['credor'] == nome]
+                nome_normalizado = _normalize_name(nome)
 
-                for nome in base_df['credor'].unique():
-                    df_credor = base_df[base_df['credor'] == nome]
-                    nome_normalizado = _normalize_name(nome)
+                credor_obj = credores_existentes.get(nome_normalizado)
+                if not credor_obj:
+                    credor_obj = Credor.objects.create(nome=nome.strip(), email='', periodo=periodo)
+                else:
+                    credor_obj.periodo = periodo
+                    credor_obj.data_envio = None
+                    credor_obj.save()
 
-                    credor_obj = credores_existentes.get(nome_normalizado)
+                HistoricoPGC.objects.create(
+                    credor=credor_obj,
+                    numero_pgc=numero_pgc,
+                    periodo=periodo,
+                    valor_total=df_credor['valor_original'].sum()
+                )
 
+                try:
+                    gerar_arquivos_credor(
+                        credor=credor_obj,
+                        numero_pgc=numero_pgc,
+                        base_df=base_df,
+                        extrato_df=extrato_df,
+                        prod_df=prod_df,
+                        minimo_df=df_minimo
+                    )
+                except Exception as e:
+                    logger.warning(f"Erro ao gerar arquivos para {nome}: {e}")
+
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                executor.map(processar_credor, base_df['credor'].unique())
+
+            # === Trata credores que só têm mínimo
+            credores_com_base = set(_normalize_name(nome) for nome in base_df['credor'].unique())
+            credores_minimo = set(_normalize_name(nome) for nome in df_minimo['credor'].unique())
+            credores_apenas_minimo = credores_minimo - credores_com_base
+
+            for nome in df_minimo['credor'].unique():
+                nome_norm = _normalize_name(nome)
+                if nome_norm in credores_apenas_minimo:
+                    df_credor_min = df_minimo[df_minimo['credor'].apply(_normalize_name) == nome_norm]
+
+                    credor_obj = Credor.objects.filter(nome__icontains=nome.strip()).first()
                     if not credor_obj:
                         credor_obj = Credor.objects.create(nome=nome.strip(), email='', periodo=periodo)
                     else:
                         credor_obj.periodo = periodo
+                        credor_obj.data_envio = None
                         credor_obj.save()
 
                     HistoricoPGC.objects.create(
                         credor=credor_obj,
                         numero_pgc=numero_pgc,
                         periodo=periodo,
-                        valor_total=df_credor['valor_original'].sum()
+                        valor_total=0
                     )
 
-                    try:
-                        gerar_arquivos_credor(credor_obj, numero_pgc)
-                    except Exception as e:
-                        messages.warning(request, f"Erro ao gerar arquivos para {nome}: {e}")
+                    pasta_credor = os.path.join(settings.MEDIA_ROOT, 'PGC', str(numero_pgc), credor_obj.nome_pasta())
+                    os.makedirs(pasta_credor, exist_ok=True)
+                    caminho_arquivo = os.path.join(pasta_credor, f"{credor_obj.nome.title()} - PGC {numero_pgc} EMISSÃO.xlsx")
+                    df_credor_min.to_excel(caminho_arquivo, index=False)
 
-                messages.success(request, f'Planilha PGC {numero_pgc} processada com sucesso.')
+            messages.success(request, f'Planilha PGC {numero_pgc} processada com sucesso.')
+
         except Exception as e:
-                messages.error(request, f'Erro ao montar arquivos por credor: {e}')
+            messages.error(request, f'Erro ao montar arquivos por credor: {e}')
 
+        if request.headers.get('x-requested-with') == 'XMLHttpRequest':
+            return JsonResponse({'status': 'ok'})
+        else:
+            return redirect('upload_planilha')
 
-        return redirect('upload_planilha')
     return render(request, 'core/upload_planilha.html')
+

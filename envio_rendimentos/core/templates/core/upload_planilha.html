@@ -3,6 +3,14 @@
 {% block title %}Upload de Planilha Base{% endblock %}
 
 {% block content %}
+<style>
+#progress-bar {
+    height: 20px;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+    background-color: #e0e0e0;
+}
+</style>
 <div class="container py-5">
     <div class="col-md-6 mx-auto">
         <div class="card h-100 shadow-sm">
@@ -28,6 +36,10 @@
                         <i class="bi bi-arrow-right-circle"></i> Enviar
                     </button>
                 </form>
+                <progress id="progress-bar" value="0" max="100" style="width:100%; display:none;"></progress>
+                <div id="status-msg"></div>
+               
+
 
                 {% if messages %}
                     <div class="mt-4">
@@ -42,4 +54,37 @@
         </div>
     </div>
 </div>
+<script>
+document.getElementById("form-upload").addEventListener("submit", async function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const data = new FormData(form);
+    const bar = document.getElementById("progress-bar");
+    const status = document.getElementById("status-msg");
+
+    bar.style.display = "block";
+    bar.value = 10;
+    status.innerText = "Enviando arquivo...";
+
+    try {
+        const response = await fetch(form.action || "", {
+            method: "POST",
+            body: data,
+        });
+
+        bar.value = 80;
+        const text = await response.text();
+        status.innerText = "Finalizando processamento...";
+        bar.value = 100;
+
+        setTimeout(() => {
+            window.location.reload();  // ou redirecione para outro local
+        }, 1500);
+    } catch (err) {
+        status.innerText = "Erro ao enviar!";
+        console.error(err);
+    }
+});
+</script>
+
 {% endblock %}
