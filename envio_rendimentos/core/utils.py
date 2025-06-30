@@ -12,6 +12,15 @@ from weasyprint import HTML
 from .models import Credor, HistoricoPGC, EmpresaPagadora
 from difflib import get_close_matches
 import openpyxl
+from datetime import datetime
+mes_atual = datetime.today().strftime('%m/%Y')
+# Pega o dia 16 do mês atual
+hoje = datetime.today()
+dia_16 = datetime(hoje.year, hoje.month, 16)
+
+# Nome do dia da semana em português (ex: "segunda-feira")
+dias_semana = ['segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado', 'domingo']
+nome_dia_semana = dias_semana[dia_16.weekday()]
 
 
 # Configuração de logger
@@ -385,15 +394,14 @@ def enviar_email_com_arquivos(credor):
 
                     info_minimo = f"""
 Mínimo garantido no valor de {valor_formatado}. Emitir nota para {empresa} - {cnpj}.
-Notas devem ser enviadas até às 12h de QUARTA-FEIRA, dia 16/{historico.periodo}.
-Notas enviadas após o prazo serão programadas para 15 dias após o recebimento.
+
 """
                     break
         except Exception as e:
             logger.warning(f'Erro ao processar mínimo para {credor.nome}: {e}')
 
     # === Corpo do e-mail
-    assunto = f"Relatórios financeiros PGC {historico.numero_pgc}"
+    assunto = f"PGC {historico.numero_pgc} - Errata Prazo Envio NF"
     mensagem = f"""{credor.nome},
 
 Olá,
@@ -409,10 +417,13 @@ No e-mail constam 4 planilhas, sendo elas:
 A PARTIR DE SETEMBRO/2024 AS NOTAS DEVEM SER EMITIDAS PARA AS EMPRESAS QUE CONSTAM NA PLANILHA "PGC {historico.numero_pgc} EMISSÃO".
 
 {info_minimo}
+Notas devem ser enviadas até TERÇA-FEIRA, dia 17/{mes_atual}.
+Notas enviadas após o prazo serão programadas para 15 dias após o recebimento.
+
 Atenciosamente,
 """
 
-    # === Envio
+    # === Envio (Notas devem ser enviadas até às 12h de {nome_dia_semana.upper()}, dia 16/{mes_atual}.))
     email = EmailMessage(assunto, mensagem, settings.DEFAULT_FROM_EMAIL, [credor.email])
     for arq in arquivos:
         email.attach_file(arq)
