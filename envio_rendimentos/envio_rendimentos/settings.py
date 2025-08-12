@@ -140,7 +140,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'contatopj@laghettogolden.com.br'
-EMAIL_HOST_PASSWORD = 'L@m2024@'# De preferência, uma senha de aplicativo ou token
+EMAIL_HOST_PASSWORD = 'M#481199181005ud'# De preferência, uma senha de aplicativo ou token
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 MEDIA_URL = '/arquivos_gerados/'

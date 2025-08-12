@@ -32,13 +32,26 @@ if not logger.handlers:
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-def normalizar_nome(nome):
+""" def normalizar_nome(nome):
     if not nome:
         return ''
     nome = re.sub(r'^\d+\s*-\s*', '', nome)  # remove prefixo tipo "123 -"
     nome = re.sub(r'\s*\([^)]*\)', '', nome)  # remove "(CONSULTOR)"
     nome = unicodedata.normalize('NFKD', nome.upper())
     return ''.join(c for c in nome if not unicodedata.combining(c)).strip().lower()
+ """
+
+def normalizar_nome(nome):
+    if not nome:
+        return ''
+    nome = re.sub(r'^\d+\s*-\s*', '', str(nome))
+    nome = re.sub(r'\s*\([^)]*\)', '', nome)
+    nome = unicodedata.normalize('NFKD', nome).encode('ASCII', 'ignore').decode('ASCII')
+    nome = re.sub(r'\s+', ' ', nome).strip().upper()
+    return nome
+
+
+
 
 def salvar_planilha_temporaria(file, numero_pgc):
     pasta = os.path.join(settings.MEDIA_ROOT, 'TEMPORARIOS')
@@ -401,7 +414,7 @@ Mínimo garantido no valor de {valor_formatado}. Emitir nota para {empresa} - {c
             logger.warning(f'Erro ao processar mínimo para {credor.nome}: {e}')
 
     # === Corpo do e-mail
-    assunto = f"PGC {historico.numero_pgc} - Errata Prazo Envio NF"
+    assunto = f"PGC {historico.numero_pgc}"
     mensagem = f"""{credor.nome},
 
 Olá,
@@ -417,7 +430,7 @@ No e-mail constam 4 planilhas, sendo elas:
 A PARTIR DE SETEMBRO/2024 AS NOTAS DEVEM SER EMITIDAS PARA AS EMPRESAS QUE CONSTAM NA PLANILHA "PGC {historico.numero_pgc} EMISSÃO".
 
 {info_minimo}
-Notas devem ser enviadas até TERÇA-FEIRA, dia 17/{mes_atual}.
+Notas devem ser enviadas até 12h, de QUARTA-FEIRA, dia 16/{mes_atual}.
 Notas enviadas após o prazo serão programadas para 15 dias após o recebimento.
 
 Atenciosamente,

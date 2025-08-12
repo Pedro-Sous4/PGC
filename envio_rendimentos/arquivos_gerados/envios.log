@@ -911,3 +911,420 @@
 2025-06-16 18:32:43,973 - ERROR - Credor MELISSA GROSS DE OLIVEIRA não possui histórico PGC registrado.
 2025-06-16 19:28:23,565 - INFO - E-mail enviado com sucesso para LUCAS ALEXANDRE FERREIRA CORREA (lucasale2801@gmail.com) com 4 arquivos.
 2025-06-16 20:40:53,697 - ERROR - Credor BRUNO SOUSA SOARES não possui histórico PGC registrado.
+2025-07-13 20:49:45,858 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-07-13 20:49:45,859 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-07-13 20:49:45,859 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-07-13 21:08:43,963 - ERROR - [MÍNIMO] Falha também na extração por posição fixa: Nenhuma linha válida encontrada na aba de mínimos.
+2025-07-13 22:05:20,530 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-07-13 22:05:20,530 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-07-13 22:05:20,531 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-07-13 22:26:33,967 - ERROR - [MÍNIMO] Falha também na extração por posição fixa: Nenhuma linha válida encontrada na aba de mínimos.
+2025-07-13 22:46:18,270 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-07-13 22:46:18,271 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-07-13 22:46:18,271 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-07-13 23:07:10,164 - ERROR - [MÍNIMO] Falha também na extração por posição fixa: Nenhuma linha válida encontrada na aba de mínimos.
+2025-07-13 23:14:53,471 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-07-13 23:14:53,471 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-07-13 23:14:53,472 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-07-14 11:50:20,799 - INFO - E-mail enviado com sucesso para ALEX MISSEL LUMERTZ (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-07-14 11:50:35,681 - INFO - E-mail enviado com sucesso para FABRICIO PEREIRA PINHEIRO (ti2@laghettomultipropriedade.com.br) com 1 arquivos.
+2025-07-14 13:07:49,720 - INFO - E-mail enviado com sucesso para ANUSKA TUYLLA DO NASCIMENTO SILVA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-07-14 13:41:26,769 - INFO - E-mail enviado com sucesso para LORRANE GABRIELLE SILVA DA COSTA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-07-14 15:12:11,497 - INFO - E-mail enviado com sucesso para ANUSKA TUYLLA DO NASCIMENTO SILVA (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-07-14 17:11:35,319 - INFO - E-mail enviado com sucesso para ACY RUI SILVA NASCIMENTO FILHO (ruicontrabaixo@gmail.com) com 4 arquivos.
+2025-07-14 17:11:36,296 - INFO - E-mail enviado com sucesso para Adriele Cristina dos Santos Dias (adrielecristina3009@gmail.com) com 4 arquivos.
+2025-07-14 17:11:37,357 - INFO - E-mail enviado com sucesso para ADRIENES ATHYLAS DE LIMA (athylaslima@gmail.com) com 4 arquivos.
+2025-07-14 17:11:38,298 - INFO - E-mail enviado com sucesso para Alan de Lima Ribeiro (alanbps17@gmail.com) com 4 arquivos.
+2025-07-14 17:11:39,200 - INFO - E-mail enviado com sucesso para ALANDERSON JESSE DA SILVA GALVAO (alanderson0809@gmail.com) com 4 arquivos.
+2025-07-14 17:11:40,079 - INFO - E-mail enviado com sucesso para ALDENIR JUNIOR GOIS DE ALMEIDA (aldenirjr2010@gmail.com) com 4 arquivos.
+2025-07-14 17:11:41,213 - INFO - E-mail enviado com sucesso para ALESSANDRO WILLAMI DE SOUSA (aleasandrowillamidesousa908@gmail.com) com 4 arquivos.
+2025-07-14 17:11:42,171 - INFO - E-mail enviado com sucesso para ALEX MISSEL LUMERTZ (alexlumertzz10@gmail.com) com 4 arquivos.
+2025-07-14 17:11:43,006 - INFO - E-mail enviado com sucesso para ALEX SANDRO DA ROSA OLIVEIRA (alexsandrorosa076@gmail.com) com 4 arquivos.
+2025-07-14 17:11:43,802 - INFO - E-mail enviado com sucesso para Alexandra Vieira da Silva de Almeida (ale.nicolly@hotmail.com) com 4 arquivos.
+2025-07-14 17:11:44,639 - INFO - E-mail enviado com sucesso para ALEXANDRE DE GODOY (alexandreproinvest@gmail.com) com 4 arquivos.
+2025-07-14 17:11:45,593 - INFO - E-mail enviado com sucesso para ALEXIA THAINA BARBALHO (alexia-barbalho@hotmail.com) com 4 arquivos.
+2025-07-14 17:11:46,530 - INFO - E-mail enviado com sucesso para Alisson Ismael da Silva (a.alissonismael@gmail.com) com 4 arquivos.
+2025-07-14 17:11:47,343 - INFO - E-mail enviado com sucesso para ALLAN KARDEC DA SILVA SIMAO (allankardecs74@gmail.com) com 4 arquivos.
+2025-07-14 17:11:48,380 - INFO - E-mail enviado com sucesso para ALLYSSON DA SILVA ACRIS (asasolserv@gmail.com) com 4 arquivos.
+2025-07-14 17:11:49,394 - INFO - E-mail enviado com sucesso para ALVARO FABRICIO MENEZES MOTA (ALVINMOTA@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:11:50,316 - INFO - E-mail enviado com sucesso para Alyson Henrrique Silva Simao (alysonceara2019@gmail.com) com 4 arquivos.
+2025-07-14 17:11:51,246 - INFO - E-mail enviado com sucesso para AMANDA DORADO EUGENIO (doradoamandabh@gmail.com) com 4 arquivos.
+2025-07-14 17:11:52,183 - INFO - E-mail enviado com sucesso para ANA JULIA DA SILVA MALTA (anajuliamalta25@gmail.com) com 4 arquivos.
+2025-07-14 17:11:53,271 - INFO - E-mail enviado com sucesso para ANA PAULA ALVES FERREIRA (anapaf88@gmail.com) com 4 arquivos.
+2025-07-14 17:11:54,555 - INFO - E-mail enviado com sucesso para ANA PAULA FERREIRA LIMA (anapaulaferreiralima725@gmail.com) com 4 arquivos.
+2025-07-14 17:11:55,494 - INFO - E-mail enviado com sucesso para ANA PAULA OSORIO DA ROSA (aninha.volk@hotmail.com) com 4 arquivos.
+2025-07-14 17:11:56,543 - INFO - E-mail enviado com sucesso para ANAA PATRICK JARDIM (anaampatrik456@gmail.com) com 4 arquivos.
+2025-07-14 17:11:57,437 - INFO - E-mail enviado com sucesso para Anderson Lopes Xavier (adersonlopesxavierr@gmail.com) com 4 arquivos.
+2025-07-14 17:11:58,378 - INFO - E-mail enviado com sucesso para ANDERSON TISIAM (andersontisiam432@gmail.com) com 4 arquivos.
+2025-07-14 17:11:59,247 - INFO - E-mail enviado com sucesso para ANDRE EDUARDO DOS PASSOS PACHECO (pachecoandre412@gmail.com) com 4 arquivos.
+2025-07-14 17:12:00,151 - INFO - E-mail enviado com sucesso para ANDRE LUIS DE SOUZA SILVA (lssandre1000@gmail.com) com 4 arquivos.
+2025-07-14 17:12:01,103 - INFO - E-mail enviado com sucesso para ANDREINA RUIVO DE OLIVEIRA (andreinapotter8@gmail.com) com 4 arquivos.
+2025-07-14 17:12:01,977 - INFO - E-mail enviado com sucesso para ANDRESSA ALVES FONSECA (andressaalvesfonseca83@gmail.com) com 4 arquivos.
+2025-07-14 17:12:02,896 - INFO - E-mail enviado com sucesso para ANNA CLAUDIA FRANCA DE OLIVEIRA (aninhacfo@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:03,838 - INFO - E-mail enviado com sucesso para ANUSKA TUYLLA DO NASCIMENTO SILVA (anuskaedeus@gmail.com) com 4 arquivos.
+2025-07-14 17:12:04,933 - INFO - E-mail enviado com sucesso para ARACY BARROS PAIM (aracy-pahim@outlook.com) com 4 arquivos.
+2025-07-14 17:12:05,921 - INFO - E-mail enviado com sucesso para ARIEL RODRIGUES (arielrodr@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:06,792 - INFO - E-mail enviado com sucesso para ARISON DOS SANTOS XAVIER CAMPOS (Arisonsxc@gmail.com) com 4 arquivos.
+2025-07-14 17:12:07,680 - INFO - E-mail enviado com sucesso para ARTHUR ARAUJO DE LIRA (art.dyaraujo@gmail.com) com 4 arquivos.
+2025-07-14 17:12:08,651 - INFO - E-mail enviado com sucesso para Augusto de Oliveira Lourenco (lourencoaugusto134@gmail.com) com 4 arquivos.
+2025-07-14 17:12:09,698 - INFO - E-mail enviado com sucesso para BARBARA KAUANA PILGER DA SILVEIRA (babykauana@gmail.com) com 4 arquivos.
+2025-07-14 17:12:10,731 - INFO - E-mail enviado com sucesso para BARBARA PEREIRA DOS SANTOS (baarbara.santos@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:11,786 - INFO - E-mail enviado com sucesso para BARBARA PROKOPOWISKI DOS SANTOS (babi.prokopowiski@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:12,785 - INFO - E-mail enviado com sucesso para BEATRIZ SCHRAMM DA SILVA (beatriz_schrammm@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:13,780 - INFO - E-mail enviado com sucesso para BETIELE DOS SANTOS CAETANO (beti.scaetano@gmail.com) com 4 arquivos.
+2025-07-14 17:12:14,764 - INFO - E-mail enviado com sucesso para BIANCA MARQUES DA SILVA (biancamarques2020@icloud.com) com 4 arquivos.
+2025-07-14 17:12:15,715 - INFO - E-mail enviado com sucesso para BRAYAN LUCAS DOS SANTOS (brayansantos10@gmail.com) com 4 arquivos.
+2025-07-14 17:12:16,620 - INFO - E-mail enviado com sucesso para BRENDA CAETANO DIB (Brendadibb@gmail.com) com 4 arquivos.
+2025-07-14 17:12:17,559 - INFO - E-mail enviado com sucesso para BRENDA MAIANE DA SILVA LIMA (Brendamaianelima507@gmail.com) com 4 arquivos.
+2025-07-14 17:12:18,439 - INFO - E-mail enviado com sucesso para BRISA NASCIMENTO DE SOUSA OLIVEIRA (novafasebrisa@gmail.com) com 4 arquivos.
+2025-07-14 17:12:19,464 - INFO - E-mail enviado com sucesso para BRISA VITORIA RODRIGUES CALIXTO (novafasebrisa@gmail.com) com 4 arquivos.
+2025-07-14 17:12:20,356 - INFO - E-mail enviado com sucesso para BRUNA DANIELLY ALMEIDA DOS SANTOS (brunadaniellybenacon@gmail.com) com 4 arquivos.
+2025-07-14 17:12:21,255 - INFO - E-mail enviado com sucesso para BRUNO CANEDO SILVA PORTO (bruno_bnt@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:22,157 - INFO - E-mail enviado com sucesso para BRUNO CORREA SOARES (bruninhosoaress823@gmail.com) com 4 arquivos.
+2025-07-14 17:12:22,990 - INFO - E-mail enviado com sucesso para BRUNO PAULI DE OLIVEIRA (bruno.pauli.10@gmail.com) com 1 arquivos.
+2025-07-14 17:12:24,039 - INFO - E-mail enviado com sucesso para BRUNO SOUSA SOARES (brunim14bis@gmail.com) com 4 arquivos.
+2025-07-14 17:12:25,116 - INFO - E-mail enviado com sucesso para CAIO COUTINHO FERREIRA (caio.coutinho.ferreira@gmail.com) com 4 arquivos.
+2025-07-14 17:12:26,114 - INFO - E-mail enviado com sucesso para CAIO LEMES PEREIRA BUENO (lemescaio230@gmail.com) com 4 arquivos.
+2025-07-14 17:12:27,010 - INFO - E-mail enviado com sucesso para CAMILA PAULA DA CRUZ (mila.cz@yahoo.com) com 4 arquivos.
+2025-07-14 17:12:27,852 - INFO - E-mail enviado com sucesso para CAMILA RIBEIRO DOMINGUES (camilaconcurseira@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:28,735 - INFO - E-mail enviado com sucesso para CARLA GIANE DA SILVA (karlagiane@yahoo.com.br) com 4 arquivos.
+2025-07-14 17:12:35,429 - INFO - E-mail enviado com sucesso para CARLOS ALEXANDRE MACHADO (carlo92machado@gmail.com) com 4 arquivos.
+2025-07-14 17:12:36,498 - INFO - E-mail enviado com sucesso para CARLOS KLEBER MACHADO DE ALMEIDA (carloskleber_ma@outlook.com) com 4 arquivos.
+2025-07-14 17:12:37,496 - INFO - E-mail enviado com sucesso para CARLOS RENATO DE ASSIS SOUZA DA ROCHA (renatto.assis.cgms@gmail.com) com 4 arquivos.
+2025-07-14 17:12:38,546 - INFO - E-mail enviado com sucesso para CARLOS RENATO ESPINOSA ASSIS (renatto.assis.cgms@gmail.com) com 4 arquivos.
+2025-07-14 17:12:39,426 - INFO - E-mail enviado com sucesso para CARLOS ROBERTO RECKERT (Carlosreckert09@gmail.com) com 4 arquivos.
+2025-07-14 17:12:41,308 - INFO - E-mail enviado com sucesso para CHARLES JUNIOR ADRIANO (cjunioradriano@icloud.com) com 4 arquivos.
+2025-07-14 17:12:42,306 - INFO - E-mail enviado com sucesso para Cibele Aparecida Freitas (cibeleapfreitas@gmail.com) com 4 arquivos.
+2025-07-14 17:12:43,260 - INFO - E-mail enviado com sucesso para CIRILO DE ASSIS FERREIRA (cirilloassis@gmail.com) com 4 arquivos.
+2025-07-14 17:12:44,129 - INFO - E-mail enviado com sucesso para Claudia Bittencourt levy (CLAUDIABIELY2017@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:12:45,069 - INFO - E-mail enviado com sucesso para CLAUDIO DIEGO CAMPOS DA SILVA (claudiodiegobroker@outlook.pt) com 4 arquivos.
+2025-07-14 17:12:46,165 - INFO - E-mail enviado com sucesso para CLEMAR DE SOUZA (clemardesouza65@gmail.com) com 4 arquivos.
+2025-07-14 17:12:47,167 - INFO - E-mail enviado com sucesso para CRISTIAN NATANAEL BICKEL SOARES (Cristiannatanaelbickel@gmail.com) com 4 arquivos.
+2025-07-14 17:12:48,215 - INFO - E-mail enviado com sucesso para CRISTOVAO MORGAN CARVALHO SAMPAIO (cristovaomorgan4@gmail.com) com 4 arquivos.
+2025-07-14 17:12:49,161 - INFO - E-mail enviado com sucesso para DAIANE ALVES LOURENCO (daianealveslourenco74@gmail.com) com 4 arquivos.
+2025-07-14 17:12:50,315 - INFO - E-mail enviado com sucesso para DANIELA KARPSAK (danielabarthk@gmail.com) com 4 arquivos.
+2025-07-14 17:12:51,329 - INFO - E-mail enviado com sucesso para DANILO CARVALHO PINTO (danyllo.carvalho2013@hotmail.com) com 4 arquivos.
+2025-07-14 17:12:52,259 - INFO - E-mail enviado com sucesso para DAVI RODRIGUES DE MORAES (eaedavimoraes@gmail.com) com 4 arquivos.
+2025-07-14 17:12:53,334 - INFO - E-mail enviado com sucesso para DAYANNY ANGELA TOMAZ DE OLIVEIRA (equipedayoliveira@gmail.com) com 4 arquivos.
+2025-07-14 17:12:54,389 - INFO - E-mail enviado com sucesso para DEBORA DRECHSLER DA SILVA (deboradrechsler28@gmail.com) com 4 arquivos.
+2025-07-14 17:12:55,311 - INFO - E-mail enviado com sucesso para DEBORA FERREIRA RODRIGUES (deborafr777@gmail.com) com 4 arquivos.
+2025-07-14 17:12:56,373 - INFO - E-mail enviado com sucesso para DEIDRY HELLIN SEVERO DOS SANTOS (hellinseverosantos@gmail.com) com 4 arquivos.
+2025-07-14 17:12:57,462 - INFO - E-mail enviado com sucesso para DENER ALVES FERREIRA (dennerferreiraconsultoria@gmail.com) com 4 arquivos.
+2025-07-14 17:12:58,468 - INFO - E-mail enviado com sucesso para DENZEL HENRIQUE PEREIRA FERNANDES (denzelfernandes118@gmail.com) com 4 arquivos.
+2025-07-14 17:12:59,910 - INFO - E-mail enviado com sucesso para DEYBSON MORAES DOS SANTOS (deyb.agp@gmail.com) com 4 arquivos.
+2025-07-14 17:13:00,933 - INFO - E-mail enviado com sucesso para DIANA DE ALMEIDA SANTOS (dianadealmeidasantos4@gmail.com) com 4 arquivos.
+2025-07-14 17:13:01,851 - INFO - E-mail enviado com sucesso para Diegles Henrique da Silva Santos (dieglis89@gmail.com) com 1 arquivos.
+2025-07-14 17:13:02,962 - INFO - E-mail enviado com sucesso para DIEGO MARADONA COSTA (maradonacosta7@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:04,152 - INFO - E-mail enviado com sucesso para DIEGO RUCKHABER PLETSCH (Diego.pletsch12@gmail.com) com 4 arquivos.
+2025-07-14 17:13:05,211 - INFO - E-mail enviado com sucesso para DIIH BEZERRA DA SILVA (diih.siilwa@gmail.com) com 4 arquivos.
+2025-07-14 17:13:06,161 - INFO - E-mail enviado com sucesso para DINA OLIVEIRA DE SOUZA (dinahtinha@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:07,088 - INFO - E-mail enviado com sucesso para DIOGO LUCAS DA SILVA GODOI (lukasdiogo9@gmail.com) com 4 arquivos.
+2025-07-14 17:13:08,001 - INFO - E-mail enviado com sucesso para DOUGLAS CORREIA AVILA (dougcavila@outlook.com) com 4 arquivos.
+2025-07-14 17:13:08,972 - INFO - E-mail enviado com sucesso para Ederson Mateus de Souza Macedo (mateusmacedosouza1996@gmail.com) com 4 arquivos.
+2025-07-14 17:13:09,912 - INFO - E-mail enviado com sucesso para Edilaine Cristina de Oliveira Lourenco (edilainelourenco2010@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:10,839 - INFO - E-mail enviado com sucesso para EDSON MEIRA DA SILVA (edsonmeiradasilva@gmail.com) com 4 arquivos.
+2025-07-14 17:13:11,766 - INFO - E-mail enviado com sucesso para Eduarda Carvalho Bugmaer (cduda0352@gmail.com) com 4 arquivos.
+2025-07-14 17:13:12,640 - INFO - E-mail enviado com sucesso para Eduarda Faes de Brito (eduarda.faes@gmail.com) com 4 arquivos.
+2025-07-14 17:13:13,609 - INFO - E-mail enviado com sucesso para EDUARDO LUIZ NERES CONTI (eduardolconti.conti@gmail.com) com 4 arquivos.
+2025-07-14 17:13:14,632 - INFO - E-mail enviado com sucesso para ELAINE DO MONTE BRASIL (elaine.br.corretora@gmail.com) com 4 arquivos.
+2025-07-14 17:13:16,314 - INFO - E-mail enviado com sucesso para Elcio de Almeida Leite Junior (junior_brasil@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:17,254 - INFO - E-mail enviado com sucesso para ELIADY CAMPOS DE SOUZA (elicamposoficial@gmail.com) com 4 arquivos.
+2025-07-14 17:13:18,233 - INFO - E-mail enviado com sucesso para ELICIANA CORDEIRO MAGAVE (e.c.magave@gmail.com) com 4 arquivos.
+2025-07-14 17:13:19,238 - INFO - E-mail enviado com sucesso para Eluiza Drielle Borges da Silva (driellysilva366@gmail.com) com 4 arquivos.
+2025-07-14 17:13:20,170 - INFO - E-mail enviado com sucesso para EMANUEL AUGUSTO SENA SEVALHO (Emanuelssevalho@gmail.com) com 4 arquivos.
+2025-07-14 17:13:21,264 - INFO - E-mail enviado com sucesso para Emerson de Nardi (EMERSONDENARDI.EDN@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:13:26,776 - INFO - E-mail enviado com sucesso para EMERSON DO COUTO EVANGELISTA (emersoncoutoevangelista@gmail.com) com 4 arquivos.
+2025-07-14 17:13:28,158 - INFO - E-mail enviado com sucesso para EMILLY DE ALMEIDA CRUZ (emyalmdc@gmail.com) com 4 arquivos.
+2025-07-14 17:13:29,333 - INFO - E-mail enviado com sucesso para ENNY LORENA SILVA (enny.lorena@laghettogolden.com.br) com 4 arquivos.
+2025-07-14 17:13:32,305 - INFO - E-mail enviado com sucesso para ESTEFANE GONCALVES PRADE (estefaneprade456@gmail.com) com 4 arquivos.
+2025-07-14 17:13:33,542 - INFO - E-mail enviado com sucesso para ETIANDRE ESTEILAN DA SILVA DIAS (etiandre.sd@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:34,578 - INFO - E-mail enviado com sucesso para EVANDRO JOSE DE LUNA FELIX (evandrojosedelunafelix@gmail.com) com 4 arquivos.
+2025-07-14 17:13:35,762 - INFO - E-mail enviado com sucesso para EVERTON CUSTODIO SILVEIRA (evertoncustodio06@gmail.com) com 4 arquivos.
+2025-07-14 17:13:36,776 - INFO - E-mail enviado com sucesso para FABIO ALVES SOUSA (fbaconsultoriaimoveis@gmail.com) com 4 arquivos.
+2025-07-14 17:13:37,818 - INFO - E-mail enviado com sucesso para FABIO BRANCALION DOS ANJOS (fbrancalion@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:38,830 - INFO - E-mail enviado com sucesso para FABIO BRANCALION DOS ANJOS LTDA (fbrancalion@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:39,767 - INFO - E-mail enviado com sucesso para Fabio Candido Cabreira (fabio-cabreira@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:40,703 - INFO - E-mail enviado com sucesso para FABIO HENRIQUE FERREIRA PINHEIRO (fabioclash35552@icloud.com) com 4 arquivos.
+2025-07-14 17:13:41,668 - INFO - E-mail enviado com sucesso para FABIO HENRIQUE FRANCISCO DA SILVA (fabio807henrique@gmail.com) com 4 arquivos.
+2025-07-14 17:13:42,686 - INFO - E-mail enviado com sucesso para FABIO NORIO KIMURA (fabionkimura@gmail.com) com 4 arquivos.
+2025-07-14 17:13:43,542 - INFO - E-mail enviado com sucesso para FABRICIO NUNES HEIINECK (fabricionunesheineck@gmail.com) com 4 arquivos.
+2025-07-14 17:13:44,429 - INFO - E-mail enviado com sucesso para FATIMA SILVANA DOS SANTOS (silvanalucassantos@gmail.com) com 4 arquivos.
+2025-07-14 17:13:45,479 - INFO - E-mail enviado com sucesso para FELIPE ANDRE DA SILVA (felipeasilva26@gmail.com) com 4 arquivos.
+2025-07-14 17:13:46,433 - INFO - E-mail enviado com sucesso para FELIPE JOSE DE MATTOS (felipe.mattos@laghettogolden.com.br) com 4 arquivos.
+2025-07-14 17:13:47,389 - INFO - E-mail enviado com sucesso para FELIPE ROCHA GAMA SOBRAL (felipelaghetto@yahoo.com) com 4 arquivos.
+2025-07-14 17:13:48,269 - INFO - E-mail enviado com sucesso para FERNANDA NAKAMURA BARROS (fernandanakamura@hotmail.com) com 4 arquivos.
+2025-07-14 17:13:49,105 - INFO - E-mail enviado com sucesso para FLAVIA FERNANDA CLARA FERREIRA (confeitariaflaviafernanda@gmail.com) com 4 arquivos.
+2025-07-14 17:13:49,995 - INFO - E-mail enviado com sucesso para FLAVIANE DOS SANTOS PEIXOTO (peixoto.1709@gmail.com) com 4 arquivos.
+2025-07-14 17:13:51,034 - INFO - E-mail enviado com sucesso para FLAVIO CALDEIRA CANDIDO JUNIOR (flaviocaldeirajr@gmail.com) com 4 arquivos.
+2025-07-14 17:13:51,890 - INFO - E-mail enviado com sucesso para Flavio Marques Aguiar Junior (eujunnior21@gmail.com) com 4 arquivos.
+2025-07-14 17:13:52,937 - INFO - E-mail enviado com sucesso para FRANCIELLY DA SILVA MORAIS (francymoraiss28@gmail.com) com 4 arquivos.
+2025-07-14 17:13:53,710 - INFO - E-mail enviado com sucesso para FRANCISCA JESSICA LUCAS DA SILVA (jessicasilvalucas30@gmail.com) com 1 arquivos.
+2025-07-14 17:13:54,632 - INFO - E-mail enviado com sucesso para FRANCISCO HERMESON BATISTA DOS SANTOS (hermesonsantos00@gmail.com) com 4 arquivos.
+2025-07-14 17:13:55,664 - INFO - E-mail enviado com sucesso para FRANCISCO YURE LOPES ALVES (franciscoyureee@gmail.com) com 4 arquivos.
+2025-07-14 17:13:56,604 - INFO - E-mail enviado com sucesso para FRANK MEDEIROS RODRIGUES (frankrdrigues29@gmail.com) com 4 arquivos.
+2025-07-14 17:13:57,669 - INFO - E-mail enviado com sucesso para GABRIEL CINTRA DE VASCONCELOS PEDROSA (gabrielcintrawam@gmail.com) com 4 arquivos.
+2025-07-14 17:13:58,730 - INFO - E-mail enviado com sucesso para GABRIEL FONTES ARSAND (Gaabriel.foontes@gmail.com) com 4 arquivos.
+2025-07-14 17:13:59,765 - INFO - E-mail enviado com sucesso para Gabriel Marlon de Souza Silva Oliveira (gabrielmarlon1987@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:00,867 - INFO - E-mail enviado com sucesso para Gabriel Peixoto de Souza (peixotogabriel686@gmail.com) com 4 arquivos.
+2025-07-14 17:14:01,918 - INFO - E-mail enviado com sucesso para GABRIELA CANHADA MORE (suporte.gabrielamota@gmail.com) com 4 arquivos.
+2025-07-14 17:14:02,945 - INFO - E-mail enviado com sucesso para GABRIELA SCHMITT SCHNORR (gabriela.sschnorr@gmail.com) com 4 arquivos.
+2025-07-14 17:14:03,828 - INFO - E-mail enviado com sucesso para GABRIELA SILVA SANTOS (lande1404@gmail.com) com 4 arquivos.
+2025-07-14 17:14:04,770 - INFO - E-mail enviado com sucesso para GEISA KESSLER FREITAS MARTINS (geisakessler@gmail.com) com 4 arquivos.
+2025-07-14 17:14:05,709 - INFO - E-mail enviado com sucesso para GERMANO LOPES DA SILVA FILHO (germanolopes2701@gmail.com) com 4 arquivos.
+2025-07-14 17:14:06,604 - INFO - E-mail enviado com sucesso para GERULINO FERREIRA LIMA (Gerulinolima@gmail.com) com 4 arquivos.
+2025-07-14 17:14:07,435 - INFO - E-mail enviado com sucesso para GILMARA FABRICIA DA SILVA DIAS (gilmarafabriciaaa@icloud.com) com 4 arquivos.
+2025-07-14 17:14:08,263 - INFO - E-mail enviado com sucesso para Guilherme dos Santos Amaral (guilherme26santos@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:09,199 - INFO - E-mail enviado com sucesso para GUILHERME FOGASSA DA SILVA (guilhermefogassa@live.com) com 4 arquivos.
+2025-07-14 17:14:10,161 - INFO - E-mail enviado com sucesso para GUILHERME VIEIRA SANCHES (norton.guilhermesanches@gmail.com) com 4 arquivos.
+2025-07-14 17:14:11,058 - INFO - E-mail enviado com sucesso para GUSTAVO HENRIQUE KLEIN PETERS (gustavohenriquepeters@gmail.com) com 4 arquivos.
+2025-07-14 17:14:12,135 - INFO - E-mail enviado com sucesso para Gustavo Henrique Nery Ferreira (gustavoguilbert1996@icloud.com) com 4 arquivos.
+2025-07-14 17:14:12,997 - INFO - E-mail enviado com sucesso para GUSTAVO RIBEIRO GOMES (gomes99gg@gmail.com) com 4 arquivos.
+2025-07-14 17:14:14,137 - INFO - E-mail enviado com sucesso para HAEL BEVILAQUIA NOBRE (haelnobre@yahoo.com.br) com 4 arquivos.
+2025-07-14 17:14:15,179 - INFO - E-mail enviado com sucesso para HEDIGRIFFITON RAMOS DA SILVA (Hedigriffitonramosdasilva@outlook.com) com 4 arquivos.
+2025-07-14 17:14:16,202 - INFO - E-mail enviado com sucesso para HENRIQUE MARAFIGO PINTO (henriquemarafigopn@gmail.com) com 4 arquivos.
+2025-07-14 17:14:17,184 - INFO - E-mail enviado com sucesso para HILSON CALDAS SILVA ALBUQUERQUE (Caldashilson@gmail.com) com 4 arquivos.
+2025-07-14 17:14:18,197 - INFO - E-mail enviado com sucesso para HUGO MENEZES DOS SANTOS MADEIRA (hugo.msmadeira@gmail.com) com 4 arquivos.
+2025-07-14 17:14:19,125 - INFO - E-mail enviado com sucesso para HUGO SOUZA FERRAO NETO (hugoferraoneto@gmail.com) com 4 arquivos.
+2025-07-14 17:14:20,208 - INFO - E-mail enviado com sucesso para IARA HELOISA NASCIMENTO DE ARAUJO (Iaraheloisa196@gmail.com) com 4 arquivos.
+2025-07-14 17:14:21,211 - INFO - E-mail enviado com sucesso para IGOR ANTUNES BORGES (igorantunes12@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:22,136 - INFO - E-mail enviado com sucesso para IGOR MARTINS (igorcosta1473@gmail.com) com 4 arquivos.
+2025-07-14 17:14:23,077 - INFO - E-mail enviado com sucesso para ILANA SILVA DA SILVA (ilanasilvadasilva@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:24,108 - INFO - E-mail enviado com sucesso para ISABELA DA SILVA MENEZES (isabelamenezes14@outlook.com) com 4 arquivos.
+2025-07-14 17:14:25,437 - INFO - E-mail enviado com sucesso para ISABELA OLIVEIRA CARDOSO (isabelaolicar@gmail.com) com 4 arquivos.
+2025-07-14 17:14:26,613 - INFO - E-mail enviado com sucesso para Italo Miguel Remondi (italomiguelremondi@gmail.com) com 4 arquivos.
+2025-07-14 17:14:27,788 - INFO - E-mail enviado com sucesso para ITALO PINHEIRO DIAS (euitaloitalo@gmail.com) com 4 arquivos.
+2025-07-14 17:14:29,032 - INFO - E-mail enviado com sucesso para Iuri Nogueira de Sousa (iurinogueira2018@gmail.com) com 4 arquivos.
+2025-07-14 17:14:30,032 - INFO - E-mail enviado com sucesso para IVANILDO DANTAS DE MELO (Dantasmelo2024@gmail.com) com 4 arquivos.
+2025-07-14 17:14:31,270 - INFO - E-mail enviado com sucesso para JACKELINE ESTEFANY BARROS SANTIAGO (jackyestefany@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:32,384 - INFO - E-mail enviado com sucesso para JACQUELINE FERREIRA LACERDA (jacquelacerda247@gmail.com) com 4 arquivos.
+2025-07-14 17:14:33,397 - INFO - E-mail enviado com sucesso para JAIR JUNIOR ZIMMER DE OLIVEIRA (Jairjunior639@gmail.com) com 4 arquivos.
+2025-07-14 17:14:34,396 - INFO - E-mail enviado com sucesso para JAIRO CARDOSO RODRIGUES JUNIOR (jairoiphone39@gmail.com) com 4 arquivos.
+2025-07-14 17:14:35,325 - INFO - E-mail enviado com sucesso para JAIRO FRAGA DE ASSIS NETO (fragajairo318@gmail.com) com 4 arquivos.
+2025-07-14 17:14:36,404 - INFO - E-mail enviado com sucesso para JEFERSON FABIO DESSBESELL (Jefersondessbesell2016@gmail.com) com 4 arquivos.
+2025-07-14 17:14:37,782 - INFO - E-mail enviado com sucesso para JEFERSON LUIS SILVA LINO (jeferson.iasd@gmail.com) com 4 arquivos.
+2025-07-14 17:14:38,812 - INFO - E-mail enviado com sucesso para Jeferson Matheus da Rosa Moreira (jefmrmbrown@gmail.com) com 4 arquivos.
+2025-07-14 17:14:39,734 - INFO - E-mail enviado com sucesso para JEFERSON VITOR ROSA (jeferson.rosa@laghettogolden.com.br) com 4 arquivos.
+2025-07-14 17:14:40,664 - INFO - E-mail enviado com sucesso para Jessica de Lima Ribeiro (Jessylimar362@gmail.com) com 4 arquivos.
+2025-07-14 17:14:41,589 - INFO - E-mail enviado com sucesso para JESSICA FERREIRA LACERDA (jessicalacer11@gmail.com) com 4 arquivos.
+2025-07-14 17:14:42,519 - INFO - E-mail enviado com sucesso para JESSICA MARIA BARRETO (barreto26jessica@icloud.com) com 4 arquivos.
+2025-07-14 17:14:43,563 - INFO - E-mail enviado com sucesso para Jessica Maria Eduelfa de Souza Martins (Eduelfa@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:44,516 - INFO - E-mail enviado com sucesso para JESSICA PEROTTO MACHADO (JEHPEROTTO@ICLOUD.COM) com 4 arquivos.
+2025-07-14 17:14:45,485 - INFO - E-mail enviado com sucesso para JESSICA RIBEIRO LEAO (jessicarleao1@outlook.com) com 4 arquivos.
+2025-07-14 17:14:46,427 - INFO - E-mail enviado com sucesso para JOANA DARC FERREIRA DA SILVA (johannadarctcc@gmail.com) com 4 arquivos.
+2025-07-14 17:14:47,409 - INFO - E-mail enviado com sucesso para JOAO MARIO DIAS SILVA (wamjoao252020@gmail.com) com 4 arquivos.
+2025-07-14 17:14:48,289 - INFO - E-mail enviado com sucesso para Joao Pedro Pertile (joaopedropertile5@gmail.com) com 4 arquivos.
+2025-07-14 17:14:49,305 - INFO - E-mail enviado com sucesso para Joao Victor Rodrigues dos Santos (Jrodriguesdossantos593@gmail.com) com 4 arquivos.
+2025-07-14 17:14:50,104 - INFO - E-mail enviado com sucesso para JOAO VITOR CHAGAS DE SOUZA (souzavitorjoao9955@gmail.com) com 1 arquivos.
+2025-07-14 17:14:51,113 - INFO - E-mail enviado com sucesso para JOAQUIM WELDER GONCALVES JATAI (wolftuf@gmail.com) com 4 arquivos.
+2025-07-14 17:14:51,986 - INFO - E-mail enviado com sucesso para Joatan Chaves Cantanhede (joatan.cantanhede@gmail.com) com 4 arquivos.
+2025-07-14 17:14:52,956 - INFO - E-mail enviado com sucesso para JOCIEL GOMES DA SILVA (jocielcorretor@gmail.com) com 4 arquivos.
+2025-07-14 17:14:53,813 - INFO - E-mail enviado com sucesso para JOEL DE SOUZA PONTE (Joel_Souzaippd@hotmail.com) com 4 arquivos.
+2025-07-14 17:14:54,754 - INFO - E-mail enviado com sucesso para JOHNE DA CRUZ ALEXANDRE (johnecruz123@gmail.com) com 4 arquivos.
+2025-07-14 17:14:55,604 - INFO - E-mail enviado com sucesso para JONATHAN DOS SANTOS PEREIRA (jonathanfxd@gmail.com) com 4 arquivos.
+2025-07-14 17:14:56,582 - INFO - E-mail enviado com sucesso para JONILSON JESUS OLIVEIRA (jjofamilia@gmail.com) com 4 arquivos.
+2025-07-14 17:14:57,589 - INFO - E-mail enviado com sucesso para JOSE HERALDO CONCEICAO BASTOS JUNIOR (juninhobmx50@gmail.com) com 4 arquivos.
+2025-07-14 17:14:58,462 - INFO - E-mail enviado com sucesso para JOSE LUIS LOPES JUNIOR (juniorlups99@gmail.com) com 4 arquivos.
+2025-07-14 17:14:59,447 - INFO - E-mail enviado com sucesso para JOSE MARTINS LEMES ALVES (juselemes@gmail.com) com 4 arquivos.
+2025-07-14 17:15:00,962 - INFO - E-mail enviado com sucesso para JOSE VALDGLEI GALDINO DE SOUSA (valdglei.vs@gmail.com) com 4 arquivos.
+2025-07-14 17:15:01,926 - INFO - E-mail enviado com sucesso para JOSE WELLINGTON PEREIRA DE LUCENA SANTOS (jose.wellington@laghettogolden.com.br) com 4 arquivos.
+2025-07-14 17:15:02,794 - INFO - E-mail enviado com sucesso para Joseane Araujo Bras (mybrokerjoseanedean@gmail.com) com 4 arquivos.
+2025-07-14 17:15:03,757 - INFO - E-mail enviado com sucesso para JOSIAS DA SILVA CLAUDINO (claudinojosias0@gmail.com) com 4 arquivos.
+2025-07-14 17:15:04,688 - INFO - E-mail enviado com sucesso para JUBELINE FERNANDES DA SILVA (fjubeline@gmail.com) com 4 arquivos.
+2025-07-14 17:15:05,778 - INFO - E-mail enviado com sucesso para JULIA BARBOSA BRAGANCA (juliabarbosab22@gmail.com) com 4 arquivos.
+2025-07-14 17:15:06,879 - INFO - E-mail enviado com sucesso para JULIANA LUZ DA ROSA (juliana_sbjbento@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:07,944 - INFO - E-mail enviado com sucesso para JULIANA MATOS ALENCAR (julianaalencar2504@gmail.com) com 4 arquivos.
+2025-07-14 17:15:09,018 - INFO - E-mail enviado com sucesso para JULIANO MANFRON ARAUJO (Sugestivaturismo@outlook.com) com 4 arquivos.
+2025-07-14 17:15:09,953 - INFO - E-mail enviado com sucesso para JULIO CESAR EMANUEL DOS SANTOS FONSECA (julio.drum201515@gmail.com) com 4 arquivos.
+2025-07-14 17:15:10,880 - INFO - E-mail enviado com sucesso para JUMA MONTEIRO NUNES (julianamonteiro262728@gmail.com) com 4 arquivos.
+2025-07-14 17:15:11,758 - INFO - E-mail enviado com sucesso para Kaiane Broda Pereira (Kaianebroda@gmail.com) com 4 arquivos.
+2025-07-14 17:15:12,591 - INFO - E-mail enviado com sucesso para KAREN MENDONCA OKUYAMA (Karen.okuyama@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:13,273 - INFO - E-mail enviado com sucesso para KAREN RODRIGUES DE SOUZA (karen.souza992@gmail.com) com 1 arquivos.
+2025-07-14 17:15:14,093 - INFO - E-mail enviado com sucesso para KELLY SOUZA DE DEUS ANJOS (kellysouzadedeus@gmail.com) com 4 arquivos.
+2025-07-14 17:15:15,069 - INFO - E-mail enviado com sucesso para Keoma Alan Broda Pereira (keomaalan28@gmail.com) com 4 arquivos.
+2025-07-14 17:15:15,972 - INFO - E-mail enviado com sucesso para KEVIN MICHAEL SPIETH (KVNSPTADV@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:15:16,852 - INFO - E-mail enviado com sucesso para KIMBERLY CRISTINA TAVARES CORREA (kimcorrea9@gmail.com) com 4 arquivos.
+2025-07-14 17:15:17,761 - INFO - E-mail enviado com sucesso para LAIS CRISTINA ALVES CAVALCANTE MILANEZ (LAISCAVALCANTE@HOTMAIL.COM) com 4 arquivos.
+2025-07-14 17:15:18,631 - INFO - E-mail enviado com sucesso para LARISSA DE FREITAS NUNES (nunes.larissaf@gmail.com) com 4 arquivos.
+2025-07-14 17:15:19,500 - INFO - E-mail enviado com sucesso para LARISSA DE SOUZA SILVA (Larymofi22@gmail.com) com 4 arquivos.
+2025-07-14 17:15:20,337 - INFO - E-mail enviado com sucesso para LEANDRO SANTOS DA SILVA (silvaleandro250416@gmail.com) com 4 arquivos.
+2025-07-14 17:15:21,294 - INFO - E-mail enviado com sucesso para LEONARDO ALVES IRBER (leonardonemetz@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:22,304 - INFO - E-mail enviado com sucesso para LEONARDO OLIVEIRA ALEJARRA (alejarraleonardo@gmail.com) com 4 arquivos.
+2025-07-14 17:15:23,268 - INFO - E-mail enviado com sucesso para LEONARDO SOUZA DA SILVA (Leonardo_souza_gallagher@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:24,230 - INFO - E-mail enviado com sucesso para LETICIA BEZERRA FERREIRA (leticiaferreira13041998@gmail.com) com 4 arquivos.
+2025-07-14 17:15:25,179 - INFO - E-mail enviado com sucesso para LETICIA DANIELI VILAS BOAS FERREIRA (Ferreiraleticia321@gmail.com) com 4 arquivos.
+2025-07-14 17:15:26,098 - INFO - E-mail enviado com sucesso para LETICIA MARIA DE OLIVEIRA SILVA (leticiacallheiros@gmail.com) com 4 arquivos.
+2025-07-14 17:15:27,120 - INFO - E-mail enviado com sucesso para LIDIA DE ARAUJO ROCHA (lidiarocha08@gmail.com) com 4 arquivos.
+2025-07-14 17:15:27,892 - INFO - E-mail enviado com sucesso para LILIAN MICHELE ROSIN HAMMACHER (michelerosin@gmail.com) com 1 arquivos.
+2025-07-14 17:15:28,925 - INFO - E-mail enviado com sucesso para LINDOMAR MOREIRA DA SILVA JUNIOR (lindomarjr16@gmail.com) com 4 arquivos.
+2025-07-14 17:15:29,946 - INFO - E-mail enviado com sucesso para LINSMAR MACEDO DE JESUS (lismarcedocr7@gmail.com) com 4 arquivos.
+2025-07-14 17:15:30,895 - INFO - E-mail enviado com sucesso para LORENZO SILVA RIBEIRO (comercial.lorenzoribeiro@gmail.com) com 4 arquivos.
+2025-07-14 17:15:31,773 - INFO - E-mail enviado com sucesso para LORRANE GABRIELLE SILVA DA COSTA (lorrane.gabrielle23@icloud.com) com 4 arquivos.
+2025-07-14 17:15:32,642 - INFO - E-mail enviado com sucesso para LUAN DOS SANTOS MENDES DE SOUZA (luanplayerr@gmail.com) com 4 arquivos.
+2025-07-14 17:15:33,491 - INFO - E-mail enviado com sucesso para LUANA DE PAULO SILVA (analuholffer23@gmail.com) com 4 arquivos.
+2025-07-14 17:15:34,400 - INFO - E-mail enviado com sucesso para LUCAS ALEXANDRE FERREIRA CORREA (lucasale2801@gmail.com) com 4 arquivos.
+2025-07-14 17:15:35,264 - INFO - E-mail enviado com sucesso para LUCAS BARRETO VAZ (lbarretovaz@gmail.com) com 4 arquivos.
+2025-07-14 17:15:36,211 - INFO - E-mail enviado com sucesso para LUCAS DAMASCENO BARROS (ldamascenobarros@gmail.com) com 4 arquivos.
+2025-07-14 17:15:37,147 - INFO - E-mail enviado com sucesso para LUCAS MATEUS DORR WEYAND (weyandlucasmateus@gmail.com) com 4 arquivos.
+2025-07-14 17:15:38,099 - INFO - E-mail enviado com sucesso para LUCAS PINTO SORIANO (Lucasoriano00989@gmail.com) com 4 arquivos.
+2025-07-14 17:15:39,137 - INFO - E-mail enviado com sucesso para LUCAS SOUZA DOS SANTOS (olucassouzacorretor@gmail.com) com 4 arquivos.
+2025-07-14 17:15:40,149 - INFO - E-mail enviado com sucesso para LUCIANA CRIVELARI (crivelaridemelo@gmail.com) com 4 arquivos.
+2025-07-14 17:15:41,269 - INFO - E-mail enviado com sucesso para LUCIANA SANTOS CRUZ MOELLER (moellerluciana@gmail.com) com 4 arquivos.
+2025-07-14 17:15:42,175 - INFO - E-mail enviado com sucesso para LUDMILLA ROSA MOREIRA DE SOUZA (ludmillamor@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:43,098 - INFO - E-mail enviado com sucesso para Luis Gustavo Ramos da Silva (zedorah01@gmail.com) com 4 arquivos.
+2025-07-14 17:15:43,951 - INFO - E-mail enviado com sucesso para LUIZ FELIPE CARVALHO MARQUES (luizfelipec947@gmail.com) com 4 arquivos.
+2025-07-14 17:15:44,869 - INFO - E-mail enviado com sucesso para LUIZ FELIPE DE SOUZA FERNANDES (luiz.fernandes@laghettogolden.com.br) com 4 arquivos.
+2025-07-14 17:15:45,805 - INFO - E-mail enviado com sucesso para LUIZ FELIPE SANTOS DA SILVA (luiz.silva.silva9494@gmail.com) com 4 arquivos.
+2025-07-14 17:15:46,803 - INFO - E-mail enviado com sucesso para LUIZ HENRIQUE FERREIRA ANDRADE (luiz.andrade3d@gmail.com) com 4 arquivos.
+2025-07-14 17:15:47,796 - INFO - E-mail enviado com sucesso para LUIZA JACQUES DA SILVA (luizajacques17@icloud.com) com 4 arquivos.
+2025-07-14 17:15:48,682 - INFO - E-mail enviado com sucesso para LUMARA DE PAULA SANTOS (lumarasantos636@gmail.com) com 4 arquivos.
+2025-07-14 17:15:49,567 - INFO - E-mail enviado com sucesso para Maira Catarina Evangelista Nunes (mairacatarina0@gmail.com) com 4 arquivos.
+2025-07-14 17:15:50,672 - INFO - E-mail enviado com sucesso para MARCELO DE FREITAS MATHEUS (marcelo.freitas787@gmail.com) com 4 arquivos.
+2025-07-14 17:15:51,598 - INFO - E-mail enviado com sucesso para MARCELO MONTEIRO FORNASIER (MARCELO_FORNASIER@HOTMAIL.COM) com 4 arquivos.
+2025-07-14 17:15:52,562 - INFO - E-mail enviado com sucesso para MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ (marcosantonios21223@gmail.com) com 4 arquivos.
+2025-07-14 17:15:53,582 - INFO - E-mail enviado com sucesso para MARCOS DANIEL DIAS LIRIA (model.gramado@gmail.com) com 4 arquivos.
+2025-07-14 17:15:54,535 - INFO - E-mail enviado com sucesso para MARCOS FERNANDES DA SILVA JUNIOR (mfsj24@gmail.com) com 4 arquivos.
+2025-07-14 17:15:55,458 - INFO - E-mail enviado com sucesso para MARIA EDUARDA CAMPOS MENDES (eduardainvestiment@gmail.com) com 4 arquivos.
+2025-07-14 17:15:56,348 - INFO - E-mail enviado com sucesso para MARIANA DA ROSA MAGNUS (mariana_magnus@hotmail.com) com 4 arquivos.
+2025-07-14 17:15:57,203 - INFO - E-mail enviado com sucesso para MARILIANA GONCALVES NEVES (mariliana.gneves@gmail.com) com 4 arquivos.
+2025-07-14 17:15:58,092 - INFO - E-mail enviado com sucesso para MARIZA SOUZA DA SILVA (mariza.s.silva15@gmail.com) com 4 arquivos.
+2025-07-14 17:15:59,094 - INFO - E-mail enviado com sucesso para Mateus coutinho Ferreira (mateuscoutinho505@gmail.com) com 4 arquivos.
+2025-07-14 17:16:00,164 - INFO - E-mail enviado com sucesso para MATEUS SILVA DA COSTA (mateus13997270528@gmail.com) com 4 arquivos.
+2025-07-14 17:16:01,085 - INFO - E-mail enviado com sucesso para MATHEUS HENRIQUE GOMES ZERLOTTINI (matheuszerlottini@outlook.com) com 4 arquivos.
+2025-07-14 17:16:02,045 - INFO - E-mail enviado com sucesso para MATHEUS HENRIQUE PEREIRA FERNANDES (matheushenriquehpf@gmail.com) com 4 arquivos.
+2025-07-14 17:16:02,927 - INFO - E-mail enviado com sucesso para MAURICIO DIECKMANN MOREIRA (mauriciodm.consultoria@gmail.com) com 4 arquivos.
+2025-07-14 17:16:03,788 - INFO - E-mail enviado com sucesso para MAYARA DOS SANTOS FERREIRA (mayapedagogiaporamor@gmail.com) com 4 arquivos.
+2025-07-14 17:16:04,662 - INFO - E-mail enviado com sucesso para MELISSA GROSS DE OLIVEIRA (18melissagross@gmail.com) com 4 arquivos.
+2025-07-14 17:16:05,854 - INFO - E-mail enviado com sucesso para MELISSA SILVA MENDES (melissasilvamendes6@gmail.com) com 4 arquivos.
+2025-07-14 17:16:06,752 - INFO - E-mail enviado com sucesso para MICAELLE RITALY SOUZA RAMOS (micaelleritaly1703@gmail.com) com 4 arquivos.
+2025-07-14 17:16:07,671 - INFO - E-mail enviado com sucesso para MICHELE OLIVEIRA DA SILVEIRA (michelemulti9@gmail.com) com 4 arquivos.
+2025-07-14 17:16:08,581 - INFO - E-mail enviado com sucesso para Michelle Thais de Jesus Menezes (michellemenzes@gmail.com) com 4 arquivos.
+2025-07-14 17:16:09,471 - INFO - E-mail enviado com sucesso para MIKAEL CARDOSO DE MESQUITA (mikaeldocavaco@gmail.com) com 4 arquivos.
+2025-07-14 17:16:10,358 - INFO - E-mail enviado com sucesso para MILENE SILVA DE PAULO (depaulomilenesilva@gmail.com) com 4 arquivos.
+2025-07-14 17:16:11,156 - INFO - E-mail enviado com sucesso para MIRIELY SILVA SANTOS (Miriellysilva@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:12,005 - INFO - E-mail enviado com sucesso para MOISES DE MIRANDA LIMA (mirandalimafilho@gmail.com) com 4 arquivos.
+2025-07-14 17:16:12,898 - INFO - E-mail enviado com sucesso para MONIQUE MARGARIDA FREITAS BENJAMIM (Moniquemargarida28@gmail.com) com 4 arquivos.
+2025-07-14 17:16:13,905 - INFO - E-mail enviado com sucesso para MUNIELEN BARBOSA FERNANDES (munifernandes31@outlook.com) com 4 arquivos.
+2025-07-14 17:16:14,917 - INFO - E-mail enviado com sucesso para MYRELA MAKELY SCHNEIDER (schneidermyrela@gmail.com) com 4 arquivos.
+2025-07-14 17:16:15,806 - INFO - E-mail enviado com sucesso para NAELI REIS DO NASCIMENTO (naelireis515@gmail.com) com 4 arquivos.
+2025-07-14 17:16:17,023 - INFO - E-mail enviado com sucesso para NAIARA GARCIA DOS SANTOS (NAIARA20GARCIAS@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:16:18,983 - INFO - E-mail enviado com sucesso para NATALIA FRANCISCA SANTOS ALVES (lilliedesfeldes@gmail.com) com 4 arquivos.
+2025-07-14 17:16:20,319 - INFO - E-mail enviado com sucesso para NEDILSON LUIZ DOS SANTOS JUNIOR (nedilson.minhorezenha@gmail.com) com 4 arquivos.
+2025-07-14 17:16:21,399 - INFO - E-mail enviado com sucesso para NEIMARY STEFANY AVILA PINTO (neyavilad0513@gmail.com) com 4 arquivos.
+2025-07-14 17:16:22,484 - INFO - E-mail enviado com sucesso para NELSON LOURENCO DA SILVA JUNIOR (SKYLINELOUREN@OUTLOOK.COM) com 4 arquivos.
+2025-07-14 17:16:23,634 - INFO - E-mail enviado com sucesso para NEUSELIA FERREIRA LIMA RIBEIRO (Neuselia.ferreira@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:24,518 - INFO - E-mail enviado com sucesso para NUBIA GONCALVES DE MELO (nubiamelogoncalves@gmail.com) com 4 arquivos.
+2025-07-14 17:16:25,937 - INFO - E-mail enviado com sucesso para OBERDAN CARVALHO DE AZEVEDO (oberdancarvalhoazevedo@gmail.com) com 4 arquivos.
+2025-07-14 17:16:26,867 - INFO - E-mail enviado com sucesso para PABLO MARINHO REIS (Pablochn@live.com) com 4 arquivos.
+2025-07-14 17:16:27,792 - INFO - E-mail enviado com sucesso para PAMELA THAIS FONSECA MIRANDA (pamela1005@icloud.com) com 4 arquivos.
+2025-07-14 17:16:28,598 - INFO - E-mail enviado com sucesso para PATRICIA LUCIANA DE ALMEIDA SANTOS (Isabellepaty07@gmail.com) com 4 arquivos.
+2025-07-14 17:16:29,536 - INFO - E-mail enviado com sucesso para PATRICK NUNES (patrickwork01@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:30,429 - INFO - E-mail enviado com sucesso para PAULA NATIELE DE SOUZA DOS REIS (pnsr3107@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:31,284 - INFO - E-mail enviado com sucesso para PAULO CRISTIANO ALVES (paulo.cristianoalves@gmail.com) com 4 arquivos.
+2025-07-14 17:16:32,153 - INFO - E-mail enviado com sucesso para PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA (paulo.emanuel.008@gmail.com) com 4 arquivos.
+2025-07-14 17:16:33,123 - INFO - E-mail enviado com sucesso para Pedro Henrique Martins Tavares (pedrohmt.ph@gmail.com) com 4 arquivos.
+2025-07-14 17:16:34,034 - INFO - E-mail enviado com sucesso para PEDRO IVO CARVALHO DOS SANTOS (IVOOFICIALL@GMAIL.COM) com 4 arquivos.
+2025-07-14 17:16:34,976 - INFO - E-mail enviado com sucesso para PRISCILA DA ROSA NOBRE (nprisciladarosa@gmail.com) com 4 arquivos.
+2025-07-14 17:16:36,054 - INFO - E-mail enviado com sucesso para RAABE DE ALMEIDA CRUZ (Raabe.almeidaacruz@gmail.com) com 4 arquivos.
+2025-07-14 17:16:37,005 - INFO - E-mail enviado com sucesso para RAFAEL COLOMBO MENDES (rm.gramado@gmail.com) com 4 arquivos.
+2025-07-14 17:16:38,032 - INFO - E-mail enviado com sucesso para RAFAELA KALIANDRA PILGER DA SILVEIRA (rafaksilveira04@gmail.com) com 4 arquivos.
+2025-07-14 17:16:38,993 - INFO - E-mail enviado com sucesso para RAFAELA SOUZA CARLOS (rafaquieto@gmail.com) com 4 arquivos.
+2025-07-14 17:16:39,967 - INFO - E-mail enviado com sucesso para RAILDA JOSEFA CHAVES SOUSA (raildachaves21@gmail.com) com 4 arquivos.
+2025-07-14 17:16:41,024 - INFO - E-mail enviado com sucesso para RAYLENE MARIA RODRIGUES HONORIO (rraylene165@gmail.com) com 4 arquivos.
+2025-07-14 17:16:42,023 - INFO - E-mail enviado com sucesso para Rebeka Cossito de Amorim Laport (rebeka.cossito_@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:42,996 - INFO - E-mail enviado com sucesso para RENATO DE SOUZA ROCHA (rsrconsultoriaevenda@gmail.com) com 4 arquivos.
+2025-07-14 17:16:44,023 - INFO - E-mail enviado com sucesso para RENATO LIMA DOS SANTOS (renatolimasantos2017@gmail.com) com 4 arquivos.
+2025-07-14 17:16:44,995 - INFO - E-mail enviado com sucesso para Richard Eduard de Souza Schell (richardespecialistaemimoveis@gmail.com) com 4 arquivos.
+2025-07-14 17:16:46,030 - INFO - E-mail enviado com sucesso para ROBERTA TAINARA RIBEIRO DE SOUZA (comercialrobertaribeiro@gmail.com) com 4 arquivos.
+2025-07-14 17:16:47,172 - INFO - E-mail enviado com sucesso para ROBSON MERODIO BONFIM (robsonmerodio@gmail.com) com 4 arquivos.
+2025-07-14 17:16:48,187 - INFO - E-mail enviado com sucesso para Rodrigo Eduardo Pereira Junior (rodrigoeduardojr18@gmail.com) com 4 arquivos.
+2025-07-14 17:16:49,129 - INFO - E-mail enviado com sucesso para Rodrigo Filter de Oliveira (rodrigomanofilter@outlook.com) com 4 arquivos.
+2025-07-14 17:16:50,021 - INFO - E-mail enviado com sucesso para RODRIGO PIMEL (rodrigopimel83@gmail.com) com 4 arquivos.
+2025-07-14 17:16:50,959 - INFO - E-mail enviado com sucesso para ROGER ANDRE VIGO ALVES (rogervigoconsultoria@gmail.com) com 4 arquivos.
+2025-07-14 17:16:51,830 - INFO - E-mail enviado com sucesso para ROSALVA SILVA PATROCINIO (rosaspatrocinio@hotmail.com) com 4 arquivos.
+2025-07-14 17:16:52,798 - INFO - E-mail enviado com sucesso para RUDINEI RODRIGUES DE OLIVEIRA (rudineirodrigues.o@gmail.com) com 4 arquivos.
+2025-07-14 17:16:53,891 - INFO - E-mail enviado com sucesso para RUTEMBERG CORREIA MIRANDA NASCIMENTO (berg.turismo@outlook.com) com 4 arquivos.
+2025-07-14 17:16:54,947 - INFO - E-mail enviado com sucesso para SAMUEL DE ALMEIDA (samuel1618almeida@gmail.com) com 4 arquivos.
+2025-07-14 17:16:56,162 - INFO - E-mail enviado com sucesso para SAMY DOS SANTOS SILVA (braasil33@gmail.com) com 4 arquivos.
+2025-07-14 17:16:57,121 - INFO - E-mail enviado com sucesso para SANABIO PEREIRA SCHUMACHER (sanabiodb@gmail.com) com 4 arquivos.
+2025-07-14 17:16:58,123 - INFO - E-mail enviado com sucesso para SANDRO BRUNO COSTA GARCIA (bcmadara777@gmail.com) com 4 arquivos.
+2025-07-14 17:16:59,129 - INFO - E-mail enviado com sucesso para SANGELA CRISTINA ARRUDA LIMA MORAIS (scalmimobiliario@gmail.com) com 4 arquivos.
+2025-07-14 17:17:00,149 - INFO - E-mail enviado com sucesso para SARA SIMAO BARBOSA DA SILVA (sarasimao1994@gmail.com) com 4 arquivos.
+2025-07-14 17:17:01,123 - INFO - E-mail enviado com sucesso para SHAISTER THAUANNE DOS SANTOS RIBAS DA SILVA (thauanneribas@gmail.com) com 4 arquivos.
+2025-07-14 17:17:02,172 - INFO - E-mail enviado com sucesso para STEFANE ALVES CASTRO (stefanecasttro@gmail.com) com 4 arquivos.
+2025-07-14 17:17:03,000 - INFO - E-mail enviado com sucesso para STEFANE COSTA DE OLIVEIRA (stefanecosta609@gmail.com) com 1 arquivos.
+2025-07-14 17:17:04,022 - INFO - E-mail enviado com sucesso para STEFANI VITORIA FERREIRA (stefaniferreira.sf.sf@gmail.com) com 4 arquivos.
+2025-07-14 17:17:04,873 - INFO - E-mail enviado com sucesso para SUELLEN DA SILVA RIBEIRO (sr.consultoria07@gmail.com) com 4 arquivos.
+2025-07-14 17:17:05,772 - INFO - E-mail enviado com sucesso para SUYANNE CHRISTINNE MARQUES LIMA (sussumlima@gmail.com) com 4 arquivos.
+2025-07-14 17:17:06,639 - INFO - E-mail enviado com sucesso para SUZILEIA LUCAS VIANA WATTAGE (suzileiaviana@gmail.com) com 4 arquivos.
+2025-07-14 17:17:07,472 - INFO - E-mail enviado com sucesso para TAIS ZULMIRA HIPOLITO (zulmirahipolito@gmail.com) com 4 arquivos.
+2025-07-14 17:17:08,370 - INFO - E-mail enviado com sucesso para TAMY AIRTON MUELLER (eusootamy@gmail.com) com 4 arquivos.
+2025-07-14 17:17:09,333 - INFO - E-mail enviado com sucesso para TANNYA SELENE MIERES DOMINGUEZ (Tannya381@gmail.com) com 4 arquivos.
+2025-07-14 17:17:10,315 - INFO - E-mail enviado com sucesso para Tatiane Braga Medeiros (tatibmedeiros@gmail.com) com 4 arquivos.
+2025-07-14 17:17:11,204 - INFO - E-mail enviado com sucesso para Tauane Aparecida Postiglioni Flavio (tauanipostiglioni6@gmail.com) com 4 arquivos.
+2025-07-14 17:17:12,288 - INFO - E-mail enviado com sucesso para TEILLOR DIOVANE DE JESUS BONN (teilor__bonn@hotmail.com) com 4 arquivos.
+2025-07-14 17:17:13,146 - INFO - E-mail enviado com sucesso para THAIS GONCALVES DA SILVA (thais.gvess@gmail.com) com 4 arquivos.
+2025-07-14 17:17:14,159 - INFO - E-mail enviado com sucesso para THAIS KAPPAUN THEOBALD SERRA (thais.kappaun@hotmail.com) com 4 arquivos.
+2025-07-14 17:17:15,117 - INFO - E-mail enviado com sucesso para THALLYS JEFFERSON DE PAIVA OLIVEIRA (thallyspaiva22@gmail.com) com 4 arquivos.
+2025-07-14 17:17:16,324 - INFO - E-mail enviado com sucesso para THAYS CHRISTINNE TAVARES DE BRITO (thachris27@gmail.com) com 4 arquivos.
+2025-07-14 17:17:17,223 - INFO - E-mail enviado com sucesso para THIAGO FERREIRA DA SILVA (18ferreirathiago12@gmail.com) com 4 arquivos.
+2025-07-14 17:17:18,151 - INFO - E-mail enviado com sucesso para THIAGO OLIVEIRA DOS SANTOS (oliveirathiago351@gmail.com) com 4 arquivos.
+2025-07-14 17:17:19,107 - INFO - E-mail enviado com sucesso para THIAGO ROGEL COSTA SOUZA (thiago_costa1992@yahoo.com) com 4 arquivos.
+2025-07-14 17:17:20,129 - INFO - E-mail enviado com sucesso para THIAGO TADEU PACHECO JUNQUEIRA (thiagotadeu071287@yahoo.com) com 4 arquivos.
+2025-07-14 17:17:21,103 - INFO - E-mail enviado com sucesso para TOVAR ALFF DOS SANTOS (alffsantos7@gmail.com) com 4 arquivos.
+2025-07-14 17:17:22,019 - INFO - E-mail enviado com sucesso para VANESSA DEON FERREIRA (vanessadeon.corretora@gmail.com) com 4 arquivos.
+2025-07-14 17:17:22,900 - INFO - E-mail enviado com sucesso para VANESSA GRACYELLY MENDES DE SOUZA GODOY (nessagsouza@gmail.com) com 4 arquivos.
+2025-07-14 17:17:23,819 - INFO - E-mail enviado com sucesso para VANKLEY SALES DE MOURA (vankleysalles@gmail.com) com 4 arquivos.
+2025-07-14 17:17:24,816 - INFO - E-mail enviado com sucesso para VICTOR MENEZES DOS SANTOS SILVA (victormenezes.w1@gmail.com) com 4 arquivos.
+2025-07-14 17:17:25,794 - INFO - E-mail enviado com sucesso para VICTOR OTAVIO GUERREIRO BRUNELLI (victor.brunelli30@gmail.com) com 4 arquivos.
+2025-07-14 17:17:26,661 - INFO - E-mail enviado com sucesso para Victoria Regina Silva de Moura (victoriamouraa@icloud.com) com 4 arquivos.
+2025-07-14 17:17:27,488 - INFO - E-mail enviado com sucesso para VINICIUS LIPPO SILIPRANDI (viniciuslippo@gmail.com) com 4 arquivos.
+2025-07-14 17:17:28,582 - INFO - E-mail enviado com sucesso para WEBERTH DE MEDEIROS NASCENTE (Weberthcaete15@gmail.com) com 4 arquivos.
+2025-07-14 17:17:29,448 - INFO - E-mail enviado com sucesso para WELLITON CARLOS LOEBLEIN (cwelliton25@gmail.com) com 4 arquivos.
+2025-07-14 17:17:30,309 - INFO - E-mail enviado com sucesso para WERBEM JARDIM MENESES (werbem.40@gmail.com) com 4 arquivos.
+2025-07-14 17:17:31,341 - INFO - E-mail enviado com sucesso para WESLEY ASSIS DOS SANTOS (wesleyassis320@gmail.com) com 4 arquivos.
+2025-07-14 17:17:32,348 - INFO - E-mail enviado com sucesso para WESLEY MAIA CARDOSO (wesleymaiacardoso@gmail.com) com 4 arquivos.
+2025-07-14 17:17:33,236 - INFO - E-mail enviado com sucesso para YARA APARECIDA BURIN EMERICH (yaraemerich1@gmail.com) com 4 arquivos.
+2025-07-14 17:17:34,131 - INFO - E-mail enviado com sucesso para LEONARDO VICTOR  MACHADO DE MEDEIROS (leonardovictor765@gmail.com) com 4 arquivos.
+2025-07-14 17:17:35,057 - INFO - E-mail enviado com sucesso para LUCAS DOS SANTOS SOUSA (lucas.sousa310800@hotmail.com) com 4 arquivos.
+2025-07-14 17:17:35,967 - INFO - E-mail enviado com sucesso para ZILDA ALEXSANDRA SEVERINO MARQUES (alexsandra.marquex@gmail.com) com 4 arquivos.
+2025-07-14 17:17:36,909 - INFO - E-mail enviado com sucesso para JOAO BATISTA MENDES JUNIOR (juniorverdao95@gmail.com) com 4 arquivos.
+2025-07-14 17:17:37,753 - INFO - E-mail enviado com sucesso para RAFAEL MARIO FELICIO (rafaelmariofelicio@gmail.com.br) com 1 arquivos.
+2025-07-14 17:17:38,695 - INFO - E-mail enviado com sucesso para JADIELSON JOSE DA SILVA FERRAZ (jadielsonadm@live.com) com 4 arquivos.
+2025-07-14 17:17:38,706 - ERROR - Pasta não encontrada para MARIA JOAQUINA ASSUNÇÃO FERREIRA.
+2025-07-14 17:17:39,621 - INFO - E-mail enviado com sucesso para WALECE DE CASTRO LEITE (waleceikegame22@gmail.com) com 4 arquivos.
+2025-07-14 17:17:40,617 - INFO - E-mail enviado com sucesso para AMANDA CORREA CAVALHEIRO (amandacavalheirocorrea@gmail.com) com 4 arquivos.
+2025-07-14 17:17:41,467 - INFO - E-mail enviado com sucesso para JADSON VIEIRA DE MELO (jadinho.gdt@gmail.com) com 4 arquivos.
+2025-07-14 17:17:42,529 - INFO - E-mail enviado com sucesso para THIAGO PIRES BIAVATTI (thiagobiavatti0909@gmail.com) com 4 arquivos.
+2025-07-14 17:17:43,396 - INFO - E-mail enviado com sucesso para LAURA PINTO FONTES (dressit22@gmail.com) com 4 arquivos.
+2025-07-14 17:17:44,277 - INFO - E-mail enviado com sucesso para GABRIELA PEIXOTO MARTINS (gaby_pm15@hotmail.com) com 4 arquivos.
+2025-07-14 17:17:45,069 - INFO - E-mail enviado com sucesso para MATHEUS FELIPE FERREIRA PIMENTA (matheusffpimenta@gmail.com) com 4 arquivos.
+2025-07-14 17:17:45,957 - INFO - E-mail enviado com sucesso para WILLIAN DOS SANTOS (stwillian@hotmail.com) com 4 arquivos.
+2025-07-14 17:17:46,844 - INFO - E-mail enviado com sucesso para EDMARCOS SOUSA DUTRA (edmarcos.vendas@gmail.com) com 4 arquivos.
+2025-07-14 17:17:47,694 - INFO - E-mail enviado com sucesso para Deise Alice de Brito de Oliveira (deisealice2207@gmail.com) com 4 arquivos.
+2025-07-14 17:17:48,619 - INFO - E-mail enviado com sucesso para GABRIEL FERNANDO ALMEIDA (gabrielbarrofaldi@gmail.com) com 4 arquivos.
+2025-07-14 17:17:49,576 - INFO - E-mail enviado com sucesso para RAUL CARLOS HENRIQUE FERREIRA KRIGER AMORIM ANTONY (henrique07antony@gmail.com) com 4 arquivos.
+2025-07-14 17:17:50,509 - INFO - E-mail enviado com sucesso para MAURO FILLIPE MOTA (mauro.fillipe@gmail.com) com 4 arquivos.
+2025-07-14 17:17:51,303 - INFO - E-mail enviado com sucesso para FABIO JOSIAS SPINDOLA (fspindola78@gmail.com) com 1 arquivos.
+2025-07-14 17:17:52,122 - INFO - E-mail enviado com sucesso para FABRICIO PEREIRA PINHEIRO (fabricioxodo@hotmail.com) com 1 arquivos.
+2025-07-14 17:17:52,856 - INFO - E-mail enviado com sucesso para FRANCIELLY DA SILVA MORAES (francymoraiss28@gmail.com) com 1 arquivos.
+2025-07-14 17:17:53,701 - INFO - E-mail enviado com sucesso para LUCAS FAGUNDES OLIVIERA VIANA (fagundesoliveira10@gmail.com) com 1 arquivos.
+2025-07-14 18:52:12,091 - INFO - E-mail enviado com sucesso para HUGO SOUZA FERRAO NETO (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-07-14 18:55:13,863 - INFO - E-mail enviado com sucesso para HUGO SOUZA FERRAO NETO (hugoferraoneto@gmail.com) com 4 arquivos.
+2025-07-15 01:48:27,485 - INFO - E-mail enviado com sucesso para ALLAN KARDEC DA SILVA SIMAO (allankardecs74@gmail.com) com 4 arquivos.
+2025-07-15 01:48:28,641 - INFO - E-mail enviado com sucesso para ALYSON HENRRIQUE SILVA SIMAO (alysonceara2019@gmail.com) com 4 arquivos.
+2025-07-15 01:48:29,522 - INFO - E-mail enviado com sucesso para DAIANE ALVES LOURENCO (daianealveslourenco74@gmail.com) com 4 arquivos.
+2025-07-15 01:48:30,315 - INFO - E-mail enviado com sucesso para EDILAINE CRISTINA DE OLIVEIRA LOURENCO (edilainelourenco2010@hotmail.com) com 4 arquivos.
+2025-07-15 01:48:31,082 - INFO - E-mail enviado com sucesso para ESTEFANE GONCALVES PRADE (estefaneprade456@gmail.com) com 4 arquivos.
+2025-07-15 01:48:31,830 - INFO - E-mail enviado com sucesso para FABRICIO NUNES HEIINECK (fabricionunesheineck@gmail.com) com 4 arquivos.
+2025-07-15 01:48:32,647 - INFO - E-mail enviado com sucesso para FLAVIO MARQUES AGUIAR JUNIOR (eujunnior21@gmail.com) com 4 arquivos.
+2025-07-15 01:48:33,404 - INFO - E-mail enviado com sucesso para NELSON LOURENCO DA SILVA JUNIOR (skylinelouren@outlook.com) com 4 arquivos.
+2025-07-15 01:48:34,155 - INFO - E-mail enviado com sucesso para ROSALVA SILVA PATROCINIO (rosaspatrocinio@hotmail.com) com 4 arquivos.
+2025-08-12 00:10:53,318 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-08-12 00:10:53,319 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-08-12 00:10:53,319 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-08-12 00:52:13,014 - INFO - E-mail enviado com sucesso para JOAO BATISTA MENDES JUNIOR (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-08-12 00:55:37,800 - INFO - E-mail enviado com sucesso para JOAO BATISTA MENDES JUNIOR (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-08-12 01:16:16,603 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-08-12 01:16:16,604 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-08-12 01:16:16,604 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-08-12 01:52:10,392 - INFO - E-mail enviado com sucesso para JOAO BATISTA MENDES JUNIOR (ti2@laghettomultipropriedade.com.br) com 4 arquivos.

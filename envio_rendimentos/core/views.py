@@ -734,6 +734,11 @@ def upload_planilha(request):
             # === Gera mínimo
             aba_pgcs = pd.read_excel(caminho_pgcsheet)
             df_minimo = extrair_minimos_robusto(aba_pgcs, caminho_temporario, numero_pgc)
+            # 🔹 Remove acentos dos nomes dos credores
+            import unicodedata
+            df_minimo['credor'] = df_minimo['credor'].apply(
+                lambda x: unicodedata.normalize('NFKD', str(x)).encode('ASCII', 'ignore').decode('ASCII')
+            )
             salvar_minimos_como_excel(df_minimo, numero_pgc)
 
         except Exception as e:
