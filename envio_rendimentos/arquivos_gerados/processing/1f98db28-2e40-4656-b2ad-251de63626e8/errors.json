@@ -1,0 +1,15 @@
+[
+  {
+    "id": "07b46714-75fc-48bf-a47a-0fae51bc9b56",
+    "request_id": "1f98db28-2e40-4656-b2ad-251de63626e8",
+    "credor": null,
+    "credor_display": null,
+    "step": "fatal",
+    "technical": "'[None] not in index'\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 361, in processar_pgc_lgm\n    pgc_credor = df_base[\n                 ^^^^^^^^\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\frame.py\", line 4108, in __getitem__\n    indexer = self.columns._get_indexer_strict(key, \"columns\")[1]\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py\", line 6200, in _get_indexer_strict\n    self._raise_if_missing(keyarr, indexer, axis_name)\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py\", line 6252, in _raise_if_missing\n    raise KeyError(f\"{not_found} not in index\")\nKeyError: '[None] not in index'\n",
+    "friendly": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "type": "unknown",
+    "time": "17:01:43",
+    "retries": 0,
+    "resolved": false
+  }
+]

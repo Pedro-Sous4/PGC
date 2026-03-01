@@ -1,0 +1,1132 @@
+{
+  "status": "completed",
+  "processed": 0,
+  "total_credores": 68,
+  "percent": 100,
+  "current_credor": null,
+  "logs": [
+    {
+      "type": "info",
+      "msg": "Processamento iniciado",
+      "time": "21:26:00"
+    },
+    {
+      "type": "info",
+      "msg": "Arquivo recebido: PGC 14 - SPORTS - EQUIPE E LIDERANÇA - TODAS AS SALAS.xlsx",
+      "time": "21:26:00"
+    },
+    {
+      "type": "info",
+      "msg": "PGC detectado: 14",
+      "time": "21:26:16"
+    },
+    {
+      "type": "info",
+      "msg": "Normalizando planilhas",
+      "time": "21:26:16"
+    },
+    {
+      "type": "info",
+      "msg": "Pasta PGC: C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\SPORTS - 14",
+      "time": "21:27:16"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10075 - TIAGO PEREIRA DA CUNHA",
+      "time": "21:27:34",
+      "credor": "10075 - TIAGO PEREIRA DA CUNHA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10075 - TIAGO PEREIRA DA CUNHA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10075 - TIAGO PEREIRA DA CUNHA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10076 - MATEUS HENRIQUE MARIANO DE SOUZA",
+      "time": "21:27:34",
+      "credor": "10076 - MATEUS HENRIQUE MARIANO DE SOUZA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10076 - MATEUS HENRIQUE MARIANO DE SOUZA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10076 - MATEUS HENRIQUE MARIANO DE SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10386 - RENAN FAGLIARI LOURENÇO",
+      "time": "21:27:34",
+      "credor": "10386 - RENAN FAGLIARI LOURENÇO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10386 - RENAN FAGLIARI LOURENÇO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10386 - RENAN FAGLIARI LOURENÇO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10524 - WELLINGTON SILVA DOS SANTOS",
+      "time": "21:27:34",
+      "credor": "10524 - WELLINGTON SILVA DOS SANTOS"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10524 - WELLINGTON SILVA DOS SANTOS: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10524 - WELLINGTON SILVA DOS SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10638 - KAILANE MANOELA PINHEIRO DOS SANTOS",
+      "time": "21:27:34",
+      "credor": "10638 - KAILANE MANOELA PINHEIRO DOS SANTOS"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10638 - KAILANE MANOELA PINHEIRO DOS SANTOS: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10638 - KAILANE MANOELA PINHEIRO DOS SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10769 - LUIZ NIKOLAUS RAMOS KEHL",
+      "time": "21:27:34",
+      "credor": "10769 - LUIZ NIKOLAUS RAMOS KEHL"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10769 - LUIZ NIKOLAUS RAMOS KEHL: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10769 - LUIZ NIKOLAUS RAMOS KEHL"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10771 - ROSICLER DE OLIVEIRA TERNES",
+      "time": "21:27:34",
+      "credor": "10771 - ROSICLER DE OLIVEIRA TERNES"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10771 - ROSICLER DE OLIVEIRA TERNES: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10771 - ROSICLER DE OLIVEIRA TERNES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10772 - Fernanda Gonçalves Do Nascimento",
+      "time": "21:27:34",
+      "credor": "10772 - Fernanda Gonçalves Do Nascimento"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10772 - Fernanda Gonçalves Do Nascimento: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10772 - Fernanda Gonçalves Do Nascimento"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10837 - GABRIELA NASCIMENTO CYPRIANO",
+      "time": "21:27:34",
+      "credor": "10837 - GABRIELA NASCIMENTO CYPRIANO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10837 - GABRIELA NASCIMENTO CYPRIANO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10837 - GABRIELA NASCIMENTO CYPRIANO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10985 - LUCAS LUIZ SANTOS",
+      "time": "21:27:34",
+      "credor": "10985 - LUCAS LUIZ SANTOS"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 10985 - LUCAS LUIZ SANTOS: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "10985 - LUCAS LUIZ SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 112 - PAULA GIOVANA DO AMARAL (CONSULTOR)",
+      "time": "21:27:34",
+      "credor": "112 - PAULA GIOVANA DO AMARAL (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 112 - PAULA GIOVANA DO AMARAL (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "112 - PAULA GIOVANA DO AMARAL (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 11663 - Naisa Borba Gonçalves da Silva",
+      "time": "21:27:34",
+      "credor": "11663 - Naisa Borba Gonçalves da Silva"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 11663 - Naisa Borba Gonçalves da Silva: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "11663 - Naisa Borba Gonçalves da Silva"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 11875 - JULIANA DA COSTA KAMENACH",
+      "time": "21:27:34",
+      "credor": "11875 - JULIANA DA COSTA KAMENACH"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 11875 - JULIANA DA COSTA KAMENACH: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "11875 - JULIANA DA COSTA KAMENACH"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)",
+      "time": "21:27:34",
+      "credor": "12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12031 - GUILHERME CREMONINI BRAZ (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12043 - PETERSON GUERREIRO",
+      "time": "21:27:34",
+      "credor": "12043 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12043 - PETERSON GUERREIRO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12043 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12090 - GILSEIA SALETE CARGNIN",
+      "time": "21:27:34",
+      "credor": "12090 - GILSEIA SALETE CARGNIN"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12090 - GILSEIA SALETE CARGNIN: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12090 - GILSEIA SALETE CARGNIN"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12287 - Hugo Fernando Alves",
+      "time": "21:27:34",
+      "credor": "12287 - Hugo Fernando Alves"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12287 - Hugo Fernando Alves: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12287 - Hugo Fernando Alves"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12289 - João Guilherme Silva Paris",
+      "time": "21:27:34",
+      "credor": "12289 - João Guilherme Silva Paris"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12289 - João Guilherme Silva Paris: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12289 - João Guilherme Silva Paris"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12377 - PEDRO MANOEL DE SOUSA BARBOSA",
+      "time": "21:27:34",
+      "credor": "12377 - PEDRO MANOEL DE SOUSA BARBOSA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12377 - PEDRO MANOEL DE SOUSA BARBOSA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12377 - PEDRO MANOEL DE SOUSA BARBOSA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12456 - Jefferson Tadeu Caldeira Mauricio",
+      "time": "21:27:34",
+      "credor": "12456 - Jefferson Tadeu Caldeira Mauricio"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12456 - Jefferson Tadeu Caldeira Mauricio: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12456 - Jefferson Tadeu Caldeira Mauricio"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12550 - DANIELA MOURA RODRIGUES",
+      "time": "21:27:34",
+      "credor": "12550 - DANIELA MOURA RODRIGUES"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12550 - DANIELA MOURA RODRIGUES: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12550 - DANIELA MOURA RODRIGUES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12725 - FABRICIO DE FREITAS MEIRELES AMARAL",
+      "time": "21:27:34",
+      "credor": "12725 - FABRICIO DE FREITAS MEIRELES AMARAL"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12725 - FABRICIO DE FREITAS MEIRELES AMARAL: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12725 - FABRICIO DE FREITAS MEIRELES AMARAL"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12731 - SOLANGE FURINI DE MELLO",
+      "time": "21:27:34",
+      "credor": "12731 - SOLANGE FURINI DE MELLO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12731 - SOLANGE FURINI DE MELLO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12731 - SOLANGE FURINI DE MELLO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12760 - RAUL QUINTANA GALVEZ",
+      "time": "21:27:34",
+      "credor": "12760 - RAUL QUINTANA GALVEZ"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12760 - RAUL QUINTANA GALVEZ: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12760 - RAUL QUINTANA GALVEZ"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12804 - Alexandre do Nascimento Souza",
+      "time": "21:27:34",
+      "credor": "12804 - Alexandre do Nascimento Souza"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12804 - Alexandre do Nascimento Souza: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12804 - Alexandre do Nascimento Souza"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12835 - Amanda Francieli De Almeida",
+      "time": "21:27:34",
+      "credor": "12835 - Amanda Francieli De Almeida"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 12835 - Amanda Francieli De Almeida: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "12835 - Amanda Francieli De Almeida"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 13529 - ELISANGELA DA SILVA SANTOS",
+      "time": "21:27:34",
+      "credor": "13529 - ELISANGELA DA SILVA SANTOS"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 13529 - ELISANGELA DA SILVA SANTOS: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "13529 - ELISANGELA DA SILVA SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 13570 - Évelyn de Cordova",
+      "time": "21:27:34",
+      "credor": "13570 - Évelyn de Cordova"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 13570 - Évelyn de Cordova: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "13570 - Évelyn de Cordova"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14159 - MARCELE GONÇALVES DA SILVA",
+      "time": "21:27:34",
+      "credor": "14159 - MARCELE GONÇALVES DA SILVA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 14159 - MARCELE GONÇALVES DA SILVA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "14159 - MARCELE GONÇALVES DA SILVA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14302 - LUCINARA DONDE RODRIGUES (CORRETORA)",
+      "time": "21:27:34",
+      "credor": "14302 - LUCINARA DONDE RODRIGUES (CORRETORA)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 14302 - LUCINARA DONDE RODRIGUES (CORRETORA): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "14302 - LUCINARA DONDE RODRIGUES (CORRETORA)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14315 - JULIANO JOSE LOPES (CONSULTOR)",
+      "time": "21:27:34",
+      "credor": "14315 - JULIANO JOSE LOPES (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 14315 - JULIANO JOSE LOPES (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "14315 - JULIANO JOSE LOPES (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)",
+      "time": "21:27:34",
+      "credor": "14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14497 - Claudiana Bezerra Montezuma",
+      "time": "21:27:34",
+      "credor": "14497 - Claudiana Bezerra Montezuma"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 14497 - Claudiana Bezerra Montezuma: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "14497 - Claudiana Bezerra Montezuma"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15274 - Alessandra Freire Godoy",
+      "time": "21:27:34",
+      "credor": "15274 - Alessandra Freire Godoy"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 15274 - Alessandra Freire Godoy: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "15274 - Alessandra Freire Godoy"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15424 - JOAO PAULO LEAO FERNANDES",
+      "time": "21:27:34",
+      "credor": "15424 - JOAO PAULO LEAO FERNANDES"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 15424 - JOAO PAULO LEAO FERNANDES: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "15424 - JOAO PAULO LEAO FERNANDES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15497 - Diego dos Reis Sales",
+      "time": "21:27:34",
+      "credor": "15497 - Diego dos Reis Sales"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 15497 - Diego dos Reis Sales: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "15497 - Diego dos Reis Sales"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15825 - BRENDA ELLEN VIEIRA",
+      "time": "21:27:34",
+      "credor": "15825 - BRENDA ELLEN VIEIRA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 15825 - BRENDA ELLEN VIEIRA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "15825 - BRENDA ELLEN VIEIRA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA",
+      "time": "21:27:34",
+      "credor": "16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16188 - PETERSON GUERREIRO",
+      "time": "21:27:34",
+      "credor": "16188 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 16188 - PETERSON GUERREIRO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "16188 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)",
+      "time": "21:27:34",
+      "credor": "16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 16593 - FELIPE CARUSO MAGALHAES (CAPTADOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 1752 - LEONARDO BAUER DE SOUZA",
+      "time": "21:27:34",
+      "credor": "1752 - LEONARDO BAUER DE SOUZA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 1752 - LEONARDO BAUER DE SOUZA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "1752 - LEONARDO BAUER DE SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 1754 - LORENA SOARES DOS SANTOS DE CARVALHO",
+      "time": "21:27:34",
+      "credor": "1754 - LORENA SOARES DOS SANTOS DE CARVALHO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 1754 - LORENA SOARES DOS SANTOS DE CARVALHO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "1754 - LORENA SOARES DOS SANTOS DE CARVALHO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 2315 - VINICIUS SOUZA",
+      "time": "21:27:34",
+      "credor": "2315 - VINICIUS SOUZA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 2315 - VINICIUS SOUZA: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "2315 - VINICIUS SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 27696 - DHIEGO SOUZA SILVA (CAPTADOR)",
+      "time": "21:27:34",
+      "credor": "27696 - DHIEGO SOUZA SILVA (CAPTADOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 27696 - DHIEGO SOUZA SILVA (CAPTADOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "27696 - DHIEGO SOUZA SILVA (CAPTADOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 700 - VINICIUS SOUZA ( CONSULTOR)",
+      "time": "21:27:34",
+      "credor": "700 - VINICIUS SOUZA ( CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 700 - VINICIUS SOUZA ( CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "700 - VINICIUS SOUZA ( CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8639 - LUIS ALVES DO AMARAL NETO",
+      "time": "21:27:34",
+      "credor": "8639 - LUIS ALVES DO AMARAL NETO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8639 - LUIS ALVES DO AMARAL NETO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8639 - LUIS ALVES DO AMARAL NETO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8671 - Rhenielly Souza Costa",
+      "time": "21:27:34",
+      "credor": "8671 - Rhenielly Souza Costa"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8671 - Rhenielly Souza Costa: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8671 - Rhenielly Souza Costa"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8690 - Ercruis Cardoso Da Silva",
+      "time": "21:27:34",
+      "credor": "8690 - Ercruis Cardoso Da Silva"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8690 - Ercruis Cardoso Da Silva: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8690 - Ercruis Cardoso Da Silva"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8700 - Janete Bonissoni",
+      "time": "21:27:34",
+      "credor": "8700 - Janete Bonissoni"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8700 - Janete Bonissoni: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8700 - Janete Bonissoni"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8703 - Leonardo Garcia Pedezert",
+      "time": "21:27:34",
+      "credor": "8703 - Leonardo Garcia Pedezert"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8703 - Leonardo Garcia Pedezert: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8703 - Leonardo Garcia Pedezert"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8708 - Sandro Cunha De Freitas",
+      "time": "21:27:34",
+      "credor": "8708 - Sandro Cunha De Freitas"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8708 - Sandro Cunha De Freitas: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8708 - Sandro Cunha De Freitas"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8830 - Josyene Aparecida De Freitas",
+      "time": "21:27:34",
+      "credor": "8830 - Josyene Aparecida De Freitas"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8830 - Josyene Aparecida De Freitas: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8830 - Josyene Aparecida De Freitas"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8831 - Eric Sandro Freire Godoy Moraes Schutz",
+      "time": "21:27:34",
+      "credor": "8831 - Eric Sandro Freire Godoy Moraes Schutz"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8831 - Eric Sandro Freire Godoy Moraes Schutz: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8831 - Eric Sandro Freire Godoy Moraes Schutz"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8832 - Ana Luisa Xavier Perdomo Paz",
+      "time": "21:27:34",
+      "credor": "8832 - Ana Luisa Xavier Perdomo Paz"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8832 - Ana Luisa Xavier Perdomo Paz: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8832 - Ana Luisa Xavier Perdomo Paz"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8992 - Renan Marques De Assis Santos",
+      "time": "21:27:34",
+      "credor": "8992 - Renan Marques De Assis Santos"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8992 - Renan Marques De Assis Santos: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8992 - Renan Marques De Assis Santos"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8993 - Franciela M . Bergamaschi",
+      "time": "21:27:34",
+      "credor": "8993 - Franciela M . Bergamaschi"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 8993 - Franciela M . Bergamaschi: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "8993 - Franciela M . Bergamaschi"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9061 - Andre Ricardo Sampaio",
+      "time": "21:27:34",
+      "credor": "9061 - Andre Ricardo Sampaio"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9061 - Andre Ricardo Sampaio: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9061 - Andre Ricardo Sampaio"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9121 - Alexandro Silva Ferreira",
+      "time": "21:27:34",
+      "credor": "9121 - Alexandro Silva Ferreira"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9121 - Alexandro Silva Ferreira: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9121 - Alexandro Silva Ferreira"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9163 - Rogerio Castro Ramos",
+      "time": "21:27:34",
+      "credor": "9163 - Rogerio Castro Ramos"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9163 - Rogerio Castro Ramos: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9163 - Rogerio Castro Ramos"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9400 - MARCIO DENNY NASCIMENTO",
+      "time": "21:27:34",
+      "credor": "9400 - MARCIO DENNY NASCIMENTO"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9400 - MARCIO DENNY NASCIMENTO: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9400 - MARCIO DENNY NASCIMENTO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9476 - GUSTAVO CARDOSO WEBER",
+      "time": "21:27:34",
+      "credor": "9476 - GUSTAVO CARDOSO WEBER"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9476 - GUSTAVO CARDOSO WEBER: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9476 - GUSTAVO CARDOSO WEBER"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9480 - ANNA CRISTINA RATZKE",
+      "time": "21:27:34",
+      "credor": "9480 - ANNA CRISTINA RATZKE"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9480 - ANNA CRISTINA RATZKE: 'credor_normalizado'",
+      "time": "21:27:34",
+      "credor": "9480 - ANNA CRISTINA RATZKE"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9614 - Nicollas Da Rocha Pereira",
+      "time": "21:27:34",
+      "credor": "9614 - Nicollas Da Rocha Pereira"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9614 - Nicollas Da Rocha Pereira: 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "9614 - Nicollas Da Rocha Pereira"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)",
+      "time": "21:27:35",
+      "credor": "9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9654 - Daniel Luiz Martins de Morais",
+      "time": "21:27:35",
+      "credor": "9654 - Daniel Luiz Martins de Morais"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9654 - Daniel Luiz Martins de Morais: 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "9654 - Daniel Luiz Martins de Morais"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)",
+      "time": "21:27:35",
+      "credor": "9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO): 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)",
+      "time": "21:27:35",
+      "credor": "99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR): 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9972 - PAULO LUCAS VICENTE DA SILVA",
+      "time": "21:27:35",
+      "credor": "9972 - PAULO LUCAS VICENTE DA SILVA"
+    },
+    {
+      "type": "error",
+      "msg": "Erro no credor 9972 - PAULO LUCAS VICENTE DA SILVA: 'credor_normalizado'",
+      "time": "21:27:35",
+      "credor": "9972 - PAULO LUCAS VICENTE DA SILVA"
+    },
+    {
+      "type": "info",
+      "msg": "Processamento finalizado com sucesso",
+      "time": "21:27:35"
+    }
+  ],
+  "errors": [
+    {
+      "credor": "10075 - TIAGO PEREIRA DA CUNHA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10076 - MATEUS HENRIQUE MARIANO DE SOUZA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10386 - RENAN FAGLIARI LOURENÇO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10524 - WELLINGTON SILVA DOS SANTOS",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10638 - KAILANE MANOELA PINHEIRO DOS SANTOS",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10769 - LUIZ NIKOLAUS RAMOS KEHL",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10771 - ROSICLER DE OLIVEIRA TERNES",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10772 - Fernanda Gonçalves Do Nascimento",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10837 - GABRIELA NASCIMENTO CYPRIANO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "10985 - LUCAS LUIZ SANTOS",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "112 - PAULA GIOVANA DO AMARAL (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "11663 - Naisa Borba Gonçalves da Silva",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "11875 - JULIANA DA COSTA KAMENACH",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12043 - PETERSON GUERREIRO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12090 - GILSEIA SALETE CARGNIN",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12287 - Hugo Fernando Alves",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12289 - João Guilherme Silva Paris",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12377 - PEDRO MANOEL DE SOUSA BARBOSA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12456 - Jefferson Tadeu Caldeira Mauricio",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12550 - DANIELA MOURA RODRIGUES",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12725 - FABRICIO DE FREITAS MEIRELES AMARAL",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12731 - SOLANGE FURINI DE MELLO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12760 - RAUL QUINTANA GALVEZ",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12804 - Alexandre do Nascimento Souza",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "12835 - Amanda Francieli De Almeida",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "13529 - ELISANGELA DA SILVA SANTOS",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "13570 - Évelyn de Cordova",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "14159 - MARCELE GONÇALVES DA SILVA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "14302 - LUCINARA DONDE RODRIGUES (CORRETORA)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "14315 - JULIANO JOSE LOPES (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "14497 - Claudiana Bezerra Montezuma",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "15274 - Alessandra Freire Godoy",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "15424 - JOAO PAULO LEAO FERNANDES",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "15497 - Diego dos Reis Sales",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "15825 - BRENDA ELLEN VIEIRA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "16188 - PETERSON GUERREIRO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "1752 - LEONARDO BAUER DE SOUZA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "1754 - LORENA SOARES DOS SANTOS DE CARVALHO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "2315 - VINICIUS SOUZA",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "27696 - DHIEGO SOUZA SILVA (CAPTADOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "700 - VINICIUS SOUZA ( CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8639 - LUIS ALVES DO AMARAL NETO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8671 - Rhenielly Souza Costa",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8690 - Ercruis Cardoso Da Silva",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8700 - Janete Bonissoni",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8703 - Leonardo Garcia Pedezert",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8708 - Sandro Cunha De Freitas",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8830 - Josyene Aparecida De Freitas",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8831 - Eric Sandro Freire Godoy Moraes Schutz",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8832 - Ana Luisa Xavier Perdomo Paz",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8992 - Renan Marques De Assis Santos",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "8993 - Franciela M . Bergamaschi",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9061 - Andre Ricardo Sampaio",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9121 - Alexandro Silva Ferreira",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9163 - Rogerio Castro Ramos",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9400 - MARCIO DENNY NASCIMENTO",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9476 - GUSTAVO CARDOSO WEBER",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9480 - ANNA CRISTINA RATZKE",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9614 - Nicollas Da Rocha Pereira",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9654 - Daniel Luiz Martins de Morais",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)",
+      "error": "'credor_normalizado'"
+    },
+    {
+      "credor": "9972 - PAULO LUCAS VICENTE DA SILVA",
+      "error": "'credor_normalizado'"
+    }
+  ],
+  "credores_ok": [],
+  "request_id": "ff8744c7-a422-4ba8-83d4-e36f821bd7a0",
+  "numero_pgc": 14
+}

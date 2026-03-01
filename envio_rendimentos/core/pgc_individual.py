@@ -28,7 +28,14 @@ def processar_credor_individual(numero_pgc, nome_credor):
     caminho_base = os.path.join(pasta_pgc, f'BASE PGC {numero_pgc}.xlsx')
     caminho_extrato = os.path.join(pasta_pgc, 'EXTRATO.xlsx')
     caminho_prod = os.path.join(pasta_pgc, 'PRODUTIVIDADE.xlsx')
-    caminho_minimo = os.path.join(pasta_pgc, 'mínimo.xlsx')
+    # Arquivo de mínimos padronizado
+    caminho_minimo = os.path.join(pasta_pgc, 'MINIMO.xlsx')
+    # caso haja versões com acento/minúsculas, tenta localizar
+    if not os.path.exists(caminho_minimo):
+        for f in os.listdir(pasta_pgc):
+            if f.lower() in ('mínimo.xlsx', 'minimo.xlsx'):
+                caminho_minimo = os.path.join(pasta_pgc, f)
+                break
 
     if not os.path.exists(caminho_base):
         print("❌ Arquivo BASE não encontrado.")
@@ -49,10 +56,8 @@ def processar_credor_individual(numero_pgc, nome_credor):
         print("❌ Credor não encontrado na BASE nem no mínimo.xlsx.")
         return
 
-    # Busca ou cria objeto Credor
-    credor_obj, _ = Credor.objects.get_or_create(
-        nome=nome_credor.strip(), defaults={'email': '', 'periodo': ''}
-    )
+    # Busca ou cria objeto Credor (resiliente a diferenças de formatação)
+    credor_obj, _ = Credor.get_or_create_by_nome(nome_display=nome_credor.strip(), defaults={'email': '', 'periodo': ''})
 
     # Gera os arquivos normalmente
     gerar_arquivos_credor(
@@ -61,11 +66,13 @@ def processar_credor_individual(numero_pgc, nome_credor):
         base_df=base_df,
         extrato_df=extrato_df,
         prod_df=prod_df,
-        minimo_df=minimo_df
+        minimo_df=minimo_df,
+        pasta_pgc=pasta_pgc
     )
 
+    nome_para_exibicao = str(credor_obj.nome).strip().upper()
     print(f"✅ Arquivos gerados com sucesso para {credor_obj.nome}!")
-    print(f"📂 Pasta: {os.path.join(pasta_pgc, credor_obj.nome_pasta())}")
+    print(f"📂 Pasta: {os.path.join(pasta_pgc, nome_para_exibicao)}")
 
 
 # === Execução via terminal ===

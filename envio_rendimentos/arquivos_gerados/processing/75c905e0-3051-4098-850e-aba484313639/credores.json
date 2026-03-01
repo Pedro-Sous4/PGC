@@ -1,0 +1,2942 @@
+{
+  "HAEL_BEVILAQUIA_NOBRE": {
+    "status": "SUCCESS",
+    "display": "HAEL BEVILAQUIA NOBRE",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HAEL BEVILAQUIA NOBRE\\HAEL BEVILAQUIA NOBRE - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HAEL BEVILAQUIA NOBRE\\HAEL BEVILAQUIA NOBRE - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HAEL BEVILAQUIA NOBRE\\HAEL BEVILAQUIA NOBRE - PGC 34.xlsx"
+    ]
+  },
+  "JULIANA_LUZ_DA_ROSA": {
+    "status": "ERROR",
+    "display": "JULIANA LUZ DA ROSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "EMERSON_DO_COUTO_EVANGELISTA": {
+    "status": "ERROR",
+    "display": "EMERSON DO COUTO EVANGELISTA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ALLYSSON_DA_SILVA_ACRIS": {
+    "status": "SUCCESS",
+    "display": "ALLYSSON DA SILVA ACRIS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALLYSSON DA SILVA ACRIS\\ALLYSSON DA SILVA ACRIS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALLYSSON DA SILVA ACRIS\\ALLYSSON DA SILVA ACRIS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALLYSSON DA SILVA ACRIS\\ALLYSSON DA SILVA ACRIS - PGC 34.xlsx"
+    ]
+  },
+  "CRISTIAN_NATANAEL_BICKEL_SOARES": {
+    "status": "ERROR",
+    "display": "CRISTIAN NATANAEL BICKEL SOARES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DIANA_DE_ALMEIDA_SANTOS": {
+    "status": "ERROR",
+    "display": "DIANA DE ALMEIDA SANTOS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "FELIPE_ANDRE_DA_SILVA": {
+    "status": "ERROR",
+    "display": "FELIPE ANDRE DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GABRIELA_SCHMITT_SCHNORR": {
+    "status": "ERROR",
+    "display": "GABRIELA SCHMITT SCHNORR",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GUILHERME_FOGASSA_DA_SILVA": {
+    "status": "ERROR",
+    "display": "GUILHERME FOGASSA DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "HILSON_CALDAS_SILVA_ALBUQUERQUE": {
+    "status": "ERROR",
+    "display": "HILSON CALDAS SILVA ALBUQUERQUE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOEL_DE_SOUZA_PONTE": {
+    "status": "SUCCESS",
+    "display": "JOEL DE SOUZA PONTE",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOEL DE SOUZA PONTE\\JOEL DE SOUZA PONTE - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOEL DE SOUZA PONTE\\JOEL DE SOUZA PONTE - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOEL DE SOUZA PONTE\\JOEL DE SOUZA PONTE - PGC 34.xlsx"
+    ]
+  },
+  "JOSE_VALDGLEI_GALDINO_DE_SOUSA": {
+    "status": "SUCCESS",
+    "display": "JOSE VALDGLEI GALDINO DE SOUSA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE VALDGLEI GALDINO DE SOUSA\\JOSE VALDGLEI GALDINO DE SOUSA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE VALDGLEI GALDINO DE SOUSA\\JOSE VALDGLEI GALDINO DE SOUSA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE VALDGLEI GALDINO DE SOUSA\\JOSE VALDGLEI GALDINO DE SOUSA - PGC 34.xlsx"
+    ]
+  },
+  "MIKAEL_CARDOSO_DE_MESQUITA": {
+    "status": "ERROR",
+    "display": "MIKAEL CARDOSO DE MESQUITA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "OBERDAN_CARVALHO_DE_AZEVEDO": {
+    "status": "ERROR",
+    "display": "OBERDAN CARVALHO DE AZEVEDO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CHARLES_JUNIOR_ADRIANO": {
+    "status": "SUCCESS",
+    "display": "CHARLES JUNIOR ADRIANO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CHARLES JUNIOR ADRIANO\\CHARLES JUNIOR ADRIANO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CHARLES JUNIOR ADRIANO\\CHARLES JUNIOR ADRIANO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CHARLES JUNIOR ADRIANO\\CHARLES JUNIOR ADRIANO - PGC 34.xlsx"
+    ]
+  },
+  "SUELLEN_DA_SILVA_RIBEIRO": {
+    "status": "ERROR",
+    "display": "SUELLEN DA SILVA RIBEIRO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ANDERSON_TISIAM": {
+    "status": "ERROR",
+    "display": "ANDERSON TISIAM",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "EDSON_MEIRA_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "EDSON MEIRA DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDSON MEIRA DA SILVA\\EDSON MEIRA DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDSON MEIRA DA SILVA\\EDSON MEIRA DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDSON MEIRA DA SILVA\\EDSON MEIRA DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "VANKLEY_SALES_DE_MOURA": {
+    "status": "SUCCESS",
+    "display": "VANKLEY SALES DE MOURA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANKLEY SALES DE MOURA\\VANKLEY SALES DE MOURA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANKLEY SALES DE MOURA\\VANKLEY SALES DE MOURA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANKLEY SALES DE MOURA\\VANKLEY SALES DE MOURA - PGC 34.xlsx"
+    ]
+  },
+  "RAYLENE_MARIA_RODRIGUES_HONORIO": {
+    "status": "ERROR",
+    "display": "RAYLENE MARIA RODRIGUES HONORIO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "EDUARDO_LUIZ_NERES_CONTI": {
+    "status": "SUCCESS",
+    "display": "EDUARDO LUIZ NERES CONTI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDUARDO LUIZ NERES CONTI\\EDUARDO LUIZ NERES CONTI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDUARDO LUIZ NERES CONTI\\EDUARDO LUIZ NERES CONTI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDUARDO LUIZ NERES CONTI\\EDUARDO LUIZ NERES CONTI - PGC 34.xlsx"
+    ]
+  },
+  "DIEGO_RUCKHABER_PLETSCH": {
+    "status": "ERROR",
+    "display": "DIEGO RUCKHABER PLETSCH",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JULIO_CESAR_EMANUEL_DOS_SANTOS_FONSECA": {
+    "status": "ERROR",
+    "display": "JULIO CESAR EMANUEL DOS SANTOS FONSECA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "PAULO_EMANUEL_DOS_SANTOS_BARNABE_TEIXEIRA": {
+    "status": "ERROR",
+    "display": "PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "BARBARA_PROKOPOWISKI_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "BARBARA PROKOPOWISKI DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PROKOPOWISKI DOS SANTOS\\BARBARA PROKOPOWISKI DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PROKOPOWISKI DOS SANTOS\\BARBARA PROKOPOWISKI DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PROKOPOWISKI DOS SANTOS\\BARBARA PROKOPOWISKI DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "ELICIANA_CORDEIRO_MAGAVE": {
+    "status": "ERROR",
+    "display": "ELICIANA CORDEIRO MAGAVE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "HUGO_MENEZES_DOS_SANTOS_MADEIRA": {
+    "status": "ERROR",
+    "display": "HUGO MENEZES DOS SANTOS MADEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RAFAEL_COLOMBO_MENDES": {
+    "status": "ERROR",
+    "display": "RAFAEL COLOMBO MENDES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "FELIPE_ROCHA_GAMA_SOBRAL": {
+    "status": "SUCCESS",
+    "display": "FELIPE ROCHA GAMA SOBRAL",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE ROCHA GAMA SOBRAL\\FELIPE ROCHA GAMA SOBRAL - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE ROCHA GAMA SOBRAL\\FELIPE ROCHA GAMA SOBRAL - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE ROCHA GAMA SOBRAL\\FELIPE ROCHA GAMA SOBRAL - PGC 34.xlsx"
+    ]
+  },
+  "ILANA_SILVA_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "ILANA SILVA DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ILANA SILVA DA SILVA\\ILANA SILVA DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ILANA SILVA DA SILVA\\ILANA SILVA DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ILANA SILVA DA SILVA\\ILANA SILVA DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "MOISES_DE_MIRANDA_LIMA": {
+    "status": "SUCCESS",
+    "display": "MOISES DE MIRANDA LIMA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MOISES DE MIRANDA LIMA\\MOISES DE MIRANDA LIMA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MOISES DE MIRANDA LIMA\\MOISES DE MIRANDA LIMA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MOISES DE MIRANDA LIMA\\MOISES DE MIRANDA LIMA - PGC 34.xlsx"
+    ]
+  },
+  "LEONARDO_OLIVEIRA_ALEJARRA": {
+    "status": "SUCCESS",
+    "display": "LEONARDO OLIVEIRA ALEJARRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO OLIVEIRA ALEJARRA\\LEONARDO OLIVEIRA ALEJARRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO OLIVEIRA ALEJARRA\\LEONARDO OLIVEIRA ALEJARRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO OLIVEIRA ALEJARRA\\LEONARDO OLIVEIRA ALEJARRA - PGC 34.xlsx"
+    ]
+  },
+  "GERULINO_FERREIRA_LIMA": {
+    "status": "ERROR",
+    "display": "GERULINO FERREIRA LIMA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JACKELINE_ESTEFANY_BARROS_SANTIAGO": {
+    "status": "SUCCESS",
+    "display": "JACKELINE ESTEFANY BARROS SANTIAGO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JACKELINE ESTEFANY BARROS SANTIAGO\\JACKELINE ESTEFANY BARROS SANTIAGO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JACKELINE ESTEFANY BARROS SANTIAGO\\JACKELINE ESTEFANY BARROS SANTIAGO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JACKELINE ESTEFANY BARROS SANTIAGO\\JACKELINE ESTEFANY BARROS SANTIAGO - PGC 34.xlsx"
+    ]
+  },
+  "MATEUS_SILVA_DA_COSTA": {
+    "status": "SUCCESS",
+    "display": "MATEUS SILVA DA COSTA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATEUS SILVA DA COSTA\\MATEUS SILVA DA COSTA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATEUS SILVA DA COSTA\\MATEUS SILVA DA COSTA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATEUS SILVA DA COSTA\\MATEUS SILVA DA COSTA - PGC 34.xlsx"
+    ]
+  },
+  "ALEX_SANDRO_DA_ROSA_OLIVEIRA": {
+    "status": "ERROR",
+    "display": "ALEX SANDRO DA ROSA OLIVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "AMANDA_DORADO_EUGENIO": {
+    "status": "SUCCESS",
+    "display": "AMANDA DORADO EUGENIO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\AMANDA DORADO EUGENIO\\AMANDA DORADO EUGENIO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\AMANDA DORADO EUGENIO\\AMANDA DORADO EUGENIO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\AMANDA DORADO EUGENIO\\AMANDA DORADO EUGENIO - PGC 34.xlsx"
+    ]
+  },
+  "VINICIUS_LIPPO_SILIPRANDI": {
+    "status": "ERROR",
+    "display": "VINICIUS LIPPO SILIPRANDI",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DANILO_CARVALHO_PINTO": {
+    "status": "SUCCESS",
+    "display": "DANILO CARVALHO PINTO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DANILO CARVALHO PINTO\\DANILO CARVALHO PINTO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DANILO CARVALHO PINTO\\DANILO CARVALHO PINTO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DANILO CARVALHO PINTO\\DANILO CARVALHO PINTO - PGC 34.xlsx"
+    ]
+  },
+  "ANA_PAULA_FERREIRA_LIMA": {
+    "status": "SUCCESS",
+    "display": "ANA PAULA FERREIRA LIMA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA FERREIRA LIMA\\ANA PAULA FERREIRA LIMA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA FERREIRA LIMA\\ANA PAULA FERREIRA LIMA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA FERREIRA LIMA\\ANA PAULA FERREIRA LIMA - PGC 34.xlsx"
+    ]
+  },
+  "MARILIANA_GONCALVES_NEVES": {
+    "status": "SUCCESS",
+    "display": "MARILIANA GONÇALVES NEVES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARILIANA GONÇALVES NEVES\\MARILIANA GONÇALVES NEVES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARILIANA GONÇALVES NEVES\\MARILIANA GONÇALVES NEVES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARILIANA GONÇALVES NEVES\\MARILIANA GONÇALVES NEVES - PGC 34.xlsx"
+    ]
+  },
+  "VICTOR_OTAVIO_GUERREIRO_BRUNELLI": {
+    "status": "SUCCESS",
+    "display": "VICTOR OTAVIO GUERREIRO BRUNELLI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VICTOR OTAVIO GUERREIRO BRUNELLI\\VICTOR OTAVIO GUERREIRO BRUNELLI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VICTOR OTAVIO GUERREIRO BRUNELLI\\VICTOR OTAVIO GUERREIRO BRUNELLI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VICTOR OTAVIO GUERREIRO BRUNELLI\\VICTOR OTAVIO GUERREIRO BRUNELLI - PGC 34.xlsx"
+    ]
+  },
+  "DIOGO_LUCAS_DA_SILVA_GODOI": {
+    "status": "SUCCESS",
+    "display": "DIOGO LUCAS DA SILVA GODOI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIOGO LUCAS DA SILVA GODOI\\DIOGO LUCAS DA SILVA GODOI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIOGO LUCAS DA SILVA GODOI\\DIOGO LUCAS DA SILVA GODOI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIOGO LUCAS DA SILVA GODOI\\DIOGO LUCAS DA SILVA GODOI - PGC 34.xlsx"
+    ]
+  },
+  "GUSTAVO_HENRIQUE_KLEIN_PETERS": {
+    "status": "ERROR",
+    "display": "GUSTAVO HENRIQUE KLEIN PETERS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MUNIELEN_BARBOSA_FERNANDES": {
+    "status": "SUCCESS",
+    "display": "MUNIELEN BARBOSA FERNANDES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MUNIELEN BARBOSA FERNANDES\\MUNIELEN BARBOSA FERNANDES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MUNIELEN BARBOSA FERNANDES\\MUNIELEN BARBOSA FERNANDES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MUNIELEN BARBOSA FERNANDES\\MUNIELEN BARBOSA FERNANDES - PGC 34.xlsx"
+    ]
+  },
+  "KEVIN_MICHAEL_SPIETH": {
+    "status": "SUCCESS",
+    "display": "KEVIN MICHAEL SPIETH",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KEVIN MICHAEL SPIETH\\KEVIN MICHAEL SPIETH - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KEVIN MICHAEL SPIETH\\KEVIN MICHAEL SPIETH - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KEVIN MICHAEL SPIETH\\KEVIN MICHAEL SPIETH - PGC 34.xlsx"
+    ]
+  },
+  "CAIO_COUTINHO_FERREIRA": {
+    "status": "SUCCESS",
+    "display": "CAIO COUTINHO FERREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAIO COUTINHO FERREIRA\\CAIO COUTINHO FERREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAIO COUTINHO FERREIRA\\CAIO COUTINHO FERREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAIO COUTINHO FERREIRA\\CAIO COUTINHO FERREIRA - PGC 34.xlsx"
+    ]
+  },
+  "CLEMAR_DE_SOUZA": {
+    "status": "ERROR",
+    "display": "CLEMAR DE SOUZA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DENZEL_HENRIQUE_PEREIRA_FERNANDES": {
+    "status": "SUCCESS",
+    "display": "DENZEL HENRIQUE PEREIRA FERNANDES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENZEL HENRIQUE PEREIRA FERNANDES\\DENZEL HENRIQUE PEREIRA FERNANDES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENZEL HENRIQUE PEREIRA FERNANDES\\DENZEL HENRIQUE PEREIRA FERNANDES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENZEL HENRIQUE PEREIRA FERNANDES\\DENZEL HENRIQUE PEREIRA FERNANDES - PGC 34.xlsx"
+    ]
+  },
+  "LETICIA_BEZERRA_FERREIRA": {
+    "status": "SUCCESS",
+    "display": "LETICIA BEZERRA FERREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA BEZERRA FERREIRA\\LETICIA BEZERRA FERREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA BEZERRA FERREIRA\\LETICIA BEZERRA FERREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA BEZERRA FERREIRA\\LETICIA BEZERRA FERREIRA - PGC 34.xlsx"
+    ]
+  },
+  "SUZILEIA_LUCAS_VIANA_WATTAGE": {
+    "status": "ERROR",
+    "display": "SUZILEIA LUCAS VIANA WATTAGE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "EMILLY_DE_ALMEIDA_CRUZ": {
+    "status": "SUCCESS",
+    "display": "EMILLY DE ALMEIDA CRUZ",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMILLY DE ALMEIDA CRUZ\\EMILLY DE ALMEIDA CRUZ - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMILLY DE ALMEIDA CRUZ\\EMILLY DE ALMEIDA CRUZ - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMILLY DE ALMEIDA CRUZ\\EMILLY DE ALMEIDA CRUZ - PGC 34.xlsx"
+    ]
+  },
+  "ANDRESSA_ALVES_FONSECA": {
+    "status": "ERROR",
+    "display": "ANDRESSA ALVES FONSECA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "NAIARA_GARCIA_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "NAIARA GARCIA DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAIARA GARCIA DOS SANTOS\\NAIARA GARCIA DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAIARA GARCIA DOS SANTOS\\NAIARA GARCIA DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAIARA GARCIA DOS SANTOS\\NAIARA GARCIA DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "JESSICA_MARIA_EDUELFA_DE_SOUZA_MARTINS": {
+    "status": "ERROR",
+    "display": "Jessica Maria Eduelfa de Souza Martins",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ARTHUR_ARAUJO_DE_LIRA": {
+    "status": "SUCCESS",
+    "display": "ARTHUR ARAUJO DE LIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ARTHUR ARAUJO DE LIRA\\ARTHUR ARAUJO DE LIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ARTHUR ARAUJO DE LIRA\\ARTHUR ARAUJO DE LIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ARTHUR ARAUJO DE LIRA\\ARTHUR ARAUJO DE LIRA - PGC 34.xlsx"
+    ]
+  },
+  "DAIANE_ALVES_LOURENCO": {
+    "status": "SUCCESS",
+    "display": "DAIANE ALVES LOURENÇO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DAIANE ALVES LOURENÇO\\DAIANE ALVES LOURENÇO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DAIANE ALVES LOURENÇO\\DAIANE ALVES LOURENÇO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DAIANE ALVES LOURENÇO\\DAIANE ALVES LOURENÇO - PGC 34.xlsx"
+    ]
+  },
+  "ITALO_PINHEIRO_DIAS": {
+    "status": "ERROR",
+    "display": "ITALO PINHEIRO DIAS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ITALO_MIGUEL_REMONDI": {
+    "status": "SUCCESS",
+    "display": "Italo Miguel Remondi",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ITALO MIGUEL REMONDI\\ITALO MIGUEL REMONDI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ITALO MIGUEL REMONDI\\ITALO MIGUEL REMONDI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ITALO MIGUEL REMONDI\\ITALO MIGUEL REMONDI - PGC 34.xlsx"
+    ]
+  },
+  "THAIS_KAPPAUN_THEOBALD_SERRA": {
+    "status": "SUCCESS",
+    "display": "THAÍS KAPPAUN THEOBALD SERRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THAÍS KAPPAUN THEOBALD SERRA\\THAÍS KAPPAUN THEOBALD SERRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THAÍS KAPPAUN THEOBALD SERRA\\THAÍS KAPPAUN THEOBALD SERRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THAÍS KAPPAUN THEOBALD SERRA\\THAÍS KAPPAUN THEOBALD SERRA - PGC 34.xlsx"
+    ]
+  },
+  "JACQUELINE_FERREIRA_LACERDA": {
+    "status": "ERROR",
+    "display": "JACQUELINE FERREIRA LACERDA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "TAMY_AIRTON_MUELLER": {
+    "status": "SUCCESS",
+    "display": "TAMY AIRTON MUELLER",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\TAMY AIRTON MUELLER\\TAMY AIRTON MUELLER - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\TAMY AIRTON MUELLER\\TAMY AIRTON MUELLER - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\TAMY AIRTON MUELLER\\TAMY AIRTON MUELLER - PGC 34.xlsx"
+    ]
+  },
+  "JEFERSON_FABIO_DESSBESELL": {
+    "status": "ERROR",
+    "display": "JEFERSON FABIO DESSBESELL",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ALDENIR_JUNIOR_GOIS_DE_ALMEIDA": {
+    "status": "SUCCESS",
+    "display": "ALDENIR JUNIOR GOIS DE ALMEIDA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALDENIR JUNIOR GOIS DE ALMEIDA\\ALDENIR JUNIOR GOIS DE ALMEIDA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALDENIR JUNIOR GOIS DE ALMEIDA\\ALDENIR JUNIOR GOIS DE ALMEIDA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALDENIR JUNIOR GOIS DE ALMEIDA\\ALDENIR JUNIOR GOIS DE ALMEIDA - PGC 34.xlsx"
+    ]
+  },
+  "FABIO_CANDIDO_CABREIRA": {
+    "status": "SUCCESS",
+    "display": "Fabio Candido Cabreira",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO CANDIDO CABREIRA\\FABIO CANDIDO CABREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO CANDIDO CABREIRA\\FABIO CANDIDO CABREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO CANDIDO CABREIRA\\FABIO CANDIDO CABREIRA - PGC 34.xlsx"
+    ]
+  },
+  "LAURA_PINTO_FONTES": {
+    "status": "SUCCESS",
+    "display": "Laura Pinto Fontes",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LAURA PINTO FONTES\\LAURA PINTO FONTES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LAURA PINTO FONTES\\LAURA PINTO FONTES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LAURA PINTO FONTES\\LAURA PINTO FONTES - PGC 34.xlsx"
+    ]
+  },
+  "ELCIO_DE_ALMEIDA_LEITE_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "Elcio de Almeida Leite Junior",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELCIO DE ALMEIDA LEITE JUNIOR\\ELCIO DE ALMEIDA LEITE JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELCIO DE ALMEIDA LEITE JUNIOR\\ELCIO DE ALMEIDA LEITE JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELCIO DE ALMEIDA LEITE JUNIOR\\ELCIO DE ALMEIDA LEITE JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "DINA_OLIVEIRA_DE_SOUZA": {
+    "status": "SUCCESS",
+    "display": "DINA OLIVEIRA DE SOUZA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DINA OLIVEIRA DE SOUZA\\DINA OLIVEIRA DE SOUZA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DINA OLIVEIRA DE SOUZA\\DINA OLIVEIRA DE SOUZA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DINA OLIVEIRA DE SOUZA\\DINA OLIVEIRA DE SOUZA - PGC 34.xlsx"
+    ]
+  },
+  "MELISSA_GROSS_DE_OLIVEIRA": {
+    "status": "ERROR",
+    "display": "MELISSA GROSS DE OLIVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CARLOS_ROBERTO_RECKERT": {
+    "status": "SUCCESS",
+    "display": "CARLOS ROBERTO RECKERT",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS ROBERTO RECKERT\\CARLOS ROBERTO RECKERT - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS ROBERTO RECKERT\\CARLOS ROBERTO RECKERT - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS ROBERTO RECKERT\\CARLOS ROBERTO RECKERT - PGC 34.xlsx"
+    ]
+  },
+  "CARLOS_KLEBER_MACHADO_DE_ALMEIDA": {
+    "status": "SUCCESS",
+    "display": "CARLOS KLEBER MACHADO DE ALMEIDA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS KLEBER MACHADO DE ALMEIDA\\CARLOS KLEBER MACHADO DE ALMEIDA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS KLEBER MACHADO DE ALMEIDA\\CARLOS KLEBER MACHADO DE ALMEIDA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CARLOS KLEBER MACHADO DE ALMEIDA\\CARLOS KLEBER MACHADO DE ALMEIDA - PGC 34.xlsx"
+    ]
+  },
+  "ARIEL_RODRIGUES": {
+    "status": "ERROR",
+    "display": "ARIEL RODRIGUES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ALEX_MISSEL_LUMERTZ": {
+    "status": "ERROR",
+    "display": "ALEX MISSEL LUMERTZ",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RAABE_DE_ALMEIDA_CRUZ": {
+    "status": "ERROR",
+    "display": "RAABE DE ALMEIDA CRUZ",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOSE_MARTINS_LEMES_ALVES": {
+    "status": "ERROR",
+    "display": "JOSE MARTINS LEMES ALVES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DIEGO_MARADONA_COSTA": {
+    "status": "ERROR",
+    "display": "DIEGO MARADONA COSTA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ALEXIA_THAINA_BARBALHO": {
+    "status": "SUCCESS",
+    "display": "ALEXIA THAINA BARBALHO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXIA THAINA BARBALHO\\ALEXIA THAINA BARBALHO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXIA THAINA BARBALHO\\ALEXIA THAINA BARBALHO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXIA THAINA BARBALHO\\ALEXIA THAINA BARBALHO - PGC 34.xlsx"
+    ]
+  },
+  "GERMANO_LOPES_DA_SILVA_FILHO": {
+    "status": "ERROR",
+    "display": "GERMANO LOPES DA SILVA FILHO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "BEATRIZ_SCHRAMM_DA_SILVA": {
+    "status": "ERROR",
+    "display": "BEATRIZ SCHRAMM DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ANDRE_LUIS_DE_SOUZA_SILVA": {
+    "status": "SUCCESS",
+    "display": "ANDRE LUIS DE SOUZA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE LUIS DE SOUZA SILVA\\ANDRE LUIS DE SOUZA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE LUIS DE SOUZA SILVA\\ANDRE LUIS DE SOUZA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE LUIS DE SOUZA SILVA\\ANDRE LUIS DE SOUZA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "LUAN_DOS_SANTOS_MENDES_DE_SOUZA": {
+    "status": "ERROR",
+    "display": "LUAN DOS SANTOS MENDES DE SOUZA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ELAINE_DO_MONTE_BRASIL": {
+    "status": "SUCCESS",
+    "display": "ELAINE DO MONTE BRASIL",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELAINE DO MONTE BRASIL\\ELAINE DO MONTE BRASIL - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELAINE DO MONTE BRASIL\\ELAINE DO MONTE BRASIL - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ELAINE DO MONTE BRASIL\\ELAINE DO MONTE BRASIL - PGC 34.xlsx"
+    ]
+  },
+  "FELIPE_JOSE_DE_MATTOS": {
+    "status": "SUCCESS",
+    "display": "FELIPE JOSE DE MATTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE JOSE DE MATTOS\\FELIPE JOSE DE MATTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE JOSE DE MATTOS\\FELIPE JOSE DE MATTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FELIPE JOSE DE MATTOS\\FELIPE JOSE DE MATTOS - PGC 34.xlsx"
+    ]
+  },
+  "JOANA_DARC_FERREIRA_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "JOANA DARC FERREIRA DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOANA DARC FERREIRA DA SILVA\\JOANA DARC FERREIRA DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOANA DARC FERREIRA DA SILVA\\JOANA DARC FERREIRA DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOANA DARC FERREIRA DA SILVA\\JOANA DARC FERREIRA DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "JOSE_WELLINGTON_PEREIRA_DE_LUCENA_SANTOS": {
+    "status": "SUCCESS",
+    "display": "JOSE WELLINGTON PEREIRA DE LUCENA SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS\\JOSE WELLINGTON PEREIRA DE LUCENA SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "JULIANO_MANFRON_ARAUJO": {
+    "status": "SUCCESS",
+    "display": "JULIANO MANFRON ARAUJO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JULIANO MANFRON ARAUJO\\JULIANO MANFRON ARAUJO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JULIANO MANFRON ARAUJO\\JULIANO MANFRON ARAUJO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JULIANO MANFRON ARAUJO\\JULIANO MANFRON ARAUJO - PGC 34.xlsx"
+    ]
+  },
+  "KIMBERLY_CRISTINA_TAVARES_CORREA": {
+    "status": "SUCCESS",
+    "display": "KIMBERLY CRISTINA TAVARES CORREA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KIMBERLY CRISTINA TAVARES CORREA\\KIMBERLY CRISTINA TAVARES CORREA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KIMBERLY CRISTINA TAVARES CORREA\\KIMBERLY CRISTINA TAVARES CORREA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KIMBERLY CRISTINA TAVARES CORREA\\KIMBERLY CRISTINA TAVARES CORREA - PGC 34.xlsx"
+    ]
+  },
+  "LARISSA_DE_SOUZA_SILVA": {
+    "status": "ERROR",
+    "display": "LARISSA DE SOUZA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LARISSA_DE_FREITAS_NUNES": {
+    "status": "SUCCESS",
+    "display": "LARISSA DE FREITAS NUNES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LARISSA DE FREITAS NUNES\\LARISSA DE FREITAS NUNES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LARISSA DE FREITAS NUNES\\LARISSA DE FREITAS NUNES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LARISSA DE FREITAS NUNES\\LARISSA DE FREITAS NUNES - PGC 34.xlsx"
+    ]
+  },
+  "LUDMILLA_ROSA_MOREIRA_DE_SOUZA": {
+    "status": "SUCCESS",
+    "display": "LUDMILLA ROSA MOREIRA DE SOUZA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUDMILLA ROSA MOREIRA DE SOUZA\\LUDMILLA ROSA MOREIRA DE SOUZA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUDMILLA ROSA MOREIRA DE SOUZA\\LUDMILLA ROSA MOREIRA DE SOUZA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUDMILLA ROSA MOREIRA DE SOUZA\\LUDMILLA ROSA MOREIRA DE SOUZA - PGC 34.xlsx"
+    ]
+  },
+  "MONIQUE_MARGARIDA_FREITAS_BENJAMIM": {
+    "status": "ERROR",
+    "display": "MONIQUE MARGARIDA FREITAS BENJAMIM",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RAFAELA_KALIANDRA_PILGER_DA_SILVEIRA": {
+    "status": "SUCCESS",
+    "display": "RAFAELA KALIANDRA PILGER DA SILVEIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RAFAELA KALIANDRA PILGER DA SILVEIRA\\RAFAELA KALIANDRA PILGER DA SILVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RAFAELA KALIANDRA PILGER DA SILVEIRA\\RAFAELA KALIANDRA PILGER DA SILVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RAFAELA KALIANDRA PILGER DA SILVEIRA\\RAFAELA KALIANDRA PILGER DA SILVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "ANDRE_EDUARDO_DOS_PASSOS_PACHECO": {
+    "status": "SUCCESS",
+    "display": "ANDRE EDUARDO DOS PASSOS PACHECO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE EDUARDO DOS PASSOS PACHECO\\ANDRE EDUARDO DOS PASSOS PACHECO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE EDUARDO DOS PASSOS PACHECO\\ANDRE EDUARDO DOS PASSOS PACHECO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANDRE EDUARDO DOS PASSOS PACHECO\\ANDRE EDUARDO DOS PASSOS PACHECO - PGC 34.xlsx"
+    ]
+  },
+  "BARBARA_PEREIRA_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "BARBARA PEREIRA DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PEREIRA DOS SANTOS\\BARBARA PEREIRA DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PEREIRA DOS SANTOS\\BARBARA PEREIRA DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BARBARA PEREIRA DOS SANTOS\\BARBARA PEREIRA DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "DAVI_RODRIGUES_DE_MORAES": {
+    "status": "ERROR",
+    "display": "DAVI RODRIGUES DE MORAES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOCIEL_GOMES_DA_SILVA": {
+    "status": "ERROR",
+    "display": "JOCIEL GOMES DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MATHEUS_HENRIQUE_PEREIRA_FERNANDES": {
+    "status": "SUCCESS",
+    "display": "MATHEUS HENRIQUE PEREIRA FERNANDES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE PEREIRA FERNANDES\\MATHEUS HENRIQUE PEREIRA FERNANDES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE PEREIRA FERNANDES\\MATHEUS HENRIQUE PEREIRA FERNANDES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE PEREIRA FERNANDES\\MATHEUS HENRIQUE PEREIRA FERNANDES - PGC 34.xlsx"
+    ]
+  },
+  "NELSON_LOURENCO_DA_SILVA_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "NELSON LOURENÇO DA SILVA JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NELSON LOURENÇO DA SILVA JUNIOR\\NELSON LOURENÇO DA SILVA JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NELSON LOURENÇO DA SILVA JUNIOR\\NELSON LOURENÇO DA SILVA JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NELSON LOURENÇO DA SILVA JUNIOR\\NELSON LOURENÇO DA SILVA JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "ALVARO_FABRICIO_MENEZES_MOTA": {
+    "status": "SUCCESS",
+    "display": "ALVARO FABRICIO MENEZES MOTA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALVARO FABRICIO MENEZES MOTA\\ALVARO FABRICIO MENEZES MOTA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALVARO FABRICIO MENEZES MOTA\\ALVARO FABRICIO MENEZES MOTA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALVARO FABRICIO MENEZES MOTA\\ALVARO FABRICIO MENEZES MOTA - PGC 34.xlsx"
+    ]
+  },
+  "SUYANNE_CHRISTINNE_MARQUES_LIMA": {
+    "status": "ERROR",
+    "display": "SUYANNE CHRISTINNE MARQUES LIMA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "NAELI_REIS_DO_NASCIMENTO": {
+    "status": "SUCCESS",
+    "display": "NAELI REIS DO NASCIMENTO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAELI REIS DO NASCIMENTO\\NAELI REIS DO NASCIMENTO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAELI REIS DO NASCIMENTO\\NAELI REIS DO NASCIMENTO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NAELI REIS DO NASCIMENTO\\NAELI REIS DO NASCIMENTO - PGC 34.xlsx"
+    ]
+  },
+  "DIIH_BEZERRA_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "DIIH BEZERRA DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIIH BEZERRA DA SILVA\\DIIH BEZERRA DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIIH BEZERRA DA SILVA\\DIIH BEZERRA DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DIIH BEZERRA DA SILVA\\DIIH BEZERRA DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "LETICIA_MARIA_DE_OLIVEIRA_SILVA": {
+    "status": "SUCCESS",
+    "display": "LETICIA MARIA DE OLIVEIRA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA MARIA DE OLIVEIRA SILVA\\LETICIA MARIA DE OLIVEIRA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA MARIA DE OLIVEIRA SILVA\\LETICIA MARIA DE OLIVEIRA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA MARIA DE OLIVEIRA SILVA\\LETICIA MARIA DE OLIVEIRA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "JOHNE_DA_CRUZ_ALEXANDRE": {
+    "status": "SUCCESS",
+    "display": "JOHNE DA CRUZ ALEXANDRE",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOHNE DA CRUZ ALEXANDRE\\JOHNE DA CRUZ ALEXANDRE - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOHNE DA CRUZ ALEXANDRE\\JOHNE DA CRUZ ALEXANDRE - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOHNE DA CRUZ ALEXANDRE\\JOHNE DA CRUZ ALEXANDRE - PGC 34.xlsx"
+    ]
+  },
+  "RENATO_LIMA_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "RENATO LIMA DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RENATO LIMA DOS SANTOS\\RENATO LIMA DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RENATO LIMA DOS SANTOS\\RENATO LIMA DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RENATO LIMA DOS SANTOS\\RENATO LIMA DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "MELISSA_SILVA_MENDES": {
+    "status": "ERROR",
+    "display": "MELISSA SILVA MENDES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RODRIGO_FILTER_DE_OLIVEIRA": {
+    "status": "SUCCESS",
+    "display": "Rodrigo Filter de Oliveira",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO FILTER DE OLIVEIRA\\RODRIGO FILTER DE OLIVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO FILTER DE OLIVEIRA\\RODRIGO FILTER DE OLIVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO FILTER DE OLIVEIRA\\RODRIGO FILTER DE OLIVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "LUCAS_SOUZA_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "LUCAS SOUZA DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS SOUZA DOS SANTOS\\LUCAS SOUZA DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS SOUZA DOS SANTOS\\LUCAS SOUZA DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS SOUZA DOS SANTOS\\LUCAS SOUZA DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "SAMUEL_DE_ALMEIDA": {
+    "status": "SUCCESS",
+    "display": "SAMUEL DE ALMEIDA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\SAMUEL DE ALMEIDA\\SAMUEL DE ALMEIDA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\SAMUEL DE ALMEIDA\\SAMUEL DE ALMEIDA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\SAMUEL DE ALMEIDA\\SAMUEL DE ALMEIDA - PGC 34.xlsx"
+    ]
+  },
+  "GABRIEL_MARLON_DE_SOUZA_SILVA_OLIVEIRA": {
+    "status": "SUCCESS",
+    "display": "Gabriel Marlon de Souza Silva Oliveira",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA\\GABRIEL MARLON DE SOUZA SILVA OLIVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "KEOMA_ALAN_BRODA_PEREIRA": {
+    "status": "ERROR",
+    "display": "Keoma Alan Broda Pereira",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "SANGELA_CRISTINA_ARRUDA_LIMA_MORAIS": {
+    "status": "ERROR",
+    "display": "SANGELA CRISTINA ARRUDA LIMA MORAIS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CAMILA_PAULA_DA_CRUZ": {
+    "status": "SUCCESS",
+    "display": "CAMILA PAULA DA CRUZ",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAMILA PAULA DA CRUZ\\CAMILA PAULA DA CRUZ - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAMILA PAULA DA CRUZ\\CAMILA PAULA DA CRUZ - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CAMILA PAULA DA CRUZ\\CAMILA PAULA DA CRUZ - PGC 34.xlsx"
+    ]
+  },
+  "WESLEY_MAIA_CARDOSO": {
+    "status": "SUCCESS",
+    "display": "WESLEY MAIA CARDOSO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY MAIA CARDOSO\\WESLEY MAIA CARDOSO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY MAIA CARDOSO\\WESLEY MAIA CARDOSO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY MAIA CARDOSO\\WESLEY MAIA CARDOSO - PGC 34.xlsx"
+    ]
+  },
+  "JADSON_VIEIRA_DE_MELO": {
+    "status": "SUCCESS",
+    "display": "Jadson Vieira de Melo",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JADSON VIEIRA DE MELO\\JADSON VIEIRA DE MELO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JADSON VIEIRA DE MELO\\JADSON VIEIRA DE MELO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JADSON VIEIRA DE MELO\\JADSON VIEIRA DE MELO - PGC 34.xlsx"
+    ]
+  },
+  "ALYSON_HENRRIQUE_SILVA_SIMAO": {
+    "status": "SUCCESS",
+    "display": "Alyson Henrrique Silva Simão",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALYSON HENRRIQUE SILVA SIMÃO\\ALYSON HENRRIQUE SILVA SIMÃO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALYSON HENRRIQUE SILVA SIMÃO\\ALYSON HENRRIQUE SILVA SIMÃO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALYSON HENRRIQUE SILVA SIMÃO\\ALYSON HENRRIQUE SILVA SIMÃO - PGC 34.xlsx"
+    ]
+  },
+  "THIAGO_OLIVEIRA_DOS_SANTOS": {
+    "status": "ERROR",
+    "display": "THIAGO OLIVEIRA DOS SANTOS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOSIAS_DA_SILVA_CLAUDINO": {
+    "status": "SUCCESS",
+    "display": "JOSIAS DA SILVA CLAUDINO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSIAS DA SILVA CLAUDINO\\JOSIAS DA SILVA CLAUDINO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSIAS DA SILVA CLAUDINO\\JOSIAS DA SILVA CLAUDINO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSIAS DA SILVA CLAUDINO\\JOSIAS DA SILVA CLAUDINO - PGC 34.xlsx"
+    ]
+  },
+  "RODRIGO_EDUARDO_PEREIRA_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "Rodrigo Eduardo Pereira Junior",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO EDUARDO PEREIRA JUNIOR\\RODRIGO EDUARDO PEREIRA JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO EDUARDO PEREIRA JUNIOR\\RODRIGO EDUARDO PEREIRA JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RODRIGO EDUARDO PEREIRA JUNIOR\\RODRIGO EDUARDO PEREIRA JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "ALEXANDRA_VIEIRA_DA_SILVA_DE_ALMEIDA": {
+    "status": "SUCCESS",
+    "display": "Alexandra Vieira da Silva de Almeida",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA\\ALEXANDRA VIEIRA DA SILVA DE ALMEIDA - PGC 34.xlsx"
+    ]
+  },
+  "KELLY_SOUZA_DE_DEUS_ANJOS": {
+    "status": "SUCCESS",
+    "display": "KELLY SOUZA DE DEUS ANJOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KELLY SOUZA DE DEUS ANJOS\\KELLY SOUZA DE DEUS ANJOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KELLY SOUZA DE DEUS ANJOS\\KELLY SOUZA DE DEUS ANJOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KELLY SOUZA DE DEUS ANJOS\\KELLY SOUZA DE DEUS ANJOS - PGC 34.xlsx"
+    ]
+  },
+  "LUIZ_FELIPE_DE_SOUZA_FERNANDES": {
+    "status": "SUCCESS",
+    "display": "LUIZ FELIPE DE SOUZA FERNANDES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIZ FELIPE DE SOUZA FERNANDES\\LUIZ FELIPE DE SOUZA FERNANDES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIZ FELIPE DE SOUZA FERNANDES\\LUIZ FELIPE DE SOUZA FERNANDES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIZ FELIPE DE SOUZA FERNANDES\\LUIZ FELIPE DE SOUZA FERNANDES - PGC 34.xlsx"
+    ]
+  },
+  "PATRICK_NUNES": {
+    "status": "ERROR",
+    "display": "PATRICK NUNES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CARLA_GIANE_DA_SILVA": {
+    "status": "ERROR",
+    "display": "CARLA GIANE DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "BARBARA_KAUANA_PILGER_DA_SILVEIRA": {
+    "status": "ERROR",
+    "display": "BARBARA KAUANA PILGER DA SILVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MAURICIO_DIECKMANN_MOREIRA": {
+    "status": "ERROR",
+    "display": "MAURICIO DIECKMANN MOREIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DAYANNY_ANGELA_TOMAZ_DE_OLIVEIRA": {
+    "status": "ERROR",
+    "display": "DAYANNY ANGELA TOMAZ DE OLIVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LUCAS_DOS_SANTOS_SOUSA": {
+    "status": "ERROR",
+    "display": "LUCAS DOS SANTOS SOUSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "BRAYAN_LUCAS_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "BRAYAN LUCAS DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRAYAN LUCAS DOS SANTOS\\BRAYAN LUCAS DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRAYAN LUCAS DOS SANTOS\\BRAYAN LUCAS DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRAYAN LUCAS DOS SANTOS\\BRAYAN LUCAS DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "REBEKA_COSSITO_DE_AMORIM_LAPORT": {
+    "status": "SUCCESS",
+    "display": "Rebeka Cossito de Amorim Laport",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\REBEKA COSSITO DE AMORIM LAPORT\\REBEKA COSSITO DE AMORIM LAPORT - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\REBEKA COSSITO DE AMORIM LAPORT\\REBEKA COSSITO DE AMORIM LAPORT - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\REBEKA COSSITO DE AMORIM LAPORT\\REBEKA COSSITO DE AMORIM LAPORT - PGC 34.xlsx"
+    ]
+  },
+  "RAFAELA_SOUZA_CARLOS": {
+    "status": "ERROR",
+    "display": "RAFAELA SOUZA CARLOS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "THAYS_CHRISTINNE_TAVARES_DE_BRITO": {
+    "status": "ERROR",
+    "display": "THAYS CHRISTINNE TAVARES DE BRITO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOSE_HERALDO_CONCEICAO_BASTOS_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "JOSE HERALDO CONCEICAO BASTOS JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE HERALDO CONCEICAO BASTOS JUNIOR\\JOSE HERALDO CONCEICAO BASTOS JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE HERALDO CONCEICAO BASTOS JUNIOR\\JOSE HERALDO CONCEICAO BASTOS JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE HERALDO CONCEICAO BASTOS JUNIOR\\JOSE HERALDO CONCEICAO BASTOS JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "ALANDERSON_JESSE_DA_SILVA_GALVAO": {
+    "status": "ERROR",
+    "display": "ALANDERSON JESSE DA SILVA GALVÃO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ANAA_PATRICK_JARDIM": {
+    "status": "SUCCESS",
+    "display": "ANAÃ PATRICK JARDIM",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANAÃ PATRICK JARDIM\\ANAÃ PATRICK JARDIM - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANAÃ PATRICK JARDIM\\ANAÃ PATRICK JARDIM - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANAÃ PATRICK JARDIM\\ANAÃ PATRICK JARDIM - PGC 34.xlsx"
+    ]
+  },
+  "DENER_ALVES_FERREIRA": {
+    "status": "SUCCESS",
+    "display": "DENER ALVES FERREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENER ALVES FERREIRA\\DENER ALVES FERREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENER ALVES FERREIRA\\DENER ALVES FERREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DENER ALVES FERREIRA\\DENER ALVES FERREIRA - PGC 34.xlsx"
+    ]
+  },
+  "ENNY_LORENA_SILVA": {
+    "status": "ERROR",
+    "display": "ENNY LORENA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "FABIO_ALVES_SOUSA": {
+    "status": "SUCCESS",
+    "display": "FABIO ALVES SOUSA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO ALVES SOUSA\\FABIO ALVES SOUSA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO ALVES SOUSA\\FABIO ALVES SOUSA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FABIO ALVES SOUSA\\FABIO ALVES SOUSA - PGC 34.xlsx"
+    ]
+  },
+  "GUILHERME_VIEIRA_SANCHES": {
+    "status": "ERROR",
+    "display": "GUILHERME VIEIRA SANCHES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JUBELINE_FERNANDES_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "JUBELINE FERNANDES DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JUBELINE FERNANDES DA SILVA\\JUBELINE FERNANDES DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JUBELINE FERNANDES DA SILVA\\JUBELINE FERNANDES DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JUBELINE FERNANDES DA SILVA\\JUBELINE FERNANDES DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "LUCAS_DAMASCENO_BARROS": {
+    "status": "ERROR",
+    "display": "LUCAS DAMASCENO BARROS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LUCIANA_SANTOS_CRUZ_MOELLER": {
+    "status": "ERROR",
+    "display": "LUCIANA SANTOS CRUZ MOELLER",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MILENE_SILVA_DE_PAULO": {
+    "status": "ERROR",
+    "display": "MILENE SILVA DE PAULO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "YARA_APARECIDA_BURIN_EMERICH": {
+    "status": "SUCCESS",
+    "display": "YARA APARECIDA BURIN EMERICH",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\YARA APARECIDA BURIN EMERICH\\YARA APARECIDA BURIN EMERICH - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\YARA APARECIDA BURIN EMERICH\\YARA APARECIDA BURIN EMERICH - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\YARA APARECIDA BURIN EMERICH\\YARA APARECIDA BURIN EMERICH - PGC 34.xlsx"
+    ]
+  },
+  "RUTEMBERG_CORREIA_MIRANDA_NASCIMENTO": {
+    "status": "SUCCESS",
+    "display": "RUTEMBERG CORREIA MIRANDA NASCIMENTO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTEMBERG CORREIA MIRANDA NASCIMENTO\\RUTEMBERG CORREIA MIRANDA NASCIMENTO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTEMBERG CORREIA MIRANDA NASCIMENTO\\RUTEMBERG CORREIA MIRANDA NASCIMENTO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTEMBERG CORREIA MIRANDA NASCIMENTO\\RUTEMBERG CORREIA MIRANDA NASCIMENTO - PGC 34.xlsx"
+    ]
+  },
+  "PAULA_NATIELE_DE_SOUZA_DOS_REIS": {
+    "status": "SUCCESS",
+    "display": "PAULA NATIELE DE SOUZA DOS REIS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULA NATIELE DE SOUZA DOS REIS\\PAULA NATIELE DE SOUZA DOS REIS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULA NATIELE DE SOUZA DOS REIS\\PAULA NATIELE DE SOUZA DOS REIS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULA NATIELE DE SOUZA DOS REIS\\PAULA NATIELE DE SOUZA DOS REIS - PGC 34.xlsx"
+    ]
+  },
+  "GABRIELA_SILVA_SANTOS": {
+    "status": "ERROR",
+    "display": "GABRIELA SILVA SANTOS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DEYBSON_MORAES_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "DEYBSON MORAES DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEYBSON MORAES DOS SANTOS\\DEYBSON MORAES DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEYBSON MORAES DOS SANTOS\\DEYBSON MORAES DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEYBSON MORAES DOS SANTOS\\DEYBSON MORAES DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "STEFANE_ALVES_CASTRO": {
+    "status": "SUCCESS",
+    "display": "STEFANE ALVES CASTRO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\STEFANE ALVES CASTRO\\STEFANE ALVES CASTRO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\STEFANE ALVES CASTRO\\STEFANE ALVES CASTRO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\STEFANE ALVES CASTRO\\STEFANE ALVES CASTRO - PGC 34.xlsx"
+    ]
+  },
+  "PATRICIA_LUCIANA_DE_ALMEIDA_SANTOS": {
+    "status": "SUCCESS",
+    "display": "PATRICIA LUCIANA DE ALMEIDA SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PATRICIA LUCIANA DE ALMEIDA SANTOS\\PATRICIA LUCIANA DE ALMEIDA SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PATRICIA LUCIANA DE ALMEIDA SANTOS\\PATRICIA LUCIANA DE ALMEIDA SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PATRICIA LUCIANA DE ALMEIDA SANTOS\\PATRICIA LUCIANA DE ALMEIDA SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "FRANK_MEDEIROS_RODRIGUES": {
+    "status": "SUCCESS",
+    "display": "FRANK MEDEIROS RODRIGUES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANK MEDEIROS RODRIGUES\\FRANK MEDEIROS RODRIGUES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANK MEDEIROS RODRIGUES\\FRANK MEDEIROS RODRIGUES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANK MEDEIROS RODRIGUES\\FRANK MEDEIROS RODRIGUES - PGC 34.xlsx"
+    ]
+  },
+  "MICHELE_OLIVEIRA_DA_SILVEIRA": {
+    "status": "SUCCESS",
+    "display": "MICHELE OLIVEIRA DA SILVEIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MICHELE OLIVEIRA DA SILVEIRA\\MICHELE OLIVEIRA DA SILVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MICHELE OLIVEIRA DA SILVEIRA\\MICHELE OLIVEIRA DA SILVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MICHELE OLIVEIRA DA SILVEIRA\\MICHELE OLIVEIRA DA SILVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "LINDOMAR_MOREIRA_DA_SILVA_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "LINDOMAR MOREIRA DA SILVA JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LINDOMAR MOREIRA DA SILVA JUNIOR\\LINDOMAR MOREIRA DA SILVA JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LINDOMAR MOREIRA DA SILVA JUNIOR\\LINDOMAR MOREIRA DA SILVA JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LINDOMAR MOREIRA DA SILVA JUNIOR\\LINDOMAR MOREIRA DA SILVA JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "BRENDA_CAETANO_DIB": {
+    "status": "SUCCESS",
+    "display": "BRENDA CAETANO DIB",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRENDA CAETANO DIB\\BRENDA CAETANO DIB - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRENDA CAETANO DIB\\BRENDA CAETANO DIB - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRENDA CAETANO DIB\\BRENDA CAETANO DIB - PGC 34.xlsx"
+    ]
+  },
+  "IGOR_MARTINS": {
+    "status": "ERROR",
+    "display": "IGOR MARTINS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MARCOS_FERNANDES_DA_SILVA_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "MARCOS FERNANDES DA SILVA JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS FERNANDES DA SILVA JUNIOR\\MARCOS FERNANDES DA SILVA JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS FERNANDES DA SILVA JUNIOR\\MARCOS FERNANDES DA SILVA JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS FERNANDES DA SILVA JUNIOR\\MARCOS FERNANDES DA SILVA JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "FRANCIELLY_DA_SILVA_MORAIS": {
+    "status": "SUCCESS",
+    "display": "FRANCIELLY DA SILVA MORAIS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANCIELLY DA SILVA MORAIS\\FRANCIELLY DA SILVA MORAIS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANCIELLY DA SILVA MORAIS\\FRANCIELLY DA SILVA MORAIS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\FRANCIELLY DA SILVA MORAIS\\FRANCIELLY DA SILVA MORAIS - PGC 34.xlsx"
+    ]
+  },
+  "THALLYS_JEFFERSON_DE_PAIVA_OLIVEIRA": {
+    "status": "SUCCESS",
+    "display": "THALLYS JEFFERSON DE PAIVA OLIVEIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THALLYS JEFFERSON DE PAIVA OLIVEIRA\\THALLYS JEFFERSON DE PAIVA OLIVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THALLYS JEFFERSON DE PAIVA OLIVEIRA\\THALLYS JEFFERSON DE PAIVA OLIVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THALLYS JEFFERSON DE PAIVA OLIVEIRA\\THALLYS JEFFERSON DE PAIVA OLIVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "JONILSON_JESUS_OLIVEIRA": {
+    "status": "SUCCESS",
+    "display": "JONILSON JESUS OLIVEIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONILSON JESUS OLIVEIRA\\JONILSON JESUS OLIVEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONILSON JESUS OLIVEIRA\\JONILSON JESUS OLIVEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONILSON JESUS OLIVEIRA\\JONILSON JESUS OLIVEIRA - PGC 34.xlsx"
+    ]
+  },
+  "LETICIA_DANIELI_VILAS_BOAS_FERREIRA": {
+    "status": "SUCCESS",
+    "display": "LETICIA DANIELI VILAS BOAS FERREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA DANIELI VILAS BOAS FERREIRA\\LETICIA DANIELI VILAS BOAS FERREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA DANIELI VILAS BOAS FERREIRA\\LETICIA DANIELI VILAS BOAS FERREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LETICIA DANIELI VILAS BOAS FERREIRA\\LETICIA DANIELI VILAS BOAS FERREIRA - PGC 34.xlsx"
+    ]
+  },
+  "MATHEUS_HENRIQUE_GOMES_ZERLOTTINI": {
+    "status": "SUCCESS",
+    "display": "MATHEUS HENRIQUE GOMES ZERLOTTINI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE GOMES ZERLOTTINI\\MATHEUS HENRIQUE GOMES ZERLOTTINI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE GOMES ZERLOTTINI\\MATHEUS HENRIQUE GOMES ZERLOTTINI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS HENRIQUE GOMES ZERLOTTINI\\MATHEUS HENRIQUE GOMES ZERLOTTINI - PGC 34.xlsx"
+    ]
+  },
+  "NEUSELIA_FERREIRA_LIMA_RIBEIRO": {
+    "status": "SUCCESS",
+    "display": "NEUSELIA FERREIRA LIMA RIBEIRO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NEUSELIA FERREIRA LIMA RIBEIRO\\NEUSELIA FERREIRA LIMA RIBEIRO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NEUSELIA FERREIRA LIMA RIBEIRO\\NEUSELIA FERREIRA LIMA RIBEIRO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NEUSELIA FERREIRA LIMA RIBEIRO\\NEUSELIA FERREIRA LIMA RIBEIRO - PGC 34.xlsx"
+    ]
+  },
+  "LEONARDO_ALVES_IRBER": {
+    "status": "SUCCESS",
+    "display": "LEONARDO ALVES IRBER",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO ALVES IRBER\\LEONARDO ALVES IRBER - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO ALVES IRBER\\LEONARDO ALVES IRBER - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LEONARDO ALVES IRBER\\LEONARDO ALVES IRBER - PGC 34.xlsx"
+    ]
+  },
+  "JESSICA_RIBEIRO_LEAO": {
+    "status": "SUCCESS",
+    "display": "JESSICA RIBEIRO LEÃO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA RIBEIRO LEÃO\\JESSICA RIBEIRO LEÃO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA RIBEIRO LEÃO\\JESSICA RIBEIRO LEÃO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA RIBEIRO LEÃO\\JESSICA RIBEIRO LEÃO - PGC 34.xlsx"
+    ]
+  },
+  "MIRIELY_SILVA_SANTOS": {
+    "status": "SUCCESS",
+    "display": "MIRIELY SILVA SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MIRIELY SILVA SANTOS\\MIRIELY SILVA SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MIRIELY SILVA SANTOS\\MIRIELY SILVA SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MIRIELY SILVA SANTOS\\MIRIELY SILVA SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "PAULO_CRISTIANO_ALVES": {
+    "status": "SUCCESS",
+    "display": "PAULO CRISTIANO ALVES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULO CRISTIANO ALVES\\PAULO CRISTIANO ALVES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULO CRISTIANO ALVES\\PAULO CRISTIANO ALVES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PAULO CRISTIANO ALVES\\PAULO CRISTIANO ALVES - PGC 34.xlsx"
+    ]
+  },
+  "NATALIA_FRANCISCA_SANTOS_ALVES": {
+    "status": "SUCCESS",
+    "display": "NATALIA FRANCISCA SANTOS ALVES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NATALIA FRANCISCA SANTOS ALVES\\NATALIA FRANCISCA SANTOS ALVES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NATALIA FRANCISCA SANTOS ALVES\\NATALIA FRANCISCA SANTOS ALVES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\NATALIA FRANCISCA SANTOS ALVES\\NATALIA FRANCISCA SANTOS ALVES - PGC 34.xlsx"
+    ]
+  },
+  "LUIZ_HENRIQUE_FERREIRA_ANDRADE": {
+    "status": "ERROR",
+    "display": "LUIZ HENRIQUE FERREIRA ANDRADE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "KAREN_MENDONCA_OKUYAMA": {
+    "status": "SUCCESS",
+    "display": "KAREN MENDONÇA OKUYAMA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KAREN MENDONÇA OKUYAMA\\KAREN MENDONÇA OKUYAMA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KAREN MENDONÇA OKUYAMA\\KAREN MENDONÇA OKUYAMA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\KAREN MENDONÇA OKUYAMA\\KAREN MENDONÇA OKUYAMA - PGC 34.xlsx"
+    ]
+  },
+  "BRUNO_CANEDO_SILVA_PORTO": {
+    "status": "ERROR",
+    "display": "BRUNO CANEDO SILVA PORTO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DEBORA_FERREIRA_RODRIGUES": {
+    "status": "SUCCESS",
+    "display": "DEBORA FERREIRA RODRIGUES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA FERREIRA RODRIGUES\\DEBORA FERREIRA RODRIGUES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA FERREIRA RODRIGUES\\DEBORA FERREIRA RODRIGUES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA FERREIRA RODRIGUES\\DEBORA FERREIRA RODRIGUES - PGC 34.xlsx"
+    ]
+  },
+  "WEBERTH_DE_MEDEIROS_NASCENTE": {
+    "status": "SUCCESS",
+    "display": "WEBERTH DE MEDEIROS NASCENTE",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WEBERTH DE MEDEIROS NASCENTE\\WEBERTH DE MEDEIROS NASCENTE - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WEBERTH DE MEDEIROS NASCENTE\\WEBERTH DE MEDEIROS NASCENTE - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WEBERTH DE MEDEIROS NASCENTE\\WEBERTH DE MEDEIROS NASCENTE - PGC 34.xlsx"
+    ]
+  },
+  "MAIRA_CATARINA_EVANGELISTA_NUNES": {
+    "status": "SUCCESS",
+    "display": "Maira Catarina Evangelista Nunes",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MAIRA CATARINA EVANGELISTA NUNES\\MAIRA CATARINA EVANGELISTA NUNES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MAIRA CATARINA EVANGELISTA NUNES\\MAIRA CATARINA EVANGELISTA NUNES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MAIRA CATARINA EVANGELISTA NUNES\\MAIRA CATARINA EVANGELISTA NUNES - PGC 34.xlsx"
+    ]
+  },
+  "LUIS_GUSTAVO_RAMOS_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "Luis Gustavo Ramos da Silva",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIS GUSTAVO RAMOS DA SILVA\\LUIS GUSTAVO RAMOS DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIS GUSTAVO RAMOS DA SILVA\\LUIS GUSTAVO RAMOS DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUIS GUSTAVO RAMOS DA SILVA\\LUIS GUSTAVO RAMOS DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "THIAGO_PIRES_BIAVATTI": {
+    "status": "SUCCESS",
+    "display": "Thiago Pires Biavatti",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PIRES BIAVATTI\\THIAGO PIRES BIAVATTI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PIRES BIAVATTI\\THIAGO PIRES BIAVATTI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PIRES BIAVATTI\\THIAGO PIRES BIAVATTI - PGC 34.xlsx"
+    ]
+  },
+  "ESTEFANE_GONCALVES_PRADE": {
+    "status": "ERROR",
+    "display": "ESTEFANE GONÇALVES PRADE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RICHARD_EDUARD_DE_SOUZA_SCHELL": {
+    "status": "SUCCESS",
+    "display": "Richard Eduard de Souza Schell",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RICHARD EDUARD DE SOUZA SCHELL\\RICHARD EDUARD DE SOUZA SCHELL - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RICHARD EDUARD DE SOUZA SCHELL\\RICHARD EDUARD DE SOUZA SCHELL - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RICHARD EDUARD DE SOUZA SCHELL\\RICHARD EDUARD DE SOUZA SCHELL - PGC 34.xlsx"
+    ]
+  },
+  "CLAUDIA_BITTENCOURT_LEVY": {
+    "status": "SUCCESS",
+    "display": "Claudia Bittencourt levy",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIA BITTENCOURT LEVY\\CLAUDIA BITTENCOURT LEVY - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIA BITTENCOURT LEVY\\CLAUDIA BITTENCOURT LEVY - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIA BITTENCOURT LEVY\\CLAUDIA BITTENCOURT LEVY - PGC 34.xlsx"
+    ]
+  },
+  "JOAO_VICTOR_RODRIGUES_DOS_SANTOS": {
+    "status": "ERROR",
+    "display": "João Victor Rodrigues dos Santos",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "JOSEANE_ARAUJO_BRAS": {
+    "status": "SUCCESS",
+    "display": "Joseane Araujo Bras",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSEANE ARAUJO BRAS\\JOSEANE ARAUJO BRAS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSEANE ARAUJO BRAS\\JOSEANE ARAUJO BRAS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSEANE ARAUJO BRAS\\JOSEANE ARAUJO BRAS - PGC 34.xlsx"
+    ]
+  },
+  "JOSE_LUIS_LOPES_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "JOSE LUIS LOPES JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE LUIS LOPES JUNIOR\\JOSE LUIS LOPES JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE LUIS LOPES JUNIOR\\JOSE LUIS LOPES JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOSE LUIS LOPES JUNIOR\\JOSE LUIS LOPES JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "JOAO_PEDRO_PERTILE": {
+    "status": "SUCCESS",
+    "display": "Joao Pedro Pertile",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOAO PEDRO PERTILE\\JOAO PEDRO PERTILE - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOAO PEDRO PERTILE\\JOAO PEDRO PERTILE - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JOAO PEDRO PERTILE\\JOAO PEDRO PERTILE - PGC 34.xlsx"
+    ]
+  },
+  "CAMILA_RIBEIRO_DOMINGUES": {
+    "status": "ERROR",
+    "display": "CAMILA RIBEIRO DOMINGUES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CIBELE_APARECIDA_FREITAS": {
+    "status": "SUCCESS",
+    "display": "Cibele Aparecida Freitas",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CIBELE APARECIDA FREITAS\\CIBELE APARECIDA FREITAS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CIBELE APARECIDA FREITAS\\CIBELE APARECIDA FREITAS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CIBELE APARECIDA FREITAS\\CIBELE APARECIDA FREITAS - PGC 34.xlsx"
+    ]
+  },
+  "IVANILDO_DANTAS_DE_MELO": {
+    "status": "ERROR",
+    "display": "IVANILDO DANTAS DE MELO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MATHEUS_FELIPE_FERREIRA_PIMENTA": {
+    "status": "SUCCESS",
+    "display": "MATHEUS FELIPE FERREIRA PIMENTA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS FELIPE FERREIRA PIMENTA\\MATHEUS FELIPE FERREIRA PIMENTA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS FELIPE FERREIRA PIMENTA\\MATHEUS FELIPE FERREIRA PIMENTA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MATHEUS FELIPE FERREIRA PIMENTA\\MATHEUS FELIPE FERREIRA PIMENTA - PGC 34.xlsx"
+    ]
+  },
+  "JESSICA_MARIA_BARRETO": {
+    "status": "SUCCESS",
+    "display": "JESSICA MARIA BARRETO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA MARIA BARRETO\\JESSICA MARIA BARRETO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA MARIA BARRETO\\JESSICA MARIA BARRETO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA MARIA BARRETO\\JESSICA MARIA BARRETO - PGC 34.xlsx"
+    ]
+  },
+  "HEDIGRIFFITON_RAMOS_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "HEDIGRIFFITON RAMOS DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HEDIGRIFFITON RAMOS DA SILVA\\HEDIGRIFFITON RAMOS DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HEDIGRIFFITON RAMOS DA SILVA\\HEDIGRIFFITON RAMOS DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\HEDIGRIFFITON RAMOS DA SILVA\\HEDIGRIFFITON RAMOS DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "MARCOS_ANTONIO_DE_MEIRA_DOS_SANTOS_LUZ": {
+    "status": "SUCCESS",
+    "display": "MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ\\MARCOS ANTONIO DE MEIRA DOS SANTOS LUZ - PGC 34.xlsx"
+    ]
+  },
+  "JESSICA_PEROTTO_MACHADO": {
+    "status": "SUCCESS",
+    "display": "JESSICA PEROTTO MACHADO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA PEROTTO MACHADO\\JESSICA PEROTTO MACHADO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA PEROTTO MACHADO\\JESSICA PEROTTO MACHADO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JESSICA PEROTTO MACHADO\\JESSICA PEROTTO MACHADO - PGC 34.xlsx"
+    ]
+  },
+  "EDMARCOS_SOUSA_DUTRA": {
+    "status": "SUCCESS",
+    "display": "EDMARCOS SOUSA DUTRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDMARCOS SOUSA DUTRA\\EDMARCOS SOUSA DUTRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDMARCOS SOUSA DUTRA\\EDMARCOS SOUSA DUTRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EDMARCOS SOUSA DUTRA\\EDMARCOS SOUSA DUTRA - PGC 34.xlsx"
+    ]
+  },
+  "VANESSA_DEON_FERREIRA": {
+    "status": "SUCCESS",
+    "display": "VANESSA DEON FERREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANESSA DEON FERREIRA\\VANESSA DEON FERREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANESSA DEON FERREIRA\\VANESSA DEON FERREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\VANESSA DEON FERREIRA\\VANESSA DEON FERREIRA - PGC 34.xlsx"
+    ]
+  },
+  "TEILLOR_DIOVANE_DE_JESUS_BONN": {
+    "status": "ERROR",
+    "display": "TEILLOR DIOVANE DE JESUS BONN",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "FLAVIO_CALDEIRA_CANDIDO_JUNIOR": {
+    "status": "ERROR",
+    "display": "FLAVIO CALDEIRA CANDIDO JUNIOR",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ANA_PAULA_OSORIO_DA_ROSA": {
+    "status": "SUCCESS",
+    "display": "ANA PAULA OSORIO DA ROSA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA OSORIO DA ROSA\\ANA PAULA OSORIO DA ROSA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA OSORIO DA ROSA\\ANA PAULA OSORIO DA ROSA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ANA PAULA OSORIO DA ROSA\\ANA PAULA OSORIO DA ROSA - PGC 34.xlsx"
+    ]
+  },
+  "LUCAS_ALEXANDRE_FERREIRA_CORREA": {
+    "status": "SUCCESS",
+    "display": "LUCAS ALEXANDRE FERREIRA CORRÊA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS ALEXANDRE FERREIRA CORRÊA\\LUCAS ALEXANDRE FERREIRA CORRÊA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS ALEXANDRE FERREIRA CORRÊA\\LUCAS ALEXANDRE FERREIRA CORRÊA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCAS ALEXANDRE FERREIRA CORRÊA\\LUCAS ALEXANDRE FERREIRA CORRÊA - PGC 34.xlsx"
+    ]
+  },
+  "PEDRO_IVO_CARVALHO_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "PEDRO IVO CARVALHO DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PEDRO IVO CARVALHO DOS SANTOS\\PEDRO IVO CARVALHO DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PEDRO IVO CARVALHO DOS SANTOS\\PEDRO IVO CARVALHO DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\PEDRO IVO CARVALHO DOS SANTOS\\PEDRO IVO CARVALHO DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "THIAGO_TADEU_PACHECO_JUNQUEIRA": {
+    "status": "SUCCESS",
+    "display": "THIAGO TADEU PACHECO JUNQUEIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO TADEU PACHECO JUNQUEIRA\\THIAGO TADEU PACHECO JUNQUEIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO TADEU PACHECO JUNQUEIRA\\THIAGO TADEU PACHECO JUNQUEIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO TADEU PACHECO JUNQUEIRA\\THIAGO TADEU PACHECO JUNQUEIRA - PGC 34.xlsx"
+    ]
+  },
+  "LUCIANA_CRIVELARI": {
+    "status": "SUCCESS",
+    "display": "LUCIANA CRIVELARI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCIANA CRIVELARI\\LUCIANA CRIVELARI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCIANA CRIVELARI\\LUCIANA CRIVELARI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LUCIANA CRIVELARI\\LUCIANA CRIVELARI - PGC 34.xlsx"
+    ]
+  },
+  "BRISA_VITORIA_RODRIGUES_CALIXTO": {
+    "status": "SUCCESS",
+    "display": "BRISA VITORIA RODRIGUES CALIXTO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRISA VITORIA RODRIGUES CALIXTO\\BRISA VITORIA RODRIGUES CALIXTO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRISA VITORIA RODRIGUES CALIXTO\\BRISA VITORIA RODRIGUES CALIXTO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\BRISA VITORIA RODRIGUES CALIXTO\\BRISA VITORIA RODRIGUES CALIXTO - PGC 34.xlsx"
+    ]
+  },
+  "SARA_SIMAO_BARBOSA_DA_SILVA": {
+    "status": "ERROR",
+    "display": "SARA SIMÃO BARBOSA DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "DEBORA_DRECHSLER_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "DEBORA DRECHSLER DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA DRECHSLER DA SILVA\\DEBORA DRECHSLER DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA DRECHSLER DA SILVA\\DEBORA DRECHSLER DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\DEBORA DRECHSLER DA SILVA\\DEBORA DRECHSLER DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "IARA_HELOISA_NASCIMENTO_DE_ARAUJO": {
+    "status": "ERROR",
+    "display": "IARA HELOISA NASCIMENTO DE ARAUJO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GILMARA_FABRICIA_DA_SILVA_DIAS": {
+    "status": "SUCCESS",
+    "display": "GILMARA FABRICIA DA SILVA DIAS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GILMARA FABRICIA DA SILVA DIAS\\GILMARA FABRICIA DA SILVA DIAS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GILMARA FABRICIA DA SILVA DIAS\\GILMARA FABRICIA DA SILVA DIAS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GILMARA FABRICIA DA SILVA DIAS\\GILMARA FABRICIA DA SILVA DIAS - PGC 34.xlsx"
+    ]
+  },
+  "ANUSKA_TUYLLA_DO_NASCIMENTO_SILVA": {
+    "status": "ERROR",
+    "display": "ANUSKA TUYLLA DO NASCIMENTO SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LORENZO_SILVA_RIBEIRO": {
+    "status": "ERROR",
+    "display": "LORENZO SILVA RIBEIRO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "WESLEY_ASSIS_DOS_SANTOS": {
+    "status": "SUCCESS",
+    "display": "WESLEY ASSIS DOS SANTOS",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY ASSIS DOS SANTOS\\WESLEY ASSIS DOS SANTOS - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY ASSIS DOS SANTOS\\WESLEY ASSIS DOS SANTOS - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\WESLEY ASSIS DOS SANTOS\\WESLEY ASSIS DOS SANTOS - PGC 34.xlsx"
+    ]
+  },
+  "THAIS_GONCALVES_DA_SILVA": {
+    "status": "ERROR",
+    "display": "THAIS GONÇALVES DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LUIZ_FELIPE_CARVALHO_MARQUES": {
+    "status": "ERROR",
+    "display": "LUIZ FELIPE CARVALHO MARQUES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "KAIANE_BRODA_PEREIRA": {
+    "status": "ERROR",
+    "display": "Kaiane Broda Pereira",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GUILHERME_DOS_SANTOS_AMARAL": {
+    "status": "SUCCESS",
+    "display": "Guilherme dos Santos Amaral",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GUILHERME DOS SANTOS AMARAL\\GUILHERME DOS SANTOS AMARAL - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GUILHERME DOS SANTOS AMARAL\\GUILHERME DOS SANTOS AMARAL - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\GUILHERME DOS SANTOS AMARAL\\GUILHERME DOS SANTOS AMARAL - PGC 34.xlsx"
+    ]
+  },
+  "KESIA_ANTUNES_SOUSA": {
+    "status": "ERROR",
+    "display": "KESIA ANTUNES SOUSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "THIAGO_PETRUCELLI": {
+    "status": "SUCCESS",
+    "display": "THIAGO PETRUCELLI",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PETRUCELLI\\THIAGO PETRUCELLI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PETRUCELLI\\THIAGO PETRUCELLI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\THIAGO PETRUCELLI\\THIAGO PETRUCELLI - PGC 34.xlsx"
+    ]
+  },
+  "FAUSTO_SANTIAGO_DOS_SANTOS_NETO": {
+    "status": "ERROR",
+    "display": "FAUSTO SANTIAGO DOS SANTOS NETO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MARCELO_LUIS_DE_MORAES_DE_LIMA_JUNIOR": {
+    "status": "ERROR",
+    "display": "MARCELO LUIS DE MORAES DE LIMA JUNIOR",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MARIA_CECILIA_DA_SILVA": {
+    "status": "SUCCESS",
+    "display": "MARIA CECILIA DA SILVA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARIA CECILIA DA SILVA\\MARIA CECILIA DA SILVA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARIA CECILIA DA SILVA\\MARIA CECILIA DA SILVA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\MARIA CECILIA DA SILVA\\MARIA CECILIA DA SILVA - PGC 34.xlsx"
+    ]
+  },
+  "EVERTON_CUSTODIO_SILVEIRA": {
+    "status": "ERROR",
+    "display": "EVERTON CUSTODIO SILVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CRISTOVAO_MORGAN_CARVALHO_SAMPAIO": {
+    "status": "SUCCESS",
+    "display": "CRISTOVAO MORGAN CARVALHO SAMPAIO",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CRISTOVAO MORGAN CARVALHO SAMPAIO\\CRISTOVAO MORGAN CARVALHO SAMPAIO - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CRISTOVAO MORGAN CARVALHO SAMPAIO\\CRISTOVAO MORGAN CARVALHO SAMPAIO - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CRISTOVAO MORGAN CARVALHO SAMPAIO\\CRISTOVAO MORGAN CARVALHO SAMPAIO - PGC 34.xlsx"
+    ]
+  },
+  "ISABELA_OLIVEIRA_CARDOSO": {
+    "status": "ERROR",
+    "display": "ISABELA OLIVEIRA CARDOSO",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ANA_KAROLLINY_NASCIMENTO_OLIVEIRA": {
+    "status": "ERROR",
+    "display": "ANA KAROLLINY NASCIMENTO OLIVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LILIAN_MICHELE_ROSIN_HAMMACHER": {
+    "status": "ERROR",
+    "display": "LILIAN MICHELE ROSIN HAMMACHER",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RUTIELI_DOS_SANTOS_GOMES": {
+    "status": "SUCCESS",
+    "display": "Rutieli dos Santos Gomes",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTIELI DOS SANTOS GOMES\\RUTIELI DOS SANTOS GOMES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTIELI DOS SANTOS GOMES\\RUTIELI DOS SANTOS GOMES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\RUTIELI DOS SANTOS GOMES\\RUTIELI DOS SANTOS GOMES - PGC 34.xlsx"
+    ]
+  },
+  "RICARDO_ANDRE_DE_ASSIS": {
+    "status": "ERROR",
+    "display": "RICARDO ANDRE DE ASSIS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GABRIEL_PEIXOTO_DE_SOUZA": {
+    "status": "ERROR",
+    "display": "Gabriel Peixoto de Souza",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "FLAVIO_MARQUES_AGUIAR_JUNIOR": {
+    "status": "ERROR",
+    "display": "Flávio Marques Aguiar Júnior",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GABRIELA_PEIXOTO_MARTINS": {
+    "status": "ERROR",
+    "display": "GABRIELA PEIXOTO MARTINS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RAPHAELLA_ERICH_SANTOS_CRUZ_MOELLER": {
+    "status": "ERROR",
+    "display": "RAPHAELLA ERICH SANTOS CRUZ MOELLER",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CAROLINE_RIBEIRO_FERNANDES": {
+    "status": "ERROR",
+    "display": "CAROLINE RIBEIRO FERNANDES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GABRIEL_CINTRA_DE_VASCONCELOS_PEDROSA": {
+    "status": "ERROR",
+    "display": "GABRIEL CINTRA DE VASCONCELOS PEDROSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "SUEDO_DE_SANTANA_SOBRAL": {
+    "status": "ERROR",
+    "display": "SUEDO DE SANTANA SOBRAL",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "GUSTAVO_LOURENCO_DAROS": {
+    "status": "ERROR",
+    "display": "GUSTAVO LOURENÇO DAROS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "YASMIN_DIAS_BRUCE": {
+    "status": "ERROR",
+    "display": "YASMIN DIAS BRUCE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RYCHARD_RYAN_BOANOVA_DA_SILVEIRA": {
+    "status": "ERROR",
+    "display": "RYCHARD RYAN BOANOVA DA SILVEIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "SERGIO_WILLIAM_DA_SILVA_DOS_SANTOS": {
+    "status": "ERROR",
+    "display": "SERGIO WILLIAM DA SILVA DOS SANTOS",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "WILLIAN_LUAN_TEIXEIRA_DA_SILVA": {
+    "status": "ERROR",
+    "display": "WILLIAN LUAN TEIXEIRA DA SILVA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "RUBER_AREVALO_GORIN": {
+    "status": "ERROR",
+    "display": "RUBER AREVALO GORIN",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ERICA_DOS_SANTOS_MUNHOES": {
+    "status": "ERROR",
+    "display": "ERICA DOS SANTOS MUNHOES",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MAYARA_DOS_SANTOS_FERREIRA": {
+    "status": "ERROR",
+    "display": "MAYARA DOS SANTOS FERREIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "SARA_JENNIFER_ALVES_BARBOSA": {
+    "status": "ERROR",
+    "display": "SARA JENNIFER ALVES BARBOSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "LARA_VITORIA_DE_CARVALHO_CORRENTE": {
+    "status": "ERROR",
+    "display": "LARA VITORIA DE CARVALHO CORRENTE",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "MARCELINO_PEREIRA_BARBOSA": {
+    "status": "ERROR",
+    "display": "MARCELINO PEREIRA BARBOSA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "CIRILO_DE_ASSIS_FERREIRA": {
+    "status": "ERROR",
+    "display": "CIRILO DE ASSIS FERREIRA",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null
+  },
+  "ZILDA_ALEXSANDRA_SEVERINO_MARQUES": {
+    "status": "SUCCESS",
+    "display": "ZILDA ALEXSANDRA SEVERINO MARQUES",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ZILDA ALEXSANDRA SEVERINO MARQUES\\ZILDA ALEXSANDRA SEVERINO MARQUES - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ZILDA ALEXSANDRA SEVERINO MARQUES\\ZILDA ALEXSANDRA SEVERINO MARQUES - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ZILDA ALEXSANDRA SEVERINO MARQUES\\ZILDA ALEXSANDRA SEVERINO MARQUES - PGC 34.xlsx"
+    ]
+  },
+  "CLAUDIO_ANTONIO_FERREIRA_JUNIOR": {
+    "status": "SUCCESS",
+    "display": "CLAUDIO ANTONIO FERREIRA JUNIOR",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIO ANTONIO FERREIRA JUNIOR\\CLAUDIO ANTONIO FERREIRA JUNIOR - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIO ANTONIO FERREIRA JUNIOR\\CLAUDIO ANTONIO FERREIRA JUNIOR - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\CLAUDIO ANTONIO FERREIRA JUNIOR\\CLAUDIO ANTONIO FERREIRA JUNIOR - PGC 34.xlsx"
+    ]
+  },
+  "EMERSON_DE_NARDI": {
+    "status": "SUCCESS",
+    "display": "Emerson de Nardi",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMERSON DE NARDI\\EMERSON DE NARDI - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMERSON DE NARDI\\EMERSON DE NARDI - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\EMERSON DE NARDI\\EMERSON DE NARDI - PGC 34.xlsx"
+    ]
+  },
+  "ALEXANDRE_DE_ALEXANDRE_PEREIRA": {
+    "status": "SUCCESS",
+    "display": "ALEXANDRE DE ALEXANDRE PEREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRE DE ALEXANDRE PEREIRA\\ALEXANDRE DE ALEXANDRE PEREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRE DE ALEXANDRE PEREIRA\\ALEXANDRE DE ALEXANDRE PEREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\ALEXANDRE DE ALEXANDRE PEREIRA\\ALEXANDRE DE ALEXANDRE PEREIRA - PGC 34.xlsx"
+    ]
+  },
+  "LORRANE_GABRIELLE_SILVA_DA_COSTA": {
+    "status": "SUCCESS",
+    "display": "LORRANE GABRIELLE SILVA DA COSTA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LORRANE GABRIELLE SILVA DA COSTA\\LORRANE GABRIELLE SILVA DA COSTA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LORRANE GABRIELLE SILVA DA COSTA\\LORRANE GABRIELLE SILVA DA COSTA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\LORRANE GABRIELLE SILVA DA COSTA\\LORRANE GABRIELLE SILVA DA COSTA - PGC 34.xlsx"
+    ]
+  },
+  "JONATHAN_DOS_SANTOS_PEREIRA": {
+    "status": "SUCCESS",
+    "display": "JONATHAN DOS SANTOS PEREIRA",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONATHAN DOS SANTOS PEREIRA\\JONATHAN DOS SANTOS PEREIRA - EXTRATO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONATHAN DOS SANTOS PEREIRA\\JONATHAN DOS SANTOS PEREIRA - PGC 34 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\34\\JONATHAN DOS SANTOS PEREIRA\\JONATHAN DOS SANTOS PEREIRA - PGC 34.xlsx"
+    ]
+  },
+  "JULIANA LUZ DA ROSA": {
+    "status": "ERROR",
+    "last_error": "617328b9-2920-4ef2-a9ed-79df296cce1b",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:22"
+  },
+  "EMERSON DO COUTO EVANGELISTA": {
+    "status": "ERROR",
+    "last_error": "e21c2d89-af9b-43ba-8455-387d89722760",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:23"
+  },
+  "CRISTIAN NATANAEL BICKEL SOARES": {
+    "status": "ERROR",
+    "last_error": "5337c48c-3bad-41c0-bb9e-12b66004cd14",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:25"
+  },
+  "DIANA DE ALMEIDA SANTOS": {
+    "status": "ERROR",
+    "last_error": "08279f74-22df-4c17-a493-b04bce83a0c7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:26"
+  },
+  "FELIPE ANDRE DA SILVA": {
+    "status": "ERROR",
+    "last_error": "b55ae82e-d4fa-4759-8c9b-dd74ae412505",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:27"
+  },
+  "GABRIELA SCHMITT SCHNORR": {
+    "status": "ERROR",
+    "last_error": "586214e6-0c32-4715-bff5-4e470a86e7a1",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:28"
+  },
+  "GUILHERME FOGASSA DA SILVA": {
+    "status": "ERROR",
+    "last_error": "5d3bea9a-d2d5-485c-8785-4cb291b1d3bd",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:28"
+  },
+  "HILSON CALDAS SILVA ALBUQUERQUE": {
+    "status": "ERROR",
+    "last_error": "6bda0877-677b-428b-b97f-272896385a5a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:29"
+  },
+  "MIKAEL CARDOSO DE MESQUITA": {
+    "status": "ERROR",
+    "last_error": "320f6102-9cb6-4726-9803-a8b56c8cc224",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:31"
+  },
+  "OBERDAN CARVALHO DE AZEVEDO": {
+    "status": "ERROR",
+    "last_error": "41d2b9e9-b8ef-495a-b0de-676bb1283259",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:32"
+  },
+  "SUELLEN DA SILVA RIBEIRO": {
+    "status": "ERROR",
+    "last_error": "cf24ceb1-873b-4f17-b20f-9d49c6c3c543",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:33"
+  },
+  "ANDERSON TISIAM": {
+    "status": "ERROR",
+    "last_error": "777ccb63-11ac-44ac-a001-b78c51e37912",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:35"
+  },
+  "RAYLENE MARIA RODRIGUES HONORIO": {
+    "status": "ERROR",
+    "last_error": "b5cdab64-ca12-4936-b394-6e7ff385fbb0",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:36"
+  },
+  "DIEGO RUCKHABER PLETSCH": {
+    "status": "ERROR",
+    "last_error": "d1dd3842-151f-47a9-b359-0a5148d4dccf",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:38"
+  },
+  "JULIO CESAR EMANUEL DOS SANTOS FONSECA": {
+    "status": "ERROR",
+    "last_error": "42855699-db4e-404a-b075-e4c4c6c87778",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:38"
+  },
+  "PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA": {
+    "status": "ERROR",
+    "last_error": "c5d3ec6a-94a0-4ae9-8a45-b99d3148da34",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:39"
+  },
+  "ELICIANA CORDEIRO MAGAVE": {
+    "status": "ERROR",
+    "last_error": "d562bb5f-04c1-40e9-97f2-fe0ab97f10fc",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:40"
+  },
+  "HUGO MENEZES DOS SANTOS MADEIRA": {
+    "status": "ERROR",
+    "last_error": "e0e7af9f-3a74-4dfc-a3b4-5aa08a9935a9",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:42"
+  },
+  "RAFAEL COLOMBO MENDES": {
+    "status": "ERROR",
+    "last_error": "fccc71b5-718d-4c05-b8a1-028833399e30",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:42"
+  },
+  "GERULINO FERREIRA LIMA": {
+    "status": "ERROR",
+    "last_error": "9f6c612f-d5a1-4135-9444-4a7b5b0974bb",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:46"
+  },
+  "ALEX SANDRO DA ROSA OLIVEIRA": {
+    "status": "ERROR",
+    "last_error": "84735e52-6462-4e58-8d01-13823d8eeb56",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:49"
+  },
+  "VINICIUS LIPPO SILIPRANDI": {
+    "status": "ERROR",
+    "last_error": "ff457789-a5f3-425a-8679-86375f38486b",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:51"
+  },
+  "GUSTAVO HENRIQUE KLEIN PETERS": {
+    "status": "ERROR",
+    "last_error": "7db4acf7-9423-4866-a0a4-91b2032f2c87",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:54"
+  },
+  "CLEMAR DE SOUZA": {
+    "status": "ERROR",
+    "last_error": "31a961df-d912-4c80-99a1-de6f41388ed8",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:57"
+  },
+  "SUZILEIA LUCAS VIANA WATTAGE": {
+    "status": "ERROR",
+    "last_error": "188da9b6-b522-439b-b54b-859393bfb30d",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:58"
+  },
+  "ANDRESSA ALVES FONSECA": {
+    "status": "ERROR",
+    "last_error": "e3219667-dd5b-426f-999f-9acc1a650080",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:22:59"
+  },
+  "JESSICA MARIA EDUELFA DE SOUZA MARTINS": {
+    "status": "ERROR",
+    "last_error": "f53b21b9-490d-453f-891e-99d80d99807c",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:00"
+  },
+  "ITALO PINHEIRO DIAS": {
+    "status": "ERROR",
+    "last_error": "b38b1431-fc60-45e5-9ef9-61d525979124",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:01"
+  },
+  "JACQUELINE FERREIRA LACERDA": {
+    "status": "ERROR",
+    "last_error": "9b217fb8-5825-4d7e-99a3-e8e0914a77e7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:02"
+  },
+  "JEFERSON FABIO DESSBESELL": {
+    "status": "ERROR",
+    "last_error": "dada6819-b37f-47bb-8a02-aab50e6b381e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:04"
+  },
+  "MELISSA GROSS DE OLIVEIRA": {
+    "status": "ERROR",
+    "last_error": "0e7297d3-16bb-40f5-9169-b05c88bc68da",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:06"
+  },
+  "ARIEL RODRIGUES": {
+    "status": "ERROR",
+    "last_error": "50ac2fb4-a154-4556-93c9-2111b99f463d",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:08"
+  },
+  "ALEX MISSEL LUMERTZ": {
+    "status": "ERROR",
+    "last_error": "2cb8d768-5542-4d31-b6eb-9946ae929337",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:10"
+  },
+  "RAABE DE ALMEIDA CRUZ": {
+    "status": "ERROR",
+    "last_error": "578dbff9-8d10-4d6c-8d96-28c344c1db8e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:11"
+  },
+  "JOSE MARTINS LEMES ALVES": {
+    "status": "ERROR",
+    "last_error": "6f629c1d-063d-4110-8cc2-3d1ac24b1f63",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:12"
+  },
+  "DIEGO MARADONA COSTA": {
+    "status": "ERROR",
+    "last_error": "197aef0f-5b99-43ed-af77-4cc9f55c8496",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:13"
+  },
+  "GERMANO LOPES DA SILVA FILHO": {
+    "status": "ERROR",
+    "last_error": "dc2e2fc2-57b5-450e-baef-2c8438751f42",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:14"
+  },
+  "BEATRIZ SCHRAMM DA SILVA": {
+    "status": "ERROR",
+    "last_error": "db55e362-235d-48e1-be6e-7f625c4c03ed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:15"
+  },
+  "LUAN DOS SANTOS MENDES DE SOUZA": {
+    "status": "ERROR",
+    "last_error": "32a2f1ef-cebe-41ca-a261-6ab7d1515fa8",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:16"
+  },
+  "LARISSA DE SOUZA SILVA": {
+    "status": "ERROR",
+    "last_error": "b26c519c-7a24-4a31-95d1-e3ac55e30cae",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:20"
+  },
+  "MONIQUE MARGARIDA FREITAS BENJAMIM": {
+    "status": "ERROR",
+    "last_error": "746136e5-2c7d-460a-90f4-88a8a044bce2",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:22"
+  },
+  "DAVI RODRIGUES DE MORAES": {
+    "status": "ERROR",
+    "last_error": "673b8b36-0466-42be-a5b6-cbbbba7d7ba0",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:24"
+  },
+  "JOCIEL GOMES DA SILVA": {
+    "status": "ERROR",
+    "last_error": "5b09a870-104e-4445-aa71-e116d22b11d7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:25"
+  },
+  "SUYANNE CHRISTINNE MARQUES LIMA": {
+    "status": "ERROR",
+    "last_error": "23b2549a-1160-49b5-b471-8ebeae870f7c",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:29"
+  },
+  "MELISSA SILVA MENDES": {
+    "status": "ERROR",
+    "last_error": "55dfc2b1-6080-4cce-a2c5-e8ac52d8c3e8",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:32"
+  },
+  "KEOMA ALAN BRODA PEREIRA": {
+    "status": "ERROR",
+    "last_error": "9ee1e47f-8504-400f-ad83-ac35ab15e227",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:33"
+  },
+  "SANGELA CRISTINA ARRUDA LIMA MORAIS": {
+    "status": "ERROR",
+    "last_error": "b976d2ba-78ee-4350-bdd7-cc9a6b0900ac",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:34"
+  },
+  "THIAGO OLIVEIRA DOS SANTOS": {
+    "status": "ERROR",
+    "last_error": "b33c178b-9370-4407-8918-752cd3d88d2b",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:36"
+  },
+  "PATRICK NUNES": {
+    "status": "ERROR",
+    "last_error": "29fd356d-c5dd-4a8d-9b29-20094d34fec7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:38"
+  },
+  "CARLA GIANE DA SILVA": {
+    "status": "ERROR",
+    "last_error": "61723fa1-0230-46a7-b3bd-117f501ef89b",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:39"
+  },
+  "BARBARA KAUANA PILGER DA SILVEIRA": {
+    "status": "ERROR",
+    "last_error": "be936262-cf3f-4dc7-958d-efa45176df01",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:40"
+  },
+  "MAURICIO DIECKMANN MOREIRA": {
+    "status": "ERROR",
+    "last_error": "6b1fe503-f1a6-4eec-93c6-36ef1f5b3c5e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:41"
+  },
+  "DAYANNY ANGELA TOMAZ DE OLIVEIRA": {
+    "status": "ERROR",
+    "last_error": "d407b3e6-3010-42ac-8581-aecec76d89f5",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:42"
+  },
+  "LUCAS DOS SANTOS SOUSA": {
+    "status": "ERROR",
+    "last_error": "6817284e-9ad9-410d-9df4-8c5fa466b8f0",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:42"
+  },
+  "RAFAELA SOUZA CARLOS": {
+    "status": "ERROR",
+    "last_error": "b94af216-0177-4ffd-95c4-1204f358114f",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:44"
+  },
+  "THAYS CHRISTINNE TAVARES DE BRITO": {
+    "status": "ERROR",
+    "last_error": "8baf8e94-5705-4a25-bd77-d72bf5681867",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:44"
+  },
+  "ALANDERSON JESSE DA SILVA GALVAO": {
+    "status": "ERROR",
+    "last_error": "57899521-095c-4713-af5a-1d5cca5c83b7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:45"
+  },
+  "ENNY LORENA SILVA": {
+    "status": "ERROR",
+    "last_error": "c969ba9c-c202-482a-b8bb-02d3bea9337e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:46"
+  },
+  "GUILHERME VIEIRA SANCHES": {
+    "status": "ERROR",
+    "last_error": "367594dd-be47-4429-90d3-0e594da6ff46",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:47"
+  },
+  "LUCAS DAMASCENO BARROS": {
+    "status": "ERROR",
+    "last_error": "1934f642-699a-47bc-ad35-bacd2a1ba8cd",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:48"
+  },
+  "LUCIANA SANTOS CRUZ MOELLER": {
+    "status": "ERROR",
+    "last_error": "7a2d7078-52c3-4718-88c6-682cde754833",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:49"
+  },
+  "MILENE SILVA DE PAULO": {
+    "status": "ERROR",
+    "last_error": "6188355b-db61-46ed-b3c9-bab5bc3e534f",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:50"
+  },
+  "GABRIELA SILVA SANTOS": {
+    "status": "ERROR",
+    "last_error": "636a1fb9-abe3-4677-81b0-e1f21eee1b42",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:51"
+  },
+  "IGOR MARTINS": {
+    "status": "ERROR",
+    "last_error": "82c7904f-e10a-40e8-ab84-059d47b4ad2d",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:23:55"
+  },
+  "LUIZ HENRIQUE FERREIRA ANDRADE": {
+    "status": "ERROR",
+    "last_error": "c42d9863-8291-428e-9bd8-b112988c872e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:01"
+  },
+  "BRUNO CANEDO SILVA PORTO": {
+    "status": "ERROR",
+    "last_error": "ab49c612-098a-43fa-be44-02328d416991",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:01"
+  },
+  "ESTEFANE GONCALVES PRADE": {
+    "status": "ERROR",
+    "last_error": "93b6fbef-f19b-403a-b0db-5aa59fd1fe82",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:03"
+  },
+  "JOAO VICTOR RODRIGUES DOS SANTOS": {
+    "status": "ERROR",
+    "last_error": "161474c8-b977-4c97-89ff-882beb8a4e3c",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:04"
+  },
+  "CAMILA RIBEIRO DOMINGUES": {
+    "status": "ERROR",
+    "last_error": "fd566adf-50ed-453f-a017-cc13834da680",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:05"
+  },
+  "IVANILDO DANTAS DE MELO": {
+    "status": "ERROR",
+    "last_error": "2aa8b78a-f846-471c-a239-87aa13f2c00d",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:06"
+  },
+  "TEILLOR DIOVANE DE JESUS BONN": {
+    "status": "ERROR",
+    "last_error": "5fa2c89a-5ab1-49d9-8a5c-376039156a26",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:10"
+  },
+  "FLAVIO CALDEIRA CANDIDO JUNIOR": {
+    "status": "ERROR",
+    "last_error": "c5f90b6c-3ea4-4e62-bf11-7622a759445e",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:11"
+  },
+  "SARA SIMAO BARBOSA DA SILVA": {
+    "status": "ERROR",
+    "last_error": "ae81dc22-7f69-416b-953c-68a9a85b25b0",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:14"
+  },
+  "IARA HELOISA NASCIMENTO DE ARAUJO": {
+    "status": "ERROR",
+    "last_error": "d5d55d32-d353-413b-9a69-1440710bd94a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:15"
+  },
+  "ANUSKA TUYLLA DO NASCIMENTO SILVA": {
+    "status": "ERROR",
+    "last_error": "fc63d54f-ce1d-4f25-bc9b-dee662097887",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:16"
+  },
+  "LORENZO SILVA RIBEIRO": {
+    "status": "ERROR",
+    "last_error": "86eb39ee-4e07-4ccf-b556-81d3de430c64",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:16"
+  },
+  "THAIS GONCALVES DA SILVA": {
+    "status": "ERROR",
+    "last_error": "97df3756-a9bc-4922-9eb6-5c143d67e9e3",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:17"
+  },
+  "LUIZ FELIPE CARVALHO MARQUES": {
+    "status": "ERROR",
+    "last_error": "700ce41f-0b5a-4f63-b91f-c37780c4fc6a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:17"
+  },
+  "KAIANE BRODA PEREIRA": {
+    "status": "ERROR",
+    "last_error": "af693427-9621-4997-9492-58c83b91a7e1",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:18"
+  },
+  "KESIA ANTUNES SOUSA": {
+    "status": "ERROR",
+    "last_error": "c1cf9fbe-fd65-4484-9cc2-86a4130305a5",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:18"
+  },
+  "FAUSTO SANTIAGO DOS SANTOS NETO": {
+    "status": "ERROR",
+    "last_error": "b22aea83-e96f-4c9f-9d52-816bc955056d",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:19"
+  },
+  "MARCELO LUIS DE MORAES DE LIMA JUNIOR": {
+    "status": "ERROR",
+    "last_error": "abbfc614-3bad-4f13-b801-4f1c567119fa",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:19"
+  },
+  "EVERTON CUSTODIO SILVEIRA": {
+    "status": "ERROR",
+    "last_error": "8ad30889-c7b4-41df-9084-d6e677816453",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:20"
+  },
+  "ISABELA OLIVEIRA CARDOSO": {
+    "status": "ERROR",
+    "last_error": "7cc6ef2b-44d8-4067-ab1b-096c47cd8b43",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:21"
+  },
+  "ANA KAROLLINY NASCIMENTO OLIVEIRA": {
+    "status": "ERROR",
+    "last_error": "4e5b3a07-9f78-43d2-9a88-d20ba44d0d3a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:21"
+  },
+  "LILIAN MICHELE ROSIN HAMMACHER": {
+    "status": "ERROR",
+    "last_error": "40cad08d-6b46-48f1-aef2-3144fda64f27",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:22"
+  },
+  "RICARDO ANDRE DE ASSIS": {
+    "status": "ERROR",
+    "last_error": "e7644314-4f45-4a2c-ad90-df84aec78e17",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:22"
+  },
+  "GABRIEL PEIXOTO DE SOUZA": {
+    "status": "ERROR",
+    "last_error": "e6a04ebc-eb80-4b5b-b0ab-62fc1b9ae8e9",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:23"
+  },
+  "FLAVIO MARQUES AGUIAR JUNIOR": {
+    "status": "ERROR",
+    "last_error": "d16f8692-2bd1-4b82-9cc2-06ecdc57604f",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:23"
+  },
+  "GABRIELA PEIXOTO MARTINS": {
+    "status": "ERROR",
+    "last_error": "891dd2aa-31e7-4a40-a04d-6f3ad63c9f81",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:23"
+  },
+  "RAPHAELLA ERICH SANTOS CRUZ MOELLER": {
+    "status": "ERROR",
+    "last_error": "f2d803e3-c35d-499a-8aa3-8f56039de893",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:24"
+  },
+  "CAROLINE RIBEIRO FERNANDES": {
+    "status": "ERROR",
+    "last_error": "818c6c19-b3d1-4c33-b9c1-397817cbcccb",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:24"
+  },
+  "GABRIEL CINTRA DE VASCONCELOS PEDROSA": {
+    "status": "ERROR",
+    "last_error": "5f7d7714-e339-4306-81e1-e31ef366bae7",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:25"
+  },
+  "SUEDO DE SANTANA SOBRAL": {
+    "status": "ERROR",
+    "last_error": "dbce99cf-df5f-41a4-8df5-97331a6c8d6a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:25"
+  },
+  "GUSTAVO LOURENCO DAROS": {
+    "status": "ERROR",
+    "last_error": "d8bb72ba-4b7d-4436-8b2b-259d7733c0e1",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:25"
+  },
+  "YASMIN DIAS BRUCE": {
+    "status": "ERROR",
+    "last_error": "0b03d6de-d195-4fdd-af94-93324238c40a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:25"
+  },
+  "RYCHARD RYAN BOANOVA DA SILVEIRA": {
+    "status": "ERROR",
+    "last_error": "418f9e62-4d4f-4ee1-8dc1-a053c29befcb",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:26"
+  },
+  "SERGIO WILLIAM DA SILVA DOS SANTOS": {
+    "status": "ERROR",
+    "last_error": "54b5a937-e17e-4b7f-923f-e943e518d2d8",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:26"
+  },
+  "WILLIAN LUAN TEIXEIRA DA SILVA": {
+    "status": "ERROR",
+    "last_error": "e8d12dc8-fe3b-447c-b914-8ef604494c1a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:26"
+  },
+  "RUBER AREVALO GORIN": {
+    "status": "ERROR",
+    "last_error": "22434978-009a-4827-92b1-e4ed98861424",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:26"
+  },
+  "ERICA DOS SANTOS MUNHOES": {
+    "status": "ERROR",
+    "last_error": "2d4b892c-a08e-40a9-bab1-f9bbc22ffed0",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:27"
+  },
+  "MAYARA DOS SANTOS FERREIRA": {
+    "status": "ERROR",
+    "last_error": "e8a88563-5ded-4637-a366-698e08c013af",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:27"
+  },
+  "SARA JENNIFER ALVES BARBOSA": {
+    "status": "ERROR",
+    "last_error": "0348f151-0cf6-42ac-bbec-c63d96eabf3a",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:27"
+  },
+  "LARA VITORIA DE CARVALHO CORRENTE": {
+    "status": "ERROR",
+    "last_error": "637886ac-4bae-4110-9222-c7cb3ce91c70",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:28"
+  },
+  "MARCELINO PEREIRA BARBOSA": {
+    "status": "ERROR",
+    "last_error": "b9b268d5-c4f9-4e0e-9192-2cab2406e91f",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:28"
+  },
+  "CIRILO DE ASSIS FERREIRA": {
+    "status": "ERROR",
+    "last_error": "baeb3d08-9120-48e4-84d5-cdfa337b1e4b",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "time": "15:24:28"
+  }
+}

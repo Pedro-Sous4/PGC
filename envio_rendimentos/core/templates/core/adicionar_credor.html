@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+{% block title %}Adicionar Credor{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h3>➕ Adicionar Novo Credor</h3>
+    <hr>
+    <form method="POST">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label class="form-label">Nome *</label>
+            <input type="text" name="nome" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">E-mail</label>
+            <input type="email" name="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Grupo *</label>
+            <select name="grupo" class="form-select" required>
+                <option value="">Selecione...</option>
+                {% for g in grupos %}
+                    <option value="{{ g.id }}">{{ g.nome }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="d-flex justify-content-between">
+            <a href="{% url 'listar_Credores' %}" class="btn btn-secondary">Voltar</a>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

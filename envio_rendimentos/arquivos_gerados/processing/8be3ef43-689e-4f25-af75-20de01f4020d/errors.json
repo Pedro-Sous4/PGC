@@ -1,0 +1,15 @@
+[
+  {
+    "id": "aeab8a02-f451-4250-abef-3c5027cc5ff3",
+    "request_id": "8be3ef43-689e-4f25-af75-20de01f4020d",
+    "credor": null,
+    "credor_display": null,
+    "step": "fatal",
+    "technical": "name 'settings' is not defined\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 345, in processar_pgc_lgm\n    processing_dir = os.path.join(settings.MEDIA_ROOT, 'processing', request_id, 'credores')\n                                  ^^^^^^^^\nNameError: name 'settings' is not defined\n",
+    "friendly": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "type": "unknown",
+    "time": "16:59:29",
+    "retries": 0,
+    "resolved": false
+  }
+]

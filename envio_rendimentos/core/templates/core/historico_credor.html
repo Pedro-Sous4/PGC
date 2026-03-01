@@ -2,10 +2,10 @@
 {% load static %}
 {% load custom_tags %}
 
-{% block title %}Histórico de {{ Credor.nome }}{% endblock %}
+{% block title %}Histórico de {{ Credor.nome|default:"—" }}{% endblock %}
 
 {% block content %}
-<h2>Histórico de {{ Credor.nome }}</h2>
+<h2>Histórico de {{ Credor.nome|default:"—" }}</h2>
 
 <table class="table table-striped align-middle">
     <thead class="table-dark">

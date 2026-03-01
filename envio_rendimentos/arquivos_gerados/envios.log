@@ -1328,3 +1328,1379 @@
 2025-08-12 01:16:16,604 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
 2025-08-12 01:16:16,604 - INFO - [MÍNIMO] Tentando extração por posição fixa.
 2025-08-12 01:52:10,392 - INFO - E-mail enviado com sucesso para JOAO BATISTA MENDES JUNIOR (ti2@laghettomultipropriedade.com.br) com 4 arquivos.
+2025-10-14 02:15:50,898 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-10-14 02:15:50,899 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-10-14 02:15:50,899 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-10-14 07:44:36,916 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-10-14 07:44:36,916 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-10-14 07:44:36,917 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-10-14 08:39:34,851 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-10-14 08:39:34,851 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-10-14 08:39:34,852 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-12-09 00:02:44,517 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-12-09 00:02:44,519 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-12-09 00:02:44,519 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-12-09 00:11:39,589 - ERROR - [MÍNIMO] Falha também na extração por posição fixa: Nenhuma linha válida encontrada na aba de mínimos.
+2025-12-09 00:24:38,653 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-12-09 00:24:38,654 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-12-09 00:24:38,654 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-12-10 16:47:06,959 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-12-10 16:47:06,970 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-12-10 16:47:06,970 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-12-10 17:03:00,517 - INFO - [EXTRATO] Planilha EXTRATO.xlsx gerada com sucesso em PGC/33/
+2025-12-10 17:30:56,309 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2025-12-10 17:30:56,309 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2025-12-10 17:30:56,309 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2025-12-10 17:47:00,989 - INFO - [EXTRATO] Planilha EXTRATO.xlsx gerada com sucesso em PGC/33/
+2026-01-11 10:01:14,565 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-11 10:01:14,566 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-11 10:01:14,566 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-11 10:28:37,538 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-11 10:28:37,539 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-11 10:28:37,539 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-12 07:47:10,931 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-12 07:47:10,932 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-12 07:47:10,932 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-12 08:48:03,564 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-12 08:48:03,565 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-12 08:48:03,565 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-12 09:39:57,739 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-12 09:39:57,739 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-12 09:39:57,740 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-12 10:32:35,369 - INFO - [MÍNIMO] Extração por título foi bem-sucedida.
+2026-01-12 10:32:35,370 - WARNING - [MÍNIMO] Falha na extração por título: Coluna semelhante a "credor" não encontrada.
+2026-01-12 10:32:35,370 - INFO - [MÍNIMO] Tentando extração por posição fixa.
+2026-01-14 05:29:14,465 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:29:14,465 - INFO - [MINIMO] Arquivo existe? False
+2026-01-14 05:29:14,465 - WARNING - [MÍNIMO] mínimo.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:32:19,297 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:32:19,297 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 05:32:19,326 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'empresa'
+2026-01-14 05:32:44,329 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:32:44,330 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 05:32:44,353 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'empresa'
+2026-01-14 05:36:45,346 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:36:45,347 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 05:36:45,375 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'empresa'
+2026-01-14 05:39:42,629 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:39:42,630 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 05:39:42,655 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'empresa'
+2026-01-14 05:51:29,511 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:51:29,511 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 05:55:04,894 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 05:55:04,894 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 06:16:19,578 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 06:16:19,580 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 06:22:12,422 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 06:22:12,422 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 06:48:29,275 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 06:48:29,276 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:00,838 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:00,839 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:00,877 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:00,877 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:04,307 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:04,307 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:05,122 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:05,122 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:05,211 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:05,211 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:06,556 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:06,556 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:06,587 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:06,588 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:07,538 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:07,538 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:08,576 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:08,576 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:10,032 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:10,033 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:10,988 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:10,988 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:12,095 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:12,095 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:13,217 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:13,217 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:14,543 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:14,543 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:15,522 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:15,522 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:16,959 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:16,960 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:17,911 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:17,911 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:18,713 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:18,713 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:19,547 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:19,547 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:20,426 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:20,426 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:21,267 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:21,267 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:22,478 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:22,478 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:23,546 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:23,547 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:23,568 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:23,568 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:24,623 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:24,623 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:25,562 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:25,562 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:26,318 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:26,318 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:27,086 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:27,086 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:28,099 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:28,100 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:29,256 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:29,257 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:30,086 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:30,087 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:30,924 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:30,924 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:31,690 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:31,690 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:32,498 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:32,498 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:33,287 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:33,287 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:33,354 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:33,355 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:34,272 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:34,272 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:04:35,356 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:04:35,356 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,737 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,738 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,776 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,777 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,820 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,820 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,863 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,863 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,897 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,897 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:17,930 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:17,931 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:19,204 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:19,205 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:20,078 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:20,079 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:21,098 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:21,098 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:22,173 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:22,173 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:22,232 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:22,232 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:23,133 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:23,133 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:24,869 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:24,870 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:25,691 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:25,691 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:26,589 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:26,589 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:27,445 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:27,445 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:28,303 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:28,303 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:29,149 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:29,150 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:30,211 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:30,212 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:31,171 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:31,171 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:32,033 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:32,033 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:32,935 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:32,936 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:33,913 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:33,913 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:34,800 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:34,800 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:35,617 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:35,618 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:36,465 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:36,466 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:37,266 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:37,266 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:38,060 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:38,060 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:38,844 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:38,845 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:39,663 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:39,664 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:40,466 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:40,467 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:41,251 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:41,251 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:42,067 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:42,067 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:42,885 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:42,886 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:43,682 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:43,682 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:44,539 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:44,539 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:44,569 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:44,570 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:45,371 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:45,371 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:46,116 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:46,116 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:47,217 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:47,218 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:47,956 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:47,957 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:48,853 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:48,853 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:49,716 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:49,716 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:50,498 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:50,498 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:51,262 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:51,262 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:52,017 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:52,017 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:52,820 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:52,821 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:53,527 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:53,527 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:54,292 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:54,292 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:55,023 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:55,023 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:55,764 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:55,764 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:56,566 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:56,567 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:57,385 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:57,386 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:08:58,168 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:08:58,168 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:00,243 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:00,244 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:01,820 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:01,820 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:03,032 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:03,032 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:03,896 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:03,897 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:04,763 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:04,763 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:05,597 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:05,597 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:06,456 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:06,456 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:06,484 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:06,484 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:07,295 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:07,295 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:08,055 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:08,055 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:08,969 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:08,969 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:09,845 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:09,845 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:10,655 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:10,655 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:11,462 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:11,462 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:12,204 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:12,205 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:13,057 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:13,057 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:13,884 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:13,884 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:14,961 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:14,961 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:15,889 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:15,889 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:15,923 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:15,923 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:16,743 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:16,743 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:17,927 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:17,927 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:19,092 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:19,092 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:19,124 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:19,124 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:19,919 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:19,919 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:20,776 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:20,777 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:21,561 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:21,561 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:22,473 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:22,474 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:23,266 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:23,266 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:24,233 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:24,234 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:25,116 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:25,116 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:26,026 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:26,026 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:26,853 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:26,853 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:28,036 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:28,037 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:28,968 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:28,968 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:29,735 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:29,735 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:30,526 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:30,526 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:31,337 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:31,337 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:32,295 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:32,295 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:33,170 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:33,170 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:34,111 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:34,111 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:35,094 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:35,094 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:35,970 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:35,970 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:36,846 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:36,846 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:37,650 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:37,650 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:38,448 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:38,448 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:39,291 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:39,291 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:39,340 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:39,341 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:40,315 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:40,315 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:41,124 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:41,124 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:41,928 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:41,929 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:43,025 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:43,025 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:43,811 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:43,811 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:44,641 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:44,641 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:45,540 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:45,540 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:46,369 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:46,369 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:47,081 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:47,081 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:49,005 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:49,005 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:49,968 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:49,969 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:50,840 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:50,840 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:51,936 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:51,937 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:52,748 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:52,748 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:53,669 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:53,669 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:54,543 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:54,543 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:55,384 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:55,384 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:56,325 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:56,325 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:57,200 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:57,200 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:58,146 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:58,146 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:59,054 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:59,054 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:09:59,972 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:09:59,972 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:00,845 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:00,845 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:02,162 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:02,162 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:03,034 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:03,035 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:04,334 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:04,334 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:05,096 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:05,096 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:05,859 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:05,859 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:06,631 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:06,631 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:07,491 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:07,492 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:08,330 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:08,330 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:09,195 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:09,195 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:10,070 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:10,070 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:10,991 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:10,991 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:11,923 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:11,924 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:12,816 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:12,816 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:13,582 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:13,582 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:14,366 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:14,366 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:15,236 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:15,236 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:16,102 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:16,102 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:17,032 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:17,032 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:17,928 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:17,928 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:17,960 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:17,960 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:18,909 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:18,910 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:19,752 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:19,752 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:20,576 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:20,576 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:21,384 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:21,384 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:22,128 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:22,128 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:22,897 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:22,897 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:23,712 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:23,712 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:24,570 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:24,570 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:25,542 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:25,543 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:26,302 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:26,302 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:27,513 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:27,513 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:28,436 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:28,436 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:29,292 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:29,292 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:30,216 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:30,216 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:31,025 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:31,025 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:32,005 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:32,005 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:33,223 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:33,223 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:33,980 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:33,980 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:34,836 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:34,837 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:35,669 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:35,669 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:35,704 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:35,705 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:36,579 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:36,579 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:37,343 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:37,343 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:38,126 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:38,126 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:38,925 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:38,926 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:39,743 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:39,743 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:40,522 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:40,522 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:41,289 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:41,289 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:42,167 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:42,167 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:42,889 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:42,889 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:43,647 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:43,647 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:44,534 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:44,534 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:45,359 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:45,360 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:46,235 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:46,235 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:46,268 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:46,268 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:47,201 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:47,201 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:47,995 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:47,995 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:48,709 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:48,709 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:48,735 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:48,735 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:49,493 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:49,493 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:50,236 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:50,236 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:51,033 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:51,033 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:51,790 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:51,791 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:52,522 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:52,523 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:53,293 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:53,293 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:54,052 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:54,052 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:10:55,205 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:10:55,206 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:37:57,555 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:37:57,555 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:39:29,723 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:39:29,724 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:41:04,654 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:41:04,654 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:43:48,472 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:43:48,473 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:45:12,773 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:45:12,773 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:46:33,221 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:46:33,222 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:47:06,522 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:47:06,522 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:48:36,356 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:48:36,356 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:49:27,469 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:49:27,469 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:50:00,771 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:50:00,771 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:51:04,921 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:51:04,921 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:52:04,856 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:52:04,856 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:53:14,554 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:53:14,554 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:54:20,573 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:54:20,573 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:54:50,020 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:54:50,020 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:55:19,691 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:55:19,691 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 07:55:51,797 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 07:55:51,797 - INFO - [MINIMO] Arquivo existe? True
+2026-01-14 09:48:28,128 - ERROR - Pasta não encontrada para Alexandra Vieira da Silva de Almeida.
+2026-01-14 09:48:28,131 - ERROR - Pasta não encontrada para Cibele Aparecida Freitas.
+2026-01-14 09:48:28,134 - ERROR - Pasta não encontrada para Claudia Bittencourt levy.
+2026-01-14 09:48:28,136 - ERROR - Pasta não encontrada para Elcio de Almeida Leite Junior.
+2026-01-14 09:48:28,138 - ERROR - Pasta não encontrada para Emerson de Nardi.
+2026-01-14 09:48:28,141 - ERROR - Pasta não encontrada para Fabio Candido Cabreira.
+2026-01-14 09:48:28,144 - ERROR - Pasta não encontrada para Gabriel Marlon de Souza Silva Oliveira.
+2026-01-14 09:48:28,147 - ERROR - Pasta não encontrada para Gabriel Peixoto de Souza.
+2026-01-14 09:48:28,149 - ERROR - Pasta não encontrada para Guilherme dos Santos Amaral.
+2026-01-14 09:48:28,150 - ERROR - Pasta não encontrada para Italo Miguel Remondi.
+2026-01-14 09:48:28,152 - ERROR - Pasta não encontrada para Jessica Maria Eduelfa de Souza Martins.
+2026-01-14 09:48:28,154 - ERROR - Pasta não encontrada para Joao Pedro Pertile.
+2026-01-14 09:48:28,156 - ERROR - Pasta não encontrada para Joao Victor Rodrigues dos Santos.
+2026-01-14 09:48:28,161 - ERROR - Pasta não encontrada para Joseane Araujo Bras.
+2026-01-14 09:48:28,163 - ERROR - Pasta não encontrada para Kaiane Broda Pereira.
+2026-01-14 09:48:28,165 - ERROR - Pasta não encontrada para Keoma Alan Broda Pereira.
+2026-01-14 09:48:28,167 - ERROR - Pasta não encontrada para Luis Gustavo Ramos da Silva.
+2026-01-14 09:48:28,169 - ERROR - Pasta não encontrada para Maira Catarina Evangelista Nunes.
+2026-01-14 09:48:28,171 - ERROR - Pasta não encontrada para Rebeka Cossito de Amorim Laport.
+2026-01-14 09:48:28,173 - ERROR - Pasta não encontrada para Richard Eduard de Souza Schell.
+2026-01-14 09:48:28,176 - ERROR - Pasta não encontrada para Rodrigo Eduardo Pereira Junior.
+2026-01-14 09:48:28,178 - ERROR - Pasta não encontrada para Rodrigo Filter de Oliveira.
+2026-01-14 09:48:28,180 - ERROR - Pasta não encontrada para Rutieli dos Santos Gomes.
+2026-01-14 10:00:43,854 - ERROR - Pasta não encontrada para Alexandra Vieira da Silva de Almeida. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,857 - ERROR - Pasta não encontrada para Cibele Aparecida Freitas. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,860 - ERROR - Pasta não encontrada para Claudia Bittencourt levy. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,861 - ERROR - Pasta não encontrada para Elcio de Almeida Leite Junior. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,863 - ERROR - Pasta não encontrada para Emerson de Nardi. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,865 - ERROR - Pasta não encontrada para Fabio Candido Cabreira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,868 - ERROR - Pasta não encontrada para Gabriel Marlon de Souza Silva Oliveira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,871 - ERROR - Pasta não encontrada para Gabriel Peixoto de Souza. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,873 - ERROR - Pasta não encontrada para Guilherme dos Santos Amaral. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,875 - ERROR - Pasta não encontrada para Italo Miguel Remondi. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,877 - ERROR - Pasta não encontrada para Jessica Maria Eduelfa de Souza Martins. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,879 - ERROR - Pasta não encontrada para Joao Pedro Pertile. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,881 - ERROR - Pasta não encontrada para Joao Victor Rodrigues dos Santos. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,883 - ERROR - Pasta não encontrada para Joseane Araujo Bras. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,887 - ERROR - Pasta não encontrada para Kaiane Broda Pereira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,889 - ERROR - Pasta não encontrada para Keoma Alan Broda Pereira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,891 - ERROR - Pasta não encontrada para Luis Gustavo Ramos da Silva. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,893 - ERROR - Pasta não encontrada para Maira Catarina Evangelista Nunes. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,895 - ERROR - Pasta não encontrada para Rebeka Cossito de Amorim Laport. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,896 - ERROR - Pasta não encontrada para Richard Eduard de Souza Schell. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,898 - ERROR - Pasta não encontrada para Rodrigo Eduardo Pereira Junior. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,900 - ERROR - Pasta não encontrada para Rodrigo Filter de Oliveira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:00:43,904 - ERROR - Pasta não encontrada para Rutieli dos Santos Gomes. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,658 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,658 - ERROR - Pasta não encontrada para Alexandra Vieira da Silva de Almeida. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,661 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,661 - ERROR - Pasta não encontrada para Cibele Aparecida Freitas. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,664 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,664 - ERROR - Pasta não encontrada para Claudia Bittencourt levy. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,666 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,666 - ERROR - Pasta não encontrada para Elcio de Almeida Leite Junior. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,668 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,668 - ERROR - Pasta não encontrada para Emerson de Nardi. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,670 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,670 - ERROR - Pasta não encontrada para Fabio Candido Cabreira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,672 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,672 - ERROR - Pasta não encontrada para Gabriel Marlon de Souza Silva Oliveira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,675 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,675 - ERROR - Pasta não encontrada para Gabriel Peixoto de Souza. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,677 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,678 - ERROR - Pasta não encontrada para Guilherme dos Santos Amaral. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,680 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,680 - ERROR - Pasta não encontrada para Italo Miguel Remondi. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,682 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,682 - ERROR - Pasta não encontrada para Jessica Maria Eduelfa de Souza Martins. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,684 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,684 - ERROR - Pasta não encontrada para Joao Pedro Pertile. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,686 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,686 - ERROR - Pasta não encontrada para Joao Victor Rodrigues dos Santos. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,689 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,689 - ERROR - Pasta não encontrada para Joseane Araujo Bras. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,691 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,691 - ERROR - Pasta não encontrada para Kaiane Broda Pereira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,694 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,694 - ERROR - Pasta não encontrada para Keoma Alan Broda Pereira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,697 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,697 - ERROR - Pasta não encontrada para Luis Gustavo Ramos da Silva. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,700 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,700 - ERROR - Pasta não encontrada para Maira Catarina Evangelista Nunes. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,702 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,702 - ERROR - Pasta não encontrada para Rebeka Cossito de Amorim Laport. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,704 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,704 - ERROR - Pasta não encontrada para Richard Eduard de Souza Schell. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,706 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,706 - ERROR - Pasta não encontrada para Rodrigo Eduardo Pereira Junior. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,708 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,708 - ERROR - Pasta não encontrada para Rodrigo Filter de Oliveira. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,711 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:15:59,712 - ERROR - Pasta não encontrada para Rutieli dos Santos Gomes. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\034
+2026-01-14 10:17:00,193 - INFO - [PASTA] Match encontrado: Alexandra Vieira da Silva de Almeida
+2026-01-14 10:17:00,207 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:00,207 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:00,207 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,208 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,208 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,208 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,208 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,209 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:00,209 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='ALEXANDRA VIEIRA DA SILVA DE ALMEIDA'
+2026-01-14 10:17:02,704 - INFO - E-mail enviado com sucesso para Alexandra Vieira da Silva de Almeida (ale.nicolly@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:02,717 - INFO - [PASTA] Match encontrado: Cibele Aparecida Freitas
+2026-01-14 10:17:02,725 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:02,725 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:02,725 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:02,726 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='CIBELE APARECIDA FREITAS'
+2026-01-14 10:17:03,427 - INFO - E-mail enviado com sucesso para Cibele Aparecida Freitas (cibeleapfreitas@gmail.com) com 4 arquivos.
+2026-01-14 10:17:03,438 - INFO - [PASTA] Match encontrado: Claudia Bittencourt levy
+2026-01-14 10:17:03,447 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:03,447 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:03,447 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,447 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,447 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,448 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,448 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,448 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:03,448 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='CLAUDIA BITTENCOURT LEVY'
+2026-01-14 10:17:04,253 - INFO - E-mail enviado com sucesso para Claudia Bittencourt levy (CLAUDIABIELY2017@GMAIL.COM) com 4 arquivos.
+2026-01-14 10:17:04,266 - INFO - [PASTA] Match encontrado: Elcio de Almeida Leite Junior
+2026-01-14 10:17:04,273 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,274 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,275 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:04,275 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='ELCIO DE ALMEIDA LEITE JUNIOR'
+2026-01-14 10:17:05,009 - INFO - E-mail enviado com sucesso para Elcio de Almeida Leite Junior (junior_brasill@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:05,030 - INFO - [PASTA] Match encontrado: Emerson de Nardi
+2026-01-14 10:17:05,045 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:05,045 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:05,046 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,046 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,047 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,047 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,047 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,047 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,048 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='EMERSON DE NARDI'
+2026-01-14 10:17:05,870 - INFO - E-mail enviado com sucesso para Emerson de Nardi (EMERSONDENARDI.EDN@GMAIL.COM) com 4 arquivos.
+2026-01-14 10:17:05,883 - INFO - [PASTA] Match encontrado: Fabio Candido Cabreira
+2026-01-14 10:17:05,891 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:05,891 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:05,892 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,892 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,892 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,892 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,892 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,893 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:05,893 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='FABIO CANDIDO CABREIRA'
+2026-01-14 10:17:06,766 - INFO - E-mail enviado com sucesso para Fabio Candido Cabreira (fabio-cabreira@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:06,791 - INFO - [PASTA] Match encontrado: Gabriel Marlon de Souza Silva Oliveira
+2026-01-14 10:17:06,801 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:06,801 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:06,801 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,801 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,801 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,802 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,802 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,802 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:06,802 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='GABRIEL MARLON DE SOUZA SILVA OLIVEIRA'
+2026-01-14 10:17:07,543 - INFO - E-mail enviado com sucesso para Gabriel Marlon de Souza Silva Oliveira (gabrielmarlon1987@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:07,566 - INFO - [PASTA] Match encontrado: Gabriel Peixoto de Souza
+2026-01-14 10:17:07,578 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:07,578 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:07,578 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,578 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,578 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,579 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,579 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,579 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:07,579 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='GABRIEL PEIXOTO DE SOUZA'
+2026-01-14 10:17:08,295 - INFO - E-mail enviado com sucesso para Gabriel Peixoto de Souza (peixotogabriel686@gmail.com) com 4 arquivos.
+2026-01-14 10:17:08,311 - INFO - [PASTA] Match encontrado: Guilherme dos Santos Amaral
+2026-01-14 10:17:08,319 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:08,319 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,320 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:08,321 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='GUILHERME DOS SANTOS AMARAL'
+2026-01-14 10:17:09,121 - INFO - E-mail enviado com sucesso para Guilherme dos Santos Amaral (guilherme26santos@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:09,136 - INFO - [PASTA] Match encontrado: Italo Miguel Remondi
+2026-01-14 10:17:09,145 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:09,145 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:09,145 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,145 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,146 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,146 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,146 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,146 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,146 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='ITALO MIGUEL REMONDI'
+2026-01-14 10:17:09,895 - INFO - E-mail enviado com sucesso para Italo Miguel Remondi (italomiguelremondi@gmail.com) com 4 arquivos.
+2026-01-14 10:17:09,910 - INFO - [PASTA] Match encontrado: Jessica Maria Eduelfa de Souza Martins
+2026-01-14 10:17:09,918 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:09,918 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:09,919 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,919 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,919 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,919 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,919 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,920 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:09,920 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='JESSICA MARIA EDUELFA DE SOUZA MARTINS'
+2026-01-14 10:17:10,744 - INFO - E-mail enviado com sucesso para Jessica Maria Eduelfa de Souza Martins (drajessicaeduelfa@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:10,759 - INFO - [PASTA] Match encontrado: Joao Pedro Pertile
+2026-01-14 10:17:10,767 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:10,767 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:10,767 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,768 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,768 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,768 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,768 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,768 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:10,769 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='JOAO PEDRO PERTILE'
+2026-01-14 10:17:11,632 - INFO - E-mail enviado com sucesso para Joao Pedro Pertile (joaopedropertile5@gmail.com) com 4 arquivos.
+2026-01-14 10:17:11,647 - INFO - [PASTA] Match encontrado: Joao Victor Rodrigues Dos Santos
+2026-01-14 10:17:11,655 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:11,655 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:11,655 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:11,656 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='JOAO VICTOR RODRIGUES DOS SANTOS'
+2026-01-14 10:17:12,492 - INFO - E-mail enviado com sucesso para Joao Victor Rodrigues dos Santos (Jrodriguesdossantos593@gmail.com) com 4 arquivos.
+2026-01-14 10:17:12,511 - INFO - [PASTA] Match encontrado: Joseane Araujo Bras
+2026-01-14 10:17:12,519 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:12,519 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,520 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:12,521 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='JOSEANE ARAUJO BRAS'
+2026-01-14 10:17:13,471 - INFO - E-mail enviado com sucesso para Joseane Araujo Bras (mybrokerjoseanedean@gmail.com) com 4 arquivos.
+2026-01-14 10:17:13,487 - INFO - [PASTA] Match encontrado: Kaiane Broda Pereira
+2026-01-14 10:17:13,497 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:13,497 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:13,497 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,497 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,497 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,498 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,498 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,498 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:13,498 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='KAIANE BRODA PEREIRA'
+2026-01-14 10:17:14,625 - INFO - E-mail enviado com sucesso para Kaiane Broda Pereira (Kaianebroda@gmail.com) com 4 arquivos.
+2026-01-14 10:17:14,658 - INFO - [PASTA] Match encontrado: Keoma Alan Broda Pereira
+2026-01-14 10:17:14,719 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:14,719 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:14,719 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,720 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,720 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,720 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,720 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,720 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:14,721 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='KEOMA ALAN BRODA PEREIRA'
+2026-01-14 10:17:15,475 - INFO - E-mail enviado com sucesso para Keoma Alan Broda Pereira (keomaalan28@gmail.com) com 4 arquivos.
+2026-01-14 10:17:15,494 - INFO - [PASTA] Match encontrado: Luis Gustavo Ramos da Silva
+2026-01-14 10:17:15,502 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:15,502 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:15,502 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,502 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,503 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,503 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,503 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,503 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:15,503 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='LUIS GUSTAVO RAMOS DA SILVA'
+2026-01-14 10:17:16,994 - INFO - E-mail enviado com sucesso para Luis Gustavo Ramos da Silva (zedorah01@gmail.com) com 4 arquivos.
+2026-01-14 10:17:17,020 - INFO - [PASTA] Match encontrado: Maira Catarina Evangelista Nunes
+2026-01-14 10:17:17,030 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,031 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,032 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:17,032 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='MAIRA CATARINA EVANGELISTA NUNES'
+2026-01-14 10:17:18,669 - INFO - E-mail enviado com sucesso para Maira Catarina Evangelista Nunes (mairacatarina0@gmail.com) com 4 arquivos.
+2026-01-14 10:17:18,709 - INFO - [PASTA] Match encontrado: Rebeka Cossito de Amorim Laport
+2026-01-14 10:17:18,720 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:18,720 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:18,721 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,721 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,721 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,721 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,722 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,722 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:18,722 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='REBEKA COSSITO DE AMORIM LAPORT'
+2026-01-14 10:17:19,533 - INFO - E-mail enviado com sucesso para Rebeka Cossito de Amorim Laport (rebeka.cossito_@hotmail.com) com 4 arquivos.
+2026-01-14 10:17:19,555 - INFO - [PASTA] Match encontrado: Richard Eduard de Souza Schell
+2026-01-14 10:17:19,564 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:19,564 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:19,564 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,564 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,565 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,565 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,565 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,565 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:19,565 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='RICHARD EDUARD DE SOUZA SCHELL'
+2026-01-14 10:17:20,667 - INFO - E-mail enviado com sucesso para Richard Eduard de Souza Schell (richardespecialistaemimoveis@gmail.com) com 4 arquivos.
+2026-01-14 10:17:20,689 - INFO - [PASTA] Match encontrado: Rodrigo Eduardo Pereira Junior
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,697 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,698 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,698 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:20,698 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='RODRIGO EDUARDO PEREIRA JUNIOR'
+2026-01-14 10:17:21,441 - INFO - E-mail enviado com sucesso para Rodrigo Eduardo Pereira Junior (rodrigoeduardojr18@gmail.com) com 4 arquivos.
+2026-01-14 10:17:21,487 - INFO - [PASTA] Match encontrado: Rodrigo Filter de Oliveira
+2026-01-14 10:17:21,507 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:21,507 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:21,507 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,508 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,509 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,509 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,510 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,510 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:21,511 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='RODRIGO FILTER DE OLIVEIRA'
+2026-01-14 10:17:22,261 - INFO - E-mail enviado com sucesso para Rodrigo Filter de Oliveira (rodrigomanofilter@outlook.com) com 4 arquivos.
+2026-01-14 10:17:22,285 - INFO - [PASTA] Match encontrado: Rutieli dos Santos Gomes
+2026-01-14 10:17:22,293 - INFO - [MINIMO] Colunas da planilha: ['credor', 'minimo', 'empresa_emissao', 'cnpj']
+2026-01-14 10:17:22,293 - INFO - [MINIMO] Total de linhas: 7
+2026-01-14 10:17:22,293 - INFO - [MINIMO] Comparando planilha='SUZILEIA LUCAS VIANA WATTAGE' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='SARA JENNIFER ALVES BARBOSA' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='LARA VITORIA DE CARVALHO CORRENTE' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='YASMIN DIAS BRUCE' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='SERGIO WILLIAM DA SILVA DOS SANTOS' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='MARIA EDUARDA SCHUTZ BOCH' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:22,294 - INFO - [MINIMO] Comparando planilha='NEYMARY STEFANY AVILA PINTO' com credor='RUTIELI DOS SANTOS GOMES'
+2026-01-14 10:17:23,070 - INFO - E-mail enviado com sucesso para Rutieli dos Santos Gomes (ruthysantos849@gmail.com) com 4 arquivos.
+2026-01-14 10:35:14,069 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-01-14 10:35:14,069 - INFO - [MINIMO] Arquivo existe? True
+2026-01-29 01:43:09,714 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\032
+2026-01-29 01:43:09,714 - ERROR - Pasta não encontrada para ADRIELE CRISTINA DOS SANTOS DIAS. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\032
+2026-02-06 23:42:17,408 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:43:58,959 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:44:36,317 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:44:36,385 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:44:59,604 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:44:59,675 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:45:00,073 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 99.
+2026-02-06 23:45:40,531 - INFO - [MÍNIMO] Arquivo MINIMO.xlsx gerado em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\99\MINIMO.xlsx
+2026-02-06 23:46:23,792 - INFO - [MÍNIMO] Arquivo MINIMO.xlsx gerado em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\99\MINIMO.xlsx
+2026-02-06 23:46:32,818 - INFO - [MÍNIMO] Arquivo MINIMO.xlsx gerado em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\99\MINIMO.xlsx
+2026-02-06 23:46:52,020 - INFO - [MÍNIMO] Arquivo MINIMO.xlsx gerado em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\99\MINIMO.xlsx
+2026-02-09 02:38:20,280 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 02:38:20,280 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 02:39:51,498 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 02:39:51,499 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 02:39:51,499 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 02:46:44,563 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 02:46:44,563 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 02:46:44,564 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:41:36,115 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:41:36,116 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 03:41:36,116 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:42:23,266 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:42:23,266 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:43:52,528 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:43:52,528 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 03:43:52,528 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:44:04,764 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:44:04,764 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 03:44:04,764 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:44:21,697 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:44:21,697 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 03:44:21,697 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:50:53,740 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:50:53,741 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:53:06,398 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:53:06,399 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-09 03:55:14,778 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:55:14,779 - INFO - [MINIMO] Arquivo existe? False
+2026-02-09 03:55:14,779 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-09 03:55:14,784 - INFO - [PASTA] Match encontrado dentro de CREDORES: THIAGO DA SILVA CORREA
+2026-02-10 17:51:00,944 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 17:51:00,945 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 17:53:28,798 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 17:53:28,798 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:27:59,634 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:27:59,635 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:29:30,034 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 18:29:30,034 - INFO - [MINIMO] Arquivo existe? False
+2026-02-10 18:29:30,034 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 18:29:30,035 - ERROR - [PASTA] Nenhuma pasta encontrada para 'Thiago da Silva Correa' dentro de C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15
+2026-02-10 18:38:04,509 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:04,856 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:05,811 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:06,349 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:07,261 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:07,599 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:08,086 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:08,730 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:09,214 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:09,782 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:10,126 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:10,488 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:10,854 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:12,224 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:13,429 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:13,857 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:14,402 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:14,970 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:15,750 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:16,210 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:16,607 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:16,972 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:17,529 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:17,869 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:18,499 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:18,789 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:19,122 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:19,551 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:20,267 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:20,580 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:21,191 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:21,617 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:22,095 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:22,471 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:22,951 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:23,393 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:23,744 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:24,270 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:24,582 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:25,011 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:25,305 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:25,618 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:26,187 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:26,602 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:27,729 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:28,705 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:30,117 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:30,534 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:31,929 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:33,665 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:35,225 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:36,229 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:36,896 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:38,472 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:39,289 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:39,669 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:40,720 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:42,051 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:42,616 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:43,599 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:44,571 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:45,097 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:46,791 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:47,986 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:49,679 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:50,300 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:51,257 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:51,843 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:53,433 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:38:54,293 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:40:13,650 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 18:40:13,650 - INFO - [MINIMO] Arquivo existe? False
+2026-02-10 18:40:13,651 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 18:40:13,656 - INFO - [PASTA] Match encontrado: THIAGO DA SILVA CORREA
+2026-02-10 18:47:07,451 - INFO - [MÍNIMO] Arquivo MINIMO.xlsx gerado em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\99\MINIMO.xlsx
+2026-02-10 18:49:09,235 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:09,676 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:11,174 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:11,833 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:13,025 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:13,445 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:14,155 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:14,997 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:15,610 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:16,427 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:16,868 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:17,347 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:17,785 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:19,771 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:21,514 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:22,063 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:22,821 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:23,636 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:24,744 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:25,558 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:26,091 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:26,519 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:27,322 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:27,742 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:28,563 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:28,917 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:29,342 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:29,874 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:30,870 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:31,254 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:31,987 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:32,564 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:33,219 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:33,684 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:34,322 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:34,924 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:35,333 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:35,916 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:36,292 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:36,924 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:37,255 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:37,591 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:38,388 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:38,921 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:40,588 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:41,931 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:44,174 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:44,691 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:47,089 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:49,797 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:52,193 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:53,608 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:54,757 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:57,068 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:58,322 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:49:58,766 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:00,146 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:02,027 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:02,616 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:04,148 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:05,426 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:06,182 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:08,209 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:10,051 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:12,534 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:13,271 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:14,689 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:15,571 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:17,999 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:19,059 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 18:50:59,516 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:50:59,516 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:51:18,336 - ERROR - [PASTA] Base do PGC não existe: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 18:51:18,336 - ERROR - Pasta não encontrada para Thiago da Silva Correa. Base: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\015
+2026-02-10 19:55:05,166 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:05,555 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:06,994 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:07,606 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:08,769 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:09,164 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:09,857 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:10,680 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:11,259 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:12,047 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:12,475 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:13,097 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:13,491 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:15,384 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:17,127 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:17,659 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:18,381 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:19,331 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:20,289 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:20,887 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:21,402 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:21,784 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:22,721 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:23,095 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:23,839 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:24,163 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:24,523 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:25,046 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:26,112 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:26,458 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:27,162 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:27,631 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:28,268 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:28,685 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:29,382 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:29,984 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:30,355 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:30,931 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:31,284 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:31,833 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:32,142 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:32,451 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:33,321 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:33,855 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:35,511 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:36,977 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:39,115 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:39,711 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:41,806 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:44,414 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:46,770 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:48,180 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:49,186 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:51,560 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:52,860 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:53,289 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:54,647 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:56,513 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:57,095 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:58,597 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:55:59,886 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:00,616 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:02,936 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:04,787 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:07,310 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:08,037 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:09,431 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:10,365 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:12,831 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 19:56:13,878 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 15.
+2026-02-10 20:27:00,428 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 20:27:00,428 - INFO - [MINIMO] Arquivo existe? False
+2026-02-10 20:27:00,428 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15\MINIMO.xlsx
+2026-02-10 20:27:00,436 - INFO - [PASTA] Match encontrado: THIAGO DA SILVA CORREA
+2026-02-10 20:32:27,225 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 20:32:27,225 - INFO - [MINIMO] Arquivo existe? False
+2026-02-10 20:32:27,225 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 20:32:27,236 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-10 21:25:40,622 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:25:40,622 - INFO - [MINIMO] Arquivo existe? True
+2026-02-10 21:25:40,634 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'credor'
+2026-02-10 21:25:40,642 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-10 21:29:36,370 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:29:36,370 - INFO - [MINIMO] Arquivo existe? True
+2026-02-10 21:29:36,404 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-10 21:53:43,606 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:53:43,607 - INFO - [MINIMO] Arquivo existe? True
+2026-02-10 21:53:43,619 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'credor'
+2026-02-10 21:53:43,629 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-10 21:54:47,583 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:54:47,583 - INFO - [MINIMO] Arquivo existe? True
+2026-02-10 21:54:47,595 - ERROR - [MÍNIMO] Erro ao ler mínimo.xlsx: 'credor'
+2026-02-10 21:54:47,604 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-10 21:56:29,685 - INFO - [MINIMO] Caminho mínimo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:56:29,686 - INFO - [MINIMO] Arquivo existe? False
+2026-02-10 21:56:29,686 - WARNING - [MÍNIMO] MINIMO.xlsx não encontrado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-10 21:56:29,696 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 01:24:47,077 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 01:24:47,079 - WARNING - [MINIMO] Arquivo MINIMO.* não encontrado em C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 01:24:47,090 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 01:34:13,110 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 01:34:13,111 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 01:34:13,140 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 01:34:13,150 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 01:53:12,138 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 01:53:12,139 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 01:53:12,168 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 01:53:12,179 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 01:55:41,117 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 01:55:41,119 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 01:55:41,130 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 01:55:41,142 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 02:23:16,343 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 02:23:16,344 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 02:23:16,355 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 02:23:16,365 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 02:39:24,954 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 02:39:24,955 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 02:39:24,982 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 02:39:24,996 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 02:42:47,619 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 02:42:47,620 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 02:42:47,648 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 02:42:47,659 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 02:57:57,493 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34
+2026-02-11 02:57:57,494 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\MINIMO.xlsx
+2026-02-11 02:57:57,518 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-11 02:57:57,528 - INFO - [PASTA] Match encontrado: LARA VITORIA DE CARVALHO CORRENTE
+2026-02-11 03:00:40,246 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:40,704 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:41,168 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:42,709 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:43,861 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:44,270 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:44,990 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:46,019 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:46,655 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:47,529 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:48,006 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:48,558 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:50,546 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:52,356 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:53,151 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:54,030 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:55,191 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:55,813 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:56,409 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:56,852 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:57,663 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:58,077 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:58,977 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:59,336 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:00:59,726 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:00,273 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:01,376 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:01,757 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:02,601 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:03,118 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:03,808 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:04,256 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:05,060 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:05,652 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:06,126 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:06,696 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:07,093 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:07,457 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:07,784 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:08,556 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:09,210 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:10,939 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:12,376 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:14,777 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:15,292 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:17,579 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:20,339 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:22,786 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:24,304 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:25,340 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:27,695 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:29,010 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:29,479 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:30,971 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:32,914 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:33,518 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:35,004 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:36,403 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:37,171 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:39,141 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:40,994 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:43,553 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:44,523 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:46,041 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:46,875 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:47,382 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:49,839 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:01:51,181 - INFO - [MÍNIMO] Nenhum registro com AP preenchido encontrado na aba PGC 14.
+2026-02-11 03:08:29,268 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15
+2026-02-11 03:08:29,269 - WARNING - [MINIMO] Arquivo MINIMO.* não encontrado em C:\PGC\envio_rendimentos\arquivos_gerados\PGC\15
+2026-02-11 03:08:29,274 - INFO - [PASTA] Match encontrado: THIAGO DA SILVA CORREA
+2026-02-13 06:41:42,744 - INFO - [MINIMO_UNIFICADO] registros_minimos=9, registros_retencao=10, registros_cestas=5
+2026-02-13 07:03:41,827 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:03:41,828 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:03:41,854 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:07:48,926 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:07:48,928 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:07:48,951 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:12:49,385 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:12:49,387 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:12:49,410 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:12:49,412 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:12:49,423 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:12:49,466 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:14:48,678 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:14:48,679 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:14:48,689 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:14:48,690 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:14:48,699 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:14:48,710 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:16:03,611 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:16:03,612 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:16:03,622 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:16:03,623 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:16:03,634 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:16:03,646 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:29:22,042 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:29:22,044 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:29:22,070 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:29:22,071 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:29:22,081 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:29:22,125 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:30:39,758 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:30:39,759 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:30:39,770 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:30:39,771 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:30:39,781 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:30:39,791 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:35:11,461 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:35:11,462 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:35:11,489 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:35:11,491 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:35:11,502 - INFO - [DESCONTOS] 2 descontos encontrados para Mikael Cardoso de Mesquita em PGC 35
+2026-02-13 07:35:11,511 - INFO - [PASTA] Match encontrado: MIKAEL CARDOSO DE MESQUITA
+2026-02-13 07:41:40,115 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:41:40,116 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:41:40,128 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:41:40,129 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:41:40,141 - INFO - [DESCONTOS] 0 descontos encontrados para Neimary Stefany Avila Pinto em PGC 35
+2026-02-13 07:41:40,152 - INFO - [PASTA] Match encontrado: NEIMARY STEFANY AVILA PINTO
+2026-02-13 07:43:28,766 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:43:28,767 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:43:28,777 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:43:28,778 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:43:28,788 - INFO - [DESCONTOS] 0 descontos encontrados para Neimary Stefany Avila Pinto em PGC 35
+2026-02-13 07:43:28,799 - INFO - [PASTA] Match encontrado: NEIMARY STEFANY AVILA PINTO
+2026-02-13 07:51:53,289 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:51:53,290 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:51:53,301 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:51:53,302 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:51:53,382 - INFO - [DESCONTOS] 0 descontos encontrados para Yasmin Dias Bruce em PGC 35
+2026-02-13 07:51:53,396 - INFO - [PASTA] Match encontrado: YASMIN DIAS BRUCE
+2026-02-13 07:59:43,578 - INFO - [MINIMO] Procurando arquivo MINIMO em: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35
+2026-02-13 07:59:43,579 - INFO - [MINIMO] Usando arquivo: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\MINIMO.xlsx
+2026-02-13 07:59:43,588 - INFO - [MINIMO] Colunas detectadas: ['CREDOR', 'MINIMO/FIXO GARANTIDO PARA EMISSAO NF', 'EMPRESA EMISSÃO NF', 'CNPJ']
+2026-02-13 07:59:43,590 - INFO - [DESCONTOS] Arquivo localizado: C:\PGC\envio_rendimentos\arquivos_gerados\PGC\35\DESCONTOS.xlsx
+2026-02-13 07:59:43,599 - INFO - [DESCONTOS] 0 descontos encontrados para Neimary Stefany Avila Pinto em PGC 35
+2026-02-13 07:59:43,614 - INFO - [PASTA] Match encontrado: NEIMARY STEFANY AVILA PINTO

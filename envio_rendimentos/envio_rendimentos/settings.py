@@ -48,6 +48,8 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # convert AJAX HTML/login redirects into JSON so frontend doesn't get '<' syntax errors
+    'core.middleware.AjaxJsonMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -124,14 +126,14 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'#GMAIL
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'#TESTE LOCAL
-#EMAIL_HOST = 'smtp.gmail.com'  # Ex: smtp.gmail.com
-#EMAIL_PORT = 587 #GMAIL
-#EMAIL_HOST_USER = 'ti2@laghettomultipropriedade.com.br'#GMAIL
-#EMAIL_HOST_PASSWORD = 'L@ghetto2025*'#GMAIL
-#EMAIL_USE_TLS = True #GMAIL
-#DEFAULT_FROM_EMAIL = EMAIL_HOST_USER#GMAIL
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'#GMAIL
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'#TESTE LOCAL
+# EMAIL_HOST = 'smtp.gmail.com'  # Ex: smtp.gmail.com
+# EMAIL_PORT = 587 #GMAIL
+# EMAIL_HOST_USER = 'ti2@laghettomultipropriedade.com.br'#GMAIL
+# EMAIL_HOST_PASSWORD = 'L@ghetto2025*'#GMAIL
+# EMAIL_USE_TLS = True #GMAIL
+# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER#GMAIL
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 

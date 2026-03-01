@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h3>Histórico de Envios de E-mails</h3>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Data/Hora</th>
+                <th>Credor</th>
+                <th>E-mail</th>
+                <th>Status</th>
+                <th>Erro</th>
+                <th>Qtd Anexos</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for r in registros %}
+            <tr class="{% if r.Status == 'FALHA' %}table-danger{% else %}table-success{% endif %}">
+                <td>{{ r.DataHora }}</td>
+                <td>{{ r.Credor }}</td>
+                <td>{{ r.E_mail }}</td>
+                <td>{{ r.Status }}</td>
+                <td>{{ r.Erro }}</td>
+                <td>{{ r.Qtd_Anexos }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="6" class="text-center">Nenhum envio registrado</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

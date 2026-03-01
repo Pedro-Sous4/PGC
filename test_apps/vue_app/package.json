@@ -1,0 +1,7 @@
+{
+  "name": "vue-test-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "vue": "^3.3.0"
+  }
+}

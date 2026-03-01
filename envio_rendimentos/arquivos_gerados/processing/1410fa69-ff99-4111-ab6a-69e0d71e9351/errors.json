@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1770ac36-7800-4e6c-9d91-1121e28a9c64",
+    "request_id": "1410fa69-ff99-4111-ab6a-69e0d71e9351",
+    "credor": "CRED_1",
+    "credor_display": "CRED_1",
+    "step": "processamento",
+    "technical": "Valor inválido na coluna 'valor': 'nan'",
+    "friendly": "Valor inválido para CRED_1: nan",
+    "type": "bad_value",
+    "time": "21:15:38",
+    "retries": 0,
+    "resolved": false
+  }
+]

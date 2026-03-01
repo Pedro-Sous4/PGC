@@ -3,14 +3,6 @@
 {% block title %}Upload de Planilha Base{% endblock %}
 
 {% block content %}
-<style>
-#progress-bar {
-    height: 20px;
-    border-radius: 4px;
-    transition: width 0.3s ease;
-    background-color: #e0e0e0;
-}
-</style>
 <div class="container py-5">
     <div class="col-md-6 mx-auto">
         <div class="card h-100 shadow-sm">
@@ -36,10 +28,6 @@
                         <i class="bi bi-arrow-right-circle"></i> Enviar
                     </button>
                 </form>
-                <progress id="progress-bar" value="0" max="100" style="width:100%; display:none;"></progress>
-                <div id="status-msg"></div>
-               
-
 
                 {% if messages %}
                     <div class="mt-4">
@@ -55,36 +43,103 @@
     </div>
 </div>
 <script>
-document.getElementById("form-upload").addEventListener("submit", async function(e) {
+(function () {
+
+  const form = document.getElementById('uploadForm');
+  const progressCard = document.getElementById('progress-card');
+  const progressBar = document.getElementById('progress-bar');
+  const details = document.getElementById('progress-details');
+  const logsCard = document.getElementById('logs-card');
+  const logs = document.getElementById('logs');
+  const requestIdInput = document.getElementById('request_id');
+  const currentCredorSpan = document.getElementById('current-credor');
+
+  let pollingTimer = null;
+  let lastLogIndex = 0; // 🔥 controle de logs já exibidos
+
+  function setProgress(percent, text) {
+    progressBar.style.width = percent + '%';
+    progressBar.innerText = percent + '%';
+    details.innerText = text || '';
+  }
+
+  function appendLog(msg) {
+    logsCard.classList.remove('d-none');
+    logs.textContent += msg + "\n";
+    logs.scrollTop = logs.scrollHeight;
+  }
+
+  function pollProgress() {
+    const requestId = requestIdInput.value;
+    if (!requestId) return;
+
+    fetch(`/laghetto-sports/status/${requestId}/`)
+      .then(r => r.json())
+      .then(j => {
+
+        const percent = j.percent ?? 0;
+
+        setProgress(
+          percent,
+          `Credores processados: ${j.processed || 0} / ${j.total_credores || 0}`
+        );
+
+        // 👤 Credor atual
+        currentCredorSpan.innerText =
+          j.current_credor || 'Finalizando...';
+
+        // 📝 LOGS EM TEMPO REAL (nome a nome)
+        if (Array.isArray(j.logs)) {
+          for (let i = lastLogIndex; i < j.logs.length; i++) {
+            const log = j.logs[i];
+            appendLog(`[${log.time}] ${log.msg}`);
+          }
+          lastLogIndex = j.logs.length;
+        }
+
+        if (j.status === 'completed') {
+          clearInterval(pollingTimer);
+          setProgress(100, "Concluído");
+          appendLog("✔ Processamento finalizado com sucesso.");
+        }
+
+        if (j.status === 'error') {
+          clearInterval(pollingTimer);
+          appendLog("❌ Erro fatal no processamento.");
+        }
+      })
+      .catch(err => {
+        appendLog("Erro ao consultar progresso: " + err);
+      });
+  }
+
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
-    const form = e.target;
-    const data = new FormData(form);
-    const bar = document.getElementById("progress-bar");
-    const status = document.getElementById("status-msg");
 
-    bar.style.display = "block";
-    bar.value = 10;
-    status.innerText = "Enviando arquivo...";
+    progressCard.classList.remove('d-none');
+    setProgress(0, "Iniciando processamento...");
+    logs.textContent = "";
+    lastLogIndex = 0;
 
-    try {
-        const response = await fetch(form.action || "", {
-            method: "POST",
-            body: data,
-        });
+    const formData = new FormData(form);
 
-        bar.value = 80;
-        const text = await response.text();
-        status.innerText = "Finalizando processamento...";
-        bar.value = 100;
+    fetch(window.location.href, {
+      method: 'POST',
+      body: formData,
+      credentials: 'same-origin'
+    })
+      .then(r => r.json())
+      .then(j => {
+        requestIdInput.value = j.request_id;
+        pollingTimer = setInterval(pollProgress, 1500);
+      })
+      .catch(err => {
+        appendLog("Erro no envio: " + err);
+      });
+  });
 
-        setTimeout(() => {
-            window.location.reload();  // ou redirecione para outro local
-        }, 1500);
-    } catch (err) {
-        status.innerText = "Erro ao enviar!";
-        console.error(err);
-    }
-});
+})();
 </script>
+
 
 {% endblock %}

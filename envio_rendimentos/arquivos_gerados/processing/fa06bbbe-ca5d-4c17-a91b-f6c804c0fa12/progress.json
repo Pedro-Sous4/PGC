@@ -1,0 +1,3051 @@
+{
+  "status": "running",
+  "percent": 67,
+  "processed": 167,
+  "total": 248,
+  "current_credor": "LUIZ HENRIQUE FERREIRA ANDRADE",
+  "logs": [
+    {
+      "time": "17:47:01",
+      "msg": "✅ Upload recebido e controle de progresso inicializado"
+    },
+    {
+      "time": "17:47:01",
+      "msg": "📄 Iniciando processamento do PGC LGM"
+    },
+    {
+      "time": "17:47:02",
+      "msg": "✅ Arquivo carregado. Iniciando parsing..."
+    },
+    {
+      "time": "17:47:02",
+      "msg": "🔎 PGC identificado: 34 (pasta: 34)"
+    },
+    {
+      "time": "17:47:03",
+      "msg": "👥 248 credores encontrados"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "📋 Processando credor 1/248: HAEL BEVILAQUIA NOBRE"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "⚠️ Integridade ao criar Credor 'HAEL BEVILAQUIA NOBRE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "🔍 Stack trace para HAEL BEVILAQUIA NOBRE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\HAEL_BEVILAQUIA_NOBRE_error.txt"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro (HAEL BEVILAQUIA NOBRE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro ao processar HAEL BEVILAQUIA NOBRE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "📋 Processando credor 2/248: JULIANA LUZ DA ROSA"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "⚠️ Integridade ao criar Credor 'JULIANA LUZ DA ROSA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "🔍 Stack trace para JULIANA LUZ DA ROSA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JULIANA_LUZ_DA_ROSA_error.txt"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro (JULIANA LUZ DA ROSA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro ao processar JULIANA LUZ DA ROSA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "📋 Processando credor 3/248: EMERSON DO COUTO EVANGELISTA"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "⚠️ Integridade ao criar Credor 'EMERSON DO COUTO EVANGELISTA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "🔍 Stack trace para EMERSON DO COUTO EVANGELISTA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\EMERSON_DO_COUTO_EVANGELISTA_error.txt"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro (EMERSON DO COUTO EVANGELISTA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "❌ Erro ao processar EMERSON DO COUTO EVANGELISTA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:38",
+      "msg": "📋 Processando credor 4/248: ALLYSSON DA SILVA ACRIS"
+    },
+    {
+      "time": "17:47:38",
+      "msg": "⚠️ Integridade ao criar Credor 'ALLYSSON DA SILVA ACRIS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para ALLYSSON DA SILVA ACRIS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALLYSSON_DA_SILVA_ACRIS_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (ALLYSSON DA SILVA ACRIS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar ALLYSSON DA SILVA ACRIS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 5/248: CRISTIAN NATANAEL BICKEL SOARES"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'CRISTIAN NATANAEL BICKEL SOARES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para CRISTIAN NATANAEL BICKEL SOARES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CRISTIAN_NATANAEL_BICKEL_SOARES_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (CRISTIAN NATANAEL BICKEL SOARES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar CRISTIAN NATANAEL BICKEL SOARES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 6/248: DIANA DE ALMEIDA SANTOS"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'DIANA DE ALMEIDA SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para DIANA DE ALMEIDA SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DIANA_DE_ALMEIDA_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (DIANA DE ALMEIDA SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar DIANA DE ALMEIDA SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 7/248: FELIPE ANDRE DA SILVA"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'FELIPE ANDRE DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para FELIPE ANDRE DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FELIPE_ANDRE_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (FELIPE ANDRE DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar FELIPE ANDRE DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 8/248: GABRIELA SCHMITT SCHNORR"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'GABRIELA SCHMITT SCHNORR': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para GABRIELA SCHMITT SCHNORR escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GABRIELA_SCHMITT_SCHNORR_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (GABRIELA SCHMITT SCHNORR): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar GABRIELA SCHMITT SCHNORR: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 9/248: GUILHERME FOGASSA DA SILVA"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'GUILHERME FOGASSA DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para GUILHERME FOGASSA DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GUILHERME_FOGASSA_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (GUILHERME FOGASSA DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar GUILHERME FOGASSA DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 10/248: HILSON CALDAS SILVA ALBUQUERQUE"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'HILSON CALDAS SILVA ALBUQUERQUE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para HILSON CALDAS SILVA ALBUQUERQUE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\HILSON_CALDAS_SILVA_ALBUQUERQUE_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (HILSON CALDAS SILVA ALBUQUERQUE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar HILSON CALDAS SILVA ALBUQUERQUE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 11/248: JOEL DE SOUZA PONTE"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'JOEL DE SOUZA PONTE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para JOEL DE SOUZA PONTE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOEL_DE_SOUZA_PONTE_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (JOEL DE SOUZA PONTE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar JOEL DE SOUZA PONTE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 12/248: JOSE VALDGLEI GALDINO DE SOUSA"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "⚠️ Integridade ao criar Credor 'JOSE VALDGLEI GALDINO DE SOUSA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "🔍 Stack trace para JOSE VALDGLEI GALDINO DE SOUSA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOSE_VALDGLEI_GALDINO_DE_SOUSA_error.txt"
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro (JOSE VALDGLEI GALDINO DE SOUSA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "❌ Erro ao processar JOSE VALDGLEI GALDINO DE SOUSA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:39",
+      "msg": "📋 Processando credor 13/248: MIKAEL CARDOSO DE MESQUITA"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'MIKAEL CARDOSO DE MESQUITA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para MIKAEL CARDOSO DE MESQUITA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MIKAEL_CARDOSO_DE_MESQUITA_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (MIKAEL CARDOSO DE MESQUITA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar MIKAEL CARDOSO DE MESQUITA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 14/248: OBERDAN CARVALHO DE AZEVEDO"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'OBERDAN CARVALHO DE AZEVEDO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para OBERDAN CARVALHO DE AZEVEDO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\OBERDAN_CARVALHO_DE_AZEVEDO_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (OBERDAN CARVALHO DE AZEVEDO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar OBERDAN CARVALHO DE AZEVEDO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 15/248: CHARLES JUNIOR ADRIANO"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'CHARLES JUNIOR ADRIANO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para CHARLES JUNIOR ADRIANO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CHARLES_JUNIOR_ADRIANO_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (CHARLES JUNIOR ADRIANO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar CHARLES JUNIOR ADRIANO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 16/248: SUELLEN DA SILVA RIBEIRO"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'SUELLEN DA SILVA RIBEIRO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para SUELLEN DA SILVA RIBEIRO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\SUELLEN_DA_SILVA_RIBEIRO_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (SUELLEN DA SILVA RIBEIRO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar SUELLEN DA SILVA RIBEIRO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 17/248: ANDERSON TISIAM"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'ANDERSON TISIAM': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para ANDERSON TISIAM escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANDERSON_TISIAM_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (ANDERSON TISIAM): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar ANDERSON TISIAM: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 18/248: EDSON MEIRA DA SILVA"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'EDSON MEIRA DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para EDSON MEIRA DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\EDSON_MEIRA_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (EDSON MEIRA DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar EDSON MEIRA DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 19/248: VANKLEY SALES DE MOURA"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'VANKLEY SALES DE MOURA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para VANKLEY SALES DE MOURA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\VANKLEY_SALES_DE_MOURA_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (VANKLEY SALES DE MOURA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar VANKLEY SALES DE MOURA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 20/248: RAYLENE MARIA RODRIGUES HONORIO"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "⚠️ Integridade ao criar Credor 'RAYLENE MARIA RODRIGUES HONORIO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "🔍 Stack trace para RAYLENE MARIA RODRIGUES HONORIO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RAYLENE_MARIA_RODRIGUES_HONORIO_error.txt"
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro (RAYLENE MARIA RODRIGUES HONORIO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "❌ Erro ao processar RAYLENE MARIA RODRIGUES HONORIO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:40",
+      "msg": "📋 Processando credor 21/248: EDUARDO LUIZ NERES CONTI"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'EDUARDO LUIZ NERES CONTI': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para EDUARDO LUIZ NERES CONTI escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\EDUARDO_LUIZ_NERES_CONTI_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (EDUARDO LUIZ NERES CONTI): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar EDUARDO LUIZ NERES CONTI: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 22/248: DIEGO RUCKHABER PLETSCH"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'DIEGO RUCKHABER PLETSCH': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para DIEGO RUCKHABER PLETSCH escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DIEGO_RUCKHABER_PLETSCH_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (DIEGO RUCKHABER PLETSCH): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar DIEGO RUCKHABER PLETSCH: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 23/248: JULIO CESAR EMANUEL DOS SANTOS FONSECA"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'JULIO CESAR EMANUEL DOS SANTOS FONSECA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para JULIO CESAR EMANUEL DOS SANTOS FONSECA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JULIO_CESAR_EMANUEL_DOS_SANTOS_FONSECA_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (JULIO CESAR EMANUEL DOS SANTOS FONSECA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar JULIO CESAR EMANUEL DOS SANTOS FONSECA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 24/248: PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\PAULO_EMANUEL_DOS_SANTOS_BARNABE_TEIXEIRA_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar PAULO EMANUEL DOS SANTOS BARNABE TEIXEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 25/248: BARBARA PROKOPOWISKI DOS SANTOS"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'BARBARA PROKOPOWISKI DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para BARBARA PROKOPOWISKI DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\BARBARA_PROKOPOWISKI_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (BARBARA PROKOPOWISKI DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar BARBARA PROKOPOWISKI DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 26/248: ELICIANA CORDEIRO MAGAVE"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'ELICIANA CORDEIRO MAGAVE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para ELICIANA CORDEIRO MAGAVE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ELICIANA_CORDEIRO_MAGAVE_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (ELICIANA CORDEIRO MAGAVE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar ELICIANA CORDEIRO MAGAVE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 27/248: HUGO MENEZES DOS SANTOS MADEIRA"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'HUGO MENEZES DOS SANTOS MADEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para HUGO MENEZES DOS SANTOS MADEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\HUGO_MENEZES_DOS_SANTOS_MADEIRA_error.txt"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro (HUGO MENEZES DOS SANTOS MADEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "❌ Erro ao processar HUGO MENEZES DOS SANTOS MADEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "📋 Processando credor 28/248: RAFAEL COLOMBO MENDES"
+    },
+    {
+      "time": "17:47:41",
+      "msg": "⚠️ Integridade ao criar Credor 'RAFAEL COLOMBO MENDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:41",
+      "msg": "🔍 Stack trace para RAFAEL COLOMBO MENDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RAFAEL_COLOMBO_MENDES_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (RAFAEL COLOMBO MENDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar RAFAEL COLOMBO MENDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 29/248: FELIPE ROCHA GAMA SOBRAL"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'FELIPE ROCHA GAMA SOBRAL': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para FELIPE ROCHA GAMA SOBRAL escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FELIPE_ROCHA_GAMA_SOBRAL_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (FELIPE ROCHA GAMA SOBRAL): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar FELIPE ROCHA GAMA SOBRAL: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 30/248: ILANA SILVA DA SILVA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'ILANA SILVA DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para ILANA SILVA DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ILANA_SILVA_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (ILANA SILVA DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar ILANA SILVA DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 31/248: MOISES DE MIRANDA LIMA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'MOISES DE MIRANDA LIMA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para MOISES DE MIRANDA LIMA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MOISES_DE_MIRANDA_LIMA_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (MOISES DE MIRANDA LIMA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar MOISES DE MIRANDA LIMA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 32/248: LEONARDO OLIVEIRA ALEJARRA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'LEONARDO OLIVEIRA ALEJARRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para LEONARDO OLIVEIRA ALEJARRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LEONARDO_OLIVEIRA_ALEJARRA_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (LEONARDO OLIVEIRA ALEJARRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar LEONARDO OLIVEIRA ALEJARRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 33/248: GERULINO FERREIRA LIMA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'GERULINO FERREIRA LIMA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para GERULINO FERREIRA LIMA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GERULINO_FERREIRA_LIMA_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (GERULINO FERREIRA LIMA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar GERULINO FERREIRA LIMA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 34/248: JACKELINE ESTEFANY BARROS SANTIAGO"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'JACKELINE ESTEFANY BARROS SANTIAGO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para JACKELINE ESTEFANY BARROS SANTIAGO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JACKELINE_ESTEFANY_BARROS_SANTIAGO_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (JACKELINE ESTEFANY BARROS SANTIAGO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar JACKELINE ESTEFANY BARROS SANTIAGO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 35/248: MATEUS SILVA DA COSTA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'MATEUS SILVA DA COSTA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "🔍 Stack trace para MATEUS SILVA DA COSTA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MATEUS_SILVA_DA_COSTA_error.txt"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro (MATEUS SILVA DA COSTA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "❌ Erro ao processar MATEUS SILVA DA COSTA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:42",
+      "msg": "📋 Processando credor 36/248: ALEX SANDRO DA ROSA OLIVEIRA"
+    },
+    {
+      "time": "17:47:42",
+      "msg": "⚠️ Integridade ao criar Credor 'ALEX SANDRO DA ROSA OLIVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para ALEX SANDRO DA ROSA OLIVEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALEX_SANDRO_DA_ROSA_OLIVEIRA_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (ALEX SANDRO DA ROSA OLIVEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar ALEX SANDRO DA ROSA OLIVEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 37/248: AMANDA DORADO EUGENIO"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'AMANDA DORADO EUGENIO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para AMANDA DORADO EUGENIO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\AMANDA_DORADO_EUGENIO_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (AMANDA DORADO EUGENIO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar AMANDA DORADO EUGENIO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 38/248: VINICIUS LIPPO SILIPRANDI"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'VINICIUS LIPPO SILIPRANDI': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para VINICIUS LIPPO SILIPRANDI escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\VINICIUS_LIPPO_SILIPRANDI_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (VINICIUS LIPPO SILIPRANDI): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar VINICIUS LIPPO SILIPRANDI: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 39/248: DANILO CARVALHO PINTO"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'DANILO CARVALHO PINTO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para DANILO CARVALHO PINTO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DANILO_CARVALHO_PINTO_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (DANILO CARVALHO PINTO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar DANILO CARVALHO PINTO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 40/248: ANA PAULA FERREIRA LIMA"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'ANA PAULA FERREIRA LIMA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para ANA PAULA FERREIRA LIMA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANA_PAULA_FERREIRA_LIMA_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (ANA PAULA FERREIRA LIMA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar ANA PAULA FERREIRA LIMA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 41/248: MARILIANA GONCALVES NEVES"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'MARILIANA GONCALVES NEVES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para MARILIANA GONÇALVES NEVES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MARILIANA_GONCALVES_NEVES_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (MARILIANA GONÇALVES NEVES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar MARILIANA GONÇALVES NEVES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "📋 Processando credor 42/248: VICTOR OTAVIO GUERREIRO BRUNELLI"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "⚠️ Integridade ao criar Credor 'VICTOR OTAVIO GUERREIRO BRUNELLI': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "🔍 Stack trace para VICTOR OTAVIO GUERREIRO BRUNELLI escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\VICTOR_OTAVIO_GUERREIRO_BRUNELLI_error.txt"
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro (VICTOR OTAVIO GUERREIRO BRUNELLI): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:43",
+      "msg": "❌ Erro ao processar VICTOR OTAVIO GUERREIRO BRUNELLI: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 43/248: DIOGO LUCAS DA SILVA GODOI"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'DIOGO LUCAS DA SILVA GODOI': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para DIOGO LUCAS DA SILVA GODOI escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DIOGO_LUCAS_DA_SILVA_GODOI_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (DIOGO LUCAS DA SILVA GODOI): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar DIOGO LUCAS DA SILVA GODOI: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 44/248: GUSTAVO HENRIQUE KLEIN PETERS"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'GUSTAVO HENRIQUE KLEIN PETERS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para GUSTAVO HENRIQUE KLEIN PETERS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GUSTAVO_HENRIQUE_KLEIN_PETERS_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (GUSTAVO HENRIQUE KLEIN PETERS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar GUSTAVO HENRIQUE KLEIN PETERS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 45/248: MUNIELEN BARBOSA FERNANDES"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'MUNIELEN BARBOSA FERNANDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para MUNIELEN BARBOSA FERNANDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MUNIELEN_BARBOSA_FERNANDES_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (MUNIELEN BARBOSA FERNANDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar MUNIELEN BARBOSA FERNANDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 46/248: KEVIN MICHAEL SPIETH"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'KEVIN MICHAEL SPIETH': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para KEVIN MICHAEL SPIETH escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\KEVIN_MICHAEL_SPIETH_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (KEVIN MICHAEL SPIETH): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar KEVIN MICHAEL SPIETH: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 47/248: CAIO COUTINHO FERREIRA"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'CAIO COUTINHO FERREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para CAIO COUTINHO FERREIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CAIO_COUTINHO_FERREIRA_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (CAIO COUTINHO FERREIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar CAIO COUTINHO FERREIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 48/248: CLEMAR DE SOUZA"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'CLEMAR DE SOUZA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para CLEMAR DE SOUZA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CLEMAR_DE_SOUZA_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (CLEMAR DE SOUZA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro ao processar CLEMAR DE SOUZA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "📋 Processando credor 49/248: DENZEL HENRIQUE PEREIRA FERNANDES"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "⚠️ Integridade ao criar Credor 'DENZEL HENRIQUE PEREIRA FERNANDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:44",
+      "msg": "🔍 Stack trace para DENZEL HENRIQUE PEREIRA FERNANDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DENZEL_HENRIQUE_PEREIRA_FERNANDES_error.txt"
+    },
+    {
+      "time": "17:47:44",
+      "msg": "❌ Erro (DENZEL HENRIQUE PEREIRA FERNANDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar DENZEL HENRIQUE PEREIRA FERNANDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 50/248: LETICIA BEZERRA FERREIRA"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'LETICIA BEZERRA FERREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para LETICIA BEZERRA FERREIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LETICIA_BEZERRA_FERREIRA_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (LETICIA BEZERRA FERREIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar LETICIA BEZERRA FERREIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 51/248: SUZILEIA LUCAS VIANA WATTAGE"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'SUZILEIA LUCAS VIANA WATTAGE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para SUZILEIA LUCAS VIANA WATTAGE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\SUZILEIA_LUCAS_VIANA_WATTAGE_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (SUZILEIA LUCAS VIANA WATTAGE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar SUZILEIA LUCAS VIANA WATTAGE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 52/248: EMILLY DE ALMEIDA CRUZ"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'EMILLY DE ALMEIDA CRUZ': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para EMILLY DE ALMEIDA CRUZ escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\EMILLY_DE_ALMEIDA_CRUZ_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (EMILLY DE ALMEIDA CRUZ): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar EMILLY DE ALMEIDA CRUZ: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 53/248: ANDRESSA ALVES FONSECA"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'ANDRESSA ALVES FONSECA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para ANDRESSA ALVES FONSECA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANDRESSA_ALVES_FONSECA_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (ANDRESSA ALVES FONSECA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar ANDRESSA ALVES FONSECA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 54/248: NAIARA GARCIA DOS SANTOS"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'NAIARA GARCIA DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para NAIARA GARCIA DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\NAIARA_GARCIA_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (NAIARA GARCIA DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro ao processar NAIARA GARCIA DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "📋 Processando credor 55/248: JESSICA MARIA EDUELFA DE SOUZA MARTINS"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "⚠️ Integridade ao criar Credor 'JESSICA MARIA EDUELFA DE SOUZA MARTINS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:45",
+      "msg": "🔍 Stack trace para Jessica Maria Eduelfa de Souza Martins escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JESSICA_MARIA_EDUELFA_DE_SOUZA_MARTINS_error.txt"
+    },
+    {
+      "time": "17:47:45",
+      "msg": "❌ Erro (Jessica Maria Eduelfa de Souza Martins): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar Jessica Maria Eduelfa de Souza Martins: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 56/248: ARTHUR ARAUJO DE LIRA"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'ARTHUR ARAUJO DE LIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "🔍 Stack trace para ARTHUR ARAUJO DE LIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ARTHUR_ARAUJO_DE_LIRA_error.txt"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro (ARTHUR ARAUJO DE LIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar ARTHUR ARAUJO DE LIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 57/248: DAIANE ALVES LOURENCO"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'DAIANE ALVES LOURENCO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "🔍 Stack trace para DAIANE ALVES LOURENÇO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DAIANE_ALVES_LOURENCO_error.txt"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro (DAIANE ALVES LOURENÇO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar DAIANE ALVES LOURENÇO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 58/248: ITALO PINHEIRO DIAS"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'ITALO PINHEIRO DIAS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "🔍 Stack trace para ITALO PINHEIRO DIAS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ITALO_PINHEIRO_DIAS_error.txt"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro (ITALO PINHEIRO DIAS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar ITALO PINHEIRO DIAS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 59/248: ITALO MIGUEL REMONDI"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'ITALO MIGUEL REMONDI': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "🔍 Stack trace para Italo Miguel Remondi escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ITALO_MIGUEL_REMONDI_error.txt"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro (Italo Miguel Remondi): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar Italo Miguel Remondi: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 60/248: THAIS KAPPAUN THEOBALD SERRA"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'THAIS KAPPAUN THEOBALD SERRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "🔍 Stack trace para THAÍS KAPPAUN THEOBALD SERRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\THAIS_KAPPAUN_THEOBALD_SERRA_error.txt"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro (THAÍS KAPPAUN THEOBALD SERRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "❌ Erro ao processar THAÍS KAPPAUN THEOBALD SERRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:46",
+      "msg": "📋 Processando credor 61/248: JACQUELINE FERREIRA LACERDA"
+    },
+    {
+      "time": "17:47:46",
+      "msg": "⚠️ Integridade ao criar Credor 'JACQUELINE FERREIRA LACERDA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para JACQUELINE FERREIRA LACERDA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JACQUELINE_FERREIRA_LACERDA_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (JACQUELINE FERREIRA LACERDA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar JACQUELINE FERREIRA LACERDA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 62/248: TAMY AIRTON MUELLER"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "⚠️ Integridade ao criar Credor 'TAMY AIRTON MUELLER': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para TAMY AIRTON MUELLER escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\TAMY_AIRTON_MUELLER_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (TAMY AIRTON MUELLER): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar TAMY AIRTON MUELLER: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 63/248: JEFERSON FABIO DESSBESELL"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "⚠️ Integridade ao criar Credor 'JEFERSON FABIO DESSBESELL': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para JEFERSON FABIO DESSBESELL escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JEFERSON_FABIO_DESSBESELL_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (JEFERSON FABIO DESSBESELL): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar JEFERSON FABIO DESSBESELL: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 64/248: ALDENIR JUNIOR GOIS DE ALMEIDA"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "⚠️ Integridade ao criar Credor 'ALDENIR JUNIOR GOIS DE ALMEIDA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para ALDENIR JUNIOR GOIS DE ALMEIDA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALDENIR_JUNIOR_GOIS_DE_ALMEIDA_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (ALDENIR JUNIOR GOIS DE ALMEIDA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar ALDENIR JUNIOR GOIS DE ALMEIDA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 65/248: FABIO CANDIDO CABREIRA"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "⚠️ Integridade ao criar Credor 'FABIO CANDIDO CABREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para Fabio Candido Cabreira escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FABIO_CANDIDO_CABREIRA_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (Fabio Candido Cabreira): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar Fabio Candido Cabreira: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 66/248: LAURA PINTO FONTES"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "⚠️ Integridade ao criar Credor 'LAURA PINTO FONTES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "🔍 Stack trace para Laura Pinto Fontes escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LAURA_PINTO_FONTES_error.txt"
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro (Laura Pinto Fontes): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "❌ Erro ao processar Laura Pinto Fontes: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:47",
+      "msg": "📋 Processando credor 67/248: ELCIO DE ALMEIDA LEITE JUNIOR"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'ELCIO DE ALMEIDA LEITE JUNIOR': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para Elcio de Almeida Leite Junior escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ELCIO_DE_ALMEIDA_LEITE_JUNIOR_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (Elcio de Almeida Leite Junior): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar Elcio de Almeida Leite Junior: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "📋 Processando credor 68/248: DINA OLIVEIRA DE SOUZA"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'DINA OLIVEIRA DE SOUZA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para DINA OLIVEIRA DE SOUZA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DINA_OLIVEIRA_DE_SOUZA_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (DINA OLIVEIRA DE SOUZA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar DINA OLIVEIRA DE SOUZA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "📋 Processando credor 69/248: MELISSA GROSS DE OLIVEIRA"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'MELISSA GROSS DE OLIVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para MELISSA GROSS DE OLIVEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MELISSA_GROSS_DE_OLIVEIRA_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (MELISSA GROSS DE OLIVEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar MELISSA GROSS DE OLIVEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "📋 Processando credor 70/248: CARLOS ROBERTO RECKERT"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'CARLOS ROBERTO RECKERT': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para CARLOS ROBERTO RECKERT escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CARLOS_ROBERTO_RECKERT_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (CARLOS ROBERTO RECKERT): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar CARLOS ROBERTO RECKERT: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "📋 Processando credor 71/248: CARLOS KLEBER MACHADO DE ALMEIDA"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'CARLOS KLEBER MACHADO DE ALMEIDA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para CARLOS KLEBER MACHADO DE ALMEIDA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CARLOS_KLEBER_MACHADO_DE_ALMEIDA_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (CARLOS KLEBER MACHADO DE ALMEIDA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar CARLOS KLEBER MACHADO DE ALMEIDA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "📋 Processando credor 72/248: ARIEL RODRIGUES"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "⚠️ Integridade ao criar Credor 'ARIEL RODRIGUES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "🔍 Stack trace para ARIEL RODRIGUES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ARIEL_RODRIGUES_error.txt"
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro (ARIEL RODRIGUES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:48",
+      "msg": "❌ Erro ao processar ARIEL RODRIGUES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "📋 Processando credor 73/248: ALEX MISSEL LUMERTZ"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "⚠️ Integridade ao criar Credor 'ALEX MISSEL LUMERTZ': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "🔍 Stack trace para ALEX MISSEL LUMERTZ escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALEX_MISSEL_LUMERTZ_error.txt"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro (ALEX MISSEL LUMERTZ): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro ao processar ALEX MISSEL LUMERTZ: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "📋 Processando credor 74/248: RAABE DE ALMEIDA CRUZ"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "⚠️ Integridade ao criar Credor 'RAABE DE ALMEIDA CRUZ': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "🔍 Stack trace para RAABE DE ALMEIDA CRUZ escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RAABE_DE_ALMEIDA_CRUZ_error.txt"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro (RAABE DE ALMEIDA CRUZ): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro ao processar RAABE DE ALMEIDA CRUZ: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "📋 Processando credor 75/248: JOSE MARTINS LEMES ALVES"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "⚠️ Integridade ao criar Credor 'JOSE MARTINS LEMES ALVES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "🔍 Stack trace para JOSE MARTINS LEMES ALVES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOSE_MARTINS_LEMES_ALVES_error.txt"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro (JOSE MARTINS LEMES ALVES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro ao processar JOSE MARTINS LEMES ALVES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "📋 Processando credor 76/248: DIEGO MARADONA COSTA"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "⚠️ Integridade ao criar Credor 'DIEGO MARADONA COSTA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "🔍 Stack trace para DIEGO MARADONA COSTA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DIEGO_MARADONA_COSTA_error.txt"
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro (DIEGO MARADONA COSTA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:49",
+      "msg": "❌ Erro ao processar DIEGO MARADONA COSTA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "📋 Processando credor 77/248: ALEXIA THAINA BARBALHO"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "⚠️ Integridade ao criar Credor 'ALEXIA THAINA BARBALHO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "🔍 Stack trace para ALEXIA THAINA BARBALHO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALEXIA_THAINA_BARBALHO_error.txt"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro (ALEXIA THAINA BARBALHO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro ao processar ALEXIA THAINA BARBALHO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "📋 Processando credor 78/248: GERMANO LOPES DA SILVA FILHO"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "⚠️ Integridade ao criar Credor 'GERMANO LOPES DA SILVA FILHO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "🔍 Stack trace para GERMANO LOPES DA SILVA FILHO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GERMANO_LOPES_DA_SILVA_FILHO_error.txt"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro (GERMANO LOPES DA SILVA FILHO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro ao processar GERMANO LOPES DA SILVA FILHO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "📋 Processando credor 79/248: BEATRIZ SCHRAMM DA SILVA"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "⚠️ Integridade ao criar Credor 'BEATRIZ SCHRAMM DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "🔍 Stack trace para BEATRIZ SCHRAMM DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\BEATRIZ_SCHRAMM_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro (BEATRIZ SCHRAMM DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro ao processar BEATRIZ SCHRAMM DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "📋 Processando credor 80/248: ANDRE LUIS DE SOUZA SILVA"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "⚠️ Integridade ao criar Credor 'ANDRE LUIS DE SOUZA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "🔍 Stack trace para ANDRE LUIS DE SOUZA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANDRE_LUIS_DE_SOUZA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro (ANDRE LUIS DE SOUZA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:50",
+      "msg": "❌ Erro ao processar ANDRE LUIS DE SOUZA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "📋 Processando credor 81/248: LUAN DOS SANTOS MENDES DE SOUZA"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "⚠️ Integridade ao criar Credor 'LUAN DOS SANTOS MENDES DE SOUZA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "🔍 Stack trace para LUAN DOS SANTOS MENDES DE SOUZA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUAN_DOS_SANTOS_MENDES_DE_SOUZA_error.txt"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro (LUAN DOS SANTOS MENDES DE SOUZA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro ao processar LUAN DOS SANTOS MENDES DE SOUZA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "📋 Processando credor 82/248: ELAINE DO MONTE BRASIL"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "⚠️ Integridade ao criar Credor 'ELAINE DO MONTE BRASIL': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "🔍 Stack trace para ELAINE DO MONTE BRASIL escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ELAINE_DO_MONTE_BRASIL_error.txt"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro (ELAINE DO MONTE BRASIL): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro ao processar ELAINE DO MONTE BRASIL: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "📋 Processando credor 83/248: FELIPE JOSE DE MATTOS"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "⚠️ Integridade ao criar Credor 'FELIPE JOSE DE MATTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "🔍 Stack trace para FELIPE JOSE DE MATTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FELIPE_JOSE_DE_MATTOS_error.txt"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro (FELIPE JOSE DE MATTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro ao processar FELIPE JOSE DE MATTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "📋 Processando credor 84/248: JOANA DARC FERREIRA DA SILVA"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "⚠️ Integridade ao criar Credor 'JOANA DARC FERREIRA DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "🔍 Stack trace para JOANA DARC FERREIRA DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOANA_DARC_FERREIRA_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro (JOANA DARC FERREIRA DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "❌ Erro ao processar JOANA DARC FERREIRA DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:51",
+      "msg": "📋 Processando credor 85/248: JOSE WELLINGTON PEREIRA DE LUCENA SANTOS"
+    },
+    {
+      "time": "17:47:51",
+      "msg": "⚠️ Integridade ao criar Credor 'JOSE WELLINGTON PEREIRA DE LUCENA SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "🔍 Stack trace para JOSE WELLINGTON PEREIRA DE LUCENA SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOSE_WELLINGTON_PEREIRA_DE_LUCENA_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro (JOSE WELLINGTON PEREIRA DE LUCENA SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro ao processar JOSE WELLINGTON PEREIRA DE LUCENA SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "📋 Processando credor 86/248: JULIANO MANFRON ARAUJO"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "⚠️ Integridade ao criar Credor 'JULIANO MANFRON ARAUJO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "🔍 Stack trace para JULIANO MANFRON ARAUJO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JULIANO_MANFRON_ARAUJO_error.txt"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro (JULIANO MANFRON ARAUJO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro ao processar JULIANO MANFRON ARAUJO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "📋 Processando credor 87/248: KIMBERLY CRISTINA TAVARES CORREA"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "⚠️ Integridade ao criar Credor 'KIMBERLY CRISTINA TAVARES CORREA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "🔍 Stack trace para KIMBERLY CRISTINA TAVARES CORREA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\KIMBERLY_CRISTINA_TAVARES_CORREA_error.txt"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro (KIMBERLY CRISTINA TAVARES CORREA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro ao processar KIMBERLY CRISTINA TAVARES CORREA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "📋 Processando credor 88/248: LARISSA DE SOUZA SILVA"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "⚠️ Integridade ao criar Credor 'LARISSA DE SOUZA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "🔍 Stack trace para LARISSA DE SOUZA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LARISSA_DE_SOUZA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro (LARISSA DE SOUZA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro ao processar LARISSA DE SOUZA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "📋 Processando credor 89/248: LARISSA DE FREITAS NUNES"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "⚠️ Integridade ao criar Credor 'LARISSA DE FREITAS NUNES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "🔍 Stack trace para LARISSA DE FREITAS NUNES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LARISSA_DE_FREITAS_NUNES_error.txt"
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro (LARISSA DE FREITAS NUNES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "❌ Erro ao processar LARISSA DE FREITAS NUNES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:52",
+      "msg": "📋 Processando credor 90/248: LUDMILLA ROSA MOREIRA DE SOUZA"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'LUDMILLA ROSA MOREIRA DE SOUZA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "🔍 Stack trace para LUDMILLA ROSA MOREIRA DE SOUZA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUDMILLA_ROSA_MOREIRA_DE_SOUZA_error.txt"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro (LUDMILLA ROSA MOREIRA DE SOUZA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro ao processar LUDMILLA ROSA MOREIRA DE SOUZA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "📋 Processando credor 91/248: MONIQUE MARGARIDA FREITAS BENJAMIM"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'MONIQUE MARGARIDA FREITAS BENJAMIM': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "🔍 Stack trace para MONIQUE MARGARIDA FREITAS BENJAMIM escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MONIQUE_MARGARIDA_FREITAS_BENJAMIM_error.txt"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro (MONIQUE MARGARIDA FREITAS BENJAMIM): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro ao processar MONIQUE MARGARIDA FREITAS BENJAMIM: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "📋 Processando credor 92/248: RAFAELA KALIANDRA PILGER DA SILVEIRA"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'RAFAELA KALIANDRA PILGER DA SILVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "🔍 Stack trace para RAFAELA KALIANDRA PILGER DA SILVEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RAFAELA_KALIANDRA_PILGER_DA_SILVEIRA_error.txt"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro (RAFAELA KALIANDRA PILGER DA SILVEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro ao processar RAFAELA KALIANDRA PILGER DA SILVEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "📋 Processando credor 93/248: ANDRE EDUARDO DOS PASSOS PACHECO"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'ANDRE EDUARDO DOS PASSOS PACHECO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "🔍 Stack trace para ANDRE EDUARDO DOS PASSOS PACHECO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANDRE_EDUARDO_DOS_PASSOS_PACHECO_error.txt"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro (ANDRE EDUARDO DOS PASSOS PACHECO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro ao processar ANDRE EDUARDO DOS PASSOS PACHECO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "📋 Processando credor 94/248: BARBARA PEREIRA DOS SANTOS"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'BARBARA PEREIRA DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "🔍 Stack trace para BARBARA PEREIRA DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\BARBARA_PEREIRA_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro (BARBARA PEREIRA DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "❌ Erro ao processar BARBARA PEREIRA DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:53",
+      "msg": "📋 Processando credor 95/248: DAVI RODRIGUES DE MORAES"
+    },
+    {
+      "time": "17:47:53",
+      "msg": "⚠️ Integridade ao criar Credor 'DAVI RODRIGUES DE MORAES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "🔍 Stack trace para DAVI RODRIGUES DE MORAES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DAVI_RODRIGUES_DE_MORAES_error.txt"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro (DAVI RODRIGUES DE MORAES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro ao processar DAVI RODRIGUES DE MORAES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "📋 Processando credor 96/248: JOCIEL GOMES DA SILVA"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "⚠️ Integridade ao criar Credor 'JOCIEL GOMES DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "🔍 Stack trace para JOCIEL GOMES DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOCIEL_GOMES_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro (JOCIEL GOMES DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro ao processar JOCIEL GOMES DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "📋 Processando credor 97/248: MATHEUS HENRIQUE PEREIRA FERNANDES"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "⚠️ Integridade ao criar Credor 'MATHEUS HENRIQUE PEREIRA FERNANDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "🔍 Stack trace para MATHEUS HENRIQUE PEREIRA FERNANDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MATHEUS_HENRIQUE_PEREIRA_FERNANDES_error.txt"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro (MATHEUS HENRIQUE PEREIRA FERNANDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro ao processar MATHEUS HENRIQUE PEREIRA FERNANDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "📋 Processando credor 98/248: NELSON LOURENCO DA SILVA JUNIOR"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "⚠️ Integridade ao criar Credor 'NELSON LOURENCO DA SILVA JUNIOR': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "🔍 Stack trace para NELSON LOURENÇO DA SILVA JUNIOR escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\NELSON_LOURENCO_DA_SILVA_JUNIOR_error.txt"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro (NELSON LOURENÇO DA SILVA JUNIOR): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "❌ Erro ao processar NELSON LOURENÇO DA SILVA JUNIOR: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "📋 Processando credor 99/248: ALVARO FABRICIO MENEZES MOTA"
+    },
+    {
+      "time": "17:47:54",
+      "msg": "⚠️ Integridade ao criar Credor 'ALVARO FABRICIO MENEZES MOTA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:54",
+      "msg": "🔍 Stack trace para ALVARO FABRICIO MENEZES MOTA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALVARO_FABRICIO_MENEZES_MOTA_error.txt"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro (ALVARO FABRICIO MENEZES MOTA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro ao processar ALVARO FABRICIO MENEZES MOTA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "📋 Processando credor 100/248: SUYANNE CHRISTINNE MARQUES LIMA"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "⚠️ Integridade ao criar Credor 'SUYANNE CHRISTINNE MARQUES LIMA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "🔍 Stack trace para SUYANNE CHRISTINNE MARQUES LIMA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\SUYANNE_CHRISTINNE_MARQUES_LIMA_error.txt"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro (SUYANNE CHRISTINNE MARQUES LIMA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro ao processar SUYANNE CHRISTINNE MARQUES LIMA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "📋 Processando credor 101/248: NAELI REIS DO NASCIMENTO"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "⚠️ Integridade ao criar Credor 'NAELI REIS DO NASCIMENTO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "🔍 Stack trace para NAELI REIS DO NASCIMENTO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\NAELI_REIS_DO_NASCIMENTO_error.txt"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro (NAELI REIS DO NASCIMENTO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro ao processar NAELI REIS DO NASCIMENTO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "📋 Processando credor 102/248: DIIH BEZERRA DA SILVA"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "⚠️ Integridade ao criar Credor 'DIIH BEZERRA DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "🔍 Stack trace para DIIH BEZERRA DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DIIH_BEZERRA_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro (DIIH BEZERRA DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro ao processar DIIH BEZERRA DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "📋 Processando credor 103/248: LETICIA MARIA DE OLIVEIRA SILVA"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "⚠️ Integridade ao criar Credor 'LETICIA MARIA DE OLIVEIRA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "🔍 Stack trace para LETICIA MARIA DE OLIVEIRA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LETICIA_MARIA_DE_OLIVEIRA_SILVA_error.txt"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro (LETICIA MARIA DE OLIVEIRA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "❌ Erro ao processar LETICIA MARIA DE OLIVEIRA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:55",
+      "msg": "📋 Processando credor 104/248: JOHNE DA CRUZ ALEXANDRE"
+    },
+    {
+      "time": "17:47:55",
+      "msg": "⚠️ Integridade ao criar Credor 'JOHNE DA CRUZ ALEXANDRE': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "🔍 Stack trace para JOHNE DA CRUZ ALEXANDRE escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOHNE_DA_CRUZ_ALEXANDRE_error.txt"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro (JOHNE DA CRUZ ALEXANDRE): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro ao processar JOHNE DA CRUZ ALEXANDRE: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "📋 Processando credor 105/248: RENATO LIMA DOS SANTOS"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "⚠️ Integridade ao criar Credor 'RENATO LIMA DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "🔍 Stack trace para RENATO LIMA DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RENATO_LIMA_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro (RENATO LIMA DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro ao processar RENATO LIMA DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "📋 Processando credor 106/248: MELISSA SILVA MENDES"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "⚠️ Integridade ao criar Credor 'MELISSA SILVA MENDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "🔍 Stack trace para MELISSA SILVA MENDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MELISSA_SILVA_MENDES_error.txt"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro (MELISSA SILVA MENDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro ao processar MELISSA SILVA MENDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "📋 Processando credor 107/248: RODRIGO FILTER DE OLIVEIRA"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "⚠️ Integridade ao criar Credor 'RODRIGO FILTER DE OLIVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "🔍 Stack trace para Rodrigo Filter de Oliveira escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RODRIGO_FILTER_DE_OLIVEIRA_error.txt"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro (Rodrigo Filter de Oliveira): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "❌ Erro ao processar Rodrigo Filter de Oliveira: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "📋 Processando credor 108/248: LUCAS SOUZA DOS SANTOS"
+    },
+    {
+      "time": "17:47:56",
+      "msg": "⚠️ Integridade ao criar Credor 'LUCAS SOUZA DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:56",
+      "msg": "🔍 Stack trace para LUCAS SOUZA DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUCAS_SOUZA_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro (LUCAS SOUZA DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro ao processar LUCAS SOUZA DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "📋 Processando credor 109/248: SAMUEL DE ALMEIDA"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "⚠️ Integridade ao criar Credor 'SAMUEL DE ALMEIDA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "🔍 Stack trace para SAMUEL DE ALMEIDA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\SAMUEL_DE_ALMEIDA_error.txt"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro (SAMUEL DE ALMEIDA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro ao processar SAMUEL DE ALMEIDA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "📋 Processando credor 110/248: GABRIEL MARLON DE SOUZA SILVA OLIVEIRA"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "⚠️ Integridade ao criar Credor 'GABRIEL MARLON DE SOUZA SILVA OLIVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "🔍 Stack trace para Gabriel Marlon de Souza Silva Oliveira escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GABRIEL_MARLON_DE_SOUZA_SILVA_OLIVEIRA_error.txt"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro (Gabriel Marlon de Souza Silva Oliveira): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro ao processar Gabriel Marlon de Souza Silva Oliveira: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "📋 Processando credor 111/248: KEOMA ALAN BRODA PEREIRA"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "⚠️ Integridade ao criar Credor 'KEOMA ALAN BRODA PEREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "🔍 Stack trace para Keoma Alan Broda Pereira escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\KEOMA_ALAN_BRODA_PEREIRA_error.txt"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro (Keoma Alan Broda Pereira): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "❌ Erro ao processar Keoma Alan Broda Pereira: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:57",
+      "msg": "📋 Processando credor 112/248: SANGELA CRISTINA ARRUDA LIMA MORAIS"
+    },
+    {
+      "time": "17:47:57",
+      "msg": "⚠️ Integridade ao criar Credor 'SANGELA CRISTINA ARRUDA LIMA MORAIS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "🔍 Stack trace para SANGELA CRISTINA ARRUDA LIMA MORAIS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\SANGELA_CRISTINA_ARRUDA_LIMA_MORAIS_error.txt"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro (SANGELA CRISTINA ARRUDA LIMA MORAIS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro ao processar SANGELA CRISTINA ARRUDA LIMA MORAIS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "📋 Processando credor 113/248: CAMILA PAULA DA CRUZ"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "⚠️ Integridade ao criar Credor 'CAMILA PAULA DA CRUZ': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "🔍 Stack trace para CAMILA PAULA DA CRUZ escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CAMILA_PAULA_DA_CRUZ_error.txt"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro (CAMILA PAULA DA CRUZ): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro ao processar CAMILA PAULA DA CRUZ: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "📋 Processando credor 114/248: WESLEY MAIA CARDOSO"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "⚠️ Integridade ao criar Credor 'WESLEY MAIA CARDOSO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "🔍 Stack trace para WESLEY MAIA CARDOSO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\WESLEY_MAIA_CARDOSO_error.txt"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro (WESLEY MAIA CARDOSO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "❌ Erro ao processar WESLEY MAIA CARDOSO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:58",
+      "msg": "📋 Processando credor 115/248: JADSON VIEIRA DE MELO"
+    },
+    {
+      "time": "17:47:58",
+      "msg": "⚠️ Integridade ao criar Credor 'JADSON VIEIRA DE MELO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "🔍 Stack trace para Jadson Vieira de Melo escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JADSON_VIEIRA_DE_MELO_error.txt"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro (Jadson Vieira de Melo): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro ao processar Jadson Vieira de Melo: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "📋 Processando credor 116/248: ALYSON HENRRIQUE SILVA SIMAO"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "⚠️ Integridade ao criar Credor 'ALYSON HENRRIQUE SILVA SIMAO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "🔍 Stack trace para Alyson Henrrique Silva Simão escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALYSON_HENRRIQUE_SILVA_SIMAO_error.txt"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro (Alyson Henrrique Silva Simão): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro ao processar Alyson Henrrique Silva Simão: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "📋 Processando credor 117/248: THIAGO OLIVEIRA DOS SANTOS"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "⚠️ Integridade ao criar Credor 'THIAGO OLIVEIRA DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "🔍 Stack trace para THIAGO OLIVEIRA DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\THIAGO_OLIVEIRA_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro (THIAGO OLIVEIRA DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro ao processar THIAGO OLIVEIRA DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "📋 Processando credor 118/248: JOSIAS DA SILVA CLAUDINO"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "⚠️ Integridade ao criar Credor 'JOSIAS DA SILVA CLAUDINO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "🔍 Stack trace para JOSIAS DA SILVA CLAUDINO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOSIAS_DA_SILVA_CLAUDINO_error.txt"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro (JOSIAS DA SILVA CLAUDINO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro ao processar JOSIAS DA SILVA CLAUDINO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "📋 Processando credor 119/248: RODRIGO EDUARDO PEREIRA JUNIOR"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "⚠️ Integridade ao criar Credor 'RODRIGO EDUARDO PEREIRA JUNIOR': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:47:59",
+      "msg": "🔍 Stack trace para Rodrigo Eduardo Pereira Junior escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RODRIGO_EDUARDO_PEREIRA_JUNIOR_error.txt"
+    },
+    {
+      "time": "17:47:59",
+      "msg": "❌ Erro (Rodrigo Eduardo Pereira Junior): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro ao processar Rodrigo Eduardo Pereira Junior: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "📋 Processando credor 120/248: ALEXANDRA VIEIRA DA SILVA DE ALMEIDA"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "⚠️ Integridade ao criar Credor 'ALEXANDRA VIEIRA DA SILVA DE ALMEIDA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "🔍 Stack trace para Alexandra Vieira da Silva de Almeida escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALEXANDRA_VIEIRA_DA_SILVA_DE_ALMEIDA_error.txt"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro (Alexandra Vieira da Silva de Almeida): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro ao processar Alexandra Vieira da Silva de Almeida: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "📋 Processando credor 121/248: KELLY SOUZA DE DEUS ANJOS"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "⚠️ Integridade ao criar Credor 'KELLY SOUZA DE DEUS ANJOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "🔍 Stack trace para KELLY SOUZA DE DEUS ANJOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\KELLY_SOUZA_DE_DEUS_ANJOS_error.txt"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro (KELLY SOUZA DE DEUS ANJOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro ao processar KELLY SOUZA DE DEUS ANJOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "📋 Processando credor 122/248: LUIZ FELIPE DE SOUZA FERNANDES"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "⚠️ Integridade ao criar Credor 'LUIZ FELIPE DE SOUZA FERNANDES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "🔍 Stack trace para LUIZ FELIPE DE SOUZA FERNANDES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUIZ_FELIPE_DE_SOUZA_FERNANDES_error.txt"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro (LUIZ FELIPE DE SOUZA FERNANDES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro ao processar LUIZ FELIPE DE SOUZA FERNANDES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "📋 Processando credor 123/248: PATRICK NUNES"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "⚠️ Integridade ao criar Credor 'PATRICK NUNES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "🔍 Stack trace para PATRICK NUNES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\PATRICK_NUNES_error.txt"
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro (PATRICK NUNES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:00",
+      "msg": "❌ Erro ao processar PATRICK NUNES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "📋 Processando credor 124/248: CARLA GIANE DA SILVA"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "⚠️ Integridade ao criar Credor 'CARLA GIANE DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "🔍 Stack trace para CARLA GIANE DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\CARLA_GIANE_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro (CARLA GIANE DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro ao processar CARLA GIANE DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "📋 Processando credor 125/248: BARBARA KAUANA PILGER DA SILVEIRA"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "⚠️ Integridade ao criar Credor 'BARBARA KAUANA PILGER DA SILVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "🔍 Stack trace para BARBARA KAUANA PILGER DA SILVEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\BARBARA_KAUANA_PILGER_DA_SILVEIRA_error.txt"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro (BARBARA KAUANA PILGER DA SILVEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro ao processar BARBARA KAUANA PILGER DA SILVEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "📋 Processando credor 126/248: MAURICIO DIECKMANN MOREIRA"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "⚠️ Integridade ao criar Credor 'MAURICIO DIECKMANN MOREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "🔍 Stack trace para MAURICIO DIECKMANN MOREIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MAURICIO_DIECKMANN_MOREIRA_error.txt"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro (MAURICIO DIECKMANN MOREIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro ao processar MAURICIO DIECKMANN MOREIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "📋 Processando credor 127/248: DAYANNY ANGELA TOMAZ DE OLIVEIRA"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "⚠️ Integridade ao criar Credor 'DAYANNY ANGELA TOMAZ DE OLIVEIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "🔍 Stack trace para DAYANNY ANGELA TOMAZ DE OLIVEIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DAYANNY_ANGELA_TOMAZ_DE_OLIVEIRA_error.txt"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro (DAYANNY ANGELA TOMAZ DE OLIVEIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "❌ Erro ao processar DAYANNY ANGELA TOMAZ DE OLIVEIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:01",
+      "msg": "📋 Processando credor 128/248: LUCAS DOS SANTOS SOUSA"
+    },
+    {
+      "time": "17:48:01",
+      "msg": "⚠️ Integridade ao criar Credor 'LUCAS DOS SANTOS SOUSA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "🔍 Stack trace para LUCAS DOS SANTOS SOUSA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUCAS_DOS_SANTOS_SOUSA_error.txt"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro (LUCAS DOS SANTOS SOUSA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro ao processar LUCAS DOS SANTOS SOUSA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "📋 Processando credor 129/248: BRAYAN LUCAS DOS SANTOS"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "⚠️ Integridade ao criar Credor 'BRAYAN LUCAS DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "🔍 Stack trace para BRAYAN LUCAS DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\BRAYAN_LUCAS_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro (BRAYAN LUCAS DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro ao processar BRAYAN LUCAS DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "📋 Processando credor 130/248: REBEKA COSSITO DE AMORIM LAPORT"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "⚠️ Integridade ao criar Credor 'REBEKA COSSITO DE AMORIM LAPORT': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "🔍 Stack trace para Rebeka Cossito de Amorim Laport escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\REBEKA_COSSITO_DE_AMORIM_LAPORT_error.txt"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro (Rebeka Cossito de Amorim Laport): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro ao processar Rebeka Cossito de Amorim Laport: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "📋 Processando credor 131/248: RAFAELA SOUZA CARLOS"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "⚠️ Integridade ao criar Credor 'RAFAELA SOUZA CARLOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "🔍 Stack trace para RAFAELA SOUZA CARLOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RAFAELA_SOUZA_CARLOS_error.txt"
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro (RAFAELA SOUZA CARLOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:02",
+      "msg": "❌ Erro ao processar RAFAELA SOUZA CARLOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "📋 Processando credor 132/248: THAYS CHRISTINNE TAVARES DE BRITO"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "⚠️ Integridade ao criar Credor 'THAYS CHRISTINNE TAVARES DE BRITO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "🔍 Stack trace para THAYS CHRISTINNE TAVARES DE BRITO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\THAYS_CHRISTINNE_TAVARES_DE_BRITO_error.txt"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro (THAYS CHRISTINNE TAVARES DE BRITO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro ao processar THAYS CHRISTINNE TAVARES DE BRITO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "📋 Processando credor 133/248: JOSE HERALDO CONCEICAO BASTOS JUNIOR"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "⚠️ Integridade ao criar Credor 'JOSE HERALDO CONCEICAO BASTOS JUNIOR': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "🔍 Stack trace para JOSE HERALDO CONCEICAO BASTOS JUNIOR escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JOSE_HERALDO_CONCEICAO_BASTOS_JUNIOR_error.txt"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro (JOSE HERALDO CONCEICAO BASTOS JUNIOR): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro ao processar JOSE HERALDO CONCEICAO BASTOS JUNIOR: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "📋 Processando credor 134/248: ALANDERSON JESSE DA SILVA GALVAO"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "⚠️ Integridade ao criar Credor 'ALANDERSON JESSE DA SILVA GALVAO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "🔍 Stack trace para ALANDERSON JESSE DA SILVA GALVÃO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ALANDERSON_JESSE_DA_SILVA_GALVAO_error.txt"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro (ALANDERSON JESSE DA SILVA GALVÃO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro ao processar ALANDERSON JESSE DA SILVA GALVÃO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "📋 Processando credor 135/248: ANAA PATRICK JARDIM"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "⚠️ Integridade ao criar Credor 'ANAA PATRICK JARDIM': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "🔍 Stack trace para ANAÃ PATRICK JARDIM escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ANAA_PATRICK_JARDIM_error.txt"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro (ANAÃ PATRICK JARDIM): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "❌ Erro ao processar ANAÃ PATRICK JARDIM: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:03",
+      "msg": "📋 Processando credor 136/248: DENER ALVES FERREIRA"
+    },
+    {
+      "time": "17:48:03",
+      "msg": "⚠️ Integridade ao criar Credor 'DENER ALVES FERREIRA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "🔍 Stack trace para DENER ALVES FERREIRA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DENER_ALVES_FERREIRA_error.txt"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro (DENER ALVES FERREIRA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro ao processar DENER ALVES FERREIRA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "📋 Processando credor 137/248: ENNY LORENA SILVA"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "⚠️ Integridade ao criar Credor 'ENNY LORENA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "🔍 Stack trace para ENNY LORENA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\ENNY_LORENA_SILVA_error.txt"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro (ENNY LORENA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro ao processar ENNY LORENA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "📋 Processando credor 138/248: FABIO ALVES SOUSA"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "⚠️ Integridade ao criar Credor 'FABIO ALVES SOUSA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "🔍 Stack trace para FABIO ALVES SOUSA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FABIO_ALVES_SOUSA_error.txt"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro (FABIO ALVES SOUSA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro ao processar FABIO ALVES SOUSA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "📋 Processando credor 139/248: GUILHERME VIEIRA SANCHES"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "⚠️ Integridade ao criar Credor 'GUILHERME VIEIRA SANCHES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "🔍 Stack trace para GUILHERME VIEIRA SANCHES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GUILHERME_VIEIRA_SANCHES_error.txt"
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro (GUILHERME VIEIRA SANCHES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:04",
+      "msg": "❌ Erro ao processar GUILHERME VIEIRA SANCHES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "📋 Processando credor 140/248: JUBELINE FERNANDES DA SILVA"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "⚠️ Integridade ao criar Credor 'JUBELINE FERNANDES DA SILVA': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "🔍 Stack trace para JUBELINE FERNANDES DA SILVA escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\JUBELINE_FERNANDES_DA_SILVA_error.txt"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro (JUBELINE FERNANDES DA SILVA): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro ao processar JUBELINE FERNANDES DA SILVA: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "📋 Processando credor 141/248: LUCAS DAMASCENO BARROS"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "⚠️ Integridade ao criar Credor 'LUCAS DAMASCENO BARROS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "🔍 Stack trace para LUCAS DAMASCENO BARROS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUCAS_DAMASCENO_BARROS_error.txt"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro (LUCAS DAMASCENO BARROS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro ao processar LUCAS DAMASCENO BARROS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "📋 Processando credor 142/248: LUCIANA SANTOS CRUZ MOELLER"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "⚠️ Integridade ao criar Credor 'LUCIANA SANTOS CRUZ MOELLER': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "🔍 Stack trace para LUCIANA SANTOS CRUZ MOELLER escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\LUCIANA_SANTOS_CRUZ_MOELLER_error.txt"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro (LUCIANA SANTOS CRUZ MOELLER): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro ao processar LUCIANA SANTOS CRUZ MOELLER: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "📋 Processando credor 143/248: MILENE SILVA DE PAULO"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "⚠️ Integridade ao criar Credor 'MILENE SILVA DE PAULO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "🔍 Stack trace para MILENE SILVA DE PAULO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\MILENE_SILVA_DE_PAULO_error.txt"
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro (MILENE SILVA DE PAULO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "❌ Erro ao processar MILENE SILVA DE PAULO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:05",
+      "msg": "📋 Processando credor 144/248: YARA APARECIDA BURIN EMERICH"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "⚠️ Integridade ao criar Credor 'YARA APARECIDA BURIN EMERICH': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "🔍 Stack trace para YARA APARECIDA BURIN EMERICH escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\YARA_APARECIDA_BURIN_EMERICH_error.txt"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro (YARA APARECIDA BURIN EMERICH): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro ao processar YARA APARECIDA BURIN EMERICH: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "📋 Processando credor 145/248: RUTEMBERG CORREIA MIRANDA NASCIMENTO"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "⚠️ Integridade ao criar Credor 'RUTEMBERG CORREIA MIRANDA NASCIMENTO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "🔍 Stack trace para RUTEMBERG CORREIA MIRANDA NASCIMENTO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\RUTEMBERG_CORREIA_MIRANDA_NASCIMENTO_error.txt"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro (RUTEMBERG CORREIA MIRANDA NASCIMENTO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro ao processar RUTEMBERG CORREIA MIRANDA NASCIMENTO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "📋 Processando credor 146/248: PAULA NATIELE DE SOUZA DOS REIS"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "⚠️ Integridade ao criar Credor 'PAULA NATIELE DE SOUZA DOS REIS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "🔍 Stack trace para PAULA NATIELE DE SOUZA DOS REIS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\PAULA_NATIELE_DE_SOUZA_DOS_REIS_error.txt"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro (PAULA NATIELE DE SOUZA DOS REIS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro ao processar PAULA NATIELE DE SOUZA DOS REIS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "📋 Processando credor 147/248: GABRIELA SILVA SANTOS"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "⚠️ Integridade ao criar Credor 'GABRIELA SILVA SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "🔍 Stack trace para GABRIELA SILVA SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\GABRIELA_SILVA_SANTOS_error.txt"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro (GABRIELA SILVA SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "❌ Erro ao processar GABRIELA SILVA SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:06",
+      "msg": "📋 Processando credor 148/248: DEYBSON MORAES DOS SANTOS"
+    },
+    {
+      "time": "17:48:06",
+      "msg": "⚠️ Integridade ao criar Credor 'DEYBSON MORAES DOS SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "🔍 Stack trace para DEYBSON MORAES DOS SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\DEYBSON_MORAES_DOS_SANTOS_error.txt"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro (DEYBSON MORAES DOS SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro ao processar DEYBSON MORAES DOS SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "📋 Processando credor 149/248: STEFANE ALVES CASTRO"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "⚠️ Integridade ao criar Credor 'STEFANE ALVES CASTRO': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "🔍 Stack trace para STEFANE ALVES CASTRO escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\STEFANE_ALVES_CASTRO_error.txt"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro (STEFANE ALVES CASTRO): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro ao processar STEFANE ALVES CASTRO: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "📋 Processando credor 150/248: PATRICIA LUCIANA DE ALMEIDA SANTOS"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "⚠️ Integridade ao criar Credor 'PATRICIA LUCIANA DE ALMEIDA SANTOS': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "🔍 Stack trace para PATRICIA LUCIANA DE ALMEIDA SANTOS escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\PATRICIA_LUCIANA_DE_ALMEIDA_SANTOS_error.txt"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro (PATRICIA LUCIANA DE ALMEIDA SANTOS): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro ao processar PATRICIA LUCIANA DE ALMEIDA SANTOS: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "📋 Processando credor 151/248: FRANK MEDEIROS RODRIGUES"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "⚠️ Integridade ao criar Credor 'FRANK MEDEIROS RODRIGUES': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "🔍 Stack trace para FRANK MEDEIROS RODRIGUES escrita em C:\\PGC\\envio_rendimentos\\arquivos_gerados\\processing\\fa06bbbe-ca5d-4c17-a91b-f6c804c0fa12\\credores\\FRANK_MEDEIROS_RODRIGUES_error.txt"
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro (FRANK MEDEIROS RODRIGUES): Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:07",
+      "msg": "❌ Erro ao processar FRANK MEDEIROS RODRIGUES: Erro interno ao processar o credor. Verifique o log técnico para mais detalhes."
+    },
+    {
+      "time": "17:48:08",
+      "msg": "📋 Processando credor 152/248: MICHELE OLIVEIRA DA SILVEIRA"
+    

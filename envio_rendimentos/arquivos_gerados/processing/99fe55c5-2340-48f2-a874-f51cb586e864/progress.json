@@ -1,0 +1,47 @@
+{
+  "status": "error",
+  "percent": 0,
+  "processed": 0,
+  "total": 0,
+  "current_credor": null,
+  "logs": [
+    {
+      "time": "19:32:15",
+      "msg": "✅ Upload recebido e controle de progresso inicializado"
+    },
+    {
+      "time": "19:32:15",
+      "msg": "📄 Iniciando processamento do PGC LGM"
+    },
+    {
+      "time": "19:32:15",
+      "msg": "DEBUG_HEADERS: X-Requested-With=XMLHttpRequest Accept=application/json"
+    },
+    {
+      "time": "19:32:15",
+      "msg": "DEBUG_AJAX_DETECTED: True"
+    },
+    {
+      "time": "19:32:15",
+      "msg": "✅ Arquivo carregado. Iniciando parsing..."
+    },
+    {
+      "time": "19:32:15",
+      "msg": "❌ Falha na identificação do PGC/abas: Número do PGC não encontrado nas abas da planilha"
+    },
+    {
+      "time": "19:32:15",
+      "msg": "ERRO: Número do PGC não encontrado nas abas da planilha"
+    }
+  ],
+  "errors": [],
+  "credores": {},
+  "started_at": "2026-02-04T19:32:15.778398",
+  "last_heartbeat": "2026-02-04T19:32:15.798894",
+  "finished_at": "2026-02-04T19:32:15.799894",
+  "estatisticas": {
+    "sucessos": 2,
+    "avisos": 0,
+    "erros": 1
+  }
+}

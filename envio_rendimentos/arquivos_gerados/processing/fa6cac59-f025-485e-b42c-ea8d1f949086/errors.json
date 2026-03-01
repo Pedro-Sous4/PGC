@@ -1,0 +1,15 @@
+[
+  {
+    "id": "639865f9-2079-4507-96fd-ae7ac923270f",
+    "request_id": "fa6cac59-f025-485e-b42c-ea8d1f949086",
+    "credor": null,
+    "credor_display": null,
+    "step": "fatal",
+    "technical": "'credor_canonico'\nTraceback (most recent call last):\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py\", line 3805, in get_loc\n    return self._engine.get_loc(casted_key)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"index.pyx\", line 167, in pandas._libs.index.IndexEngine.get_loc\n  File \"index.pyx\", line 196, in pandas._libs.index.IndexEngine.get_loc\n  File \"pandas\\\\_libs\\\\hashtable_class_helper.pxi\", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item\n  File \"pandas\\\\_libs\\\\hashtable_class_helper.pxi\", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item\nKeyError: 'credor_canonico'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 758, in processar_pgc_lgm\n    prod_credor = df_prod[df_prod[\"credor_canonico\"] == credor]\n                          ~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\frame.py\", line 4102, in __getitem__\n    indexer = self.columns.get_loc(key)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\PGC\\venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py\", line 3812, in get_loc\n    raise KeyError(key) from err\nKeyError: 'credor_canonico'\n",
+    "friendly": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "type": "unknown",
+    "time": "17:48:22",
+    "retries": 0,
+    "resolved": false
+  }
+]

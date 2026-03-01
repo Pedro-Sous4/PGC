@@ -1,11 +1,37 @@
 {% extends 'core/base.html' %}
 {% block title %}Rendimento{% endblock %}
 {% block content %}
-<h2>{% if form.instance.pk %}Editar{% else %}Adicionar{% endif %} Rendimento - {{ Credor.nome }}</h2>
+<h2>{% if form.instance.pk %}Editar{% else %}Adicionar{% endif %} Rendimento - {{ Credor.nome|default:"—" }}</h2>
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <button type="submit" class="btn btn-success">Salvar</button>
     <a href="{% url 'detalhe_rendimentos' Credor.id %}" class="btn btn-secondary">Cancelar</a>
 </form>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    const periodo = document.getElementById('id_periodo');
+    const valor = document.getElementById('id_valor');
+    if(periodo){
+        periodo.addEventListener('input', function(e){
+            let v = this.value.replace(/[^0-9]/g,'').slice(0,6);
+            if(v.length >= 3){
+                v = v.slice(0,2) + '/' + v.slice(2);
+            }
+            this.value = v;
+        });
+    }
+    if(valor){
+        valor.addEventListener('input', function(e){
+            let v = this.value.replace(/\D/g,'');
+            let n = (parseInt(v || '0', 10) / 100).toFixed(2);
+            let parts = n.split('.');
+            let inteiro = parts[0];
+            let dec = parts[1];
+            inteiro = inteiro.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+            this.value = 'R$ ' + inteiro + ',' + dec;
+        });
+    }
+});
+</script>
 {% endblock %}

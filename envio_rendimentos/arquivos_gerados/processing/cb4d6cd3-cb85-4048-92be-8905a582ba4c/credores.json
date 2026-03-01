@@ -1,0 +1,14 @@
+{
+  "ACME": {
+    "status": "SUCCESS",
+    "display": "ACME",
+    "last_step": "completed",
+    "error_message": null,
+    "files": [
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME - PGC 123 EMISSÃO.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME - PGC 123.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME_PGC_123.xlsx",
+      "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME_PGC_123_EMISSAO.xlsx"
+    ]
+  }
+}

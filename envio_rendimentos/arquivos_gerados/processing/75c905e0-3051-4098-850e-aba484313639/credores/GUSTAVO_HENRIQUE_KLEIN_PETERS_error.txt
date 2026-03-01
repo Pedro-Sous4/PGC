@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\PGC\envio_rendimentos\core\utils_lgm.py", line 632, in processar_pgc_lgm
+    prod_credor.to_excel(
+  File "C:\PGC\venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PGC\venv\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\PGC\venv\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\PGC\venv\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\PGC\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\PGC\venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\PGC\venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:\PGC\envio_rendimentos\arquivos_gerados\PGC\34\GUSTAVO HENRIQUE KLEIN PETERS\GUSTAVO HENRIQUE KLEIN PETERS - PRODUTIVIDADE 02'

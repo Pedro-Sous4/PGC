@@ -1,0 +1,343 @@
+{% extends 'core/base.html' %}
+{% block title %}LAGHETTO SPORTS - Processar PGC{% endblock %}
+
+{% block content %}
+  <style>
+.progress-bar {
+  transition: width 0.6s ease-in-out;
+}
+.log {
+  border-left: 5px solid #ccc;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+}
+.log-success { border-color: #198754; }
+.log-warning { border-color: #ffc107; }
+.log-error   { border-color: #dc3545; }
+.log-time {
+  font-size: 11px;
+  color: #666;
+}
+</style>
+
+<div class="container py-4">
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <h5 class="mb-0">Processar Arquivo PGC - Laghetto Sports</h5>
+        </div>
+        <div class="card-body">
+          <form id="uploadForm" method="POST" enctype="multipart/form-data">
+              {% csrf_token %}
+
+              <input type="hidden" name="request_id" id="request_id" value="{{ request_id }}">
+
+              <div class="form-group mb-3">
+                  <label for="arquivo">Selecione o arquivo PGC:</label>
+                  <input class="form-control" type="file" name="arquivo" id="arquivo" required>
+              </div>
+
+              <button class="btn btn-primary" type="submit">
+                Processar
+              </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- PROGRESSO -->
+      <div id="progress-card" class="card d-none mb-3">
+        <div class="card-header">Progresso</div>
+        <div class="card-body">
+          <div class="progress mb-2">
+            <div id="progress-bar"
+                 class="progress-bar progress-bar-striped progress-bar-animated"
+                 style="width:0%">0%</div>
+          </div>
+          <div class="mt-2 small">
+            <strong>Credor atual:</strong>
+            <span id="current-credor">---</span>
+          </div>
+
+          <div id="progress-details" class="small text-muted"></div>
+        </div>
+      </div>
+
+      <!-- LOGS -->
+      <div id="logs-card" class="card d-none mb-3">
+        <div class="card-header">Logs</div>
+        <div class="card-body">
+          <pre id="logs"
+               style="height:280px; overflow:auto; white-space:pre-wrap;"></pre>
+        </div>
+      </div>
+
+      <!-- DOWNLOAD --><!--
+      <div id="download-card" class="card d-none">
+        <div class="card-body">
+          <a id="btn-download" class="btn btn-success" href="#">
+            Download ZIP dos arquivos PGC
+          </a>
+        </div>
+      </div> -->
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">Instruções</div>
+        <div class="card-body small">
+          <ul>
+            <li>Envie o arquivo mensal do PGC</li>
+            <li>O número do PGC é detectado automaticamente</li>
+            <li>Os arquivos são gerados por credor</li>
+            <li>Acompanhe o progresso em tempo real</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+
+  const form = document.getElementById('uploadForm');
+  const progressCard = document.getElementById('progress-card');
+  const progressBar = document.getElementById('progress-bar');
+  const details = document.getElementById('progress-details');
+  const logsCard = document.getElementById('logs-card');
+  const logs = document.getElementById('logs');
+  const requestIdInput = document.getElementById('request_id');
+  const currentCredorSpan = document.getElementById('current-credor');
+
+  let pollingTimer = null;
+  let lastLogIndex = 0; // 🔥 controle de logs já exibidos
+
+  function setProgress(percent, text) {
+    progressBar.style.width = percent + '%';
+    progressBar.innerText = percent + '%';
+    details.innerText = text || '';
+  }
+
+  function appendLog(msg) {
+    logsCard.classList.remove('d-none');
+    logs.textContent += msg + "\n";
+    logs.scrollTop = logs.scrollHeight;
+  }
+
+  function pollProgress() {
+    const requestId = requestIdInput.value;
+    if (!requestId) return;
+
+    fetch(`/laghetto-sports/status/${requestId}/`)
+      .then(r => r.json())
+      .then(j => {
+        // DEBUG: log da resposta no console do navegador
+        console.log('[PollProgress] Resposta recebida:', j);
+
+        const percent = j.percent ?? 0;
+
+        setProgress(
+          percent,
+          `Credores processados: ${j.processed || 0} / ${j.total_credores || 0}`
+        );
+
+        // 👤 Credor atual
+        currentCredorSpan.innerText =
+          j.current_credor || 'Finalizando...';
+
+        // 📝 LOGS EM TEMPO REAL (nome a nome)
+        // Mostra o card de logs assim que há qualquer dado
+        if (Array.isArray(j.logs) && j.logs.length > 0) {
+          console.log('[PollProgress] Logs encontrados:', j.logs.length);
+          logsCard.classList.remove('d-none');
+          for (let i = lastLogIndex; i < j.logs.length; i++) {
+            const log = j.logs[i];
+            console.log('[AppendLog] Adicionando:', log.msg);
+            appendLog(`[${log.time}] ${log.msg}`);
+          }
+          lastLogIndex = j.logs.length;
+        } else {
+          console.log('[PollProgress] Nenhum log encontrado. j.logs:', j.logs);
+        }
+
+if (j.status === 'completed' || j.status === 'error') {
+          clearInterval(pollingTimer);
+          window.__ULTIMO_PROCESSAMENTO__ = j;
+          mostrarModalResumo(j);
+        }
+      })
+      .catch(err => {
+        console.error('[PollProgress] Erro:', err);
+        appendLog("Erro ao consultar progresso: " + err);
+      });
+  }
+
+function classificarLogs(logs, total) {
+    const lower = logs.map(l => l.msg.toLowerCase());
+
+    const erros = lower.filter(t =>
+      t.includes('erro') || t.includes('falha')
+    ).length;
+
+    const atencao = lower.filter(t =>
+      t.includes('nenhuma produtividade')
+    ).length;
+
+    const sucesso = Math.max(total - erros, 0);
+
+    return { sucesso, atencao, erro: erros };
+  }
+
+  function mostrarModalResumo(dados) {
+
+    const modalId = 'resumoModal';
+    document.getElementById(modalId)?.remove();
+
+    const resumo = classificarLogs(dados.logs || [], dados.total_credores || 0);
+
+    const modal = `
+    <div class="modal fade" id="${modalId}">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+
+          <div class="modal-header bg-success text-white">
+            <h5 class="modal-title">Processamento Concluído</h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <div class="row text-center mb-4">
+              ${cardResumo('Sucesso', resumo.sucesso, 'success')}
+              ${cardResumo('Atenção', resumo.atencao, 'warning')}
+              ${cardResumo('Erro', resumo.erro, 'danger')}
+            </div>
+
+            ${renderLogs(dados.logs)}
+
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button class="btn btn-primary" onclick="gerarPDFResumo()">📄 Baixar PDF</button>
+          </div>
+
+        </div>
+      </div>
+    </div>`;
+
+    document.body.insertAdjacentHTML('beforeend', modal);
+    new bootstrap.Modal(document.getElementById(modalId)).show();
+  }
+
+  function cardResumo(t, v, c) {
+    return `
+    <div class="col-md-4">
+      <div class="card border-${c}">
+        <div class="card-body">
+          <h3 class="text-${c}">${v}</h3>
+          <p>${t}</p>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function renderLogs(logs) {
+    if (!logs) return '';
+    const ordenados = logs.slice().sort((a,b)=>a.msg.localeCompare(b.msg));
+
+    return ordenados.map(l => {
+      let cls = 'log-success';
+      const m = l.msg.toLowerCase();
+      if (m.includes('nenhuma produtividade')) cls = 'log-warning';
+      if (m.includes('erro') || m.includes('falha')) cls = 'log-error';
+
+      return `
+        <div class="log ${cls}">
+          <div class="log-time">[${l.time}]</div>
+          ${l.msg}
+        </div>`;
+    }).join('');
+  }
+
+  window.gerarPDFResumo = function () {
+
+    const d = window.__ULTIMO_PROCESSAMENTO__;
+    if (!d || !d.logs) return;
+
+    const logs = d.logs.slice().sort((a,b)=>a.msg.localeCompare(b.msg));
+
+    const w = window.open('', '_blank');
+    w.document.write(`
+      <html><head>
+        <title>Relatório PGC</title>
+        <style>
+          body{font-family:Arial;padding:30px}
+          h1{text-align:center}
+          .log{margin-bottom:8px;padding-left:10px;border-left:5px solid #ccc}
+          .ok{border-color:#198754}
+          .warn{border-color:#ffc107}
+          .err{border-color:#dc3545}
+          .time{font-size:11px;color:#666}
+        </style>
+      </head><body>
+        <h1>Relatório de Processamento PGC</h1>
+        <p>${new Date().toLocaleString('pt-BR')}</p>
+
+        ${logs.map(l=>{
+          let c='ok';
+          const m=l.msg.toLowerCase();
+          if(m.includes('nenhuma produtividade')) c='warn';
+          if(m.includes('erro')||m.includes('falha')) c='err';
+          return `
+            <div class="log ${c}">
+              <div class="time">[${l.time}]</div>
+              ${l.msg}
+            </div>`;
+        }).join('')}
+
+      </body></html>
+    `);
+
+    w.document.close();
+    w.onload = () => w.print();
+  };
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    progressCard.classList.remove('d-none');
+    logsCard.classList.remove('d-none');  // 🔥 Mostra o card de logs IMEDIATAMENTE
+    setProgress(0, "Iniciando processamento...");
+    logs.textContent = "";
+    lastLogIndex = 0;
+
+    const formData = new FormData(form);
+
+    fetch(window.location.href, {
+      method: 'POST',
+      body: formData,
+      credentials: 'same-origin'
+    })
+      .then(r => r.json())
+      .then(j => {
+        console.log('[Upload] Request iniciado:', j);
+        requestIdInput.value = j.request_id;
+        appendLog("✅ Upload enviado. Iniciando processamento...");
+        pollingTimer = setInterval(pollProgress, 1500);
+      })
+      .catch(err => {
+        console.error('[Upload] Erro:', err);
+        appendLog("❌ Erro no envio: " + err);
+      });
+  });
+
+})();
+</script>
+
+
+{% endblock %}

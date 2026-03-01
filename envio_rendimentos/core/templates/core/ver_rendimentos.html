@@ -1,9 +1,9 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Rendimentos de {{ Credor.nome }}{% endblock %}
+{% block title %}Rendimentos de {{ Credor.nome|default:"—" }}{% endblock %}
 
 {% block content %}
-<h2>Rendimentos de {{ Credor.nome }}</h2>
+<h2>Rendimentos de {{ Credor.nome|default:"—" }}</h2>
 
 <a href="{% url 'adicionar_rendimento' Credor.id %}" class="btn btn-success mb-3">Adicionar Rendimento</a>
 
@@ -19,7 +19,7 @@
         {% for rendimento in rendimentos %}
         <tr>
             <td>{{ rendimento.periodo }}</td>
-            <td>R$ {{ rendimento.valor|floatformat:2 }}</td>
+            <td>{{ rendimento.valor|format_currency_br }}</td>
             <td>
                 <a href="{% url 'editar_rendimento' rendimento.id %}" class="btn btn-warning btn-sm">Editar</a>
                 <a href="{% url 'excluir_rendimento' rendimento.id %}" class="btn btn-danger btn-sm">Excluir</a>
@@ -33,5 +33,5 @@
     </tbody>
 </table>
 
-<a href="{% url 'listar_Credors' %}" class="btn btn-secondary">Voltar</a>
+<a href="{% url 'listar_Credores' %}" class="btn btn-secondary">Voltar</a>
 {% endblock %}

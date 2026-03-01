@@ -1,0 +1,11 @@
+{
+  "CRED_1": {
+    "status": "error",
+    "display": "CRED_1",
+    "last_step": "reprocess_started",
+    "error_message": "Valor inválido para CRED_1: nan",
+    "files": null,
+    "last_error": "1770ac36-7800-4e6c-9d91-1121e28a9c64",
+    "time": "21:15:38"
+  }
+}

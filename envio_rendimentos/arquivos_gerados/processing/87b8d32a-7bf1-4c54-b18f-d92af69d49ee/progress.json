@@ -1,0 +1,44 @@
+{
+  "status": "error",
+  "processed": 0,
+  "total_credores": 0,
+  "percent": 0,
+  "current_credor": null,
+  "logs": [
+    {
+      "type": "info",
+      "msg": "Processamento iniciado",
+      "time": "19:53:58"
+    },
+    {
+      "type": "info",
+      "msg": "Arquivo recebido: PGC 14 - SPORTS - EQUIPE E LIDERANÇA - TODAS AS SALAS.xlsx",
+      "time": "19:53:58"
+    },
+    {
+      "type": "info",
+      "msg": "PGC detectado: 14",
+      "time": "19:54:41"
+    },
+    {
+      "type": "info",
+      "msg": "Normalizando planilhas",
+      "time": "19:54:41"
+    },
+    {
+      "type": "info",
+      "msg": "Pasta PGC: C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\SPORTS - 14",
+      "time": "19:55:59"
+    },
+    {
+      "type": "error",
+      "msg": "Erro fatal: 'credor'",
+      "time": "19:56:16"
+    }
+  ],
+  "errors": [],
+  "credores_ok": [],
+  "request_id": "87b8d32a-7bf1-4c54-b18f-d92af69d49ee",
+  "numero_pgc": 14,
+  "fatal_error": "'credor'"
+}

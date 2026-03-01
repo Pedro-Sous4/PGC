@@ -1,0 +1,7 @@
+{
+  "name": "svelte-test-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "svelte": "^4.0.0"
+  }
+}

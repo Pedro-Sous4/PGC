@@ -14,7 +14,7 @@
     <div class="container">
         <div class="header">Relatório de Rendimentos</div>
         <div class="info">
-            <p><strong>Nome:</strong> {{ Credor.nome }}</p>
+            <p><strong>Nome:</strong> {{ Credor.nome|default:"—" }}</p>
             <p><strong>Matrícula:</strong> {{ Credor.matricula }}</p>
             <p><strong>Email:</strong> {{ Credor.email }}</p>
         </div>

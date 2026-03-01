@@ -1,0 +1,49 @@
+{
+  "status": "error",
+  "processed": 0,
+  "total_credores": 0,
+  "percent": 0,
+  "current_credor": null,
+  "logs": [
+    {
+      "type": "info",
+      "msg": "Processamento iniciado",
+      "time": "21:33:36"
+    },
+    {
+      "type": "info",
+      "msg": "Arquivo recebido: PGC 14.xlsx",
+      "time": "21:33:36"
+    },
+    {
+      "type": "info",
+      "msg": "PGC detectado: 14",
+      "time": "21:33:36"
+    },
+    {
+      "type": "info",
+      "msg": "Normalizando planilhas",
+      "time": "21:33:36"
+    },
+    {
+      "type": "info",
+      "msg": "Pasta PGC: C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\SPORTS - 14",
+      "time": "21:33:36"
+    },
+    {
+      "type": "warning",
+      "msg": "Falha ao ler EXTRATO: File is not a zip file",
+      "time": "21:33:36"
+    },
+    {
+      "type": "error",
+      "msg": "Erro fatal: 'NoneType' object has no attribute 'columns'\nTraceback (most recent call last):\n  File \"c:\\PGC\\envio_rendimentos\\core\\services\\pgc_processor\\process_pgcs.py\", line 268, in process_pgc_file\n    if \"credor\" not in extrato_df.columns:\n                       ^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'columns'\n",
+      "time": "21:33:36"
+    }
+  ],
+  "errors": [],
+  "credores_ok": [],
+  "request_id": "dd6d8499-6bec-48c4-9bc1-1b7d8dec9f29",
+  "numero_pgc": 14,
+  "fatal_error": "'NoneType' object has no attribute 'columns'"
+}

@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "percent": 100,
+  "processed": 1,
+  "total": 1,
+  "current_credor": "ACME",
+  "logs": [
+    {
+      "time": "19:28:57",
+      "msg": "✅ Upload recebido e controle de progresso inicializado"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "📄 Iniciando processamento do PGC LGM"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "DEBUG_HEADERS: X-Requested-With=XMLHttpRequest Accept=application/json"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "DEBUG_AJAX_DETECTED: True"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "✅ Arquivo carregado. Iniciando parsing..."
+    },
+    {
+      "time": "19:28:57",
+      "msg": "🔎 PGC identificado: 123 (pasta: 123)"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "👥 1 credores encontrados"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "📋 Processando credor 1/1: ACME"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "⚠️ Integridade ao criar Credor 'ACME': UNIQUE constraint failed: core_credor.nome. Tentativa 1/6."
+    },
+    {
+      "time": "19:28:57",
+      "msg": "⚠️ Nenhum extrato encontrado para ACME"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "⚠️ Nenhuma produtividade encontrada para ACME"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "⚠️ Nenhum extrato encontrado para ACME"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "⚠️ Nenhuma produtividade encontrada para ACME"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "✅ Credor ACME processado com sucesso"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "📊 Resumo: 1 credores processados com sucesso"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "📂 Pasta criada: arquivos_gerados/PGC/123"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "🏁 Processamento finalizado com sucesso"
+    },
+    {
+      "time": "19:28:57",
+      "msg": "🎯 PGC 123 - Todos os arquivos gerados com sucesso!"
+    }
+  ],
+  "errors": [],
+  "credores": {
+    "ACME": {
+      "status": "SUCCESS",
+      "display": "ACME",
+      "last_step": "completed",
+      "error_message": null,
+      "files": [
+        "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME - PGC 123 EMISSÃO.xlsx",
+        "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME - PGC 123.xlsx",
+        "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME_PGC_123.xlsx",
+        "C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\123\\ACME\\ACME_PGC_123_EMISSAO.xlsx"
+      ]
+    }
+  },
+  "started_at": "2026-02-04T19:28:57.158931",
+  "last_heartbeat": "2026-02-04T19:28:57.376437",
+  "finished_at": "2026-02-04T19:28:57.375436",
+  "estatisticas": {
+    "sucessos": 5,
+    "avisos": 5,
+    "erros": 0
+  }
+}

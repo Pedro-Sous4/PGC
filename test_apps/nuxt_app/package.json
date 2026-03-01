@@ -1,0 +1,7 @@
+{
+  "name": "nuxt-test-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "nuxt": "^3.0.0"
+  }
+}

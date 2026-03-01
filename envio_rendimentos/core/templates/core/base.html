@@ -50,15 +50,25 @@
             <a class="nav-link {% if request.resolver_match.url_name == 'listar_Credores' %}active{% endif %}" href="{% url 'listar_Credores' %}">
                 <i class="bi bi-people"></i> Credores
             </a>
-            <a class="nav-link {% if request.resolver_match.url_name == 'upload_planilha' %}active{% endif %}" href="{% url 'upload_planilha' %}">
+            <!-- <a class="nav-link {% if request.resolver_match.url_name == 'upload_planilha' %}active{% endif %}" href="{% url 'upload_planilha' %}">
                 <i class="bi bi-upload"></i> Upload PGC
-            </a>
+            </a> -->
             <a class="nav-link {% if request.resolver_match.url_name == 'upload_emails' %}active{% endif %}" href="{% url 'upload_emails' %}">
                 <i class="bi bi-upload"></i> Upload de E-mails
             </a>
             <a class="nav-link {% if request.resolver_match.url_name == 'enviar_emails_view' %}active{% endif %}" href="{% url 'enviar_emails_view' %}">
                 <i class="bi bi-envelope"></i> Enviar E-mails
             </a>
+            <!-- dentro da lista do sidebar, seguindo o estilo -->
+            <a class="nav-link" href="{% url 'laghetto_sports' %}">
+                <i class="bi bi-dribbble"></i>
+                Laghetto Sports
+            </a>
+            <a class="nav-link" href="{% url 'lgm' %}">
+                <i class="bi bi-lightning-charge"></i>
+                Laghetto Golden
+            </a>
+
         </div>
 
         <div class="mt-auto pt-4">

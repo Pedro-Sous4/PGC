@@ -1,0 +1,111 @@
+{
+  "status": "completed",
+  "percent": 100,
+  "processed": 0,
+  "total": 1,
+  "current_credor": "CRED_1",
+  "logs": [
+    {
+      "time": "21:16:36",
+      "msg": "✅ Upload recebido e controle de progresso inicializado"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "📄 Iniciando processamento do PGC LGM"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "DEBUG_HEADERS: X-Requested-With=XMLHttpRequest Accept=application/json"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "DEBUG_AJAX_DETECTED: True"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "✅ Arquivo carregado. Iniciando parsing..."
+    },
+    {
+      "time": "21:16:36",
+      "msg": "🔎 PGC identificado: 123 (pasta: 123)"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "👥 1 credores encontrados"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "📋 Processando credor 1/1: CRED_1"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "❌ Erro (CRED_1): Valor inválido para CRED_1: nan"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "⚠️ Nenhum registro encontrado para o credor CRED_1"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "📊 Resumo: 1 credores processados com sucesso"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "📂 Pasta criada: arquivos_gerados/PGC/123"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "🏁 Processamento finalizado com sucesso"
+    },
+    {
+      "time": "21:16:36",
+      "msg": "🎯 PGC 123 - Todos os arquivos gerados com sucesso!"
+    },
+    {
+      "time": "23:48:16",
+      "msg": "🔁 Reprocessamento iniciado por testuser: 1 credores"
+    },
+    {
+      "time": "23:48:16",
+      "msg": "✅ Reprocessado credor CRED_1 com sucesso"
+    },
+    {
+      "time": "23:48:16",
+      "msg": "🔁 Reprocessamento finalizado por testuser"
+    }
+  ],
+  "errors": [
+    {
+      "id": "6ef5e5cb-c1b0-4ac2-84c4-4c100f45b5eb",
+      "request_id": "d8ccf385-537a-4382-b4ef-6ae2ff18dfda",
+      "credor": "CRED_1",
+      "credor_display": "CRED_1",
+      "step": "processamento",
+      "technical": "Valor inválido na coluna 'valor': 'nan'",
+      "friendly": "Valor inválido para CRED_1: nan",
+      "type": "bad_value",
+      "time": "21:16:36",
+      "retries": 0,
+      "resolved": true
+    }
+  ],
+  "credores": {
+    "CRED_1": {
+      "status": "processed",
+      "display": "CRED_1",
+      "last_step": "reprocess_started",
+      "error_message": "Valor inválido para CRED_1: nan",
+      "files": null,
+      "last_error": "6ef5e5cb-c1b0-4ac2-84c4-4c100f45b5eb",
+      "time": "21:16:36"
+    }
+  },
+  "started_at": "2026-02-04T21:16:36.333825",
+  "last_heartbeat": "2026-02-04T23:48:16.395992",
+  "finished_at": "2026-02-04T21:16:36.398825",
+  "estatisticas": {
+    "sucessos": 5,
+    "avisos": 1,
+    "erros": 1
+  }
+}

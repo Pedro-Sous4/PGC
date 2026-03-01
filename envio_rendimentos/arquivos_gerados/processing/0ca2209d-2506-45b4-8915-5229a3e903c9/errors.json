@@ -1,0 +1,15 @@
+[
+  {
+    "id": "3173594b-12b6-42bc-899f-11423bfa11c9",
+    "request_id": "0ca2209d-2506-45b4-8915-5229a3e903c9",
+    "credor": null,
+    "credor_display": null,
+    "step": "fatal",
+    "technical": "cannot access local variable 'pgc_credor' where it is not associated with a value\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 351, in processar_pgc_lgm\n    pgc_credor.to_json(os.path.join(processing_dir, f\"{slug}.json\"), orient='records', force_ascii=False)\n    ^^^^^^^^^^\nUnboundLocalError: cannot access local variable 'pgc_credor' where it is not associated with a value\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 355, in processar_pgc_lgm\n    pgc_credor.to_csv(os.path.join(processing_dir, f\"{slug}.csv\"), index=False)\n    ^^^^^^^^^^\nUnboundLocalError: cannot access local variable 'pgc_credor' where it is not associated with a value\n",
+    "friendly": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "type": "unknown",
+    "time": "17:00:01",
+    "retries": 0,
+    "resolved": false
+  }
+]

@@ -44,3 +44,56 @@ def listar_arquivos(relative_dir):
 @register.filter
 def underscore(value):
     return value.replace(" ", "_")
+
+@register.filter
+def aggregate_total(queryset):
+    if not queryset:
+        return 0
+    total = sum(item.valor_total for item in queryset if hasattr(item, 'valor_total'))
+    return total
+
+@register.filter
+def aggregate_average(queryset):
+    if not queryset:
+        return 0
+    items = [item.valor_total for item in queryset if hasattr(item, 'valor_total')]
+    return sum(items) / len(items) if items else 0
+@register.filter
+def aggregate_total_field(queryset, field_name='valor'):
+    """Agrega soma de um queryset por um nome de campo (ex: 'valor' ou 'valor_total')."""
+    if not queryset:
+        return 0
+    total = 0
+    for item in queryset:
+        try:
+            total += float(getattr(item, field_name, 0) or 0)
+        except Exception:
+            continue
+    return total
+
+
+@register.filter
+def aggregate_average_field(queryset, field_name='valor'):
+    """Calcula média de um queryset por um nome de campo."""
+    if not queryset:
+        return 0
+    values = []
+    for item in queryset:
+        try:
+            v = float(getattr(item, field_name, 0) or 0)
+            values.append(v)
+        except Exception:
+            continue
+    return sum(values) / len(values) if values else 0
+@register.filter
+def format_currency_br(value):
+    """Formata valor em moeda brasileira: R$ xxx,xx"""
+    try:
+        if value is None:
+            return "R$ 0,00"
+        # Converte para float
+        valor_float = float(value)
+        # Formata com 2 casas decimais usando vírgula e ponto
+        return f"R$ {valor_float:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    except (ValueError, TypeError):
+        return "R$ 0,00"

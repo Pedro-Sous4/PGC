@@ -3,7 +3,7 @@
 {% block title %}Adicionar Rendimento{% endblock %}
 
 {% block content %}
-<h2>Adicionar Rendimento para {{ Credor.nome }}</h2>
+<h2>Adicionar Rendimento para {{ Credor.nome|default:"—" }}</h2>
 
 <form method="post">
     {% csrf_token %}
@@ -13,11 +13,45 @@
     </div>
 
     <div class="mb-3">
+        <label for="numero_pgc" class="form-label">Número do PGC (opcional)</label>
+        <input type="number" name="numero_pgc" id="numero_pgc" class="form-control" min="0" placeholder="Ex: 28">
+    </div>
+
+    <div class="mb-3">
         <label for="valor" class="form-label">Valor (R$)</label>
-        <input type="number" name="valor" id="valor" class="form-control" step="0.01" required>
+        <input type="text" name="valor" id="valor" class="form-control" placeholder="R$ 0,00" required>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
     <a href="{% url 'detalhe_rendimentos' Credor.id %}" class="btn btn-secondary">Cancelar</a>
 </form>
+<script>
+// Formatação automática para período (MM/YYYY) e valor (R$ X.XXX,XX)
+document.addEventListener('DOMContentLoaded', function(){
+    const periodo = document.getElementById('periodo');
+    const valor = document.getElementById('valor');
+
+    periodo.addEventListener('input', function(e){
+        let v = this.value.replace(/[^0-9]/g,'').slice(0,6);
+        if(v.length >= 3){
+            v = v.slice(0,2) + '/' + v.slice(2);
+        }
+        this.value = v;
+    });
+
+    valor.addEventListener('input', function(e){
+        // remover tudo que não for dígito
+        let v = this.value.replace(/\D/g,'');
+        // valor em centavos
+        let n = (parseInt(v || '0', 10) / 100).toFixed(2);
+        // separador decimal vírgula
+        let parts = n.split('.');
+        let inteiro = parts[0];
+        let dec = parts[1];
+        // adiciona separador de milhares (.) ao inteiro
+        inteiro = inteiro.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+        this.value = 'R$ ' + inteiro + ',' + dec;
+    });
+});
+</script>
 {% endblock %}

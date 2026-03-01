@@ -1,0 +1,121 @@
+Stalled at 2026-02-04T11:50:53.606828
+
+
+--- Thread 2936 ---
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+
+  File "C:\PGC\envio_rendimentos\core\utils_progress.py", line 202, in _watchdog_loop
+    out_lines.extend(traceback.format_stack(frame))
+
+
+--- Thread 2844 ---
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\servers\basehttp.py", line 230, in handle
+    self.handle_one_request()
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\servers\basehttp.py", line 238, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+
+
+--- Thread 4864 ---
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1032, in _bootstrap
+    self._bootstrap_inner()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\commands\runserver.py", line 144, in inner_run
+    run(
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\servers\basehttp.py", line 282, in run
+    httpd.serve_forever()
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 235, in serve_forever
+    ready = selector.select(poll_interval)
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\selectors.py", line 338, in select
+    return ready
+
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\selectors.py", line 315, in _select
+    return r, w + x, []
+
+
+--- Thread 14560 ---
+
+  File "C:\PGC\envio_rendimentos\manage.py", line 25, in <module>
+    main()
+
+  File "C:\PGC\envio_rendimentos\manage.py", line 22, in main
+    execute_from_command_line(sys.argv)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\commands\runserver.py", line 69, in execute
+    super().execute(*args, **options)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\commands\runserver.py", line 110, in handle
+    self.run(**options)
+
+  File "C:\PGC\venv\Lib\site-packages\django\core\management\commands\runserver.py", line 117, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 670, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 659, in start_django
+    reloader.run(django_main_thread)
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 343, in run
+    self.run_loop()
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 349, in run_loop
+    next(ticker)
+
+  File "C:\PGC\venv\Lib\site-packages\django\utils\autoreload.py", line 404, in tick
+    time.sleep(self.SLEEP_TIME)

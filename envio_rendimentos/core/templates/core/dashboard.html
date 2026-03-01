@@ -3,29 +3,52 @@
 
 {% block content %}
 <div class="container my-4">
-    <h2 class="mb-3">
-        <i class="bi bi-bar-chart-fill me-2"></i> Dashboard de Envio
-    </h2>
+    <!-- Header da página -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white py-3">
+            <h3 class="mb-0">
+                <i class="bi bi-bar-chart me-2"></i>
+                Dashboard de Envio
+            </h3>
+        </div>
+    </div>
 
     <!-- Filtro por Grupo -->
-    <form method="get" class="mb-3">
-        <div class="form-group">
-            <label for="grupo_id">Filtrar por grupo:</label>
-            <select name="grupo_id" id="grupo_id" class="form-select w-auto d-inline-block ms-2" onchange="this.form.submit()">
-                <option value="">Todos os grupos</option>
-                {% for grupo in grupos %}
-                    <option value="{{ grupo.id }}" {% if grupo.id == grupo_id %}selected{% endif %}>{{ grupo.nome }}</option>
-                {% endfor %}
-            </select>
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light py-3">
+            <h5 class="mb-0">
+                <i class="bi bi-funnel me-2"></i>
+                Filtrar por Grupo
+            </h5>
         </div>
-    </form>
+        <div class="card-body">
+            <form method="get">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <label for="grupo_id" class="form-label">Selecione o grupo:</label>
+                        <select name="grupo_id" id="grupo_id" class="form-select" onchange="this.form.submit()">
+                            <option value="">Todos os grupos</option>
+                            {% for grupo in grupos %}
+                                <option value="{{ grupo.id }}" {% if grupo.id == grupo_id %}selected{% endif %}>{{ grupo.nome }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="bi bi-search me-1"></i> Aplicar Filtro
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
-    <!-- Cards Enviados / Não Enviados -->
+    <!-- Cards de Resumo -->
     <div class="row mb-4 g-3">
         <div class="col-md-6">
-            <div class="card text-white bg-success shadow-sm" style="min-height: 100px;">
+            <div class="card text-white bg-success shadow-sm">
                 <div class="card-body d-flex align-items-center py-2">
-                    <i class="bi bi-check-circle-fill fs-4 me-2"></i>
+                    <i class="bi bi-check-circle fs-4 me-2"></i>
                     <div>
                         <h6 class="card-title mb-1 small">Enviados</h6>
                         <h4 class="mb-0">{{ enviados }}</h4>
@@ -34,9 +57,9 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="card text-white bg-danger shadow-sm" style="min-height: 100px;">
+            <div class="card text-white bg-danger shadow-sm">
                 <div class="card-body d-flex align-items-center py-2">
-                    <i class="bi bi-x-circle-fill fs-4 me-2"></i>
+                    <i class="bi bi-x-circle fs-4 me-2"></i>
                     <div>
                         <h6 class="card-title mb-1 small">Não Enviados</h6>
                         <h4 class="mb-0">{{ nao_enviados }}</h4>
@@ -48,8 +71,11 @@
 
     <!-- Gráfico por PGC -->
     <div class="card shadow-sm mb-4">
-        <div class="card-header py-2">
-            <i class="bi bi-bar-chart-line-fill me-2"></i> Credores por PGC
+        <div class="card-header bg-light py-3">
+            <h5 class="mb-0">
+                <i class="bi bi-bar-chart-line me-2"></i>
+                Credores por PGC
+            </h5>
         </div>
         <div class="card-body" style="height: 300px;">
             <canvas id="pgcChart" height="250"></canvas>
@@ -65,7 +91,7 @@
             {% if enviados_page %}
                 {% for credor in enviados_page %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        {{ credor.nome }}
+                        {{ credor.nome|default:"—" }}
                         <span class="badge bg-success">Enviado</span>
                     </li>
                 {% endfor %}
@@ -84,7 +110,7 @@
             {% if nao_enviados_page %}
                 {% for credor in nao_enviados_page %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        {{ credor.nome }}
+                        {{ credor.nome|default:"—" }}
                         <span class="badge bg-danger">Não Enviado</span>
                     </li>
                 {% endfor %}

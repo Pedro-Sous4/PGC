@@ -1,0 +1,15 @@
+[
+  {
+    "id": "bb9b3c7b-8fa8-4ec2-9065-c2ece09b2d58",
+    "request_id": "07d9a5a1-661d-49f7-a70b-b14b093e26cd",
+    "credor": null,
+    "credor_display": null,
+    "step": "fatal",
+    "technical": "name 'col_empresa' is not defined\nTraceback (most recent call last):\n  File \"C:\\PGC\\envio_rendimentos\\core\\utils_lgm.py\", line 357, in processar_pgc_lgm\n    col_empresa,\n    ^^^^^^^^^^^\nNameError: name 'col_empresa' is not defined\n",
+    "friendly": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "type": "unknown",
+    "time": "17:00:44",
+    "retries": 0,
+    "resolved": false
+  }
+]

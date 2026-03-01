@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Step Flow Diagram</title>
+    <link rel="stylesheet" href="flow-diagram.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Multi-Step Process Flow</h1>
+            <p>Interactive workflow diagram with multiple steps and decision points</p>
+        </header>
+
+        <main class="flow-diagram">
+            <div class="flow-container">
+                <!-- Step 1: Start -->
+                <div class="step-node start" data-step="1">
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Start</div>
+                        <div class="step-description">Initialize process</div>
+                    </div>
+                </div>
+
+                <!-- Arrow 1 -->
+                <div class="arrow" data-from="1" data-to="2">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
+
+                <!-- Step 2: Data Collection -->
+                <div class="step-node" data-step="2">
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Data Collection</div>
+                        <div class="step-description">Gather required information</div>
+                    </div>
+                </div>
+
+                <!-- Arrow 2 -->
+                <div class="arrow" data-from="2" data-to="3">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
+
+                <!-- Step 3: Decision Point -->
+                <div class="step-node decision" data-step="3">
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Validation</div>
+                        <div class="step-description">Is data valid?</div>
+                    </div>
+                    <div class="decision-options">
+                        <button class="decision-btn yes" data-next="4">Yes</button>
+                        <button class="decision-btn no" data-next="5">No</button>
+                    </div>
+                </div>
+
+                <!-- Arrow 3 (Yes path) -->
+                <div class="arrow yes-path" data-from="3" data-to="4">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                    <div class="arrow-label">Valid</div>
+                </div>
+
+                <!-- Arrow 4 (No path) -->
+                <div class="arrow no-path" data-from="3" data-to="5">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                    <div class="arrow-label">Invalid</div>
+                </div>
+
+                <!-- Step 4: Processing -->
+                <div class="step-node" data-step="4">
+                    <div class="step-content">
+                        <div class="step-number">4</div>
+                        <div class="step-title">Processing</div>
+                        <div class="step-description">Process valid data</div>
+                    </div>
+                </div>
+
+                <!-- Step 5: Error Handling -->
+                <div class="step-node error" data-step="5">
+                    <div class="step-content">
+                        <div class="step-number">5</div>
+                        <div class="step-title">Error Handling</div>
+                        <div class="step-description">Handle invalid data</div>
+                    </div>
+                </div>
+
+                <!-- Arrow 5 -->
+                <div class="arrow" data-from="4" data-to="6">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
+
+                <!-- Arrow 6 -->
+                <div class="arrow" data-from="5" data-to="2">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                    <div class="arrow-label">Retry</div>
+                </div>
+
+                <!-- Step 6: Output -->
+                <div class="step-node" data-step="6">
+                    <div class="step-content">
+                        <div class="step-number">6</div>
+                        <div class="step-title">Output</div>
+                        <div class="step-description">Generate results</div>
+                    </div>
+                </div>
+
+                <!-- Arrow 7 -->
+                <div class="arrow" data-from="6" data-to="7">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
+
+                <!-- Step 7: End -->
+                <div class="step-node end" data-step="7">
+                    <div class="step-content">
+                        <div class="step-number">7</div>
+                        <div class="step-title">End</div>
+                        <div class="step-description">Process complete</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="controls">
+            <button id="resetBtn" class="control-btn">Reset Flow</button>
+            <button id="autoPlayBtn" class="control-btn">Auto Play</button>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="info-panel">
+            <h3>Step Information</h3>
+            <div id="stepInfo" class="step-info">
+                <p>Click on any step to see detailed information.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="flow-diagram.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+# SDN Network Manager Configuration
+
+# Network Settings
+network:
+  domain: "university.edu"
+  subnet: "10.0.0.0/16"
+  vlan_ranges:
+    - start: 100
+      end: 200
+      purpose: "academic"
+    - start: 201
+      end: 300
+      purpose: "administrative"
+    - start: 301
+      end: 400
+      purpose: "student_housing"
+
+# SDN Controller Configuration
+sdn_controller:
+  type: "ryu"  # Options: ryu, opendaylight, floodlight
+  ip: "127.0.0.1"
+  port: 6633
+  version: "OpenFlow13"
+  
+# Database Configuration
+database:
+  type: "sqlite"
+  path: "data/network_management.db"
+  # For production use PostgreSQL:
+  # type: "postgresql"
+  # host: "localhost"
+  # port: 5432
+  # name: "sdn_network"
+  # user: "sdn_admin"
+  # password: "secure_password"
+
+# Redis Configuration (for caching and real-time data)
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  password: null
+
+# Web Interface Configuration
+web:
+  host: "0.0.0.0"
+  port: 8080
+  debug: false
+  secret_key: "your-secret-key-here"
+  
+# Monitoring Configuration
+monitoring:
+  traffic_collection_interval: 5  # seconds
+  topology_discovery_interval: 30  # seconds
+  security_scan_interval: 10  # seconds
+  retention_days: 30  # days to keep monitoring data
+
+# Security Configuration
+security:
+  threat_detection:
+    enable_ml: true
+    model_path: "models/threat_detection.pkl"
+    confidence_threshold: 0.8
+  
+  alerting:
+    email_enabled: true
+    smtp_server: "smtp.university.edu"
+    smtp_port: 587
+    smtp_username: "alerts@university.edu"
+    smtp_password: "smtp_password"
+    recipients:
+      - "network-admin@university.edu"
+      - "security-team@university.edu"
+  
+  policies:
+    default_action: "allow"
+    blocked_ips: []
+    allowed_protocols: ["tcp", "udp", "icmp"]
+    rate_limits:
+      default: 1000  # connections per minute
+      ddos_threshold: 10000  # connections per minute
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "logs/sdn_manager.log"
+  max_size: "10MB"
+  backup_count: 5
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Analytics Configuration
+analytics:
+  enable_prediction: true
+  prediction_horizon: 24  # hours
+  data_aggregation: "hourly"
+  
+# API Configuration
+api:
+  rate_limit: "100/minute"
+  authentication_required: true
+  cors_origins: ["http://localhost:3000", "https://portal.university.edu"]
+  
+# Device Categories
+device_categories:
+  switches:
+    - management_protocol: "snmp"
+      default_community: "public"
+  routers:
+    - management_protocol: "ssh"
+      default_port: 22
+  firewalls:
+    - management_protocol: "https"
+      default_port: 443
+  access_points:
+    - management_protocol: "snmp"
+      default_community: "public"

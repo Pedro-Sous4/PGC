@@ -4,18 +4,35 @@
 {% block title %}Lista de Credores{% endblock %}
 
 {% block content %}
-<div class="container mt-4">
-    <h2 class="mb-4">📄 Lista de Credores</h2>
+<div class="container my-4">
+    <!-- Header da página -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-primary text-white py-3">
+            <h3 class="mb-0">
+                <i class="bi bi-people me-2"></i>
+                Lista de Credores
+            </h3>
+        </div>
+    </div>
 
     <!-- Alertas -->
     <div id="mensagem-alerta"></div>
 
-    <form method="get" class="row g-3 align-items-end mb-4">
+    <!-- Card de filtros -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light py-3">
+            <h5 class="mb-0">
+                <i class="bi bi-funnel me-2"></i>
+                Filtros
+            </h5>
+        </div>
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
         <div class="col-md-4">
             <label for="busca" class="form-label">Buscar por nome</label>
             <input type="text" name="busca" value="{{ busca }}" class="form-control" placeholder="Digite o nome">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <label for="status" class="form-label">Status</label>
             <select name="status" class="form-select">
                 <option value="" {% if not status %}selected{% endif %}>Todos</option>
@@ -24,36 +41,85 @@
             </select>
         </div>
         <div class="col-md-2">
-            <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+            <label for="pgc" class="form-label">PGC</label>
+            <input type="text" name="pgc" value="{{ pgc }}" class="form-control" placeholder="Ex: 26">
         </div>
-        <div class="col-md-3 text-end">
-            <div class="btn-group">
-                <a href="{% url 'exportar_Credores' %}?status={{ status }}" class="btn btn-outline-primary btn-sm">Exportar CSV</a>
-                <a href="{% url 'exportar_Credores_excel' %}?status={{ status }}" class="btn btn-outline-success btn-sm">Exportar Excel</a>
+        <div class="col-md-2">
+            <label for="grupo" class="form-label">Grupo</label>
+            <select name="grupo" class="form-select">
+                <option value="">Todos</option>
+                {% for g in grupos %}
+                    <option value="{{ g.id }}" {% if grupo == g.id|stringformat:'s' %}selected{% endif %}>{{ g.nome }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">
+                <i class="bi bi-search me-1"></i> Filtrar
+            </button>
+        </div>
+            </form>
+            <div class="d-flex justify-content-end mt-3 gap-2">
+                <a href="{% url 'exportar_Credores' %}?status={{ status }}&grupo={{ grupo }}" class="btn btn-outline-info" title="Exportar em CSV">
+                    <i class="bi bi-file-earmark-csv me-2"></i> Exportar CSV
+                </a>
+                <a href="{% url 'exportar_Credores_excel' %}?status={{ status }}&grupo={{ grupo }}" class="btn btn-outline-success" title="Exportar em Excel">
+                    <i class="bi bi-file-earmark-excel me-2"></i> Exportar Excel
+                </a>
             </div>
         </div>
-    </form>
+    </div>
 
-    <!-- Ações -->
-    <div class="d-flex justify-content-between mb-3">
-        <div>
-            <div class="dropdown">
-                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown">
+    <!-- Ações em lote -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">
+                    <i class="bi bi-gear me-2"></i>
                     Ações em Lote
+                </h5>
+                <a href="{% url 'adicionar_credor' %}" class="btn btn-success">
+                    <i class="bi bi-plus-circle me-1"></i> Adicionar Credor
+                </a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="btn-group" role="group">
+                <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-envelope me-1"></i> Ações
                 </button>
                 <ul class="dropdown-menu">
-                    <li><button id="enviarSelecionados" class="dropdown-item text-success">📧 Enviar E-mails Selecionados</button></li>
-                    <li><button id="exportarPDFs" class="dropdown-item">⬇️ Exportar PDFs</button></li>
-                    <li><button id="marcarEnviados" class="dropdown-item text-success">✔️ Marcar como Enviados</button></li>
-                    <li><button id="marcarNaoEnviados" class="dropdown-item text-warning">❌ Marcar como Não Enviados</button></li>
-                    <li><button id="excluirSelecionados" class="dropdown-item text-danger">🗑️ Excluir Selecionados</button></li>
+                    <li><button id="enviarSelecionados" class="dropdown-item">
+                        <i class="bi bi-envelope text-success me-2"></i>Enviar E-mails Selecionados
+                    </button></li>
+                    <li><button id="exportarPDFs" class="dropdown-item">
+                        <i class="bi bi-file-pdf me-2"></i>Exportar PDFs
+                    </button></li>
+                    <li><button id="marcarEnviados" class="dropdown-item">
+                        <i class="bi bi-check-circle text-success me-2"></i>Marcar como Enviados
+                    </button></li>
+                    <li><button id="marcarNaoEnviados" class="dropdown-item">
+                        <i class="bi bi-x-circle text-warning me-2"></i>Marcar como Não Enviados
+                    </button></li>
+                    <li><button id="excluirSelecionados" class="dropdown-item">
+                        <i class="bi bi-trash text-danger me-2"></i>Excluir Selecionados
+                    </button></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <!-- Tabela -->
-    <table class="table table-hover align-middle">
+    <!-- Tabela de credores -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-light py-3">
+            <h5 class="mb-0">
+                <i class="bi bi-table me-2"></i>
+                Credores Cadastrados
+            </h5>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
         <thead class="table-light">
             <tr>
                 <th><input type="checkbox" id="selectAll"></th>
@@ -73,9 +139,20 @@
                 <td><input type="checkbox" class="selectItem" value="{{ Credor.id }}"></td>
                 <td>{{ Credor.nome|default:"—" }}</td>
                 <td>{{ Credor.email|default:"—" }}</td>
-                <td>{{ Credor.periodo }}</td>
-                <td>{{ Credor.historicos.last.numero_pgc }}</td>
-                <td>R$ {{ Credor.historicos.last.valor_total|floatformat:2 }}</td>
+                <td>{{ Credor.periodo|default:"—" }}</td>
+
+                {# === PGC E VALOR COM SEGURANÇA === #}
+                {% with ultimo=Credor.historicos.all|dictsortreversed:"data_envio"|first %}
+                    <td>{{ ultimo.numero_pgc|default:"—" }}</td>
+                    <td>
+                        {% if ultimo %}
+                            R$ {{ ultimo.valor_total|floatformat:2 }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                {% endwith %}
+
                 <td>
                     {% if Credor.enviado %}
                         <span class="badge bg-success">Enviado</span>
@@ -83,44 +160,66 @@
                         <span class="badge bg-danger">Não enviado</span>
                     {% endif %}
                 </td>
-                <td>{{ Credor.grupo }}</td>
+
+                <td>{{ Credor.grupo|default:"—" }}</td>
+
                 <td class="text-center">
                     <div class="btn-group">
-                        <button class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Opções</button>
+                        <button class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                            Opções
+                        </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="{% url 'detalhe_rendimentos' Credor.id %}">🔍 Ver mais</a></li>
                             <li><a class="dropdown-item" href="{% url 'gerar_pdf' Credor.id %}">📄 Gerar PDF</a></li>
                             <li><a class="dropdown-item" href="{% url 'editar_Credor' Credor.id %}">✏️ Editar</a></li>
                             <li><a class="dropdown-item text-success" href="{% url 'enviar_email_individual' Credor.id %}">📧 Enviar E-mail</a></li>
-                            <li><a class="dropdown-item text-danger" href="{% url 'excluir_Credor' Credor.id %}" onclick="return confirm('Deseja excluir este credor?');">🗑️ Excluir</a></li>
+                            <li>
+                                <a class="dropdown-item text-danger"
+                                href="{% url 'excluir_Credor' Credor.id %}"
+                                onclick="return confirm('Deseja excluir este credor?');">
+                                    🗑️ Excluir
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </td>
             </tr>
             {% empty %}
             <tr>
-                <td colspan="8" class="text-center text-muted">Nenhum credor encontrado.</td>
+                <td colspan="9" class="text-center py-4">
+                    <div class="text-muted">
+                        <i class="bi bi-inbox fs-1 d-block mb-2"></i>
+                        Nenhum credor encontrado.
+                    </div>
+                </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+            </div>
+        </div>
+    </div>
 
     <!-- Paginação -->
-    <nav>
+    <div class="card shadow-sm mt-4">
+        <div class="card-body">
+            <nav>
         <ul class="pagination justify-content-center">
             {% if page_obj.has_previous %}
-                <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}&status={{ status }}&busca={{ busca }}">&laquo;</a></li>
+                <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}&status={{ status }}&busca={{ busca }}&pgc={{ pgc }}&grupo={{ grupo }}">&laquo;</a></li>
             {% endif %}
             <li class="page-item active"><span class="page-link">{{ page_obj.number }}</span></li>
             {% if page_obj.has_next %}
-                <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}&status={{ status }}&busca={{ busca }}">&raquo;</a></li>
+                <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}&status={{ status }}&busca={{ busca }}&pgc={{ pgc }}&grupo={{ grupo }}">&raquo;</a></li>
             {% endif %}
         </ul>
-    </nav>
+            </nav>
+        </div>
+    </div>
 </div>
 
 <!-- Scripts -->
-<script>
+<!-- <script>
     function mostrarAlerta(mensagem, tipo = 'info') {
         document.getElementById('mensagem-alerta').innerHTML = `
             <div class="alert alert-${tipo} alert-dismissible fade show" role="alert">
@@ -159,7 +258,7 @@
               }).catch(() => mostrarAlerta('Erro no envio. Tente novamente.', 'danger'));
         }
     });
-</script>
+</script> -->
 <script>
     function mostrarAlerta(mensagem, tipo = 'info') {
         document.getElementById('mensagem-alerta').innerHTML = `

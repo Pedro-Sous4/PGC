@@ -1,0 +1,1 @@
+(arquivo inteiro copiado como checkpoint)

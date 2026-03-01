@@ -1,0 +1,525 @@
+{
+  "status": "completed",
+  "processed": 68,
+  "total_credores": 68,
+  "percent": 100,
+  "current_credor": null,
+  "logs": [
+    {
+      "type": "info",
+      "msg": "Processamento iniciado",
+      "time": "21:39:30"
+    },
+    {
+      "type": "info",
+      "msg": "Arquivo recebido: PGC 14.xlsx",
+      "time": "21:39:30"
+    },
+    {
+      "type": "info",
+      "msg": "PGC detectado: 14",
+      "time": "21:39:30"
+    },
+    {
+      "type": "info",
+      "msg": "Normalizando planilhas",
+      "time": "21:39:30"
+    },
+    {
+      "type": "info",
+      "msg": "Pasta PGC: C:\\PGC\\envio_rendimentos\\arquivos_gerados\\PGC\\SPORTS - 14",
+      "time": "21:39:30"
+    },
+    {
+      "type": "warning",
+      "msg": "Falha ao ler EXTRATO: File is not a zip file",
+      "time": "21:39:31"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10075 - TIAGO PEREIRA DA CUNHA",
+      "time": "21:39:32",
+      "credor": "10075 - TIAGO PEREIRA DA CUNHA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10076 - MATEUS HENRIQUE MARIANO DE SOUZA",
+      "time": "21:39:32",
+      "credor": "10076 - MATEUS HENRIQUE MARIANO DE SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10386 - RENAN FAGLIARI LOURENÇO",
+      "time": "21:39:32",
+      "credor": "10386 - RENAN FAGLIARI LOURENÇO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10524 - WELLINGTON SILVA DOS SANTOS",
+      "time": "21:39:33",
+      "credor": "10524 - WELLINGTON SILVA DOS SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10638 - KAILANE MANOELA PINHEIRO DOS SANTOS",
+      "time": "21:39:33",
+      "credor": "10638 - KAILANE MANOELA PINHEIRO DOS SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10769 - LUIZ NIKOLAUS RAMOS KEHL",
+      "time": "21:39:33",
+      "credor": "10769 - LUIZ NIKOLAUS RAMOS KEHL"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10771 - ROSICLER DE OLIVEIRA TERNES",
+      "time": "21:39:33",
+      "credor": "10771 - ROSICLER DE OLIVEIRA TERNES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10772 - Fernanda Gonçalves Do Nascimento",
+      "time": "21:39:33",
+      "credor": "10772 - Fernanda Gonçalves Do Nascimento"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10837 - GABRIELA NASCIMENTO CYPRIANO",
+      "time": "21:39:34",
+      "credor": "10837 - GABRIELA NASCIMENTO CYPRIANO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 10985 - LUCAS LUIZ SANTOS",
+      "time": "21:39:34",
+      "credor": "10985 - LUCAS LUIZ SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 112 - PAULA GIOVANA DO AMARAL (CONSULTOR)",
+      "time": "21:39:34",
+      "credor": "112 - PAULA GIOVANA DO AMARAL (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 11663 - Naisa Borba Gonçalves da Silva",
+      "time": "21:39:34",
+      "credor": "11663 - Naisa Borba Gonçalves da Silva"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 11875 - JULIANA DA COSTA KAMENACH",
+      "time": "21:39:34",
+      "credor": "11875 - JULIANA DA COSTA KAMENACH"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)",
+      "time": "21:39:35",
+      "credor": "12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12043 - PETERSON GUERREIRO",
+      "time": "21:39:35",
+      "credor": "12043 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12090 - GILSEIA SALETE CARGNIN",
+      "time": "21:39:35",
+      "credor": "12090 - GILSEIA SALETE CARGNIN"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12287 - Hugo Fernando Alves",
+      "time": "21:39:35",
+      "credor": "12287 - Hugo Fernando Alves"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12289 - João Guilherme Silva Paris",
+      "time": "21:39:35",
+      "credor": "12289 - João Guilherme Silva Paris"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12377 - PEDRO MANOEL DE SOUSA BARBOSA",
+      "time": "21:39:35",
+      "credor": "12377 - PEDRO MANOEL DE SOUSA BARBOSA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12456 - Jefferson Tadeu Caldeira Mauricio",
+      "time": "21:39:36",
+      "credor": "12456 - Jefferson Tadeu Caldeira Mauricio"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12550 - DANIELA MOURA RODRIGUES",
+      "time": "21:39:36",
+      "credor": "12550 - DANIELA MOURA RODRIGUES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12725 - FABRICIO DE FREITAS MEIRELES AMARAL",
+      "time": "21:39:36",
+      "credor": "12725 - FABRICIO DE FREITAS MEIRELES AMARAL"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12731 - SOLANGE FURINI DE MELLO",
+      "time": "21:39:36",
+      "credor": "12731 - SOLANGE FURINI DE MELLO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12760 - RAUL QUINTANA GALVEZ",
+      "time": "21:39:36",
+      "credor": "12760 - RAUL QUINTANA GALVEZ"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12804 - Alexandre do Nascimento Souza",
+      "time": "21:39:36",
+      "credor": "12804 - Alexandre do Nascimento Souza"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 12835 - Amanda Francieli De Almeida",
+      "time": "21:39:37",
+      "credor": "12835 - Amanda Francieli De Almeida"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 13529 - ELISANGELA DA SILVA SANTOS",
+      "time": "21:39:37",
+      "credor": "13529 - ELISANGELA DA SILVA SANTOS"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 13570 - Évelyn de Cordova",
+      "time": "21:39:37",
+      "credor": "13570 - Évelyn de Cordova"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14159 - MARCELE GONÇALVES DA SILVA",
+      "time": "21:39:37",
+      "credor": "14159 - MARCELE GONÇALVES DA SILVA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14302 - LUCINARA DONDE RODRIGUES (CORRETORA)",
+      "time": "21:39:37",
+      "credor": "14302 - LUCINARA DONDE RODRIGUES (CORRETORA)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14315 - JULIANO JOSE LOPES (CONSULTOR)",
+      "time": "21:39:37",
+      "credor": "14315 - JULIANO JOSE LOPES (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)",
+      "time": "21:39:38",
+      "credor": "14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 14497 - Claudiana Bezerra Montezuma",
+      "time": "21:39:38",
+      "credor": "14497 - Claudiana Bezerra Montezuma"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15274 - Alessandra Freire Godoy",
+      "time": "21:39:38",
+      "credor": "15274 - Alessandra Freire Godoy"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15424 - JOAO PAULO LEAO FERNANDES",
+      "time": "21:39:38",
+      "credor": "15424 - JOAO PAULO LEAO FERNANDES"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15497 - Diego dos Reis Sales",
+      "time": "21:39:38",
+      "credor": "15497 - Diego dos Reis Sales"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 15825 - BRENDA ELLEN VIEIRA",
+      "time": "21:39:38",
+      "credor": "15825 - BRENDA ELLEN VIEIRA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA",
+      "time": "21:39:39",
+      "credor": "16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16188 - PETERSON GUERREIRO",
+      "time": "21:39:39",
+      "credor": "16188 - PETERSON GUERREIRO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)",
+      "time": "21:39:39",
+      "credor": "16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 1752 - LEONARDO BAUER DE SOUZA",
+      "time": "21:39:39",
+      "credor": "1752 - LEONARDO BAUER DE SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 1754 - LORENA SOARES DOS SANTOS DE CARVALHO",
+      "time": "21:39:39",
+      "credor": "1754 - LORENA SOARES DOS SANTOS DE CARVALHO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 2315 - VINICIUS SOUZA",
+      "time": "21:39:39",
+      "credor": "2315 - VINICIUS SOUZA"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 27696 - DHIEGO SOUZA SILVA (CAPTADOR)",
+      "time": "21:39:40",
+      "credor": "27696 - DHIEGO SOUZA SILVA (CAPTADOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 700 - VINICIUS SOUZA ( CONSULTOR)",
+      "time": "21:39:40",
+      "credor": "700 - VINICIUS SOUZA ( CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8639 - LUIS ALVES DO AMARAL NETO",
+      "time": "21:39:40",
+      "credor": "8639 - LUIS ALVES DO AMARAL NETO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8671 - Rhenielly Souza Costa",
+      "time": "21:39:40",
+      "credor": "8671 - Rhenielly Souza Costa"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8690 - Ercruis Cardoso Da Silva",
+      "time": "21:39:40",
+      "credor": "8690 - Ercruis Cardoso Da Silva"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8700 - Janete Bonissoni",
+      "time": "21:39:40",
+      "credor": "8700 - Janete Bonissoni"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8703 - Leonardo Garcia Pedezert",
+      "time": "21:39:41",
+      "credor": "8703 - Leonardo Garcia Pedezert"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8708 - Sandro Cunha De Freitas",
+      "time": "21:39:41",
+      "credor": "8708 - Sandro Cunha De Freitas"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8830 - Josyene Aparecida De Freitas",
+      "time": "21:39:41",
+      "credor": "8830 - Josyene Aparecida De Freitas"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8831 - Eric Sandro Freire Godoy Moraes Schutz",
+      "time": "21:39:41",
+      "credor": "8831 - Eric Sandro Freire Godoy Moraes Schutz"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8832 - Ana Luisa Xavier Perdomo Paz",
+      "time": "21:39:41",
+      "credor": "8832 - Ana Luisa Xavier Perdomo Paz"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8992 - Renan Marques De Assis Santos",
+      "time": "21:39:42",
+      "credor": "8992 - Renan Marques De Assis Santos"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 8993 - Franciela M . Bergamaschi",
+      "time": "21:39:42",
+      "credor": "8993 - Franciela M . Bergamaschi"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9061 - Andre Ricardo Sampaio",
+      "time": "21:39:42",
+      "credor": "9061 - Andre Ricardo Sampaio"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9121 - Alexandro Silva Ferreira",
+      "time": "21:39:42",
+      "credor": "9121 - Alexandro Silva Ferreira"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9163 - Rogerio Castro Ramos",
+      "time": "21:39:42",
+      "credor": "9163 - Rogerio Castro Ramos"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9400 - MARCIO DENNY NASCIMENTO",
+      "time": "21:39:42",
+      "credor": "9400 - MARCIO DENNY NASCIMENTO"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9476 - GUSTAVO CARDOSO WEBER",
+      "time": "21:39:43",
+      "credor": "9476 - GUSTAVO CARDOSO WEBER"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9480 - ANNA CRISTINA RATZKE",
+      "time": "21:39:43",
+      "credor": "9480 - ANNA CRISTINA RATZKE"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9614 - Nicollas Da Rocha Pereira",
+      "time": "21:39:43",
+      "credor": "9614 - Nicollas Da Rocha Pereira"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)",
+      "time": "21:39:43",
+      "credor": "9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9654 - Daniel Luiz Martins de Morais",
+      "time": "21:39:43",
+      "credor": "9654 - Daniel Luiz Martins de Morais"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)",
+      "time": "21:39:44",
+      "credor": "9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)",
+      "time": "21:39:44",
+      "credor": "99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)"
+    },
+    {
+      "type": "credor",
+      "msg": "Iniciando credor: 9972 - PAULO LUCAS VICENTE DA SILVA",
+      "time": "21:39:44",
+      "credor": "9972 - PAULO LUCAS VICENTE DA SILVA"
+    },
+    {
+      "type": "info",
+      "msg": "Processamento finalizado com sucesso",
+      "time": "21:39:44"
+    }
+  ],
+  "errors": [],
+  "credores_ok": [
+    "10075 - TIAGO PEREIRA DA CUNHA",
+    "10076 - MATEUS HENRIQUE MARIANO DE SOUZA",
+    "10386 - RENAN FAGLIARI LOURENÇO",
+    "10524 - WELLINGTON SILVA DOS SANTOS",
+    "10638 - KAILANE MANOELA PINHEIRO DOS SANTOS",
+    "10769 - LUIZ NIKOLAUS RAMOS KEHL",
+    "10771 - ROSICLER DE OLIVEIRA TERNES",
+    "10772 - Fernanda Gonçalves Do Nascimento",
+    "10837 - GABRIELA NASCIMENTO CYPRIANO",
+    "10985 - LUCAS LUIZ SANTOS",
+    "112 - PAULA GIOVANA DO AMARAL (CONSULTOR)",
+    "11663 - Naisa Borba Gonçalves da Silva",
+    "11875 - JULIANA DA COSTA KAMENACH",
+    "12031 - GUILHERME CREMONINI BRAZ (CONSULTOR)",
+    "12043 - PETERSON GUERREIRO",
+    "12090 - GILSEIA SALETE CARGNIN",
+    "12287 - Hugo Fernando Alves",
+    "12289 - João Guilherme Silva Paris",
+    "12377 - PEDRO MANOEL DE SOUSA BARBOSA",
+    "12456 - Jefferson Tadeu Caldeira Mauricio",
+    "12550 - DANIELA MOURA RODRIGUES",
+    "12725 - FABRICIO DE FREITAS MEIRELES AMARAL",
+    "12731 - SOLANGE FURINI DE MELLO",
+    "12760 - RAUL QUINTANA GALVEZ",
+    "12804 - Alexandre do Nascimento Souza",
+    "12835 - Amanda Francieli De Almeida",
+    "13529 - ELISANGELA DA SILVA SANTOS",
+    "13570 - Évelyn de Cordova",
+    "14159 - MARCELE GONÇALVES DA SILVA",
+    "14302 - LUCINARA DONDE RODRIGUES (CORRETORA)",
+    "14315 - JULIANO JOSE LOPES (CONSULTOR)",
+    "14317 - DELMIR LUIS EILERT DAMACENA (CONSULTOR)",
+    "14497 - Claudiana Bezerra Montezuma",
+    "15274 - Alessandra Freire Godoy",
+    "15424 - JOAO PAULO LEAO FERNANDES",
+    "15497 - Diego dos Reis Sales",
+    "15825 - BRENDA ELLEN VIEIRA",
+    "16001 - JOÃO PEDRO MANDICAJU IPARRAGUIRRE DE OLIVEIRA",
+    "16188 - PETERSON GUERREIRO",
+    "16593 - FELIPE CARUSO MAGALHAES (CAPTADOR)",
+    "1752 - LEONARDO BAUER DE SOUZA",
+    "1754 - LORENA SOARES DOS SANTOS DE CARVALHO",
+    "2315 - VINICIUS SOUZA",
+    "27696 - DHIEGO SOUZA SILVA (CAPTADOR)",
+    "700 - VINICIUS SOUZA ( CONSULTOR)",
+    "8639 - LUIS ALVES DO AMARAL NETO",
+    "8671 - Rhenielly Souza Costa",
+    "8690 - Ercruis Cardoso Da Silva",
+    "8700 - Janete Bonissoni",
+    "8703 - Leonardo Garcia Pedezert",
+    "8708 - Sandro Cunha De Freitas",
+    "8830 - Josyene Aparecida De Freitas",
+    "8831 - Eric Sandro Freire Godoy Moraes Schutz",
+    "8832 - Ana Luisa Xavier Perdomo Paz",
+    "8992 - Renan Marques De Assis Santos",
+    "8993 - Franciela M . Bergamaschi",
+    "9061 - Andre Ricardo Sampaio",
+    "9121 - Alexandro Silva Ferreira",
+    "9163 - Rogerio Castro Ramos",
+    "9400 - MARCIO DENNY NASCIMENTO",
+    "9476 - GUSTAVO CARDOSO WEBER",
+    "9480 - ANNA CRISTINA RATZKE",
+    "9614 - Nicollas Da Rocha Pereira",
+    "9625 - MOISES SEVERINO DOS SANTOS SILVA (CONSULTOR)",
+    "9654 - Daniel Luiz Martins de Morais",
+    "9707 - DIÁRIAS PROMOCIONAIS (CAPTADOR AGENDAMENTO)",
+    "99 - MALUAH DOS SANTOS MELLO DANERES (CONSULTOR)",
+    "9972 - PAULO LUCAS VICENTE DA SILVA"
+  ],
+  "request_id": "27c9b9d0-3788-4049-95e4-bca91fbcda2f",
+  "numero_pgc": 14
+}

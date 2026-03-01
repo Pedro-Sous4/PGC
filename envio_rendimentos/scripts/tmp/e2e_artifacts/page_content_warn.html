@@ -1,0 +1,814 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <title>LGM - Processar PGC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        .sidebar {
+            min-height: 100vh;
+            width: 240px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+        }
+        .sidebar h5 {
+            font-weight: bold;
+            color: #333;
+        }
+        .sidebar .nav-link {
+            color: #333;
+            font-weight: 500;
+            border-radius: 0.25rem;
+            padding: 8px 12px;
+        }
+        .sidebar .nav-link.active {
+            background-color: #0d6efd;
+            color: white;
+        }
+        .sidebar .nav-link:hover {
+            background-color: #e2e6ea;
+        }
+    </style>
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="d-flex">
+    <!-- Sidebar -->
+    <nav class="sidebar p-3 d-flex flex-column">
+        <h5 class="mb-4">📊 Menu</h5>
+        <div class="nav flex-column">
+            <a class="nav-link " href="/">
+                <i class="bi bi-house"></i> Início
+            </a>
+            <a class="nav-link " href="/dashboard/">
+                <i class="bi bi-bar-chart"></i> Dashboard
+            </a>
+            <a class="nav-link " href="/credores/">
+                <i class="bi bi-people"></i> Credores
+            </a>
+            <!-- <a class="nav-link " href="/upload/">
+                <i class="bi bi-upload"></i> Upload PGC
+            </a> -->
+            <a class="nav-link " href="/upload-emails/">
+                <i class="bi bi-upload"></i> Upload de E-mails
+            </a>
+            <a class="nav-link " href="/enviar-emails/">
+                <i class="bi bi-envelope"></i> Enviar E-mails
+            </a>
+            <!-- dentro da lista do sidebar, seguindo o estilo -->
+            <a class="nav-link" href="/laghetto-sports/">
+                <i class="bi bi-dribbble"></i>
+                Laghetto Sports
+            </a>
+            <a class="nav-link" href="/lgm/">
+                <i class="bi bi-lightning-charge"></i>
+                Laghetto Golden
+            </a>
+
+        </div>
+
+        <div class="mt-auto pt-4">
+            
+                <form action="/accounts/logout/" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="NEU4GTO6CNCLFdl7z3LXGPAzzIY7zni0IM3Mdd8d1cinTWxcpiwlF4d7D3hr3rlu">
+                    <button type="submit" class="btn btn-outline-danger w-100">
+                        <i class="bi bi-box-arrow-left"></i> Logout
+                    </button>
+                </form>
+            
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="flex-fill p-4">
+        
+<style>
+.progress-bar {
+  transition: width 0.6s ease-in-out;
+}
+.log {
+  border-left: 5px solid #ccc;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+}
+.log-success { border-color: #198754; }
+.log-warning { border-color: #ffc107; }
+.log-error   { border-color: #dc3545; }
+.log-time {
+  font-size: 11px;
+  color: #666;
+}
+</style>
+
+<div class="container py-4">
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <h5 class="mb-0">Processar Arquivo PGC - Laghetto Golden Multipropriedade</h5>
+        </div>
+        <div class="card-body">
+          <form id="uploadForm" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NEU4GTO6CNCLFdl7z3LXGPAzzIY7zni0IM3Mdd8d1cinTWxcpiwlF4d7D3hr3rlu">
+            <input type="hidden" id="request_id" name="request_id" value="ad3f34b8-bef8-4017-8bce-2e9e9b3951f5">
+
+            <div class="mb-3">
+              <label class="form-label">Arquivo PGC</label>
+              <input type="file" class="form-control" id="arquivo" name="arquivo" required="">
+            </div>
+
+            <button class="btn btn-primary">Processar</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- PROGRESSO -->
+      <div id="progress-card" class="card mb-3">
+        <div class="card-header">Progresso</div>
+        <div class="card-body">
+          <div class="progress mb-2">
+            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%">0%</div>
+          </div>
+          <div class="small">
+            <strong>Credor atual:</strong> <span id="current-credor">---</span>
+          </div>
+          <div id="progress-details" class="small text-muted"></div>
+        </div>
+      </div>
+
+      <!-- LOGS -->
+      <div id="logs-card" class="card">
+        <div class="card-header">Logs</div>
+        <div class="card-body">
+          <pre id="logs" style="height:280px; overflow:auto; white-space:pre-wrap;"></pre>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">Instruções</div>
+        <div class="card-body small">
+          <ul>
+            <li>Envie o arquivo mensal do PGC</li>
+            <li>O número do PGC é detectado automaticamente</li>
+            <li>Warnings não impedem geração</li>
+            <li>Acompanhe o progresso em tempo real</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+
+  const form = document.getElementById('uploadForm');
+  const progressCard = document.getElementById('progress-card');
+  const progressBar = document.getElementById('progress-bar');
+  const details = document.getElementById('progress-details');
+  const logsCard = document.getElementById('logs-card');
+  const logsEl = document.getElementById('logs');
+  const requestIdInput = document.getElementById('request_id');
+  const currentCredorSpan = document.getElementById('current-credor');
+
+  let pollingTimer = null;
+  let lastLogIndex = 0;
+
+  function setProgress(p, txt) {
+    progressBar.style.width = p + '%';
+    progressBar.innerText = p + '%';
+    details.innerText = txt || '';
+  }
+
+  function appendLog(msg) {
+    logsCard.classList.remove('d-none');
+    logsEl.textContent += msg + "\n";
+    logsEl.scrollTop = logsEl.scrollHeight;
+  }
+
+  function pollProgress() {
+    const requestId = requestIdInput.value;
+    if (!requestId) {
+      console.error('Request ID não foi inicializado!');
+      return;
+    }
+
+    fetch(`/lgm/status/${requestId}/`)
+      .then(async r => {
+        if (!r.ok) {
+          if (r.status === 404) {
+            console.warn('[PollProgress] Status 404 - progresso ainda não iniciado');
+            // tentar buscar diagnósticos persistidos
+            (async function (){
+              try {
+                const [errsResp, credsResp] = await Promise.all([
+                  fetch(`/lgm/errors/${requestId}/`),
+                  fetch(`/lgm/credores/${requestId}/`)
+                ]);
+                const errs = errsResp.ok ? await errsResp.json() : {errors: []};
+                const creds = credsResp.ok ? await credsResp.json() : {credores: {}};
+
+                const nerrs = (errs.errors || []).length;
+                if (nerrs > 0) {
+                  appendLog(`ℹ️ Processamento persistido com ${nerrs} erro(s). <Ver erros>`);
+                  // mostrar banner no card de progresso
+                  progressCard.classList.remove('d-none');
+                  document.getElementById('diagnostic-banner')?.remove();
+                  const banner = `<div id="diagnostic-banner" class="alert alert-warning small">Processamento com erros persistidos. <a href="#" class="fw-bold" onclick="mostrarErrosModal('${requestId}'); return false;">Ver erros</a></div>`;
+                  progressCard.querySelector('.card-body').insertAdjacentHTML('afterbegin', banner);
+                }
+              } catch (e) {
+                console.error('Erro ao recuperar diagnósticos persistidos:', e);
+              }
+            })();
+            return null;
+          }
+          console.error(`Erro HTTP: ${r.status}`);
+          throw new Error(`HTTP ${r.status}`);
+        }
+
+        // Proteção contra resposta HTML (p.ex. página de login) que causaria SyntaxError no r.json()
+        const ct = (r.headers.get('content-type')||'').toLowerCase();
+        if (!ct.includes('application/json')) {
+          // Possível redirect para login ou HTML inesperado
+          appendLog('❌ Resposta inesperada do servidor (HTML) — verifique se está autenticado.');
+          try {
+            const text = await r.text();
+            console.debug('Non-JSON response (preview):', text.slice(0,200));
+          } catch(e) { /* ignore */ }
+          // tentar também buscar diagnósticos persistidos como fallback
+          (async function (){
+            try {
+              const [errsResp, credsResp] = await Promise.all([
+                fetch(`/lgm/errors/${requestId}/`),
+                fetch(`/lgm/credores/${requestId}/`)
+              ]);
+              const errs = errsResp.ok ? await errsResp.json() : {errors: []};
+              const nerrs = (errs.errors || []).length;
+              if (nerrs > 0) appendLog(`ℹ️ Processamento persistido com ${nerrs} erro(s). Use o modal de erros.`);
+            } catch (e) {}
+          })();
+          return null;
+        }
+
+        return r.json();
+      })
+      .then(d => {
+        console.log('Dados recebidos:', d);
+
+        if (!d) return;
+
+        window.__ULTIMO_PROCESSAMENTO__ = d;
+
+        setProgress(
+          d.percent ?? 0,
+          `Credores processados: ${d.processed || 0} / ${d.total || d.total_credores || 0}`
+        );
+
+        currentCredorSpan.innerText = d.current_credor || '---';
+
+        if (Array.isArray(d.logs)) {
+          // Se os logs foram reiniciados no servidor (p.ex., reprocess), resetar índice
+          if (d.logs.length < lastLogIndex) {
+            console.warn('[PollProgress] Logs reiniciados no servidor. Resetando lastLogIndex de', lastLogIndex, 'para 0');
+            lastLogIndex = 0;
+          }
+
+          // Caso especial: mesmo com o mesmo comprimento, o conteúdo pode ter sido atualizado
+          if (d.logs.length === lastLogIndex && d.logs.length > 0) {
+            const lastDisplayed = logsEl.textContent.split('\n').filter(Boolean).slice(-1)[0] || '';
+            const lastServer = `[${d.logs[d.logs.length-1].time}] ${d.logs[d.logs.length-1].msg}`;
+            if (lastDisplayed !== lastServer) {
+              console.warn('[PollProgress] Detectado mismatch no último log; re-sincronizando logs');
+              lastLogIndex = 0;
+            }
+          }
+
+          if (d.logs.length > 0) {
+            logsCard.classList.remove('d-none');
+            console.log('[PollProgress] j.logs.length=', d.logs.length, 'lastLogIndex=', lastLogIndex);
+            for (let i = lastLogIndex; i < d.logs.length; i++) {
+              appendLog(`[${d.logs[i].time}] ${d.logs[i].msg}`);
+            }
+            lastLogIndex = d.logs.length;
+          }
+        }
+
+        if (d.status === 'completed' || d.status === 'error') {
+          clearInterval(pollingTimer);
+          // garantir que quaisquer logs restantes sejam mostrados antes do modal
+          if (Array.isArray(d.logs)) {
+            for (let i = lastLogIndex; i < d.logs.length; i++) {
+              appendLog(`[${d.logs[i].time}] ${d.logs[i].msg}`);
+            }
+          }
+          mostrarModalResumo(d);
+        }
+      })
+      .catch(err => {
+        console.error('Erro no polling:', err);
+        appendLog('Erro ao consultar progresso: ' + err);
+      });
+  }
+
+  function classificarLogs(logs, total) {
+    const lower = logs.map(l => l.msg.toLowerCase());
+
+    const erros = lower.filter(t =>
+      t.includes('erro') || t.includes('falha')
+    ).length;
+
+    const atencao = lower.filter(t =>
+      t.includes('nenhuma produtividade')
+    ).length;
+
+    const sucesso = Math.max(total - erros, 0);
+
+    return { sucesso, atencao, erro: erros };
+  }
+
+  function mostrarModalResumo(dados) {
+
+    const modalId = 'resumoModal';
+    document.getElementById(modalId)?.remove();
+
+    const resumo = classificarLogs(dados.logs || [], dados.total || 0);
+
+    const modal = `
+    <div class="modal fade" id="${modalId}">
+      <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content">
+
+          <div class="modal-header bg-success text-white">
+            <h5 class="modal-title">Processamento Concluído</h5>
+            <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <div class="row text-center mb-4">
+              ${cardResumo('Sucesso', resumo.sucesso, 'success')}
+              ${cardResumo('Atenção', resumo.atencao, 'warning')}
+              <div class="col-md-4">
+                <div class="card border-danger" role="button" onclick="mostrarErrosModal(requestId='${requestIdInput.value}')">
+                  <div class="card-body">
+                    <h3 class="text-danger">${resumo.erro}</h3>
+                    <p>Erro</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            ${renderLogs(dados.logs)}
+
+          </div>
+
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button class="btn btn-primary" onclick="gerarPDFResumo()">📄 Baixar PDF</button>
+          </div>
+
+        </div>
+      </div>
+    </div>`;
+
+    document.body.insertAdjacentHTML('beforeend', modal);
+    new bootstrap.Modal(document.getElementById(modalId)).show();
+  }
+
+  function cardResumo(t, v, c) {
+    return `
+    <div class="col-md-4">
+      <div class="card border-${c}">
+        <div class="card-body">
+          <h3 class="text-${c}">${v}</h3>
+          <p>${t}</p>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  function renderLogs(logs) {
+    if (!logs) return '';
+    const ordenados = logs.slice().sort((a,b)=>a.msg.localeCompare(b.msg));
+
+    return ordenados.map(l => {
+      let cls = 'log-success';
+      const m = l.msg.toLowerCase();
+      if (m.includes('nenhuma produtividade')) cls = 'log-warning';
+      if (m.includes('erro') || m.includes('falha')) cls = 'log-error';
+
+      return `
+        <div class="log ${cls}">
+          <div class="log-time">[${l.time}]</div>
+          ${l.msg}
+        </div>`;
+    }).join('');
+  }
+
+  window.gerarPDFResumo = function () {
+
+    const d = window.__ULTIMO_PROCESSAMENTO__;
+    if (!d || !d.logs) return;
+
+    const logs = d.logs.slice().sort((a,b)=>a.msg.localeCompare(b.msg));
+
+    const w = window.open('', '_blank');
+    w.document.write(`
+      <html><head>
+        <title>Relatório PGC</title>
+        <style>
+          body{font-family:Arial;padding:30px}
+          h1{text-align:center}
+          .log{margin-bottom:8px;padding-left:10px;border-left:5px solid #ccc}
+          .ok{border-color:#198754}
+          .warn{border-color:#ffc107}
+          .err{border-color:#dc3545}
+          .time{font-size:11px;color:#666}
+        </style>
+      </head><body>
+        <h1>Relatório de Processamento PGC</h1>
+        <p>${new Date().toLocaleString('pt-BR')}</p>
+
+        ${logs.map(l=>{
+          let c='ok';
+          const m=l.msg.toLowerCase();
+          if(m.includes('nenhuma produtividade')) c='warn';
+          if(m.includes('erro')||m.includes('falha')) c='err';
+          return `
+            <div class="log ${c}">
+              <div class="time">[${l.time}]</div>
+              ${l.msg}
+            </div>`;
+        }).join('')}
+
+      </body></html>
+    `);
+
+    w.document.close();
+    w.onload = () => w.print();
+  };
+
+  function getCookie(name) {
+    const v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    return v ? v[2] : null;
+  }
+
+  async function mostrarErrosModal(requestId) {
+    if (!requestId) requestId = requestIdInput.value;
+    if (!requestId) return alert('Request ID não disponível');
+
+    const modalId = 'errosModal';
+    document.getElementById(modalId)?.remove();
+
+    // buscar erros e credores
+    const [errorsResp, credoresResp] = await Promise.all([
+      fetch(`/lgm/errors/${requestId}/`),
+      fetch(`/lgm/credores/${requestId}/`)
+    ]);
+
+    const errorsJson = errorsResp.ok ? await errorsResp.json() : {errors: []};
+    const credoresJson = credoresResp.ok ? await credoresResp.json() : {credores: {}};
+
+    const errors = errorsJson.errors || [];
+    const credores = credoresJson.credores || {};
+
+    function renderRows() {
+      if (!errors.length) return `<tr><td colspan="5">Nenhum erro registrado.</td></tr>`;
+      return errors.map(err => {
+        const slug = err.credor || '';
+        const display = err.credor_display || slug || '—';
+        const technical = err.technical ? err.technical.replace(/\n/g,'\n') : '';
+        const statusBadge = (s) => {
+          s = (s || '').toLowerCase();
+          switch(s) {
+            case 'processing': return `<span class="badge bg-warning">Processando</span>`;
+            case 'reprocessing': return `<span class="badge bg-info">Reprocessando</span>`;
+            case 'processed': return `<span class="badge bg-success">Processado</span>`;
+            case 'error': return `<span class="badge bg-danger">Erro</span>`;
+            case 'ignored': return `<span class="badge bg-secondary">Ignorado</span>`;
+            default: return `<span class="badge bg-light text-dark">—</span>`;
+          }
+        };
+
+        const credStatusRaw = (credores && credores[slug]) ? credores[slug].status : null;
+        const credStatus = credStatusRaw ? credStatusRaw.toString().toLowerCase() : null;
+            <td>${err.friendly}</td>
+            <td><a href="#" class="small" onclick="(function(e){e.preventDefault(); const t=this.closest('tr').querySelector('.tech'); t.classList.toggle('d-none');})(event)">Ver técnico</a>
+                <pre class="tech d-none small">${err.technical || ''}</pre>
+            </td>
+          </tr>`;
+      }).join('');
+    }
+
+    const modal = `
+      <div class="modal fade" id="${modalId}">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+              <h5 class="modal-title">Erros de Processamento</h5>
+              <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 small text-muted">Selecione os credores e escolha uma ação</div>
+
+              <table class="table table-striped table-sm">
+                <thead>
+                  <tr><th></th><th>Credor</th><th>Status</th><th>Etapa</th><th>Motivo</th><th>Detalhes</th></tr>
+                </thead>
+                <tbody>
+                  ${renderRows()}
+                </tbody>
+              </table>
+
+              <div class="mt-3">
+                <button id="btn-reproc-selected" class="btn btn-primary btn-sm me-2">Reprocessar selecionados</button>
+                <button id="btn-reproc-all" class="btn btn-warning btn-sm me-2">Reprocessar todos os erros</button>
+                <button id="btn-ignore-selected" class="btn btn-secondary btn-sm">Ignorar selecionados</button>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+    document.body.insertAdjacentHTML('beforeend', modal);
+    const bsModal = new bootstrap.Modal(document.getElementById(modalId));
+    bsModal.show();
+
+    // iniciar polling para atualizar status por credor em tempo real enquanto modal aberto
+    let modalInterval = setInterval(async ()=>{
+      try {
+        const r = await fetch(`/lgm/credores/${requestId}/`);
+        if (!r.ok) return;
+        const j = await r.json();
+        const meta = j.credores || {};
+        // atualizar badges
+        document.querySelectorAll('.status-cell').forEach(td=>{
+          const slug = td.getAttribute('data-slug');
+          const s = meta[slug] ? meta[slug].status : null;
+          if (!slug) return;
+          const statusLower = (s || '').toString().toLowerCase();
+          const map = {
+            'processing': '<span class="badge bg-warning">Processando</span>',
+            'reprocessing': '<span class="badge bg-info">Reprocessando</span>',
+            'processed': '<span class="badge bg-success">Processado</span>',
+            'success': '<span class="badge bg-success">Processado</span>',
+            'error': '<span class="badge bg-danger">Erro</span>',
+            'ignored': '<span class="badge bg-secondary">Ignorado</span>'
+          };
+          td.innerHTML = map[statusLower] || '<span class="badge bg-light text-dark">—</span>';
+        });
+      } catch (err) {
+        console.error('Erro ao atualizar status no modal:', err);
+      }
+    }, 1500);
+
+    // stop polling quando modal for fechado
+    document.getElementById(modalId).addEventListener('hidden.bs.modal', ()=>{
+      clearInterval(modalInterval);
+      document.getElementById(modalId)?.remove();
+    });
+
+    document.getElementById('btn-reproc-selected').addEventListener('click', async function(){
+      const checked = Array.from(document.querySelectorAll('.err-check:checked')).map(i=>i.getAttribute('data-slug'));
+      if (!checked.length) return alert('Selecione pelo menos um credor');
+      await reprocessSelected(requestId, checked);
+      bsModal.hide();
+    });
+
+    document.getElementById('btn-reproc-all').addEventListener('click', async function(){
+      const all = Array.from(new Set(errors.map(e=>e.credor).filter(Boolean)));
+      if (!all.length) return alert('Nenhum credor elegante para reprocessar');
+      if (!confirm('Deseja reprocessar todos os credores com erro?')) return;
+      await reprocessSelected(requestId, all);
+      bsModal.hide();
+    });
+
+    document.getElementById('btn-ignore-selected').addEventListener('click', async function(){
+      const checked = Array.from(document.querySelectorAll('.err-check:checked')).map(i=>i.getAttribute('data-slug'));
+      if (!checked.length) return alert('Selecione pelo menos um credor');
+      if (!confirm('Ignorar erros selecionados?')) return;
+      await ignoreSelected(requestId, checked);
+      bsModal.hide();
+    });
+  }
+
+  async function reprocessSelected(requestId, slugs) {
+    try {
+      const csrftoken = getCookie('csrftoken');
+
+      // Desabilitar botões no modal e mostrar spinner
+      document.querySelectorAll('#btn-reproc-selected, #btn-reproc-all, #btn-ignore-selected').forEach(b => b.disabled = true);
+
+      const r = await fetch('/lgm/reprocess/', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrftoken
+        },
+        body: JSON.stringify({request_id: requestId, credores: slugs})
+      });
+
+      if (!r.ok) throw new Error('Erro ao iniciar reprocessamento');
+      const j = await r.json();
+      const jobId = j.job_id;
+      appendLog(`🔁 Reprocessamento iniciado (job ${jobId}) para ${slugs.length} credor(es)`);
+
+      // Mostrar painel de progresso no modal
+      await monitorReprocessJob(jobId);
+
+      // Reativar botões e atualizar listagem de erros/credores
+      document.querySelectorAll('#btn-reproc-selected, #btn-reproc-all, #btn-ignore-selected').forEach(b => b.disabled = false);
+      appendLog(`✅ Reprocessamento (job ${jobId}) finalizado`);
+
+      // Small delay then refresh errors modal (if still open)
+      setTimeout(()=>{
+        // se modal ainda existir, re-open (re-fetch) to show updated state
+        document.getElementById('errosModal')?.remove();
+        mostrarErrosModal(requestId);
+      }, 800);
+
+    } catch (err) {
+      console.error(err);
+      alert('Falha ao solicitar reprocessamento: ' + err);
+      document.querySelectorAll('#btn-reproc-selected, #btn-reproc-all, #btn-ignore-selected').forEach(b => b.disabled = false);
+    }
+  }
+
+  async function monitorReprocessJob(jobId) {
+    // Cria modal de progresso simples
+    const modalId = 'reprocProgressModal';
+    document.getElementById(modalId)?.remove();
+
+    const modal = `
+      <div class="modal fade" id="${modalId}">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Reprocessamento em andamento</h5>
+            </div>
+            <div class="modal-body">
+              <div id="reproc-log" style="max-height:200px; overflow:auto; white-space:pre-wrap; font-size:0.9rem;"></div>
+              <div class="progress mt-3">
+                <div id="reproc-progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%">0%</div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button id="reproc-close" class="btn btn-secondary" disabled>Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
+    document.body.insertAdjacentHTML('beforeend', modal);
+    const bsModal = new bootstrap.Modal(document.getElementById(modalId), {backdrop: 'static'});
+    bsModal.show();
+
+    const logEl = document.getElementById('reproc-log');
+    const barEl = document.getElementById('reproc-progress-bar');
+    const closeBtn = document.getElementById('reproc-close');
+
+    let finished = false;
+    while (!finished) {
+      try {
+        const r = await fetch(`/lgm/reprocess/status/${jobId}/`);
+        if (r.status === 404) {
+          logEl.innerText += `\nJob não encontrado: ${jobId}`;
+          break;
+        }
+        const j = await r.json();
+        const percent = j.total ? Math.round((j.processed / j.total) * 100) : 0;
+        barEl.style.width = percent + '%';
+        barEl.innerText = percent + '%';
+
+        // logs
+        if (Array.isArray(j.logs)) {
+          logEl.innerText = j.logs.map(x=>`[${x.time}] ${x.msg}`).join('\n');
+          logEl.scrollTop = logEl.scrollHeight;
+        }
+
+        if (j.status === 'completed' || j.status === 'error') {
+          finished = true;
+          closeBtn.disabled = false;
+          if (j.status === 'completed') {
+            barEl.classList.remove('bg-danger');
+            barEl.classList.add('bg-success');
+          } else {
+            barEl.classList.remove('bg-success');
+            barEl.classList.add('bg-danger');
+          }
+        }
+      } catch (err) {
+        console.error('Erro no polling do job:', err);
+        logEl.innerText += `\nErro ao consultar status do job: ${err}`;
+      }
+      if (!finished) await new Promise(r=>setTimeout(r, 1200));
+    }
+
+    closeBtn.addEventListener('click', ()=>{
+      bsModal.hide();
+      document.getElementById(modalId)?.remove();
+    });
+  }
+
+  async function ignoreSelected(requestId, slugs) {
+    try {
+      const csrftoken = getCookie('csrftoken');
+      const r = await fetch(`/lgm/errors/${requestId}/resolve/`, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrftoken
+        },
+        body: JSON.stringify({credores: slugs})
+      });
+      if (!r.ok) throw new Error('Erro ao marcar erros como resolvidos');
+      appendLog(`✔️ Erros de ${slugs.length} credor(es) marcados como ignorados`);
+    } catch (err) {
+      console.error(err);
+      alert('Falha ao marcar erros: ' + err);
+    }
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    setProgress(0, "Iniciando...");
+    logsEl.textContent = "";
+    lastLogIndex = 0;
+    progressCard.classList.remove('d-none');
+    logsCard.classList.remove('d-none'); // mostra o card de logs imediatamente
+    appendLog("✅ Upload enviado. Iniciando processamento...");
+
+    fetch(location.href, {
+      method: 'POST',
+      body: new FormData(form),
+      credentials: 'same-origin',
+      headers: {
+        'X-Requested-With': 'XMLHttpRequest',
+        'Accept': 'application/json'
+      }
+    })
+    .then(async r=>{
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const ct = (r.headers.get('content-type')||'').toLowerCase();
+      if (!ct.includes('application/json')) {
+        // Received HTML (possible login redirect) — show friendly message
+        appendLog('❌ Resposta inesperada do servidor (HTML) — verifique se está autenticado.');
+        const text = await r.text().catch(()=>'');
+        console.debug('Upload non-JSON response (preview):', text.slice(0,200));
+        throw new Error('Non-JSON response');
+      }
+      return r.json();
+    })
+    .then(j=>{
+      requestIdInput.value = j.request_id;
+      pollingTimer = setInterval(pollProgress, 1500);
+    })
+    .catch(err=>{
+      console.error('[Upload] Erro:', err);
+      appendLog('❌ Erro no envio: ' + err);
+    });
+  });
+
+  // If server rendered the page with a request_id (non-AJAX fallback), start polling automatically
+  if (requestIdInput && requestIdInput.value) {
+    appendLog('🔄 Reabrindo monitor de progresso para request ' + requestIdInput.value);
+    progressCard.classList.remove('d-none');
+    logsCard.classList.remove('d-none');
+    pollingTimer = setInterval(pollProgress, 1500);
+    // perform an immediate poll to populate UI quickly
+    pollProgress();
+  }
+
+})();
+</script>
+
+    </main>
+</div>
+
+
+<!-- Mensagens de Django -->
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+</body></html>

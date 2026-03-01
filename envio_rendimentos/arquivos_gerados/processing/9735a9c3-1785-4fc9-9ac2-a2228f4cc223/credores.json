@@ -1,0 +1,11 @@
+{
+  "ACME": {
+    "status": "ERROR",
+    "display": "ACME",
+    "last_step": "failed",
+    "error_message": "Erro interno ao processar o credor. Verifique o log técnico para mais detalhes.",
+    "files": null,
+    "last_error": "34aa926c-c427-41e6-85db-121af49967a6",
+    "time": "17:27:12"
+  }
+}

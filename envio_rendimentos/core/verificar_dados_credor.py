@@ -20,8 +20,8 @@ def verificar_dados_credor(nome_credor, numero_pgc):
         print(f"Erro ao gerar arquivos: {e}")
         return
 
-    # Verifica mínimo
-    caminho_minimo = os.path.join(settings.MEDIA_ROOT, "PGC", str(numero_pgc), "mínimo.xlsx")
+    # Verifica mínimo (arquivo padrão no root do PGC)
+    caminho_minimo = os.path.join(settings.MEDIA_ROOT, "PGC", str(numero_pgc), "MINIMO.xlsx")
     try:
         df_min = pd.read_excel(caminho_minimo)
         print("\n🔍 Mínimo encontrado:")
@@ -33,7 +33,8 @@ def verificar_dados_credor(nome_credor, numero_pgc):
 
     # Empresa do extrato
     try:
-        nome_pasta = credor.nome_pasta()
+        # Pastas de credores usam o NOME PARA EXIBIÇÃO em MAIÚSCULAS
+        nome_pasta = str(credor.nome).strip().upper()
         caminho_ext = os.path.join(settings.MEDIA_ROOT, "PGC", str(numero_pgc), nome_pasta, f"{nome_pasta} - EXTRATO.xlsx")
         df_ext = pd.read_excel(caminho_ext)
         empresas = df_ext['empresa'].dropna().unique()

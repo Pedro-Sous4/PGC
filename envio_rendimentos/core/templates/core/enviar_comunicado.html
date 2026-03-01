@@ -1,0 +1,223 @@
+{% extends 'core/base.html' %}
+{% block title %}Enviar Comunicado{% endblock %}
+
+{% block content %}
+<h2>Enviar Comunicado</h2>
+
+{% if messages %}
+  {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+  {% endfor %}
+{% endif %}
+
+<form method="post" id="form-comunicado">
+  {% csrf_token %}
+
+  <div class="card mb-4">
+    <div class="card-header">Destinatários</div>
+    <div class="card-body">
+      <div class="row g-3">
+
+        <!-- Seleção de grupo -->
+        <div class="col-md-4">
+          <label class="form-label">Grupo</label>
+          <select name="grupo_id" id="select-grupo" class="form-select">
+            <option value="">-- selecione --</option>
+            {% for g in grupos %}
+              <option value="{{ g.id }}" {% if g.id|stringformat:"s" == grupo_id_sel %}selected{% endif %}>
+                {{ g.nome }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Seleção de credor (opcional) -->
+        <div class="col-md-4">
+          <label class="form-label">Credor (opcional)</label>
+          <select name="credor_id" id="select-credor" class="form-select">
+            <option value="">-- todos do grupo --</option>
+            {% for c in credores %}
+              <option value="{{ c.id }}"
+                      data-pgcs="{% for h in c.historicos.all %}{{ h.numero_pgc }}{% if not forloop.last %},{% endif %}{% endfor %}"
+                      {% if c.id|stringformat:"s" == credor_id_sel %}selected{% endif %}>
+                {{ c.nome }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Seleção do número do PGC -->
+        <div class="col-md-4">
+          <label class="form-label">Número do PGC (opcional)</label>
+          <select name="numero_pgc" id="select-pgc" class="form-select">
+            <option value="">-- qualquer PGC --</option>
+            {% for pgc in pgcs_disponiveis %}
+              <option value="{{ pgc }}" {% if pgc|stringformat:"s" == numero_pgc_sel %}selected{% endif %}>
+                PGC {{ pgc }}
+              </option>
+            {% endfor %}
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Card do e-mail -->
+  <div class="card mb-4">
+    <div class="card-header">Conteúdo do comunicado</div>
+    <div class="card-body">
+
+      <label class="form-label">Assunto</label>
+      <input type="text" name="assunto" id="campo-assunto" class="form-control" required>
+
+      <label class="form-label mt-3">Mensagem</label>
+
+      <!-- Editor de texto rico -->
+      <div id="editor" style="height: 250px;"></div>
+      <textarea name="mensagem" class="d-none" id="campo-mensagem"></textarea>
+
+    </div>
+  </div>
+
+  <!-- Campo oculto para confirmar envio após prévia -->
+  <input type="hidden" name="confirmar_envio" id="confirmar_envio" value="0">
+
+  <div class="d-flex gap-2">
+    <button type="button" class="btn btn-secondary" id="btn-preview">Pré-visualizar</button>
+    <button type="submit" class="btn btn-primary d-none" id="btn-send-final">Enviar comunicado</button>
+  </div>
+</form>
+
+<!-- Modal de Pré-visualização -->
+<div class="modal fade" id="previewModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Pré-visualização do Comunicado</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p><strong>Assunto:</strong></p>
+        <p id="preview-assunto"></p>
+        <hr>
+
+        <p><strong>Mensagem:</strong></p>
+        <div id="preview-mensagem" style="border:1px solid #ddd; padding:10px;"></div>
+
+        <hr>
+
+        <p><strong>Destinatários:</strong></p>
+        <ul id="preview-destinatarios"></ul>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+        <button class="btn btn-primary" id="btn-confirmar-envio">Enviar agora</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Quill.js -->
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  // -------- EDITOR RICO --------
+  var quill = new Quill('#editor', {
+    theme: 'snow',
+    placeholder: 'Digite sua mensagem...',
+    modules: {
+      toolbar: [
+        ['bold', 'italic', 'underline'],
+        [{'list': 'ordered'}, {'list': 'bullet'}],
+        ['link'],
+        [{ 'align': [] }],
+        ['clean']
+      ]
+    }
+  });
+
+  // -------- FILTROS DE TELA --------
+  const grupo = document.getElementById('select-grupo');
+  const credor = document.getElementById('select-credor');
+  const pgc = document.getElementById('select-pgc');
+
+  function reloadParams() {
+    const params = new URLSearchParams(window.location.search);
+
+    if (grupo.value) {
+      params.set('grupo_id', grupo.value);
+    } else {
+      params.delete('grupo_id');
+      params.delete('credor_id');
+      params.delete('numero_pgc');
+    }
+
+    if (credor.value) params.set('credor_id', credor.value);
+    else params.delete('credor_id');
+
+    if (pgc.value) params.set('numero_pgc', pgc.value);
+    else params.delete('numero_pgc');
+
+    window.location = `${window.location.pathname}?${params.toString()}`;
+  }
+
+  grupo.addEventListener('change', reloadParams);
+  credor.addEventListener('change', reloadParams);
+  pgc.addEventListener('change', reloadParams);
+
+  // -------- PRÉ-VISUALIZAÇÃO --------
+
+  document.getElementById("btn-preview").addEventListener("click", () => {
+
+      // assunto
+      document.getElementById("preview-assunto").innerText =
+          document.getElementById("campo-assunto").value;
+
+      // mensagem (HTML do Quill)
+      document.getElementById("preview-mensagem").innerHTML =
+          quill.root.innerHTML;
+
+      // destinatários
+      const lista = document.getElementById("preview-destinatarios");
+      lista.innerHTML = "";
+
+      const pgcSelecionado = pgc.value;
+      const credorSelecionado = credor.value;
+
+      document.querySelectorAll("#select-credor option").forEach(opt => {
+          if (!opt.value) return;
+
+          const pgcs = opt.dataset.pgcs.split(",");
+
+          if (credorSelecionado && credorSelecionado !== opt.value) return;
+          if (pgcSelecionado && !pgcs.includes(pgcSelecionado)) return;
+
+          const li = document.createElement("li");
+          li.innerText = opt.textContent;
+          lista.appendChild(li);
+      });
+
+      new bootstrap.Modal(document.getElementById("previewModal")).show();
+  });
+
+  // -------- CONFIRMAR ENVIO --------
+  document.getElementById("btn-confirmar-envio").addEventListener("click", () => {
+      document.getElementById("confirmar_envio").value = "1";
+      document.getElementById("campo-mensagem").value = quill.root.innerHTML;
+      document.getElementById("form-comunicado").submit();
+  });
+
+});
+</script>
+
+{% endblock %}
