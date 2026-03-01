@@ -36,6 +36,7 @@ pip-wheel-metadata/
 build/
 dist/
 *.egg
+*.pyc
 
 # Databases
 *.sqlite3

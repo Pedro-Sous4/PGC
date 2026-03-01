@@ -56,7 +56,7 @@ urlpatterns = [
 
 
     # Admin
-    path('admin/', admin.site.urls),
+#   path('admin/', admin.site.urls),
     path('laghetto-sports/', views.laghetto_sports_view, name='laghetto_sports'),
     path('laghetto-sports/status/<str:request_id>/', views.laghetto_pgc_status, name='laghetto_pgc_status'),
     path('laghetto-sports/download/<str:request_id>/', views.laghetto_pgc_download, name='laghetto_pgc_download'),
