@@ -22,3 +22,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+envio_rendimentos/arquivos_gerados/PGC/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+*.egg
+
+# Databases
+*.sqlite3
+db.sqlite3
+*.db
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+
+# Test coverage
+coverage/
+htmlcov/
+*.cover
+*.coverage
