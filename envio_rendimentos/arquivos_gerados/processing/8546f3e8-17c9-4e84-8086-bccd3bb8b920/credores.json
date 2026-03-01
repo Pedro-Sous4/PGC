@@ -1,9 +1,0 @@
-{
-  "ACME": {
-    "status": "PROCESSING",
-    "display": "ACME",
-    "last_step": "started",
-    "error_message": null,
-    "files": null
-  }
-}
